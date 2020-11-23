@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orgn.foodnfine"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="20"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Require below permissions for reading sms and otp assist feature -->
+    <!--
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="snd.orgn.foodnfine.application.DeliveryEverything"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="adjustPan" >
+        <activity
+            android:name="snd.orgn.foodnfine.activity.ConfirmOrderDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.OffersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.NewSwadesiProductActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.NewRestaurantDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.NewGroceryDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="snd.orgn.foodnfine.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.GetFromSavedAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.ContactActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.GPSActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.ElecMedListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SwadesiDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SwadesiProductActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SubscriptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.GroceryDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.GroceryListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SubcriptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.DailyBookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SelectServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.OnlinePaymentActivitySwadesiProdct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SelectPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.RestrurentDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.WalletActivity"
+            android:screenOrientation="portrait" /> <!-- <provider -->
+        <activity
+            android:name="snd.orgn.foodnfine.activity.OrderDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.MyOrdersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.ConfirmOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.RestrurentListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.OtherStoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SendPackageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.ServiceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.LocationOnActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.AddAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SelectLocationMapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SelectLocationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.SavedAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.AccountDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.UpdateProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.DasboardActivity"
+            android:label="@string/title_activity_dasboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.LoginMobileNoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.OtpCheckActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.Splash_ScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="snd.orgn.foodnfine.activity.PaymentSwadesiProduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.activity.OnlinePaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="snd.orgn.foodnfine.firebase.NotificationClass"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" /> <!-- Firebase Notifications -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" /> <!-- ./Firebase Notifications -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/twiclo_logo" />
+
+        <service android:name="snd.orgn.foodnfine.firebase.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.payumoney.sdkui.ui.activities.PayUmoneyActivity"
+            android:label="@string/title_activity_citrus"
+            android:screenOrientation="portrait"
+            android:theme="@style/PayumoneyAppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payumoney.sdkui.ui.activities.ReviewOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PayumoneyAppTheme" />
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+        <activity
+            android:name="com.payumoney.core.SdkWebViewActivityNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.payu.custombrowser.CBActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat"
+            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- Autocomplete -->
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteThemeOverlay"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+        </activity>
+
+        <provider
+            android:name="com.prolificinteractive.materialcalendarview.MaterialCalendarViewInitProvider"
+            android:authorities="com.orgn.foodnfine.materialcalendarviewinitprovider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name="com.payu.custombrowser.services.SnoozeService" />
+
+        <activity android:name="com.payu.custombrowser.PreLollipopPaymentsActivity" >
+            <intent-filter>
+                <data android:scheme="com.orgn.foodnfine.success" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="com.orgn.foodnfine.failure" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.payu.custombrowser.PrePaymentsActivity" />
+        <activity
+            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.orgn.foodnfine.com.squareup.picasso"
+            android:exported="false" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.orgn.foodnfine.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.orgn.foodnfine.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

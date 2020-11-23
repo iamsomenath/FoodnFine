@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_input_font_size">@dimen/_12sdp</dimen>
+    <dimen name="appbar_padding_top">@dimen/_6sdp</dimen>
+    <dimen name="appbar_padding_bottom">@dimen/_2sdp</dimen>
+    <dimen name="normal_text_size">@dimen/_10sdp</dimen>
+    <dimen name="broder_height">0.8dp</dimen>
+    <dimen name="item_offset">10dp</dimen>
+
+    <dimen name="layoutHeight_loadingDialog">@dimen/_200sdp</dimen>
+    <dimen name="layoutWidth_loadingDialog">@dimen/_300sdp</dimen>
+</resources>

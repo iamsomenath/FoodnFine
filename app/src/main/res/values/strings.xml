@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Food<i>n</i>Fine</string>
+    <string name="_91">+91</string>
+    <string name="enter_your_phone_number">Enter your Mobile Number</string>
+    <string name="_continue">Continue</string>
+    <string name="by_continueing_i_accept"><u>By Continuing, I accept</u></string>
+    <string name="terms_of_service"><u>Terms of service</u></string>
+    <string name="verify_mobile_number">Verify Mobile Number</string>
+    <string name="we_have_sent_a_4_digit_code_on">We have sent a “4 digit Code” on</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="didn_t_receive_otp">Didn\'t receive OTP?</string>
+    <string name="get_via_call">GET VIA CALL</string>
+    <string name="verify_and_continue"><![CDATA[verify & Continue]]></string>
+    <string name="title_activity_dasboard">DasboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_nav_search">Search</string>
+    <string name="title_nav_Orders">Orders</string>
+    <string name="title_nav_wallet">Wallet</string>
+    <string name="any_restaurant">Any Restaurant</string>
+    <string name="order_from">Order From</string>
+    <string name="stores">Stores</string>
+    <string name="other">Other</string>
+    <string name="packages">Packages</string>
+    <string name="send">Send</string>
+    <string name="what_would_you_like_to_do_now">What would you like to do now?</string>
+    <string name="proceed">Proceed</string>
+    <string name="line"> Not crossed <strike> crossed </strike> </string>
+    <string name="add_new_location">Add new location</string>
+    <string name="location_list">Locations</string>
+    <string name="need_location_permission_message">You need to enable location permissions first</string>
+    <string name="location_permissions_granted_message">Location Permissions Granted</string>
+    <string name="setting_enabled" translatable="false">EnabledSetting</string>
+    <string name="settings_label">Settings</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="enable_geofences">Enable Geofences</string>
+    <string name="privacy">http://www.google.com/policies/privacy</string>
+    <string name="ringer_permissions">Ringer Permissions</string>
+    <string name="silent_mode_activated">Silent mode activated</string>
+    <string name="touch_to_relaunch">Touch to launch the app.</string>
+    <string name="back_to_normal">Back to normal</string>
+    <string name="rule_AcceptedString">By confirming i accept this order doesn\'t contain illegal/restricted items,if illegal/restricted items are found by delivery everything, they may report it to the law enforcement authorities. view</string>
+    <string name="send_packages">Send Packages</string>
+    <string name="on_demand_local_courier">On demand local Courier</string>
+    <string name="pickup_address">Pickup Address</string>
+    <string name="star">*</string>
+    <string name="enter_pickup_addaress">Enter pickup Addaress</string>
+    <string name="_481_nischintapur_road_auddy_bagan_basti_behala_kolkata_west_bengal_700034">481, Nischintapur Road, Auddy Bagan Basti, Behala, Kolkata, West Bengal 700034</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="search_delivery_location">Search Delivery location</string>
+    <string name="package_contents">Package Contents</string>
+    <string name="eg_food_documents">Eg. Food, Documents</string>
+    <string name="estmate_value_of_contents">Estmate value of contents</string>
+    <string name="optional">(Optional)</string>
+    <string name="eg_rs_500_00">Eg. Rs. 500.00</string>
+    <string name="estimate_value_of_contents">Estimate value of contents</string>
+    <string name="any_instruction_eg_dont_t_ring_the_doorbell">Any instruction?eg:Dont\'t ring the doorbell</string>
+    <string name="terms_and_conditions">Terms and Conditions.</string>
+    <string name="confirm_order">Confirm order</string>
+    <string name="search_hint">Search</string>
+    <string name="dev_key">dev key</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialogTitle_success">Success</string>
+    <string name="dialogMessage_user_subcription">Thanks for Your Subscription</string>
+    <!-- Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint_productSearch">Search for stores or restaurants</string>
+    <string name="msg_token_fmt">token</string>
+    <string name="dialogTitle_logout">Logout</string>
+    <string name="dialogMessage_logout">Do you want to logout ?</string>
+    <string name="dialogPositiveButtonText_logout">Logout</string>
+    <string name="dialogPositiveButtonText_subcription">Okay</string>
+    <string name="dialogPositiveButtonText_cancel">@string/cancel</string>
+    <string name="rs">\u20B9</string>
+    <string name="terms_cond">By signing up for a <b>PRO</b> membership, you agree to the <u>Twiclo Terms and Conditions</u></string>
+    <string name="distance_within">Distance Within 5 Km</string>
+    <string name="distance">5</string>
+
+    <string name="sign_up">Don\'t have an account? <b>Sign Up</b></string>
+    <string name="log_in">Already have an account? <b>Log In</b></string>
+
+    <string name="default_notification_channel_id">com.econstra.delivery_everything</string>
+
+    <string name="about_text"><b>Twiclo</b></string>
+
+    <string-array name="Booking_time">
+        <item>One hour</item>
+        <item>Two hours</item>
+        <item>Three hours</item>
+        <item>Four hours</item>
+        <item>Whole day</item>
+    </string-array>
+</resources>
+

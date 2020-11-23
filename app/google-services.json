@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "798873601714",
+    "firebase_url": "https://foodnfine-864e0.firebaseio.com",
+    "project_id": "foodnfine-864e0",
+    "storage_bucket": "foodnfine-864e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798873601714:android:2f58e3b5c07fd9b04f6bab",
+        "android_client_info": {
+          "package_name": "com.orgn.foodnfine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798873601714-44au7t0upu1efm3l5u913tnogpds51fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.orgn.foodnfine",
+            "certificate_hash": "fe3b869ccb338f73c9f0907ac3377110009db72d"
+          }
+        },
+        {
+          "client_id": "798873601714-i1316pskk8k1pa70qih5f0cld4j9iv0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzj80u5FqUNqXlgR-9Q9-GZoTncqS9cNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798873601714-i1316pskk8k1pa70qih5f0cld4j9iv0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
