@@ -90,10 +90,7 @@ public class NotificationClass extends AppCompatActivity {
     private void displayFirebaseRegId() {
         SharedPreferences pref = getApplicationContext().getSharedPreferences(Config.SHARED_PREF, 0);
         regId = pref.getString("regId", null);
-
         Log.e(TAG, "Firebase_reg_id: " + regId);
-
-
     }
 
     @Override

@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_notifications.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable\\no_notifications.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_green_tic.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xhdpi\\ic_green_tic.png"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_email.png.flat",
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\email.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_green_tic.png.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xhdpi\\ic_green_tic.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_notifications.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable\\no_notifications.jpg"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_desserts.xml.flat",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_left_back.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_shadow_bottom.xml.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable\\border_shadow_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_dashboard_toolbar.xml.flat",
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\layout\\layout_dashboard_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_shadow_bottom.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable\\border_shadow_bottom.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_nav_my_order.png.flat",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_wallet_nav.png.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_wallet_nav.png"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_wallet_nav.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_wallet_nav.png"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_processing.png.flat",
@@ -220,12 +220,12 @@
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_map_pin.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_office_boy_order_confirm.xml.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\layout\\activity_office_boy_order_confirm.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_location_back.jpg.flat",
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-mdpi\\location_back.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_office_boy_order_confirm.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\layout\\activity_office_boy_order_confirm.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_email.xml.flat",
@@ -292,12 +292,12 @@
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\left_arrow.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_address.png.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_address.png"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_email.png.flat",
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\email.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_address.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_address.png"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_restaurant.png.flat",
@@ -308,12 +308,12 @@
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable\\grocery.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_plus.png.flat",
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xhdpi\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_green_tic.png.flat",
@@ -324,12 +324,12 @@
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-mdpi\\ic_nav_my_order.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_clock.png.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xhdpi\\clock.png"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_complain.png.flat",
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-hdpi\\complain.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_clock.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\src\\main\\res\\drawable-xhdpi\\clock.png"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_nav.png.flat",

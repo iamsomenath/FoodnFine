@@ -18,6 +18,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import snd.orgn.foodnfine.login_mvp.LoginActivity;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.application.DeliveryEverything;
 import snd.orgn.foodnfine.base.BaseActivity;
@@ -105,7 +106,7 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
     @Override
     public void onResume(){
         super.onResume();
-        viewModel.getUserData(this, DeliveryEverything.getAppSharedPreference().getUserId());
+        //viewModel.getUserData(this, DeliveryEverything.getAppSharedPreference().getUserId());
     }
 
     private void gotoNotificationPage() {
@@ -116,7 +117,7 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
 
     private void initViewModel() {
         viewModel = ViewModelProviders.of(this).get(AccountDetailsViewModel.class);
-        viewModel.getUserData(this, DeliveryEverything.getAppSharedPreference().getUserId());
+        //viewModel.getUserData(this, DeliveryEverything.getAppSharedPreference().getUserId());
     }
 
     private void gotoOrderPage() {
@@ -191,7 +192,8 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
     }
 
     private void goToLoginActivity() {
-        Intent intent = new Intent(AccountDetailsActivity.this, LoginMobileNoActivity.class);
+        Intent intent = new Intent(AccountDetailsActivity.this, LoginActivity.class);
+        finishAffinity();
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         finish();

@@ -5967,6 +5967,7 @@ string verify_mobile_number
 string vpa_title
 string we_are_unable_to_identify_the_exact_card_being_used
 string we_have_sent_a_4_digit_code_on
+string welcome_to
 string what_would_you_like_to_do_now
 string withdraw_account_update
 string withdraw_money_to

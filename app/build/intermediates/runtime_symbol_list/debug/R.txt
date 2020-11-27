@@ -5966,11 +5966,12 @@ int string verify_mobile_number 0x7f120266
 int string vpa_title 0x7f120267
 int string we_are_unable_to_identify_the_exact_card_being_used 0x7f120268
 int string we_have_sent_a_4_digit_code_on 0x7f120269
-int string what_would_you_like_to_do_now 0x7f12026a
-int string withdraw_account_update 0x7f12026b
-int string withdraw_money_to 0x7f12026c
-int string withdraw_more_than_wallet_amount_msg 0x7f12026d
-int string you_are_attempting_to_use_a_card_issued_outside_india 0x7f12026e
+int string welcome_to 0x7f12026a
+int string what_would_you_like_to_do_now 0x7f12026b
+int string withdraw_account_update 0x7f12026c
+int string withdraw_money_to 0x7f12026d
+int string withdraw_more_than_wallet_amount_msg 0x7f12026e
+int string you_are_attempting_to_use_a_card_issued_outside_india 0x7f12026f
 int style AlertDialog_AppCompat 0x7f130000
 int style AlertDialog_AppCompat_Light 0x7f130001
 int style AlertDialogAnimation 0x7f130002

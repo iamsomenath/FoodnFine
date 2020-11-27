@@ -172,44 +172,13 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
         tv_dashboard_address.setOnClickListener(v -> {
             findPlace();
         });
-        iv_dashboard_send_package.setOnClickListener(v -> {
-            gotoSendPackage();
-        });
-        iv_dashboard_otherStore.setOnClickListener(v -> {
-            gotoOtherStore();
-        });
 
         iv_dashboard_otherRestaurant.setOnClickListener(v -> {
-            goToRestaruent();
-        });
-        layout_btnOfficeBoyMaidService.setOnClickListener(v -> {
-            goToOfficeBoyOrMaidService();
+            //goToRestaruent();
+            gotoGrocery();
         });
         iv_dashboard_grocery.setOnClickListener(v->{
             gotoGrocery();
-        });
-        iv_dashboard_swadesi.setOnClickListener(v->{
-            //Intent intent = new Intent(DasboardActivity.this, SwadesiProductActivity.class);
-            // for Swadesi product
-            DeliveryEverything.getAppSharedPreference().saveDeliveryCost("0");
-
-            Intent intent = new Intent(DasboardActivity.this, NewSwadesiProductActivity.class);
-            intent.putExtra("type", "SWADESI");
-            new SessionManager(this).setShopId("0");
-            sessionManager.setKeyOrderType("5");//SWADESI
-            startActivity(intent);
-        });
-        iv_dashboard_electronics.setOnClickListener(v -> {
-            Intent intent = new Intent(DasboardActivity.this, ElecMedListActivity.class);
-            intent.putExtra("TYPE", "Electronic Store");
-            sessionManager.setKeyOrderType("7");//ELECTRONIC
-            startActivity(intent);
-        });
-        iv_dashboard_medicine.setOnClickListener(v -> {
-            Intent intent = new Intent(DasboardActivity.this, ElecMedListActivity.class);
-            intent.putExtra("TYPE", "Medicine Store");
-            sessionManager.setKeyOrderType("6");//MEDICINE
-            startActivity(intent);
         });
     }
 

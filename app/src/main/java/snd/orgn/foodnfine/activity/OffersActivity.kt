@@ -74,7 +74,11 @@ class OffersActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
                 if (response.body() != null) {
                     val jsonObject = JSONObject(response.body()!!.string())
-                    if (jsonObject.getString("status") == "1") {
+
+                    recyclerview.visibility = View.GONE
+                    empty_image.visibility = View.VISIBLE
+
+                    /*if (jsonObject.getString("status") == "1") {
                         val jsonArray = jsonObject.getJSONArray("coupons")
                         val gson = GsonBuilder().create()
                         val groupListType = object : TypeToken<ArrayList<OfferPojo>>() {
@@ -87,7 +91,7 @@ class OffersActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener
                             recyclerview.visibility = View.GONE
                             empty_image.visibility = View.VISIBLE
                         }
-                    }
+                    }*/
                 }
                 //loadingDialog.hideDialog();
                 swipe_refresh_layout.setRefreshing(false)

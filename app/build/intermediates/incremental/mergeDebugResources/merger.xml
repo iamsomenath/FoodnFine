@@ -6835,7 +6835,7 @@
         <item>Three hours</item>
         <item>Four hours</item>
         <item>Whole day</item>
-    </string-array></file><file path="C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </string-array><string name="welcome_to">WELCOME TO Food<i>n</i>Fine</string></file><file path="C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

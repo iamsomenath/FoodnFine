@@ -20,7 +20,7 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
-import snd.orgn.foodnfine.LoginActivity;
+import snd.orgn.foodnfine.login_mvp.LoginActivity;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.application.DeliveryEverything;
 import snd.orgn.foodnfine.base.BaseActivity;

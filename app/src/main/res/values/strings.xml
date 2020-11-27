@@ -81,6 +81,7 @@
     <string name="default_notification_channel_id">com.econstra.delivery_everything</string>
 
     <string name="about_text"><b>Twiclo</b></string>
+    <string name="welcome_to">WELCOME TO Food<i>n</i>Fine</string>
 
     <string-array name="Booking_time">
         <item>One hour</item>

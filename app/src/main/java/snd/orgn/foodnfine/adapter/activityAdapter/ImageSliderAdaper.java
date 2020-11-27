@@ -42,23 +42,22 @@ public class ImageSliderAdaper extends SliderViewAdapter<ImageSliderAdaper.Slide
             case 0:
                 //viewHolder.imageViewBackground.setBackgroundResource(R.drawable.slide_img);
                 Glide.with(viewHolder.itemView)
-                        .load("http://econstrademosite.com/deliver_everything/App-Banner/Swadeshi-Banner.jpg")
+                        .load("https://img.etimg.com/thumb/msid-74723587,width-650,imgsize-245027,,resizemode-4,quality-100/talli-turmeric-fb.jpg")
                         .into(viewHolder.imageViewBackground);
                 break;
             case 1:
                 //viewHolder.imageViewBackground.setBackgroundResource(R.drawable.slide_img);
                 Glide.with(viewHolder.itemView)
-                        .load("http://econstrademosite.com/deliver_everything/App-Banner/Medicine-banner.jpg")
+                        .load("https://images.financialexpress.com/2018/08/gst-eatery.jpg")
                         .into(viewHolder.imageViewBackground);
                 break;
 
             default:
                 //viewHolder.imageViewBackground.setBackgroundResource(R.drawable.slide_img);
                 Glide.with(viewHolder.itemView)
-                        .load("http://econstrademosite.com/deliver_everything/App-Banner/Grocery-Banner.jpg")
+                        .load("https://www.hospitalityandcateringnews.com/wp-content/uploads/2018/02/bills-restaurants-rolls-out-new-concept-sites-dialling-up-the-best-of-bills-1.jpg")
                         .into(viewHolder.imageViewBackground);
                 break;
-
         }
 
         /*viewHolder.imageViewBackground.setOnClickListener(v -> {
