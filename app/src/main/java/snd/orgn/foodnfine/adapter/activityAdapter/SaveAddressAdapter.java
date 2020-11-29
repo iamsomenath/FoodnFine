@@ -29,7 +29,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.activity.AddAddressActivity;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.constant.WebConstants;
 import snd.orgn.foodnfine.data.room.entity.AddressDetails;
 import snd.orgn.foodnfine.rest.api.ApiInterface;
@@ -85,7 +85,7 @@ public class SaveAddressAdapter extends RecyclerView.Adapter<SaveAddressAdapter.
         });
 
         holder.deleteAddressBtn.setOnClickListener(v ->
-                deleteAddressDetails(DeliveryEverything.getAppSharedPreference().getUserId(),
+                deleteAddressDetails(FoodnFine.getAppSharedPreference().getUserId(),
                         addressDetailsList.get(position).getUserAddId(), position));
     }
 

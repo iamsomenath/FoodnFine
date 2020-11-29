@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.callbacks.CallbackGroceryListItemSelectAdapter;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 import snd.orgn.foodnfine.helper.other.BadgeDrawable;
@@ -49,8 +49,8 @@ public class BreakfastFragAdapter extends RecyclerView.Adapter<BreakfastFragAdap
         sessionManager = new SessionManager(context);
         //Retriving Data
         data = sessionManager.getDetails();
-        uid = DeliveryEverything.getAppSharedPreference().getUserId();
-        dev_key= DeliveryEverything.getAppSharedPreference().getDevKey();
+        uid = FoodnFine.getAppSharedPreference().getUserId();
+        dev_key= FoodnFine.getAppSharedPreference().getDevKey();
     }
 
     @Override

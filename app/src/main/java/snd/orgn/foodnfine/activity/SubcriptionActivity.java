@@ -25,7 +25,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.callbacks.CallbackSubscription;
 import snd.orgn.foodnfine.callbacks.CallbackSubscriptionRates;
@@ -231,7 +231,7 @@ public class SubcriptionActivity extends BaseActivity implements CallbackSubscri
         request.setPayType(payType);
         request.setSubscriptionPlan(selectSubcriptionPlanName);
         request.setSubscriptionPlanId(subcription_id);
-        request.setUserId(DeliveryEverything.getAppSharedPreference().getUserId());
+        request.setUserId(FoodnFine.getAppSharedPreference().getUserId());
 
         return request;
     }

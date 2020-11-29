@@ -5,7 +5,7 @@ import android.annotation.SuppressLint;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseViewModel;
 import snd.orgn.foodnfine.callbacks.CallbackSubscription;
 import snd.orgn.foodnfine.callbacks.CallbackSubscriptionRates;
@@ -74,7 +74,7 @@ public class SubcriptionPlainViewModel  extends BaseViewModel {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(restResponse -> {
                     if (restResponse.getStatus().equals(WEB_SUCCESS)) {
-                        DeliveryEverything.getAppSharedPreference().setUserType(restResponse.getUser_type());
+                        FoodnFine.getAppSharedPreference().setUserType(restResponse.getUser_type());
                         callback2.onSuccessSubcriptionPlan();
                     } else {
                         callback2.onError2(restResponse.getMsg());

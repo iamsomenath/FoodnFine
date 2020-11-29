@@ -24,7 +24,7 @@ import java.util.Objects;
 
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.activity.SwadesiProductActivity;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 import snd.orgn.foodnfine.model.data_item.AllElectMedPojo;
 import snd.orgn.foodnfine.util.NetworkChangeReceiver;
@@ -102,13 +102,13 @@ public class ElecMedListAdapter extends RecyclerView.Adapter<ElecMedListAdapter.
                     startPoint.setLatitude(Double.parseDouble(Objects.requireNonNull(allList.get(getAdapterPosition()).getLatitude())));
                     startPoint.setLongitude(Double.parseDouble(Objects.requireNonNull(allList.get(getAdapterPosition()).getLongitude())));
                     Location endPoint = new Location("locationB");
-                    endPoint.setLatitude(Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLatitude()));
-                    endPoint.setLongitude(Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLongitude()));
+                    endPoint.setLatitude(Double.parseDouble(FoodnFine.getAppSharedPreference().getLatitude()));
+                    endPoint.setLongitude(Double.parseDouble(FoodnFine.getAppSharedPreference().getLongitude()));
                     //double distance = startPoint.distanceTo(endPoint) / 1000;
                     double distance = CalculateDistance(Double.parseDouble(Objects.requireNonNull(allList.get(getAdapterPosition()).getLatitude())),
                             Double.parseDouble(Objects.requireNonNull(allList.get(getAdapterPosition()).getLongitude())),
-                            Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLatitude()),
-                            Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLongitude()));
+                            Double.parseDouble(FoodnFine.getAppSharedPreference().getLatitude()),
+                            Double.parseDouble(FoodnFine.getAppSharedPreference().getLongitude()));
 
                     /*if (distance <= 1.0)
                         DeliveryEverything.getAppSharedPreference().saveDeliveryCost(DeliveryEverything.getAppSharedPreference().getCost1());
@@ -119,8 +119,8 @@ public class ElecMedListAdapter extends RecyclerView.Adapter<ElecMedListAdapter.
                     else //if(distance>10)
                         DeliveryEverything.getAppSharedPreference().saveDeliveryCost(DeliveryEverything.getAppSharedPreference().getCost4());*/
 
-                    DeliveryEverything.getAppSharedPreference().saveDeliveryCost(
-                            String.valueOf(distance * Double.parseDouble(DeliveryEverything.getAppSharedPreference().getPerKm())));
+                    FoodnFine.getAppSharedPreference().saveDeliveryCost(
+                            String.valueOf(distance * Double.parseDouble(FoodnFine.getAppSharedPreference().getPerKm())));
 
                     //Toast.makeText(activity, distance + "", Toast.LENGTH_SHORT).show();
 

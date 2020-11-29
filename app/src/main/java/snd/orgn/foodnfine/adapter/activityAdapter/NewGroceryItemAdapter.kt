@@ -3,9 +3,7 @@ package snd.orgn.foodnfine.adapter.activityAdapter
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
-import android.graphics.Color
 import android.graphics.Paint
-import android.graphics.Typeface
 import android.view.LayoutInflater
 import android.view.Menu
 import android.view.View
@@ -27,7 +25,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import snd.orgn.foodnfine.model.GroceryItemPojo
 import snd.orgn.foodnfine.R
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.constant.ErrorMessageConstant
 import snd.orgn.foodnfine.constant.WebConstants
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager
@@ -49,7 +47,7 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
         sessionManager = SessionManager(context)
         //Retriving Data
         //data = sessionManager.details
-        uid = DeliveryEverything.getAppSharedPreference().userId
+        uid = FoodnFine.appSharedPreference!!.userId
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -78,10 +76,10 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
                     itemArrayList[position].price)*/
 
             val request = AddToCartRequest()
-            request.userId = DeliveryEverything.getAppSharedPreference().userId
+            request.userId = FoodnFine.appSharedPreference!!.userId
             request.pid = itemArrayList[position].product_id
             request.qty = holder.quantity.text.toString()
-            request.devKey = DeliveryEverything.getAppSharedPreference().devKey
+            request.devKey = FoodnFine.appSharedPreference!!.devKey
             request.orderType = "grocery"
             request.price = itemArrayList[position].price!!.toInt()
             request.restGrocery = sessionManager.shopId

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dashboardDeepColor"
+    tools:context=".fragment.RestourantFragments">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_breakFast"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_6sdp"/>
+
+        <include layout="@layout/layout_no_food_found"/>
+
+        <include
+            android:id="@+id/layout_foodList_fetchingData"
+            layout="@layout/layout_fetching_data_food"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/layout_buttom_sheet_item"
+            layout="@layout/fragment_buttom_sheet_add_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

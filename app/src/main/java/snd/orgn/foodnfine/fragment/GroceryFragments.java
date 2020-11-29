@@ -27,7 +27,7 @@ import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.activity.ConfirmOrderActivity;
 import snd.orgn.foodnfine.adapter.fragmentAdapter.GroceryFragAdpter;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.callbacks.CallbackAddtoCart;
 import snd.orgn.foodnfine.callbacks.CallbackAllProductDetailsList;
 import snd.orgn.foodnfine.callbacks.CallbackGroceryListItemSelectAdapter;
@@ -207,8 +207,8 @@ public class GroceryFragments extends ViewModelFragment implements CallbackAllPr
         loadingDialogHelper.dismiss();
         this.responseCart = cartDetails;
         layout_buttom_sheet_item.setVisibility(View.VISIBLE);
-        DeliveryEverything.getAppSharedPreference().setItemQuantity(cartDetails.getSumcartCount().toString());
-        DeliveryEverything.getAppSharedPreference().setItemPrice(cartDetails.getSumPrice().toString());
+        FoodnFine.getAppSharedPreference().setItemQuantity(cartDetails.getSumcartCount().toString());
+        FoodnFine.getAppSharedPreference().setItemPrice(cartDetails.getSumPrice().toString());
         bottomsheetdataPopulate();
     }
 
@@ -267,27 +267,27 @@ public class GroceryFragments extends ViewModelFragment implements CallbackAllPr
 
     private UserData getuserdataForAddtoCart() {
         UserData userData = new UserData();
-        userData.setUser_id(DeliveryEverything.getAppSharedPreference().getUserId());
+        userData.setUser_id(FoodnFine.getAppSharedPreference().getUserId());
         userData.setpId(seletedCartItemId);
         userData.setPrice(totalPrice);
         userData.setRest_id(restId);
         userData.setQuantity(seletedCartItemQuantity);
-        userData.setDev_key(DeliveryEverything.getAppSharedPreference().getDevKey());
+        userData.setDev_key(FoodnFine.getAppSharedPreference().getDevKey());
         userData.setOrderType("grocery");
         return userData;
     }
 
     private UserData getuserdataForCartDetails() {
         UserData data = new UserData();
-        data.setUser_id(DeliveryEverything.getAppSharedPreference().getUserId());
+        data.setUser_id(FoodnFine.getAppSharedPreference().getUserId());
         data.setOrderType("grocery");
         return data;
     }
 
     private void bottomsheetdataPopulate(){
         try{
-            String quant =DeliveryEverything.getAppSharedPreference().getItemQuantity();
-            String price = DeliveryEverything.getAppSharedPreference().getItemPrice();
+            String quant = FoodnFine.getAppSharedPreference().getItemQuantity();
+            String price = FoodnFine.getAppSharedPreference().getItemPrice();
             if (quant.equals("1")) {
                 tv_item_count.setText(quant + " items");
                 tv_item_price.setText("₹ " + price + ".00");

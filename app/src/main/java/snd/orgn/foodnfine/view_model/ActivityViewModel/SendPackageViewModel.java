@@ -9,7 +9,7 @@ import io.reactivex.schedulers.Schedulers;
 import snd.orgn.foodnfine.callbacks.CallbackAssignOrder;
 import snd.orgn.foodnfine.rest.response.RestResponseAssignOrder;
 import snd.orgn.foodnfine.rest.response.RestResponsePickup;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseViewModel;
 import snd.orgn.foodnfine.callbacks.CallbackGetChargesInKM;
 import snd.orgn.foodnfine.callbacks.CallbackSendPackage;
@@ -132,7 +132,7 @@ public class SendPackageViewModel extends BaseViewModel {
                 request.getPickupAdd(), request.getDelivarAdd(), request.getPackageId(), request.getDistance(),
                 request.getCharges(), request.getPayStat(), request.getPayType(), request.getPayId(),
                 request.getRemark(), "sendPackage", request.getEstimate_value(), "", "INR",
-                DeliveryEverything.getAppSharedPreference().getLatitude(), DeliveryEverything.getAppSharedPreference().getLongitude());
+                FoodnFine.getAppSharedPreference().getLatitude(), FoodnFine.getAppSharedPreference().getLongitude());
 
         userResponseObservable
                 .subscribeOn(Schedulers.io())
@@ -160,7 +160,7 @@ public class SendPackageViewModel extends BaseViewModel {
                 "", "INR", request.getCancellation_charge(),
                 request.getCopoun_code(), request.getCopoun_type(), request.getCoupon_category(), request.getCoupon_id(),
                 request.getDelivery_charge(), request.getDiscount_amount(), request.getOrder_actual_amount(), request.getRemark_type(),
-                DeliveryEverything.getAppSharedPreference().getFixedCost(), request.getOrder_actual_amount());
+                FoodnFine.getAppSharedPreference().getFixedCost(), request.getOrder_actual_amount());
         userResponseObservable
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

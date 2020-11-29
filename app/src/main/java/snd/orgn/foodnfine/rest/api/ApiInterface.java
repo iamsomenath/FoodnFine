@@ -113,9 +113,10 @@ public interface ApiInterface {
                                                  @Field("pickup_address_lat") String pick_up_lat, @Field("pickup_address_lon") String pick_up_lon);
 
     @POST("api/service.php?action=all_restaurant")
-    Observable<RestrurentRestResponse> getAllRestarunt();
+    Observable<RestrurentRestResponse> getAllRestaurant();
 
-    @POST("api/service.php?action=all_grocery")
+    //@POST("api/service.php?action=all_grocery")
+    @POST("api/service.php?action=all_fnf_shop")
     Observable<GroceryRestResponse> getAllGrocery();
 
     @GET

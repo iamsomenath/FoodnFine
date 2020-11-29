@@ -39,7 +39,6 @@ import static snd.orgn.foodnfine.constant.ErrorMessageConstant.NETWORK_ERROR_MES
 public class ConfirmOrderActivityViewModel extends BaseViewModel {
     private CallbackConfirmOrderActivity callback;
     private CallbackApplyCouponActivity callbackApplyCouponActivity;
-    private CallbackGetCanCelOrder callbackGetCanCelOrder;
     private ApiInterface apiInterface;
 
     public ConfirmOrderActivityViewModel() {
@@ -54,10 +53,6 @@ public class ConfirmOrderActivityViewModel extends BaseViewModel {
         this.callbackApplyCouponActivity = callbackApplyCouponActivity;
     }
 
-    public void setCallback3(CallbackGetCanCelOrder callbackGetCanCelOrder) {
-        this.callbackGetCanCelOrder = callbackGetCanCelOrder;
-    }
-
     public void updateCartItem(UserData userData) {
 
         makeRequest(REST_REQUEST_UPDATE_CART_ITEM, userData);
@@ -65,10 +60,6 @@ public class ConfirmOrderActivityViewModel extends BaseViewModel {
 
     public void getCartDetails(UserData userData) {
         makeRequest(REST_REQUEST_CART_DETAILS, userData);
-    }
-
-    public void GetAllCancelOrder(String user_id){
-        getAllCancelOrderRequest(user_id);
     }
 
     public void deleteCartItem(UserData userData) {
@@ -164,26 +155,6 @@ public class ConfirmOrderActivityViewModel extends BaseViewModel {
                 });
     }
 
-   /* @SuppressLint("CheckResult")
-    private void makeApplyCouponRequest(String coupon_code, String user_id, String coupon_category, String res_id_gro_id) {
-        Log.d("TESTING", coupon_code + " " + user_id + " " + coupon_category + " " + res_id_gro_id);
-        Observable<CouponDTO> userResponseObservable = apiInterface.used_coupon(coupon_code, "24", coupon_category, res_id_gro_id);
-        //Observable<RestResponseApplyCoupon> userResponseObservable = apiInterface.used_coupon("COOL10", "24", "2", "5");
-        userResponseObservable
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(restResponse -> {
-                    Log.d("RESPONSE", String.valueOf(restResponse.getCouponDetail()));
-                    if (restResponse.getResult() == 1) {
-                        callbackApplyCouponActivity.onSuccessCoupon(restResponse.getCouponDetail());
-                    } else {
-                        callbackApplyCouponActivity.onFailureCoupon(restResponse.getMessage());
-                    }
-                }, e -> {
-                    callbackApplyCouponActivity.onNetworkErrorCoupon(NETWORK_ERROR_MESSAGE);
-                });
-    }*/
-
     @SuppressLint("CheckResult")
     private void makeApplyCouponRequest(String coupon_code, String user_id, String coupon_category, String res_id_gro_id) {
         Log.d("TESTING", coupon_code + " " + user_id + " " + coupon_category + " " + res_id_gro_id);
@@ -221,43 +192,5 @@ public class ConfirmOrderActivityViewModel extends BaseViewModel {
             }
         });
     }
-
-    @SuppressLint("CheckResult")
-    private void getAllCancelOrderRequest(String user_id) {
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(WebConstants.DOMAIN_NAME)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-        ApiInterface service = retrofit.create(ApiInterface.class);
-        Call<ResponseBody> call = service.getAllCancelOrder(user_id);
-        call.enqueue(new Callback<ResponseBody>() {
-            @Override
-            public void onResponse(Call<ResponseBody> call, retrofit2.Response<ResponseBody> response) {
-                if (response.body() != null) {
-                    try {
-                        JSONObject jsonObject = new JSONObject(response.body().string());
-                        Log.d("TESTING", jsonObject.toString());
-                        if(jsonObject.getInt("status") == 1){
-                            callbackGetCanCelOrder.onSuccessGetCancelOrder(jsonObject.getJSONArray("all_cancel_order").getJSONObject(0));
-                        }else{
-                            callbackGetCanCelOrder.onFailureGetCancelOrder(jsonObject.getString("msg"));
-                        }
-                    } catch (JSONException e) {
-                        //e.printStackTrace();
-                        //Log.d("TESTING", e.getMessage());
-                        callbackGetCanCelOrder.onNetworkErrorGetCancelOrder(ERROR_MESSAGE + e.getMessage());
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-            @Override
-            public void onFailure(Call<ResponseBody> call, Throwable t) {
-                Log.d(TAG, "onFailure: " + t.getMessage());
-                callbackGetCanCelOrder.onNetworkErrorGetCancelOrder(NETWORK_ERROR_MESSAGE);
-            }
-        });
-    }
-
 }
 

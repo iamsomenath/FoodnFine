@@ -20,7 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.login_mvp.LoginActivity;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.callbacks.CallBackUserProfile;
 import snd.orgn.foodnfine.model.utility.UserData;
@@ -67,7 +67,7 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
     @Override
     public void initFields() {
         hideStatusBarcolor();
-        tv_userMobileNo.setText("+91-" + DeliveryEverything.getAppSharedPreference().getUserMobile());
+        tv_userMobileNo.setText("+91-" + FoodnFine.getAppSharedPreference().getUserMobile());
         setupOnClick();
     }
 
@@ -106,7 +106,7 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
     @Override
     public void onResume(){
         super.onResume();
-        //viewModel.getUserData(this, DeliveryEverything.getAppSharedPreference().getUserId());
+        viewModel.getUserData(this, FoodnFine.getAppSharedPreference().getUserId());
     }
 
     private void gotoNotificationPage() {
@@ -117,7 +117,7 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
 
     private void initViewModel() {
         viewModel = ViewModelProviders.of(this).get(AccountDetailsViewModel.class);
-        //viewModel.getUserData(this, DeliveryEverything.getAppSharedPreference().getUserId());
+        viewModel.getUserData(this, FoodnFine.getAppSharedPreference().getUserId());
     }
 
     private void gotoOrderPage() {
@@ -180,7 +180,7 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
         alertDialog2.setMessage(getResources().getString(R.string.dialogMessage_logout));
         alertDialog2.setPositiveButton("Yes",
                 (dialog, which) -> {
-                    DeliveryEverything.getAppSharedPreference().clearData();
+                    FoodnFine.getAppSharedPreference().clearData();
                     goToLoginActivity();
                 });
         alertDialog2.setNegativeButton("NO",
@@ -199,7 +199,6 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
         finish();
     }
 
-
     @Override
     public void onStarted(){
         loadingDialog.showDialog();
@@ -208,9 +207,9 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
     @Override
     public void onSuccess(UserData userData) {
         loadingDialog.hideDialog();
-        DeliveryEverything.getAppSharedPreference().setUserMobile(userData.getUserMobile());
-        DeliveryEverything.getAppSharedPreference().setUserEmail(userData.getUser_eml());
-        DeliveryEverything.getAppSharedPreference().setUserName(userData.getName());
+        FoodnFine.getAppSharedPreference().setUserMobile(userData.getUserMobile());
+        FoodnFine.getAppSharedPreference().setUserEmail(userData.getUser_eml());
+        FoodnFine.getAppSharedPreference().setUserName(userData.getName());
     }
 
     @Override

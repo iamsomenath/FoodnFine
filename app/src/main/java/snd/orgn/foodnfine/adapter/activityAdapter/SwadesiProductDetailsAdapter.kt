@@ -16,7 +16,7 @@ import com.makeramen.roundedimageview.RoundedImageView
 import com.squareup.picasso.Picasso
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.activity.SwadesiDetailsActivity
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager
 import snd.orgn.foodnfine.model.data_item.HouseholdEssentialsItemsPojo
 import java.util.*
@@ -34,7 +34,7 @@ class SwadesiProductDetailsAdapter(private val context: Context, private val act
         sessionManager = SessionManager(context)
         //Retriving Data
         //data = sessionManager.details
-        uid = DeliveryEverything.getAppSharedPreference().userId
+        uid = FoodnFine.appSharedPreference!!.userId
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {

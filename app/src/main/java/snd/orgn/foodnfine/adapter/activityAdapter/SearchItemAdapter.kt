@@ -28,7 +28,7 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import snd.orgn.foodnfine.R
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.constant.AppConstants.WEB_SUCCESS
 import snd.orgn.foodnfine.constant.ErrorMessageConstant
 import snd.orgn.foodnfine.constant.ErrorMessageConstant.NETWORK_ERROR_MESSAGE
@@ -52,7 +52,7 @@ class SearchItemAdapter(private val activity: Activity, private var itemArrayLis
     init {
         sessionManager = SessionManager(activity)
         //data = sessionManager.details
-        uid = DeliveryEverything.getAppSharedPreference().userId
+        uid = FoodnFine.appSharedPreference!!.userId
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -81,10 +81,10 @@ class SearchItemAdapter(private val activity: Activity, private var itemArrayLis
         holder.add_to_cart.setOnClickListener { v ->
 
             val request = AddToCartRequest()
-            request.userId = DeliveryEverything.getAppSharedPreference().userId
+            request.userId = FoodnFine.appSharedPreference!!.userId
             request.pid = itemArrayList[position].productId
             request.qty = holder.quantity.text.toString()
-            request.devKey = DeliveryEverything.getAppSharedPreference().devKey
+            request.devKey = FoodnFine.appSharedPreference!!.devKey
             when {
                 itemArrayList[position].productType!! == "Restaurant Product" -> {
                     request.orderType = "restaurant"
@@ -276,7 +276,7 @@ class SearchItemAdapter(private val activity: Activity, private var itemArrayLis
 
     @SuppressLint("CheckResult")
     private fun delete_all_from_cart(userId: String, request: AddToCartRequest) {
-        val userResponseObservable = getAPIInterface()!!.deleteAllCartDetails(DeliveryEverything.getAppSharedPreference().userId)
+        val userResponseObservable = getAPIInterface()!!.deleteAllCartDetails(FoodnFine.appSharedPreference!!.userId)
         userResponseObservable
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

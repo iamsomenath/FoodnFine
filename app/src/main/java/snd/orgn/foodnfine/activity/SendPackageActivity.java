@@ -49,7 +49,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.bottomSheetFragment.BottomSheetSelectPackageFragment;
 import snd.orgn.foodnfine.callbacks.CallbackGetChargesInKM;
@@ -170,7 +170,7 @@ public class SendPackageActivity extends BaseActivity implements CallbackSeleted
     @Override
     public void initFields() {
         rootView = this.findViewById(android.R.id.content).getRootView();
-        tv_pickup_address.setText(DeliveryEverything.getAppSharedPreference().getCurrentLocation());
+        tv_pickup_address.setText(FoodnFine.getAppSharedPreference().getCurrentLocation());
         if (tv_delivery_address.getText().equals("") || tv_delivery_address.getText().length() == 0) {
             iv_right_tick_delivery.setImageDrawable(getResources().getDrawable(R.drawable.ic_round_untick));
         } else {
@@ -468,7 +468,7 @@ public class SendPackageActivity extends BaseActivity implements CallbackSeleted
                                 } else if (total_distance > 5.0) {
                                     calculatePrice = total_distance * chargesInDoubleInTenKm;
                                 }*/
-                                calculatePrice = total_distance * Double.parseDouble(DeliveryEverything.getAppSharedPreference().getPerKm());
+                                calculatePrice = total_distance * Double.parseDouble(FoodnFine.getAppSharedPreference().getPerKm());
 
                                 totalcharges = String.format("%.2f", Math.ceil(calculatePrice));
                                 priceDataPopulate(String.format("%.2f", Math.ceil(calculatePrice)));
@@ -543,8 +543,8 @@ public class SendPackageActivity extends BaseActivity implements CallbackSeleted
             dialog.dismiss();
 
             if (payment.equals("cod")) {
-                DeliveryEverything.getAppSharedPreference().saveRemark(et_any_instruction.getText().toString());
-                DeliveryEverything.getAppSharedPreference().setEstimateValue(et_estimated_value_of_contents.getText().toString());
+                FoodnFine.getAppSharedPreference().saveRemark(et_any_instruction.getText().toString());
+                FoodnFine.getAppSharedPreference().setEstimateValue(et_estimated_value_of_contents.getText().toString());
                 SessionManager sessionManager = new SessionManager(SendPackageActivity.this);
                 sessionManager.redirect("PACKAGE");
                 Intent intent = new Intent(getApplicationContext(), SelectPaymentActivity.class);
@@ -634,11 +634,11 @@ public class SendPackageActivity extends BaseActivity implements CallbackSeleted
 
     }
     private void allDataSaveInLocal(){
-        DeliveryEverything.getAppSharedPreference().savePickupAdd(String.valueOf(tv_pickup_address.getText()));
-        DeliveryEverything.getAppSharedPreference().saveDeliveryAdd(String.valueOf(tv_delivery_address.getText()));
-        DeliveryEverything.getAppSharedPreference().savePackageId(String.valueOf(tv_package_content.getText()));
-        DeliveryEverything.getAppSharedPreference().saveDistance(distance);
-        DeliveryEverything.getAppSharedPreference().saveCharges(totalcharges);
+        FoodnFine.getAppSharedPreference().savePickupAdd(String.valueOf(tv_pickup_address.getText()));
+        FoodnFine.getAppSharedPreference().saveDeliveryAdd(String.valueOf(tv_delivery_address.getText()));
+        FoodnFine.getAppSharedPreference().savePackageId(String.valueOf(tv_package_content.getText()));
+        FoodnFine.getAppSharedPreference().saveDistance(distance);
+        FoodnFine.getAppSharedPreference().saveCharges(totalcharges);
     }
 
 }

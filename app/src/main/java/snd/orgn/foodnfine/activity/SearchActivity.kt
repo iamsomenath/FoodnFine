@@ -18,7 +18,7 @@ import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_search.*
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.adapter.activityAdapter.SearchItemAdapter
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.base.BaseActivity
 import snd.orgn.foodnfine.bottomSheetFragment.BottomSheetSelectItemFragment
 import snd.orgn.foodnfine.callbacks.CallbackDeleteCartResponse
@@ -89,7 +89,7 @@ class SearchActivity : BaseActivity(), CallbackSearchActivity, CallbackDeleteCar
         })
 
         iv_back!!.setOnClickListener { v ->
-            if (DeliveryEverything.getAppSharedPreference().itemQuantity.isEmpty()) {
+            if (FoodnFine.appSharedPreference!!.itemQuantity.isEmpty()) {
                 super.onBackPressed()
                 overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
                 finish()
@@ -100,7 +100,7 @@ class SearchActivity : BaseActivity(), CallbackSearchActivity, CallbackDeleteCar
 
         cart.setOnClickListener {
             val userRequest = UserRequest()
-            userRequest.userId = DeliveryEverything.getAppSharedPreference().userId
+            userRequest.userId = FoodnFine.appSharedPreference!!.userId
             when {
                 sessionManager.keyOrderType == "3" -> type = "restaurant"
                 sessionManager.keyOrderType == "2" -> type = "grocery"
@@ -187,7 +187,7 @@ class SearchActivity : BaseActivity(), CallbackSearchActivity, CallbackDeleteCar
 
     override fun onSucessDataDelete() {
         super.onBackPressed()
-        DeliveryEverything.getAppSharedPreference().itemQuantity = ""
+        FoodnFine.appSharedPreference!!.itemQuantity = ""
         overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
         finish()
     }
@@ -195,8 +195,8 @@ class SearchActivity : BaseActivity(), CallbackSearchActivity, CallbackDeleteCar
     override fun onCartDetailsSuccess(restResponse: RestResponseCart) {
 
         val cartDetails = restResponse
-        DeliveryEverything.getAppSharedPreference().itemQuantity = cartDetails.sumcartCount!!.toString()
-        DeliveryEverything.getAppSharedPreference().itemPrice = cartDetails.sumPrice!!.toString()
+        FoodnFine.appSharedPreference!!.itemQuantity = cartDetails.sumcartCount!!.toString()
+        FoodnFine.appSharedPreference!!.itemPrice = cartDetails.sumPrice!!.toString()
         when {
             sessionManager.keyOrderType == "3" -> type = "restaurant"
             sessionManager.keyOrderType == "2" -> type = "grocery"
@@ -219,7 +219,7 @@ class SearchActivity : BaseActivity(), CallbackSearchActivity, CallbackDeleteCar
     }
 
     override fun onBackPressed() {
-        if (DeliveryEverything.getAppSharedPreference().itemQuantity == "") {
+        if (FoodnFine.appSharedPreference!!.itemQuantity == "") {
             super.onBackPressed()
             overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
             finish()

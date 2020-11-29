@@ -30,7 +30,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.adapter.activityAdapter.SwadesiMainAdapter
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.bottomSheetFragment.BottomSheetSelectItemFragment
 import snd.orgn.foodnfine.callbacks.CallbackDeleteCartResponse
 import snd.orgn.foodnfine.constant.AppConstants.INTENT_STRING_CART_DETAIL
@@ -84,7 +84,7 @@ class SwadesiProductActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefresh
         else
             toolbar_title.text = intent.getStringExtra("shop_name")
 
-        tv_address.text = DeliveryEverything.getAppSharedPreference().currentLocation
+        tv_address.text = FoodnFine.appSharedPreference!!.currentLocation
 
         swipeRefreshLayout = findViewById<SwipeRefreshLayout>(R.id.swipe_refresh_layout)
         swipeRefreshLayout.setOnRefreshListener(this)
@@ -96,7 +96,7 @@ class SwadesiProductActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefresh
         sessionManager = SessionManager(applicationContext)
         //Retriving Data
         //data = sessionManager.details
-        uid = DeliveryEverything.getAppSharedPreference().userId
+        uid = FoodnFine.appSharedPreference!!.userId
 
         mainrecyleView = findViewById<RecyclerView>(R.id.rv_recyclerViewmainList)
 
@@ -130,7 +130,7 @@ class SwadesiProductActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefresh
         when (item.itemId) {
             R.id.menu_main2_shopping_cart -> {
                 val userRequest = UserRequest()
-                userRequest.userId = DeliveryEverything.getAppSharedPreference().userId
+                userRequest.userId = FoodnFine.appSharedPreference!!.userId
                 when {
                     sessionManager.keyOrderType == "5" -> userRequest.orderType = "Swadesi Product"
                     sessionManager.keyOrderType == "6" -> userRequest.orderType = "Medicine Product"
@@ -140,7 +140,7 @@ class SwadesiProductActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefresh
                 return true
             }
             android.R.id.home -> {
-                if (DeliveryEverything.getAppSharedPreference().itemQuantity == "") {
+                if (FoodnFine.appSharedPreference!!.itemQuantity == "") {
                     super.onBackPressed()
                     overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
                     finish()
@@ -167,9 +167,9 @@ class SwadesiProductActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefresh
 
         val call: Call<ResponseBody>
         call = if (intent.getStringExtra("type") == "SWADESI")
-            api.household_essentials(DeliveryEverything.getAppSharedPreference().userId)
+            api.household_essentials(FoodnFine.appSharedPreference!!.userId)
         else
-            api.swadeshi_product(intent.getStringExtra("shop_id"), DeliveryEverything.getAppSharedPreference().userId)
+            api.swadeshi_product(intent.getStringExtra("shop_id"), FoodnFine.appSharedPreference!!.userId)
         call.enqueue(object : Callback<ResponseBody> {
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
 
@@ -252,8 +252,8 @@ class SwadesiProductActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefresh
                     if (restResponse.status == 1) {
 
                         val cartDetails = restResponse
-                        DeliveryEverything.getAppSharedPreference().itemQuantity = cartDetails.sumcartCount!!.toString()
-                        DeliveryEverything.getAppSharedPreference().itemPrice = cartDetails.sumPrice!!.toString()
+                        FoodnFine.appSharedPreference!!.itemQuantity = cartDetails.sumcartCount!!.toString()
+                        FoodnFine.appSharedPreference!!.itemPrice = cartDetails.sumPrice!!.toString()
 
                         var type= ""
                         when {
@@ -302,13 +302,13 @@ class SwadesiProductActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefresh
 
     override fun onSucessDataDelete() {
         super.onBackPressed()
-        DeliveryEverything.getAppSharedPreference().itemQuantity = ""
+        FoodnFine.appSharedPreference!!.itemQuantity = ""
         overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
         finish()
     }
 
     override fun onBackPressed() {
-        if (DeliveryEverything.getAppSharedPreference().itemQuantity == "") {
+        if (FoodnFine.appSharedPreference!!.itemQuantity == "") {
             super.onBackPressed()
             overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
             finish()

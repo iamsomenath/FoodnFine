@@ -1,7 +1,6 @@
 package snd.orgn.foodnfine.adapter.activityAdapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,10 +11,6 @@ import com.makeramen.roundedimageview.RoundedImageView;
 import com.smarteist.autoimageslider.SliderViewAdapter;
 
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.activity.ElecMedListActivity;
-import snd.orgn.foodnfine.activity.GroceryListActivity;
-import snd.orgn.foodnfine.activity.SwadesiProductActivity;
-import snd.orgn.foodnfine.application.DeliveryEverything;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 
 public class ImageSliderAdaper extends SliderViewAdapter<ImageSliderAdaper.SliderAdapterVH> {

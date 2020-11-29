@@ -15,7 +15,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseViewModel;
 import snd.orgn.foodnfine.callbacks.CallbackGetChargesInKM;
 import snd.orgn.foodnfine.callbacks.CallbackgetAllPackageList;
@@ -42,7 +42,7 @@ public class PackageListViewModel extends BaseViewModel {
     public PackageListViewModel(){
         apiInterface = getAPIInterface();
         packageDetailsList = new ArrayList<>();
-        appDatabase = DeliveryEverything.getAppDatabase();
+        appDatabase = FoodnFine.getAppDatabase();
     }
 
     public void setCallback2(CallbackGetChargesInKM callbackGetChargesInKM) {

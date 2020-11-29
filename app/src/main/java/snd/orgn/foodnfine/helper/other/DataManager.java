@@ -5,7 +5,7 @@ import android.content.Context;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.callbacks.CallbackDataManager;
 import snd.orgn.foodnfine.data.room.database.AppDatabase;
 import snd.orgn.foodnfine.data.shared_presferences.AppSharedPreferences;
@@ -24,8 +24,8 @@ public class DataManager implements iDataManager {
 
     private DataManager() {
 
-        sharedPreference = DeliveryEverything.getAppSharedPreference();
-        appDatabase = DeliveryEverything.getAppDatabase();
+        sharedPreference = FoodnFine.getAppSharedPreference();
+        appDatabase = FoodnFine.getAppDatabase();
     }
 
     public static DataManager getInstance(Context c, CallbackDataManager cb) {

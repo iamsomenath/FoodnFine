@@ -51,7 +51,7 @@ import java.util.Locale;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 
 import static snd.orgn.foodnfine.constant.AppConstants.MAP_API;
@@ -204,7 +204,7 @@ public class LocationOnActivity extends BaseActivity {
                 Place place = Autocomplete.getPlaceFromIntent(data);
                 placeId1 = place.getId();
                 queriedLocation = place.getLatLng();
-                DeliveryEverything.getAppSharedPreference().saveCurrentLocation(place.getAddress());
+                FoodnFine.getAppSharedPreference().saveCurrentLocation(place.getAddress());
                 searchAddressLocation = true;
                 goTodashboard();
             } else if (resultCode == AutocompleteActivity.RESULT_ERROR) {
@@ -293,7 +293,7 @@ public class LocationOnActivity extends BaseActivity {
                 }*/
                 //ret = strReturnedAddress.toString();
                 ret = returnedAddress.getAddressLine(0);
-                DeliveryEverything.getAppSharedPreference().saveCurrentLocation(ret);
+                FoodnFine.getAppSharedPreference().saveCurrentLocation(ret);
                 searchAddressLocation = true;
 goTodashboard();
                 // sessionManager.update_address_billing(ret);

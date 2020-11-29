@@ -29,7 +29,7 @@ import butterknife.Unbinder;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.activity.ConfirmOrderActivity;
 import snd.orgn.foodnfine.adapter.fragmentAdapter.BreakfastFragAdapter;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.callbacks.CallbackAddtoCart;
 import snd.orgn.foodnfine.callbacks.CallbackFoodDetailsList;
 import snd.orgn.foodnfine.callbacks.CallbackGroceryListItemSelectAdapter;
@@ -245,8 +245,8 @@ public class RestourantFragments extends ViewModelFragment implements CallbackFo
         loadingDialogHelper.dismiss();
         this.responseCart = cartDetails;
         layout_buttom_sheet_item.setVisibility(View.VISIBLE);
-        DeliveryEverything.getAppSharedPreference().setItemQuantity(cartDetails.getSumcartCount().toString());
-        DeliveryEverything.getAppSharedPreference().setItemPrice(cartDetails.getSumPrice().toString());
+        FoodnFine.getAppSharedPreference().setItemQuantity(cartDetails.getSumcartCount().toString());
+        FoodnFine.getAppSharedPreference().setItemPrice(cartDetails.getSumPrice().toString());
         bottomsheetdataPopulate();
 
     }
@@ -273,12 +273,12 @@ public class RestourantFragments extends ViewModelFragment implements CallbackFo
 
     private UserData getuserdataForAddtoCart() {
         UserData userData = new UserData();
-        userData.setUser_id(DeliveryEverything.getAppSharedPreference().getUserId());
+        userData.setUser_id(FoodnFine.getAppSharedPreference().getUserId());
         userData.setpId(seletedCartItemId);
         userData.setRest_id(restId);
         userData.setPrice(totalPrice);
         userData.setQuantity(seletedCartItemQuantity);
-        userData.setDev_key(DeliveryEverything.getAppSharedPreference().getDevKey());
+        userData.setDev_key(FoodnFine.getAppSharedPreference().getDevKey());
         userData.setOrderType("restaurant");
         return userData;
     }
@@ -286,15 +286,15 @@ public class RestourantFragments extends ViewModelFragment implements CallbackFo
 
     private UserData getuserdataForCartDetails() {
         UserData data = new UserData();
-        data.setUser_id(DeliveryEverything.getAppSharedPreference().getUserId());
+        data.setUser_id(FoodnFine.getAppSharedPreference().getUserId());
         data.setOrderType("restaurant");
         return data;
     }
 
     private void bottomsheetdataPopulate(){
         try{
-            String quant = DeliveryEverything.getAppSharedPreference().getItemQuantity();
-            String price = DeliveryEverything.getAppSharedPreference().getItemPrice();
+            String quant = FoodnFine.getAppSharedPreference().getItemQuantity();
+            String price = FoodnFine.getAppSharedPreference().getItemPrice();
             if (quant.equals("1")) {
                 tv_item_count.setText(quant + " items");
                 tv_item_price.setText("₹ " + price + ".00");

@@ -17,7 +17,7 @@ import kotlinx.android.synthetic.main.activity_myorder.*
 import kotlinx.android.synthetic.main.layout_no_order_found.*
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.adapter.activityAdapter.OrderListAdapter
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.base.BaseActivity
 import snd.orgn.foodnfine.callbacks.CallbackCancelOrder
 import snd.orgn.foodnfine.callbacks.CallbackOrderListActivity
@@ -104,7 +104,7 @@ class MyOrdersActivity : BaseActivity(), CallbackOrderListActivity, CallbackCanc
                         ) { dialog: DialogInterface?, which: Int ->
                             dialog!!.dismiss()
                             loadingDialog.showDialog()
-                            viewModel!!.cancelOrder(DeliveryEverything.getAppSharedPreference().userId, orderlists[position].orderId)
+                            viewModel!!.cancelOrder(FoodnFine.appSharedPreference!!.userId, orderlists[position].orderId)
                         }
                         alertDialog2.setNegativeButton("No"
                         ) { dialog: DialogInterface?, which: Int ->
@@ -150,7 +150,7 @@ class MyOrdersActivity : BaseActivity(), CallbackOrderListActivity, CallbackCanc
                         ) { dialog: DialogInterface?, which: Int ->
                             dialog!!.dismiss()
                             loadingDialog.showDialog()
-                            viewModel!!.cancelOrder(DeliveryEverything.getAppSharedPreference().userId, orderlists[position].orderId)
+                            viewModel!!.cancelOrder(FoodnFine.appSharedPreference!!.userId, orderlists[position].orderId)
                         }
                         alertDialog2.setNegativeButton("No"
                         ) { dialog: DialogInterface?, which: Int ->

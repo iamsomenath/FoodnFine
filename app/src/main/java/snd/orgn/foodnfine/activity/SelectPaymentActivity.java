@@ -14,7 +14,7 @@ import androidx.fragment.app.Fragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BackHandledFragment;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.fragment.payment_cod;
@@ -45,13 +45,13 @@ public class SelectPaymentActivity extends BaseActivity  implements BackHandledF
         totalCharges = getIntent().getStringExtra(INTENT_STRING_TOTAL_PRICE);
 
         if(orderType.equals(ORDER_TYPE_GROCERY)){
-            DeliveryEverything.getAppSharedPreference().saveCharges(totalCharges);
+            FoodnFine.getAppSharedPreference().saveCharges(totalCharges);
         }else if(orderType.equals(ORDER_TYPE_RESTAURANT)){
-            DeliveryEverything.getAppSharedPreference().saveCharges(totalCharges);
+            FoodnFine.getAppSharedPreference().saveCharges(totalCharges);
         }else{
             //totalCharges = DeliveryEverything.getAppSharedPreference().getCharges();
-            DeliveryEverything.getAppSharedPreference().saveCharges(totalCharges);
-            DeliveryEverything.getAppSharedPreference().setOrderType(orderType);
+            FoodnFine.getAppSharedPreference().saveCharges(totalCharges);
+            FoodnFine.getAppSharedPreference().setOrderType(orderType);
         }
 
         tv_item_total.setText("Item total " + " " + "\u20B9" + totalCharges);

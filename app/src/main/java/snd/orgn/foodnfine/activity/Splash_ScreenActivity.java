@@ -22,7 +22,7 @@ import com.karumi.dexter.listener.single.PermissionListener;
 
 import snd.orgn.foodnfine.login_mvp.LoginActivity;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 
@@ -62,7 +62,7 @@ public class Splash_ScreenActivity extends BaseActivity {
     }
 
     private boolean isUserLoggedIn() {
-        String userId = DeliveryEverything.getAppSharedPreference().getUserId();
+        String userId = FoodnFine.getAppSharedPreference().getUserId();
         //return userId != null && !userId.isEmpty() && !userId.equals("null");
         return new SessionManager(this).checkLogin();
     }

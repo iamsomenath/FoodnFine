@@ -13,7 +13,7 @@ import org.json.JSONObject
 import snd.orgn.foodnfine.ForgotPasswordActivity
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.activity.GPSActivity
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager
 import snd.orgn.foodnfine.signup_mvp.SignUpActivity
 import snd.orgn.foodnfine.util.snackbar
@@ -109,10 +109,10 @@ class LoginActivity : AppCompatActivity(), LoginView {
                         true, jsonObject.getString("user_id"), jsonObject.getString("user_name"),
                         jsonObject.getString("user_email"), jsonObject.getString("user_mobile")
                 )
-                DeliveryEverything.getAppSharedPreference().userId = jsonObject.getString("user_id")
-                DeliveryEverything.getAppSharedPreference().userMobile = jsonObject.getString("user_mobile")
-                DeliveryEverything.getAppSharedPreference().userEmail = jsonObject.getString("user_email")
-                DeliveryEverything.getAppSharedPreference().setUserName(jsonObject.getString("user_name"))
+                FoodnFine.appSharedPreference!!.userId = jsonObject.getString("user_id")
+                FoodnFine.appSharedPreference!!.userMobile = jsonObject.getString("user_mobile")
+                FoodnFine.appSharedPreference!!.userEmail = jsonObject.getString("user_email")
+                FoodnFine.appSharedPreference!!.setUserName(jsonObject.getString("user_name"))
                 showPopup("Login Successful")
             }else
                 contentLayout.snackbar(jsonObject.getString("msg"))

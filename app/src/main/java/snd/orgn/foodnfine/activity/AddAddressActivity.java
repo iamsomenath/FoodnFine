@@ -47,7 +47,7 @@ import java.util.Locale;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.callbacks.CallbackAddAddress;
 import snd.orgn.foodnfine.callbacks.CallbackAddressDetailsFromId;
@@ -195,11 +195,11 @@ public class AddAddressActivity extends BaseActivity implements CallbackAddAddre
 
     @Override
     public void initFields() {
-        if (DeliveryEverything.getAppSharedPreference().getCurrentLocation().equals("") || DeliveryEverything.getAppSharedPreference().getCurrentLocation().length() == 0) {
+        if (FoodnFine.getAppSharedPreference().getCurrentLocation().equals("") || FoodnFine.getAppSharedPreference().getCurrentLocation().length() == 0) {
             getCurrentLocation("1");
         } else {
 
-            wholeAddress = DeliveryEverything.getAppSharedPreference().getCurrentLocation();
+            wholeAddress = FoodnFine.getAppSharedPreference().getCurrentLocation();
             et_addAddress_location.setText(wholeAddress);
             addressSeparator();
         }
@@ -262,7 +262,7 @@ public class AddAddressActivity extends BaseActivity implements CallbackAddAddre
 
     private UserDataAddAddress getSaveAllDataResqust() {
         UserDataAddAddress dataAddAddress = new UserDataAddAddress();
-        dataAddAddress.setUserId(DeliveryEverything.getAppSharedPreference().getUserId());
+        dataAddAddress.setUserId(FoodnFine.getAppSharedPreference().getUserId());
         dataAddAddress.setLocation(String.valueOf(et_addAddress_location.getText()));
         dataAddAddress.setBuilding(String.valueOf(et_addAddress_apartmentName.getText()));
         dataAddAddress.setHouse(String.valueOf(et_addAddress_house_flat_no.getText()));
@@ -280,7 +280,7 @@ public class AddAddressActivity extends BaseActivity implements CallbackAddAddre
     private UserDataAddAddress getupdateAllDataResqust() {
         UserDataAddAddress dataAddAddress = new UserDataAddAddress();
         dataAddAddress.setUserAddressId(userAddressId);
-        dataAddAddress.setUserId(DeliveryEverything.getAppSharedPreference().getUserId());
+        dataAddAddress.setUserId(FoodnFine.getAppSharedPreference().getUserId());
         dataAddAddress.setLocation(String.valueOf(et_addAddress_location.getText()));
         dataAddAddress.setBuilding(String.valueOf(et_addAddress_apartmentName.getText()));
         dataAddAddress.setHouse(String.valueOf(et_addAddress_house_flat_no.getText()));
@@ -303,7 +303,7 @@ public class AddAddressActivity extends BaseActivity implements CallbackAddAddre
 
     private UserDataAddAddress getAddressList() {
         UserDataAddAddress datagetAddress = new UserDataAddAddress();
-        datagetAddress.setUserId(DeliveryEverything.getAppSharedPreference().getUserId());
+        datagetAddress.setUserId(FoodnFine.getAppSharedPreference().getUserId());
         return datagetAddress;
     }
 
@@ -623,7 +623,7 @@ public class AddAddressActivity extends BaseActivity implements CallbackAddAddre
                 }*/
                 //ret = strReturnedAddress.toString();
                 ret = returnedAddress.getAddressLine(0);
-                DeliveryEverything.getAppSharedPreference().saveCurrentLocation(ret);
+                FoodnFine.getAppSharedPreference().saveCurrentLocation(ret);
                 wholeAddress = ret;
                 et_addAddress_location.setText(wholeAddress);
                 addressSeparator();

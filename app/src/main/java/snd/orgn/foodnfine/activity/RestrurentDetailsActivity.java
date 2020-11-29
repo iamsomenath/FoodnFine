@@ -26,7 +26,7 @@ import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.adapter.activityAdapter.CategoryFragmentPagerAdapter;
 import snd.orgn.foodnfine.adapter.viewPagerAdpater.ViewPagerRestrurantDetailsAdapter;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.bottomSheetFragment.BottomSheetSelectItemFragment;
 import snd.orgn.foodnfine.callbacks.CallbackDeleteCartResponse;
@@ -101,7 +101,7 @@ public class RestrurentDetailsActivity extends BaseActivity implements CallbackF
     @Override
     public void setupOnClick() {
         iv_restaurentDetails_back.setOnClickListener(v -> {
-            if(DeliveryEverything.getAppSharedPreference().getItemQuantity().equals("")){
+            if(FoodnFine.getAppSharedPreference().getItemQuantity().equals("")){
                 super.onBackPressed();
             }else{
                 showBottomSheet();
@@ -186,13 +186,13 @@ public class RestrurentDetailsActivity extends BaseActivity implements CallbackF
     @Override
     public void onSucessDataDelete() {
         super.onBackPressed();
-        DeliveryEverything.getAppSharedPreference().setItemQuantity("");
+        FoodnFine.getAppSharedPreference().setItemQuantity("");
         overridePendingTransition(R.anim.right_in, R.anim.push_left_out);
         finish();
     }
 
     public void onBackPressed() {
-        if (DeliveryEverything.getAppSharedPreference().getItemQuantity().equals("")) {
+        if (FoodnFine.getAppSharedPreference().getItemQuantity().equals("")) {
             super.onBackPressed();
             overridePendingTransition(R.anim.right_in, R.anim.push_left_out);
             finish();

@@ -94,7 +94,7 @@ class OrderListAdapter(private val activity: Activity, private val context: Cont
         } catch (e: Exception) {
             e.printStackTrace()
         }
-        if (orderList!![position].deliveryStatus.equals("canceled", false) ||
+        /*if (orderList!![position].deliveryStatus.equals("canceled", false) ||
                 orderList[position].deliveryStatus.equals("Delivered", false) ||
                 orderList[position].orderType.equals("sendPackage", false)) {
             holder.cancelOrder.visibility = View.GONE
@@ -107,7 +107,7 @@ class OrderListAdapter(private val activity: Activity, private val context: Cont
                 btnSelect.onBtnSelectValue(holder.cancelOrder.tag as Int)
                 notifyDataSetChanged()
             }
-        }
+        }*/
     }
 
     override fun getItemCount(): Int {

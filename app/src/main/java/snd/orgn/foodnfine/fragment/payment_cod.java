@@ -26,7 +26,7 @@ import java.util.Objects;
 import snd.orgn.foodnfine.callbacks.CallbackAssignOrder;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.activity.MyOrdersActivity;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BackHandledFragment;
 import snd.orgn.foodnfine.callbacks.CallbackSendPackage;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
@@ -72,14 +72,14 @@ public class payment_cod extends BackHandledFragment implements CallbackSendPack
                              Bundle savedInstanceState) {
 
         view = inflater.inflate(R.layout.fragment_payment_cod, container, false);
-        pickupAdd = DeliveryEverything.getAppSharedPreference().getPickupAdd();
-        deliveryAdd = DeliveryEverything.getAppSharedPreference().getDeliveryAdd();
-        package_id = DeliveryEverything.getAppSharedPreference().getPackageId();
-        distance = DeliveryEverything.getAppSharedPreference().getDistance();
-        grand_total_order = DeliveryEverything.getAppSharedPreference().getCharges();
-        userId = DeliveryEverything.getAppSharedPreference().getUserId();
-        remark = DeliveryEverything.getAppSharedPreference().getRemarkse();
-        orderType = DeliveryEverything.getAppSharedPreference().getOrderType();
+        pickupAdd = FoodnFine.getAppSharedPreference().getPickupAdd();
+        deliveryAdd = FoodnFine.getAppSharedPreference().getDeliveryAdd();
+        package_id = FoodnFine.getAppSharedPreference().getPackageId();
+        distance = FoodnFine.getAppSharedPreference().getDistance();
+        grand_total_order = FoodnFine.getAppSharedPreference().getCharges();
+        userId = FoodnFine.getAppSharedPreference().getUserId();
+        remark = FoodnFine.getAppSharedPreference().getRemarkse();
+        orderType = FoodnFine.getAppSharedPreference().getOrderType();
         //groceryRestaurantId = DeliveryEverything.getAppSharedPreference().getSelectedRestGroceryId();
         groceryRestaurantId = new SessionManager(getActivity()).getKeyOrderType();
         cartDatumList = new ArrayList<>();
@@ -125,91 +125,30 @@ public class payment_cod extends BackHandledFragment implements CallbackSendPack
         alertDialog.setCancelable(false);
         alertDialog.setPositiveButton(Html.fromHtml("<font color='#009494'>Yes"), (dialog, which) -> {
             loadingDialog.showDialog();
-
-            switch (orderType) {
-                case TYPE_RESTAURANT: {
-                    cartDatumList = DeliveryEverything.getAppSharedPreference().getArrayList();
-                    JSONArray reqArr = new JSONArray();
-                    try {
-                        for (CartDatum c : cartDatumList) {
-                            JSONObject reqObj2 = new JSONObject();
-                            reqObj2.put("product_name", c.getProductName());
-                            reqObj2.put("product_id", c.getProductId());
-                            reqObj2.put("qty", c.getQty());
-                            reqObj2.put("total_price", String.valueOf(Integer.parseInt(c.getQty()) * Double.parseDouble(c.getPrice())));
-                            //reqObj2.put("total_price", c.getTotalPrice());
-                            reqObj2.put("price", c.getPrice());
-                            reqObj2.put("product_desc", c.getProductDesc());
-                            reqObj2.put("weight", c.getWeight());
-                            reqObj2.put("unit", c.getUnit());
-                            reqObj2.put("cat_id", c.getCatId());
-                            reqObj2.put("rest_grocery", c.getRestGrocery());
-                            reqArr.put(reqObj2);
-                        }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
+            if (TYPE_GROCERY.equals(orderType)) {
+                cartDatumList = FoodnFine.getAppSharedPreference().getArrayList();
+                JSONArray reqArr = new JSONArray();
+                try {
+                    for (CartDatum c : cartDatumList) {
+                        JSONObject reqObj2 = new JSONObject();
+                        reqObj2.put("product_name", c.getProductName());
+                        reqObj2.put("product_id", c.getProductId());
+                        reqObj2.put("qty", c.getQty());
+                        //reqObj2.put("total_price", c.getTotalPrice());
+                        reqObj2.put("total_price", String.valueOf(Integer.parseInt(c.getQty()) * Double.parseDouble(c.getPrice())));
+                        reqObj2.put("price", c.getPrice());
+                        reqObj2.put("product_desc", c.getProductDesc());
+                        reqObj2.put("weight", c.getWeight());
+                        reqObj2.put("unit", c.getUnit());
+                        reqObj2.put("cat_id", c.getCatId());
+                        reqObj2.put("rest_grocery", c.getRestGrocery());
+                        reqArr.put(reqObj2);
                     }
-                    orderDetails = reqArr;
-                    viewModel.placeOrderRequest(getPlaceOrderRequest());
-                    break;
+                } catch (JSONException e) {
+                    e.printStackTrace();
                 }
-                case TYPE_GROCERY: {
-                    cartDatumList = DeliveryEverything.getAppSharedPreference().getArrayList();
-                    JSONArray reqArr = new JSONArray();
-                    try {
-                        for (CartDatum c : cartDatumList) {
-                            JSONObject reqObj2 = new JSONObject();
-                            reqObj2.put("product_name", c.getProductName());
-                            reqObj2.put("product_id", c.getProductId());
-                            reqObj2.put("qty", c.getQty());
-                            //reqObj2.put("total_price", c.getTotalPrice());
-                            reqObj2.put("total_price", String.valueOf(Integer.parseInt(c.getQty()) * Double.parseDouble(c.getPrice())));
-                            reqObj2.put("price", c.getPrice());
-                            reqObj2.put("product_desc", c.getProductDesc());
-                            reqObj2.put("weight", c.getWeight());
-                            reqObj2.put("unit", c.getUnit());
-                            reqObj2.put("cat_id", c.getCatId());
-                            reqObj2.put("rest_grocery", c.getRestGrocery());
-                            reqArr.put(reqObj2);
-                        }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                    orderDetails = reqArr;
-                    viewModel.placeOrderRequest(getPlaceOrderRequest());
-                    break;
-                }
-                case TYPE_SWADESI:
-                case TYPE_ELECTRONIC:
-                case TYPE_MEDICAL:{
-                    cartDatumList = DeliveryEverything.getAppSharedPreference().getArrayList();
-                    JSONArray reqArr = new JSONArray();
-                    try {
-                        for (CartDatum c : cartDatumList) {
-                            JSONObject reqObj2 = new JSONObject();
-                            reqObj2.put("product_name", c.getProductName());
-                            reqObj2.put("product_id", c.getProductId());
-                            reqObj2.put("qty", c.getQty());
-                            reqObj2.put("total_price", String.valueOf(Integer.parseInt(c.getQty()) * Double.parseDouble(c.getPrice())));
-                            //reqObj2.put("total_price", c.getTotalPrice());
-                            reqObj2.put("price", c.getPrice());
-                            reqObj2.put("product_desc", c.getProductDesc());
-                            reqObj2.put("weight", c.getWeight());
-                            reqObj2.put("unit", c.getUnit());
-                            reqObj2.put("cat_id", c.getCatId());
-                            reqObj2.put("rest_grocery", c.getRestGrocery());
-                            reqArr.put(reqObj2);
-                        }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                    orderDetails = reqArr;
-                    viewModel.placeOrderRequest(getPlaceOrderRequest());
-                    break;
-                }
-                default:
-                    viewModel.sendPackageRequest(getPickUpData());
-                    break;
+                orderDetails = reqArr;
+                viewModel.placeOrderRequest(getPlaceOrderRequest());
             }
         });
         alertDialog.setNegativeButton(Html.fromHtml("<font color='#00585e'>No"),
@@ -221,24 +160,6 @@ public class payment_cod extends BackHandledFragment implements CallbackSendPack
         viewModel = ViewModelProviders.of(this).get(SendPackageViewModel.class);
         viewModel.setCallbackSendPackage(this);
         viewModel.setCallback2(this);
-    }
-
-    private PickupData getPickUpData() {
-        PickupData data = new PickupData();
-        data.setPickupAdd(pickupAdd);
-        data.setDeliveryAdd(deliveryAdd);
-        data.setPackageId(package_id);
-        //data.setCharges(String.valueOf(payable_amount.getText()));
-        data.setCharges(grand_total_order);
-        data.setDistance(distance);
-        data.setPayId(PaymentId);
-        data.setPayType(pay_type);
-        data.setPayStat(pay_stat);
-        data.setUserId(userId);
-        data.setOrderType(orderType);
-        data.setRemark(remark);
-        data.setEstimateValue(DeliveryEverything.getAppSharedPreference().getEstimateValue());
-        return data;
     }
 
     private PlaceOrderRequest getPlaceOrderRequest() {
@@ -280,7 +201,8 @@ public class payment_cod extends BackHandledFragment implements CallbackSendPack
         Toast.makeText(getActivity(), "Order submitted Successfully", Toast.LENGTH_SHORT).show();
 
         loadingDialog.showDialog();
-        viewModel.makeOrderRequest(orderNo);
+        //viewModel.makeOrderRequest(orderNo);
+        gotoOrderDetails();
     }
 
     @Override

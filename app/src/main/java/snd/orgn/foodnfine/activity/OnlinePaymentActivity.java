@@ -49,7 +49,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.rest.response.RestResponseAssignOrder;
 import snd.orgn.foodnfine.rest.response.RestResponsePickup;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.constant.WebConstants;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 import snd.orgn.foodnfine.helper.other.NetworkHelper;
@@ -252,13 +252,13 @@ public class OnlinePaymentActivity extends AppCompatActivity {
 
         if (sessionManager.getRedirect().equalsIgnoreCase("package")) {
 
-            String pickupAdd = DeliveryEverything.getAppSharedPreference().getPickupAdd();
-            String deliveryAdd = DeliveryEverything.getAppSharedPreference().getDeliveryAdd();
-            String package_id = DeliveryEverything.getAppSharedPreference().getPackageId();
-            String distance = DeliveryEverything.getAppSharedPreference().getDistance();
-            userId = DeliveryEverything.getAppSharedPreference().getUserId();
-            String remark = DeliveryEverything.getAppSharedPreference().getRemarkse();
-            String orderType = DeliveryEverything.getAppSharedPreference().getOrderType();
+            String pickupAdd = FoodnFine.getAppSharedPreference().getPickupAdd();
+            String deliveryAdd = FoodnFine.getAppSharedPreference().getDeliveryAdd();
+            String package_id = FoodnFine.getAppSharedPreference().getPackageId();
+            String distance = FoodnFine.getAppSharedPreference().getDistance();
+            userId = FoodnFine.getAppSharedPreference().getUserId();
+            String remark = FoodnFine.getAppSharedPreference().getRemarkse();
+            String orderType = FoodnFine.getAppSharedPreference().getOrderType();
 
             PickupData data = new PickupData();
             data.setPickupAdd(pickupAdd);
@@ -272,7 +272,7 @@ public class OnlinePaymentActivity extends AppCompatActivity {
             data.setUserId(userId);
             data.setOrderType(orderType);
             data.setRemark(remark);
-            data.setEstimateValue(DeliveryEverything.getAppSharedPreference().getEstimateValue());
+            data.setEstimateValue(FoodnFine.getAppSharedPreference().getEstimateValue());
 
             PickupRequest request = new PickupRequest();
             request.setPickupAdd(data.getPickupAdd());
@@ -294,7 +294,7 @@ public class OnlinePaymentActivity extends AppCompatActivity {
             loadingDialog = new LoadingDialog(this);
             loadingDialog.showDialog();
 
-            List<CartDatum> cartDatumList = DeliveryEverything.getAppSharedPreference().getArrayList();
+            List<CartDatum> cartDatumList = FoodnFine.getAppSharedPreference().getArrayList();
             JSONArray reqArr = new JSONArray();
             try {
                 for (CartDatum c : cartDatumList) {
@@ -327,7 +327,7 @@ public class OnlinePaymentActivity extends AppCompatActivity {
                     request.getDelivarAdd(), request.getOrderType(), sessionManager.getShopId(), TransactionId, "INR",
                     parent_id, sessionManager.getShopId(), cancellationCharge, copoun_code, copoun_type, coupon_category, coupon_id,
                     deliveryCharge, discountAmount, order_actual_amount, remark_type,
-                    DeliveryEverything.getAppSharedPreference().getFixedCost(), order_actual_amount);
+                    FoodnFine.getAppSharedPreference().getFixedCost(), order_actual_amount);
 
             call.enqueue(new Callback<ResponseBody>() {
                 @Override
@@ -377,7 +377,7 @@ public class OnlinePaymentActivity extends AppCompatActivity {
                 request.getPickupAdd(), request.getDelivarAdd(), request.getPackageId(), request.getDistance(),
                 request.getCharges(), request.getPayStat(), request.getPayType(), request.getPayId(),
                 request.getRemark(), "sendPackage", request.getEstimate_value(), TransactionId, "INR",
-                DeliveryEverything.getAppSharedPreference().getLatitude(), DeliveryEverything.getAppSharedPreference().getLongitude());
+                FoodnFine.getAppSharedPreference().getLatitude(), FoodnFine.getAppSharedPreference().getLongitude());
 
         //Log.d("MYREQUEST", request.getEstimate_value() + " " + request.getCharges()+ " "+ request.getDistance());
 
@@ -441,12 +441,12 @@ public class OnlinePaymentActivity extends AppCompatActivity {
         String orderType;
         String groceryRestaurantId;
 
-        deliveryAdd = DeliveryEverything.getAppSharedPreference().getDeliveryAdd();
-        grand_total_order = DeliveryEverything.getAppSharedPreference().getCharges();
-        userId = DeliveryEverything.getAppSharedPreference().getUserId();
-        remark = DeliveryEverything.getAppSharedPreference().getRemarkse();
-        orderType = DeliveryEverything.getAppSharedPreference().getOrderType();
-        groceryRestaurantId = DeliveryEverything.getAppSharedPreference().getSelectedRestGroceryId();
+        deliveryAdd = FoodnFine.getAppSharedPreference().getDeliveryAdd();
+        grand_total_order = FoodnFine.getAppSharedPreference().getCharges();
+        userId = FoodnFine.getAppSharedPreference().getUserId();
+        remark = FoodnFine.getAppSharedPreference().getRemarkse();
+        orderType = FoodnFine.getAppSharedPreference().getOrderType();
+        groceryRestaurantId = FoodnFine.getAppSharedPreference().getSelectedRestGroceryId();
 
         PlaceOrderRequest placeOrderRequest = new PlaceOrderRequest();
 
@@ -476,13 +476,13 @@ public class OnlinePaymentActivity extends AppCompatActivity {
 
         PayUmoneySdkInitializer.PaymentParam.Builder builder = new PayUmoneySdkInitializer.PaymentParam.Builder();
 
-        userId = DeliveryEverything.getAppSharedPreference().getUserId();
+        userId = FoodnFine.getAppSharedPreference().getUserId();
         String txnId = System.currentTimeMillis() + "";
-        String phone = DeliveryEverything.getAppSharedPreference().getUserMobile();
+        String phone = FoodnFine.getAppSharedPreference().getUserMobile();
         String productName = type;
         String firstName = sessionManager.getKeyName().isEmpty() ? ("Not Found"): sessionManager.getKeyName();
         String email = sessionManager.getKeyEmail().isEmpty() ? ("testmail" + userId + "@gmail.com") : sessionManager.getKeyEmail();
-        String udf1 = DeliveryEverything.getAppSharedPreference().getDeliveryAdd();
+        String udf1 = FoodnFine.getAppSharedPreference().getDeliveryAdd();
         //String udf2 = postal_code;
 
         builder.setAmount(p_amount)

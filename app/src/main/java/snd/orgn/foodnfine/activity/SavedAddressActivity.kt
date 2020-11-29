@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.adapter.activityAdapter.SaveAddressAdapter
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.base.BaseActivity
 import snd.orgn.foodnfine.callbacks.CallbackGetAddress
 import snd.orgn.foodnfine.callbacks.CallbackSaveAddressList
@@ -36,7 +36,7 @@ class SavedAddressActivity : BaseActivity(), CallbackSaveAddressList, CallbackGe
     private val addressList: UserDataAddAddress
         get() {
             val datagetAddress = UserDataAddAddress()
-            datagetAddress.userId = DeliveryEverything.getAppSharedPreference().userId
+            datagetAddress.userId = FoodnFine.appSharedPreference!!.userId
             return datagetAddress
         }
 

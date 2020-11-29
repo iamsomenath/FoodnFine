@@ -7,7 +7,7 @@ import java.util.List;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseViewModel;
 import snd.orgn.foodnfine.callbacks.CallbackButtomSheetSelectPackage;
 import snd.orgn.foodnfine.data.room.entity.PackageDetails;
@@ -26,7 +26,7 @@ public class BottomSheetPackageListViewModel extends BaseViewModel {
     public void getpackageList(){
         try {
             Observable.create(s -> { // create observable
-                packageDetailslist = DeliveryEverything.getAppDatabase().getPackageDetailsListDao().getPackageDetailsList();
+                packageDetailslist = FoodnFine.getAppDatabase().getPackageDetailsListDao().getPackageDetailsList();
                 s.onNext(Boolean.TRUE);
             }).subscribeOn(Schedulers.single()) //mention background thread
                     .observeOn(AndroidSchedulers.mainThread())// mention foreground/ui thread where you need the output

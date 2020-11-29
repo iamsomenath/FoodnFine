@@ -6,7 +6,7 @@ import android.annotation.SuppressLint;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseViewModel;
 import snd.orgn.foodnfine.callbacks.CallbackOtpVerification;
 import snd.orgn.foodnfine.model.utility.UserData;
@@ -78,7 +78,7 @@ public class OtpVerificationViewModel extends BaseViewModel {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(restResponse -> {
                     if (restResponse.getSuccess().equals(WEBSERVICE_SUCCESS)) {
-                        DeliveryEverything.getAppSharedPreference().saveUserId(restResponse.getUserId());
+                        FoodnFine.getAppSharedPreference().saveUserId(restResponse.getUserId());
                         callback.onSuccess();
                     } else {
                         callback.onError(restResponse.getStat());

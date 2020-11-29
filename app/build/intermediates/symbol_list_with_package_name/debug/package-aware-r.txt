@@ -4940,7 +4940,6 @@ id v_payu_review_shadow
 id verifying_logo
 id vertical
 id view
-id viewDetails
 id view_more_bank
 id view_offset_helper
 id viewpager

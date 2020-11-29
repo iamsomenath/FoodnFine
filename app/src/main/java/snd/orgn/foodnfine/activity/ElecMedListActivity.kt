@@ -18,7 +18,7 @@ import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_elictronic_medicine_list.*
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.adapter.activityAdapter.ElecMedListAdapter
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.base.BaseActivity
 import snd.orgn.foodnfine.callbacks.CallbackElecMedList
 import snd.orgn.foodnfine.model.data_item.AllElectMedPojo
@@ -197,8 +197,8 @@ class ElecMedListActivity : BaseActivity(), CallbackElecMedList {
                         startPoint.longitude = java.lang.Double.parseDouble(Objects.requireNonNull<String>(lists[i].longitude))
 
                         val endPoint = Location("locationA")
-                        endPoint.latitude = java.lang.Double.parseDouble(DeliveryEverything.getAppSharedPreference().latitude)
-                        endPoint.longitude = java.lang.Double.parseDouble(DeliveryEverything.getAppSharedPreference().longitude)
+                        endPoint.latitude = java.lang.Double.parseDouble(FoodnFine.appSharedPreference!!.latitude)
+                        endPoint.longitude = java.lang.Double.parseDouble(FoodnFine.appSharedPreference!!.longitude)
 
                         val distance = startPoint.distanceTo(endPoint).toDouble()
                         val myDistance = java.lang.Double.parseDouble(getString(R.string.distance))

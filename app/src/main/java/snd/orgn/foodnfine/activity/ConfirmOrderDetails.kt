@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_confirm_order_details.*
 import snd.orgn.foodnfine.R
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 
 class ConfirmOrderDetails : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
@@ -14,7 +14,7 @@ class ConfirmOrderDetails : AppCompatActivity() {
         setContentView(R.layout.activity_confirm_order_details)
 
         foodcharge.text = "₹" + intent.getStringExtra("PRICE")
-        deliverycharge.text = "₹" + Math.floor(DeliveryEverything.getAppSharedPreference().deliveryCost.toDouble())
+        deliverycharge.text = "₹" + Math.floor(FoodnFine.appSharedPreference!!.deliveryCost.toDouble())
         cancellationcharge.text = "₹" + intent.getStringExtra("CANCEL")
         discountcharge.text = "₹" + intent.getStringExtra("DIS")
         fixedcharge.text = "₹" + intent.getStringExtra("FC")

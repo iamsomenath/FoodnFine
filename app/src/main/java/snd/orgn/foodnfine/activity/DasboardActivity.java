@@ -60,7 +60,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.adapter.activityAdapter.ImageSliderAdaper;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.callbacks.CallbackGetChargesInKM;
 import snd.orgn.foodnfine.callbacks.CallbackgetAllPackageList;
@@ -135,12 +135,12 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
 
         initViewModel();
         initFields();
-        if (DeliveryEverything.getAppSharedPreference().getCurrentLocation().equals("") || DeliveryEverything.getAppSharedPreference().getCurrentLocation().length() == 0) {
+        if (FoodnFine.getAppSharedPreference().getCurrentLocation().equals("") || FoodnFine.getAppSharedPreference().getCurrentLocation().length() == 0) {
             //featchCurrentLocation();
             location();
         } else {
             location();
-            tv_dashboard_address.setText(DeliveryEverything.getAppSharedPreference().getCurrentLocation());
+            tv_dashboard_address.setText(FoodnFine.getAppSharedPreference().getCurrentLocation());
         }
 
         setupOnClick();
@@ -323,9 +323,9 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
                 //Log.d("LATLON", lat + " " + lon);
                 //getAddress(lat, lon);
                 tv_dashboard_address.setText(place.getAddress());
-                DeliveryEverything.getAppSharedPreference().saveCurrentLocation(place.getAddress());
-                DeliveryEverything.getAppSharedPreference().saveLatitude(Double.toString(place.getLatLng().latitude));
-                DeliveryEverything.getAppSharedPreference().saveLongitude(Double.toString(place.getLatLng().longitude));
+                FoodnFine.getAppSharedPreference().saveCurrentLocation(place.getAddress());
+                FoodnFine.getAppSharedPreference().saveLatitude(Double.toString(place.getLatLng().latitude));
+                FoodnFine.getAppSharedPreference().saveLongitude(Double.toString(place.getLatLng().longitude));
 
                 /*Location startPoint = new Location("locationA");
                 startPoint.setLatitude(place.getLatLng().latitude);
@@ -433,8 +433,8 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
 
     @Override
     public void onSuccessGetCharges(String fixed_cost, String per_kilometer) {
-        DeliveryEverything.getAppSharedPreference().savePerKm(per_kilometer);
-        DeliveryEverything.getAppSharedPreference().saveFixedCost(fixed_cost);
+        FoodnFine.getAppSharedPreference().savePerKm(per_kilometer);
+        FoodnFine.getAppSharedPreference().saveFixedCost(fixed_cost);
         //Log.d("TEST!!!", fixed_cost + " " + per_kilometer);
     }
 
@@ -558,11 +558,11 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
                 //ret = strReturnedAddress.toString();
                 ret = returnedAddress.getAddressLine(0);
                 tv_dashboard_address.setText(ret);
-                DeliveryEverything.getAppSharedPreference().saveCurrentLocation(ret);
+                FoodnFine.getAppSharedPreference().saveCurrentLocation(ret);
 
-                DeliveryEverything.getAppSharedPreference().saveCurrentLocation(ret);
-                DeliveryEverything.getAppSharedPreference().saveLatitude(String.valueOf(returnedAddress.getLatitude()));
-                DeliveryEverything.getAppSharedPreference().saveLongitude(String.valueOf(returnedAddress.getLongitude()));
+                FoodnFine.getAppSharedPreference().saveCurrentLocation(ret);
+                FoodnFine.getAppSharedPreference().saveLatitude(String.valueOf(returnedAddress.getLatitude()));
+                FoodnFine.getAppSharedPreference().saveLongitude(String.valueOf(returnedAddress.getLongitude()));
 //                searchAddressLocation = true;
 //                goTodashboard();
                 // sessionManager.update_address_billing(ret);

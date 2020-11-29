@@ -31,7 +31,7 @@ import com.google.firebase.iid.InstanceIdResult;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.callbacks.CallbackloginMobileNo;
 import snd.orgn.foodnfine.helper.dailog.LoadingDialogHelper;
@@ -97,7 +97,7 @@ public class LoginMobileNoActivity extends BaseActivity implements Callbacklogin
                         }
                         // Get new Instance ID token
                         String token = task.getResult().getToken();
-                        DeliveryEverything.getAppSharedPreference().saveDevKey(token);
+                        FoodnFine.getAppSharedPreference().saveDevKey(token);
                     }
                 });
     }
@@ -122,7 +122,7 @@ public class LoginMobileNoActivity extends BaseActivity implements Callbacklogin
     private UserData getUserData() {
         UserData userData = new UserData();
         userData.setUserMobile(String.valueOf(et_login_mobileNo.getText()));
-        userData.setDev_key(String.valueOf(DeliveryEverything.getAppSharedPreference().getDevKey()));
+        userData.setDev_key(String.valueOf(FoodnFine.getAppSharedPreference().getDevKey()));
         return userData;
     }
 

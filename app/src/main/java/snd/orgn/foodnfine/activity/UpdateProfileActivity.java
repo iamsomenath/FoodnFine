@@ -19,7 +19,7 @@ import com.google.android.material.textfield.TextInputLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.callbacks.CallbackUpdateProfile;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
@@ -57,10 +57,10 @@ public class UpdateProfileActivity extends BaseActivity implements CallbackUpdat
         ButterKnife.bind(this);
         hideStatusBarcolor();
         initFields();
-        et_input_name.setText(DeliveryEverything.getAppSharedPreference().getUsername());
-        et_input_name.setSelection(DeliveryEverything.getAppSharedPreference().getUsername().length());
-        et_input_email.setText(DeliveryEverything.getAppSharedPreference().getUserEmail());
-        et_input_mobile.setText(DeliveryEverything.getAppSharedPreference().getUserMobile());
+        et_input_name.setText(FoodnFine.getAppSharedPreference().getUsername());
+        et_input_name.setSelection(FoodnFine.getAppSharedPreference().getUsername().length());
+        et_input_email.setText(FoodnFine.getAppSharedPreference().getUserEmail());
+        et_input_mobile.setText(FoodnFine.getAppSharedPreference().getUserMobile());
     }
 
     @Override
@@ -172,7 +172,7 @@ public class UpdateProfileActivity extends BaseActivity implements CallbackUpdat
         userData = new UserData();
         userData.setUser_eml(String.valueOf(et_input_email.getText()));
         userData.setUser_nm(String.valueOf(et_input_name.getText()));
-        userData.setUser_id(DeliveryEverything.getAppSharedPreference().getUserId());
+        userData.setUser_id(FoodnFine.getAppSharedPreference().getUserId());
         return userData;
     }
 

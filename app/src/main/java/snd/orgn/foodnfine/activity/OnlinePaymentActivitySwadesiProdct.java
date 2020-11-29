@@ -43,7 +43,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.constant.WebConstants;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 import snd.orgn.foodnfine.rest.api.ApiInterface;
@@ -252,14 +252,14 @@ public class OnlinePaymentActivitySwadesiProdct extends AppCompatActivity {
 
         PayUmoneySdkInitializer.PaymentParam.Builder builder = new PayUmoneySdkInitializer.PaymentParam.Builder();
 
-        userId = DeliveryEverything.getAppSharedPreference().getUserId();
+        userId = FoodnFine.getAppSharedPreference().getUserId();
         SessionManager sessionManager =  new SessionManager(this);
         String txnId = System.currentTimeMillis() + "";
-        String phone = DeliveryEverything.getAppSharedPreference().getUserMobile();
+        String phone = FoodnFine.getAppSharedPreference().getUserMobile();
         String productName = getIntent().getStringExtra("product_name");
         String firstName = sessionManager.getKeyName().isEmpty() ? ("Not Found"): sessionManager.getKeyName();
         String email = sessionManager.getKeyEmail().isEmpty() ? ("testmail" + userId + "@gmail.com") : sessionManager.getKeyEmail();
-        String udf1 = DeliveryEverything.getAppSharedPreference().getDeliveryAdd();
+        String udf1 = FoodnFine.getAppSharedPreference().getDeliveryAdd();
         //String udf2 = postal_code;
 
         builder.setAmount(p_amount)

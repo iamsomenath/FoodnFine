@@ -18,7 +18,7 @@ import kotlinx.android.synthetic.main.activity_swadesi_details.*
 import org.json.JSONObject
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.adapter.activityAdapter.SliderAdapterExample
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.base.BaseActivity
 import snd.orgn.foodnfine.callbacks.CallbackSwadesiDetails
 import snd.orgn.foodnfine.constant.ErrorMessageConstant.NETWORK_ERROR_MESSAGE
@@ -111,12 +111,12 @@ class SwadesiDetailsActivity : BaseActivity(), CallbackSwadesiDetails {
         buy_now.setOnClickListener {
 
             val intent = Intent(this@SwadesiDetailsActivity, PaymentSwadesiProduct::class.java)
-            intent.putExtra("userId", DeliveryEverything.getAppSharedPreference().userId)
+            intent.putExtra("userId", FoodnFine.appSharedPreference!!.userId)
             intent.putExtra("payMode", "ONLINE")
             intent.putExtra("payId", "")
             intent.putExtra("payStatus", "")
             intent.putExtra("totalPrice", jsonObject.getString("price"))
-            intent.putExtra("delivarAdd", DeliveryEverything.getAppSharedPreference().currentLocation)
+            intent.putExtra("delivarAdd", FoodnFine.appSharedPreference!!.currentLocation)
             intent.putExtra("remark", "")
             intent.putExtra("orderType", "Swadesi Product")
             intent.putExtra("restGrocery", "Swadesi")
@@ -140,10 +140,10 @@ class SwadesiDetailsActivity : BaseActivity(), CallbackSwadesiDetails {
         add_to_cart.setOnClickListener {
             //Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show()
             val request = AddToCartRequest()
-            request.userId = DeliveryEverything.getAppSharedPreference().userId
+            request.userId = FoodnFine.appSharedPreference!!.userId
             request.pid = jsonObject.getString("product_id")
             request.qty = "1"
-            request.devKey = DeliveryEverything.getAppSharedPreference().devKey
+            request.devKey = FoodnFine.appSharedPreference!!.devKey
             //request.orderType = "Swadesi Product"
             request.price = jsonObject.getString("offer_price").toDouble().toInt()
             //request.restGrocery = "2"
@@ -179,7 +179,7 @@ class SwadesiDetailsActivity : BaseActivity(), CallbackSwadesiDetails {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe({ restResponse ->
                     if (restResponse.responsesss == 1) {
-                        DeliveryEverything.getAppSharedPreference().itemQuantity = "1"
+                        FoodnFine.appSharedPreference!!.itemQuantity = "1"
                         Toast.makeText(this@SwadesiDetailsActivity, "Successfully added!", Toast.LENGTH_SHORT).show()
                         finish()
                     } else {

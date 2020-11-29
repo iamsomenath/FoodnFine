@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
@@ -129,6 +129,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     public void onNewToken(@NotNull String s) {
         super.onNewToken(s);
         Log.d("NEW_TOKEN", s);
-        DeliveryEverything.getAppSharedPreference().saveDevKey(s);
+        FoodnFine.getAppSharedPreference().saveDevKey(s);
     }
 }

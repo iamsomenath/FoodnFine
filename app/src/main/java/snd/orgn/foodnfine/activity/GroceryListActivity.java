@@ -35,7 +35,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.adapter.activityAdapter.GroceryListAdapter;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.callbacks.CallbackAllGroceryList;
 import snd.orgn.foodnfine.callbacks.CallbackGetChargesInKM;
@@ -269,8 +269,8 @@ public class GroceryListActivity extends BaseActivity implements CallbackAllGroc
                         startPoint.setLongitude(Double.parseDouble(Objects.requireNonNull(allGroceryList.get(i).getLongitude())));
 
                         Location endPoint = new Location("locationA");
-                        endPoint.setLatitude(Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLatitude()));
-                        endPoint.setLongitude(Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLongitude()));
+                        endPoint.setLatitude(Double.parseDouble(FoodnFine.getAppSharedPreference().getLatitude()));
+                        endPoint.setLongitude(Double.parseDouble(FoodnFine.getAppSharedPreference().getLongitude()));
 
                         double distance = startPoint.distanceTo(endPoint);
                         double myDistance = Double.parseDouble(getString(R.string.distance));

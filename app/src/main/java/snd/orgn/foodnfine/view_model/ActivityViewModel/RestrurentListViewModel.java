@@ -46,7 +46,7 @@ public class RestrurentListViewModel extends BaseViewModel {
 
     @SuppressLint("CheckResult")
     private void apiCallRestrurentList() {
-        Observable<RestrurentRestResponse> userResponseObservable = getAPIInterface().getAllRestarunt();
+        Observable<RestrurentRestResponse> userResponseObservable = getAPIInterface().getAllRestaurant();
         userResponseObservable
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

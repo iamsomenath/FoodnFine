@@ -18,7 +18,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.callbacks.CallbackAllDeleteCartItem;
 import snd.orgn.foodnfine.callbacks.CallbackDeleteCartResponse;
 import snd.orgn.foodnfine.util.LoadingDialog;
@@ -93,7 +93,7 @@ public class BottomSheetSelectItemFragment extends BottomSheetDialogFragment imp
         toastTV.setTypeface(Typeface.createFromAsset(getActivity().getAssets(), "ProximaNovaLight.otf"));
         toastTV.setTextSize(20);
         toast.show();
-        DeliveryEverything.getAppSharedPreference().setItemQuantity("");
+        FoodnFine.getAppSharedPreference().setItemQuantity("");
         callbackDeleteCartSuccesRes.onSucessDataDelete();
         dismiss();
     }

@@ -24,7 +24,7 @@ import java.util.Objects;
 
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.activity.NewGroceryDetailsActivity;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 import snd.orgn.foodnfine.rest.response.AllGrocery;
 import snd.orgn.foodnfine.util.NetworkChangeReceiver;
@@ -102,13 +102,13 @@ public class GroceryListAdapter extends RecyclerView.Adapter<GroceryListAdapter.
                     startPoint.setLatitude(Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLatitude())));
                     startPoint.setLongitude(Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLongitude())));
                     Location endPoint = new Location("locationA");
-                    endPoint.setLatitude(Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLatitude()));
-                    endPoint.setLongitude(Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLongitude()));
+                    endPoint.setLatitude(Double.parseDouble(FoodnFine.getAppSharedPreference().getLatitude()));
+                    endPoint.setLongitude(Double.parseDouble(FoodnFine.getAppSharedPreference().getLongitude()));
                     //double distance = startPoint.distanceTo(endPoint) / 1000;
                     double distance = CalculateDistance(Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLatitude())),
                             Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLongitude())),
-                            Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLatitude()),
-                                    Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLongitude()));
+                            Double.parseDouble(FoodnFine.getAppSharedPreference().getLatitude()),
+                                    Double.parseDouble(FoodnFine.getAppSharedPreference().getLongitude()));
                     //double distance = CalculateDistance(22.6519, 88.3786, 22.5303, 88.3436);
                     //Log.d("DISTANCE", Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLatitude())) + "");
                     //Log.d("DISTANCE", Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLongitude())) + "");
@@ -133,8 +133,8 @@ public class GroceryListAdapter extends RecyclerView.Adapter<GroceryListAdapter.
                         //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInGrater10Km));
                         DeliveryEverything.getAppSharedPreference().saveDeliveryCost(DeliveryEverything.getAppSharedPreference().getCost4());*/
 
-                    DeliveryEverything.getAppSharedPreference().saveDeliveryCost(
-                            String.valueOf(distance * Double.parseDouble(DeliveryEverything.getAppSharedPreference().getPerKm())));
+                    FoodnFine.getAppSharedPreference().saveDeliveryCost(
+                            String.valueOf(distance * Double.parseDouble(FoodnFine.getAppSharedPreference().getPerKm())));
 
                     //Toast.makeText(activity, "Distance : " + distance, Toast.LENGTH_SHORT).show();
                     //Toast.makeText(activity, Double.parseDouble(DeliveryEverything.getAppSharedPreference().getPerKm()) + "", Toast.LENGTH_SHORT).show();

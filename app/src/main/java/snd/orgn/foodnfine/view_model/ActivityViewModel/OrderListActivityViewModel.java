@@ -18,7 +18,7 @@ import retrofit2.Callback;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import snd.orgn.foodnfine.callbacks.CallbackCancelOrder;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseViewModel;
 import snd.orgn.foodnfine.callbacks.CallbackOrderListActivity;
 import snd.orgn.foodnfine.constant.WebConstants;
@@ -52,7 +52,7 @@ public class OrderListActivityViewModel extends BaseViewModel {
     }
 
     private void makeRequest() {
-        apiCallOrderList(DeliveryEverything.getAppSharedPreference().getUserId());
+        apiCallOrderList(FoodnFine.getAppSharedPreference().getUserId());
     }
 
     public void cancelOrder(String userId, String orderId) {

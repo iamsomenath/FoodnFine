@@ -20,7 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.adapter.activityAdapter.OrderListItemAdapter;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.model.data_item.ItemDetailsResponse;
 import snd.orgn.foodnfine.model.data_item.Order;
@@ -88,7 +88,7 @@ public class OrderDetailsActivity extends BaseActivity {
         order_id.setText("ORDER #" + order.getOrderNumber());
         shop_name.setText(order.getName());
         shop_addr.setText(order.getAddress());
-        user_name.setText(DeliveryEverything.getAppSharedPreference().getUsername());
+        user_name.setText(FoodnFine.getAppSharedPreference().getUsername());
         user_addr.setText(order.getDelivarAddress());
         //Log.d("TESTY", getIntent().getSerializableExtra("DETAILS").toString());
 

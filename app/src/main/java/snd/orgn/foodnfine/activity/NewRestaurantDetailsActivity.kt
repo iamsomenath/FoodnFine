@@ -30,7 +30,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.adapter.activityAdapter.NewRestaurantMainAdapter
-import snd.orgn.foodnfine.application.DeliveryEverything
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.bottomSheetFragment.BottomSheetSelectItemFragment
 import snd.orgn.foodnfine.callbacks.CallbackDeleteCartResponse
 import snd.orgn.foodnfine.constant.AppConstants
@@ -81,7 +81,7 @@ class NewRestaurantDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnR
         val toolbar_title = findViewById<View>(R.id.tv_custom_toolbar_title) as TextView
         toolbar_title.text = intent.getStringExtra("rest_name")
 
-        tv_address.text = DeliveryEverything.getAppSharedPreference().currentLocation
+        tv_address.text = FoodnFine.appSharedPreference!!.currentLocation
 
         swipeRefreshLayout = findViewById<SwipeRefreshLayout>(R.id.swipe_refresh_layout)
         swipeRefreshLayout.setOnRefreshListener(this)
@@ -93,7 +93,7 @@ class NewRestaurantDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnR
         sessionManager = SessionManager(applicationContext)
         //Retriving Data
         //data = sessionManager.details
-        uid = DeliveryEverything.getAppSharedPreference().userId
+        uid = FoodnFine.appSharedPreference!!.userId
 
         mainrecyleView = findViewById<RecyclerView>(R.id.rv_recyclerViewmainList)
 
@@ -122,7 +122,7 @@ class NewRestaurantDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnR
         val api = retrofit.create(ApiInterface::class.java)
 
         val call: Call<ResponseBody>
-        call = api.restaurantDetail(intent.getStringExtra("rest_id"), DeliveryEverything.getAppSharedPreference().userId)
+        call = api.restaurantDetail(intent.getStringExtra("rest_id"), FoodnFine.appSharedPreference!!.userId)
         call.enqueue(object : Callback<ResponseBody> {
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
 
@@ -203,8 +203,8 @@ class NewRestaurantDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnR
                     if (restResponse.status == 1) {
 
                         val cartDetails = restResponse
-                        DeliveryEverything.getAppSharedPreference().itemQuantity = cartDetails.sumcartCount!!.toString()
-                        DeliveryEverything.getAppSharedPreference().itemPrice = cartDetails.sumPrice!!.toString()
+                        FoodnFine.appSharedPreference!!.itemQuantity = cartDetails.sumcartCount!!.toString()
+                        FoodnFine.appSharedPreference!!.itemPrice = cartDetails.sumPrice!!.toString()
                         val intent = Intent(this@NewRestaurantDetailsActivity, ConfirmOrderActivity::class.java)
                         intent.putExtra(AppConstants.INTENT_STRING_ORDER_TYPE, AppConstants.ORDER_TYPE_RESTAURANT)
                         intent.putExtra(AppConstants.INTENT_STRING_CART_DETAIL, cartDetails as Serializable)
@@ -246,13 +246,13 @@ class NewRestaurantDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnR
 
     override fun onSucessDataDelete() {
         //super.onBackPressed()
-        DeliveryEverything.getAppSharedPreference().itemQuantity = ""
+        FoodnFine.appSharedPreference!!.itemQuantity = ""
         overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
         finish()
     }
 
     override fun onBackPressed() {
-        if (DeliveryEverything.getAppSharedPreference().itemQuantity == "") {
+        if (FoodnFine.appSharedPreference!!.itemQuantity == "") {
             //super.onBackPressed()
             overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
             finish()
@@ -278,13 +278,13 @@ class NewRestaurantDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnR
         when (item.itemId) {
             R.id.menu_main2_shopping_cart -> {
                 val userRequest = UserRequest()
-                userRequest.userId = DeliveryEverything.getAppSharedPreference().userId
+                userRequest.userId = FoodnFine.appSharedPreference!!.userId
                 userRequest.orderType = "restaurant"
                 makeCartDetailsRequest(userRequest)
                 return true
             }
             android.R.id.home -> {
-                if (DeliveryEverything.getAppSharedPreference().itemQuantity == "") {
+                if (FoodnFine.appSharedPreference!!.itemQuantity == "") {
                     super.onBackPressed()
                     overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
                     finish()

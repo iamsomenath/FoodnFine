@@ -13,7 +13,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseViewModel;
 import snd.orgn.foodnfine.callbacks.CallbackAddAddress;
 import snd.orgn.foodnfine.callbacks.CallbackAddressDetailsFromId;
@@ -49,7 +49,7 @@ public class AddAdressViewModel extends BaseViewModel {
 
     public AddAdressViewModel() {
         apiInterface = getAPIInterface();
-        appDatabase = DeliveryEverything.getAppDatabase();
+        appDatabase = FoodnFine.getAppDatabase();
         addressLists = new ArrayList<>();
         addressDetails = new AddressDetails();
 

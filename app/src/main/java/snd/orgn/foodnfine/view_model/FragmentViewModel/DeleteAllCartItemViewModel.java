@@ -5,7 +5,7 @@ import android.annotation.SuppressLint;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseViewModel;
 import snd.orgn.foodnfine.callbacks.CallbackAllDeleteCartItem;
 import snd.orgn.foodnfine.rest.api.ApiInterface;
@@ -33,7 +33,7 @@ public class DeleteAllCartItemViewModel extends BaseViewModel {
     }
 
     private void makeRequest() {
-        String request = DeliveryEverything.getAppSharedPreference().getUserId();
+        String request = FoodnFine.getAppSharedPreference().getUserId();
         makeDeleteAllcartItemRequest(request);
     }
 

@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProviders;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.DeliveryEverything;
+import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
 import snd.orgn.foodnfine.callbacks.CallbackOtpVerification;
 import snd.orgn.foodnfine.helper.dailog.LoadingDialogHelper;
@@ -152,7 +152,7 @@ public class OtpCheckActivity extends BaseActivity implements CallbackOtpVerific
     private UserData getUserDataForResendOtp() {
         UserData userData = new UserData();
         userData.setUserMobile(String.valueOf(userMobile));
-        userData.setDev_key(String.valueOf(DeliveryEverything.getAppSharedPreference().getDevKey()));
+        userData.setDev_key(String.valueOf(FoodnFine.getAppSharedPreference().getDevKey()));
         return userData;
     }
 
@@ -200,7 +200,7 @@ public class OtpCheckActivity extends BaseActivity implements CallbackOtpVerific
     @Override
     public void onSuccess() {
         loadingDialogHelper.dismiss();
-        DeliveryEverything.getAppSharedPreference().setUserMobile(userMobile);
+        FoodnFine.getAppSharedPreference().setUserMobile(userMobile);
         goTodashboard();
     }
 
