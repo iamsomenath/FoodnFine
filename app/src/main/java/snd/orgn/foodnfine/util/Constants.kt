@@ -2,7 +2,7 @@ package snd.orgn.foodnfine.util
 
 object Constants {
 
-    val ROOT_URL = "http://staging.aspinfotech.co.in/foodnfine/api/"
+    val ROOT_URL = "http://staging.tcmstunner.com/foodnfine/api/"
 
     val APP_VERSION = "1"
 

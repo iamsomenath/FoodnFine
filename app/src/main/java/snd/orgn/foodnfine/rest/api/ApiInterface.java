@@ -35,31 +35,31 @@ import snd.orgn.foodnfine.rest.response.SubscriptionResponse;
 public interface ApiInterface {
 
     /*@FormUrlEncoded
-    @POST("api/service.php?action=signup")
+    @POST("service.php?action=signup")
     Observable<RestResponse> phoneNumberCheck(@Field("user_mobile") String userMobile, @Field("dev_key") String devKey);*/
     @FormUrlEncoded
-    @POST("api/service.php?action=signup")
+    @POST("service.php?action=signup")
     Call<ResponseBody> phoneNumberCheck(@Field("user_mobile") String user_mobile, @Field("dev_key") String dev_key);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=verifyotp")
+    @POST("service.php?action=verifyotp")
     Observable<RestResponse> verifyOtp(@Field("user_mobile") String userMobile, @Field("otp") String otp);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=resendotp")
+    @POST("service.php?action=resendotp")
     Observable<RestResponse> resendOtp(@Field("user_mobile") String userMobile, @Field("dev_key") String devKey);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=user_updateprofile")
+    @POST("service.php?action=user_updateprofile")
     Observable<RestResponse> updateProfile(@Field("user_nm") String userName, @Field("user_eml") String user_email,
                                            @Field("user_id") String userId);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=user_profile")
+    @POST("service.php?action=user_profile")
     Call<ResponseBody> getUserProfile(@Field("user_id") String userId);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=addlocation")
+    @POST("service.php?action=addlocation")
     Observable<RestResponse> addAddressLocation(@Field("user_id") String userId, @Field("location") String location,
                                                 @Field("house") String house, @Field("building") String building,
                                                 @Field("landmark") String landmark, @Field("instruction") String instruction,
@@ -68,7 +68,7 @@ public interface ApiInterface {
                                                 @Field("location_type") String locationType, @Field("other_desc") String otherDesc);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=updateaddress")
+    @POST("service.php?action=updateaddress")
     Observable<RestResponse> updateAddressLocation(@Field("user_add_id") String userAddId, @Field("user_id") String userId,
                                                    @Field("location") String location, @Field("house") String house,
                                                    @Field("building") String building, @Field("landmark") String landmark,
@@ -79,30 +79,30 @@ public interface ApiInterface {
                                                    @Field("other_desc") String otherDesc);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=getaddress")
+    @POST("service.php?action=getaddress")
     Observable<RestResponse> getUserAddress(@Field("user_id") String userId);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=getaddress")
+    @POST("service.php?action=getaddress")
     Call<List<AddressDetails>> getUserAddressList(@Field("user_id") String userId);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=deleteaddress")
+    @POST("service.php?action=deleteaddress")
     Call<ResponseBody> deleteUserAddress(@Field("user_id") String userId, @Field("address_id") String address_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=getcategory")
+    @POST("service.php?action=getcategory")
     Call<List<AddressDetails>> getCategoryList(@Field("user_id") String userId);
 
-    @GET("api/service.php?action=all_package")
+    @GET("service.php?action=all_package")
     Call<List<PackageDetails>> getPackageList();
 
-    @GET("api/service.php?action=kmcharges")
+    @GET("service.php?action=kmcharges")
     Observable<KmChargesRestResponse> getKmcharges();
 
     // for package
     @FormUrlEncoded
-    @POST("api/service.php?action=pickup_request")
+    @POST("service.php?action=pickup_request")
     Observable<RestResponsePickup> pickupRequest(@Field("user_id") String userId, @Field("pickup_add") String pickupAdd,
                                                  @Field("delivar_add") String deliveryAdd, @Field("package_id") String packageId,
                                                  @Field("distance") String distance, @Field("charges") String charges,
@@ -112,46 +112,46 @@ public interface ApiInterface {
                                                  @Field("txn_id") String txn_id, @Field("currency_code") String currency_code,
                                                  @Field("pickup_address_lat") String pick_up_lat, @Field("pickup_address_lon") String pick_up_lon);
 
-    @POST("api/service.php?action=all_restaurant")
+    @POST("service.php?action=all_restaurant")
     Observable<RestrurentRestResponse> getAllRestaurant();
 
-    //@POST("api/service.php?action=all_grocery")
-    @POST("api/service.php?action=all_fnf_shop")
+    //@POST("service.php?action=all_grocery")
+    @POST("service.php?action=all_fnf_shop")
     Observable<GroceryRestResponse> getAllGrocery();
 
     @GET
     Call<ResponseBody> get_Distance_Duration(@Url String ur);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=getfood_cateory")
+    @POST("service.php?action=getfood_cateory")
     Observable<FoodcategoryListResponse> getFoodCategoryResquest(@Field("rest_id") String restId);
 
-    @POST("api/service.php?action=grocery_main_category")
+    @POST("service.php?action=grocery_main_category")
     Observable<GroceryMainCategoryListResponse> getGroceryCategoryResquest();
 
     @FormUrlEncoded
-    @POST("api/service.php?action=getfood_byrestid")
+    @POST("service.php?action=getfood_byrestid")
     Observable<FoodcategoryListResponse> getFoodResquest(@Field("rest_id") String restId,@Field("food_catid") String foodCatId);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=product_bycategoryid")
+    @POST("service.php?action=product_bycategoryid")
     Observable<GroceryAllProductListResponse> getAllProductListResquest(@Field("category_id") String categoryId);
 
     // Delete Cart
     @FormUrlEncoded
-    @POST("api/service.php?loaditem=delete_cart")
+    @POST("service.php?loaditem=delete_cart")
     Observable<RestRespnseDeleteCart> delete_cart(@Field("user_id") String user_id, @Field("cart_id") String cart_id);
 
     // Add to Cart
     @FormUrlEncoded
-    @POST("api/service.php?loaditem=addtocart")
+    @POST("service.php?loaditem=addtocart")
     Observable<AddToCartRestResponse> add_to_cart(@Field("user_id") String user_id, @Field("pid") String pid,
                                                   @Field("qty") String qty, @Field("dev_key") String dev_key,
                                                   @Field("order_type") String orderType, @Field("price") Integer price,
                                                   @Field("rest_grocery") String restGrocery);
 
     @FormUrlEncoded
-    @POST("api/service.php?loaditem=addtocart")
+    @POST("service.php?loaditem=addtocart")
     Call<ResponseBody> addToCart(@Field("user_id") String user_id, @Field("pid") String pid,
                                             @Field("qty") String qty, @Field("dev_key") String dev_key,
                                             @Field("order_type") String orderType, @Field("price") Integer price,
@@ -159,24 +159,24 @@ public interface ApiInterface {
 
     // Update Cart
     @FormUrlEncoded
-    @POST("api/service.php?loaditem=update_cart")
+    @POST("service.php?loaditem=update_cart")
     Observable<RestRespnseDeleteCart> update_cart(@Field("user_id") String user_id, @Field("cart_id") String cart_id,
                                                   @Field("qty") String qty, @Field("price") Integer price);
 
     @FormUrlEncoded
-    @POST("api/service.php?loaditem=cartdetail")
+    @POST("service.php?loaditem=cartdetail")
     Observable<RestResponseCart> getCartDetails(@Field("user_id") String user_id, @Field("order_type") String orderType);
 
     @FormUrlEncoded
-    @POST("api/service.php?loaditem=mdelete_cart")
+    @POST("service.php?loaditem=mdelete_cart")
     Observable<RestRespnseDeleteCart> deleteAllCartDetails(@Field("user_id") String user_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=customer_view_order")
+    @POST("service.php?action=customer_view_order")
     Observable<OrderDetailsResponse> customerOrderList(@Field("user_id") String user_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=place_order")
+    @POST("service.php?action=place_order")
     Observable<RestResponsePlaceOrder> placeOrder(@Field("order_details") JSONArray orderDetails, @Field("user_id") String userId,
                                                   @Field("remark") String remark, @Field("total_price") String totalPrice,
                                                   @Field("pay_mode") String payMode, @Field("pay_id") String payId,
@@ -191,7 +191,7 @@ public interface ApiInterface {
                                                   @Field("total_product_price") String total_product_price);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=place_order")
+    @POST("service.php?action=place_order")
     Call<ResponseBody> placeOrderNew(@Field("order_details") JSONArray orderDetails, @Field("user_id") String userId,
                                      @Field("remark") String remark, @Field("total_price") String totalPrice,
                                      @Field("pay_mode") String payMode, @Field("pay_id") String payId,
@@ -210,7 +210,7 @@ public interface ApiInterface {
     // *************  currently not required **********
     // for swadesi, electronic, medicine
     @FormUrlEncoded
-    @POST("api/service.php?action=place_order")
+    @POST("service.php?action=place_order")
     Call<RestResponsePlaceOrder> placeOrderSwadesi(@Field("order_details") JSONArray orderDetails, @Field("user_id") String userId,
                                                    @Field("remark") String remark, @Field("total_price") String totalPrice,
                                                    @Field("pay_mode") String payMode, @Field("pay_id") String payId,
@@ -219,79 +219,79 @@ public interface ApiInterface {
                                                    @Field("txn_id") String txn_id, @Field("currency_code") String currency_code,
                                                    @Field("parent_id") String parent_id, @Field("rest_grocery_id") String rest_grocery_id);
 
-    @GET("api/service.php?action=subscription_charges")
+    @GET("service.php?action=subscription_charges")
     Observable<SubscriptionResponse> getSubcriptionPlain();
 
     @FormUrlEncoded
-    @POST("api/service.php?action=user_subscription")
+    @POST("service.php?action=user_subscription")
     Observable<RestResponsePlaceOrder> confirmSubcriptionPlain(@Field("user_id") String userId,
                                                                @Field("subscription_plan_id") String subscription_plan_id,
                                                                @Field("subscription_plan") String subscriptionPlan,
                                                                @Field("pay_id") String payId, @Field("pay_type") String payType);
 
     /* New API*/
-    /*@GET("api/service.php?action=household_essentials")
+    /*@GET("service.php?action=household_essentials")
     Call<ResponseBody> household_essentials();*/
     @FormUrlEncoded
-    @POST("api/service.php?action=household_essentials")
+    @POST("service.php?action=household_essentials")
     Call<ResponseBody> household_essentials(@Field("user_id") String user_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=cms_detail")
+    @POST("service.php?action=cms_detail")
     Call<ResponseBody> contactus(@Field("cms_type") String userId);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=grocery_detail")
+    @POST("service.php?action=grocery_detail")
     Call<ResponseBody> groceryDetail(@Field("grocery_id") String grocery_id, @Field("user_id") String user_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=resturent_detail")
+    @POST("service.php?action=resturent_detail")
     Call<ResponseBody> restaurantDetail(@Field("resturent_id") String resturent_id, @Field("user_id") String user_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=cms_detail")
+    @POST("service.php?action=cms_detail")
     Call<ResponseBody> about_page(@Field("cms_type") String userId);
 
     // for electronic & grocery shop details
     @FormUrlEncoded
-    @POST("api/service.php?action=swadeshi_product")
+    @POST("service.php?action=swadeshi_product")
     Call<ResponseBody> swadeshi_product(@Field("grocery_id") String grocery_id, @Field("user_id") String user_id);//shop_id = grocery_id
 
     @FormUrlEncoded
-    @POST("api/service.php?action=swadeshi_pro_detail")
+    @POST("service.php?action=swadeshi_pro_detail")
     Call<ResponseBody> swadeshi_pro_detail(@Field("product_id") String product_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=all_shop")
+    @POST("service.php?action=all_shop")
     Observable<ElecMedRestResponse> get_all_shop(@Field("shop_type") String shop_type);
 
-    @GET("api/service.php?action=all_coupon")
+    @GET("service.php?action=all_coupon")
     Call<ResponseBody> all_coupon();
 
     @FormUrlEncoded
-    @POST("api/service.php?action=global_search")
+    @POST("service.php?action=global_search")
     Observable<SearchResponse> searchResult(@Field("key") String key);
 
     /* @FormUrlEncoded
-    @POST("api/service.php?action=used_copon")
+    @POST("service.php?action=used_copon")
     Observable<CouponDTO> used_coupon(@Field("copoun_code") String copoun_code, @Field("user_id") String user_id,
                                       @Field("coupon_category") String coupon_category, @Field("res_id_gro_id") String res_id_gro_id);*/
 
     @FormUrlEncoded
-    @POST("api/service.php?action=used_copon")
+    @POST("service.php?action=used_copon")
     Call<ResponseBody> used_coupon(@Field("copoun_code") String copoun_code, @Field("user_id") String user_id,
                                    @Field("coupon_category") String coupon_category, @Field("res_id_gro_id") String res_id_gro_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=GetAllCancelOrder")
+    @POST("service.php?action=GetAllCancelOrder")
     Call<ResponseBody> getAllCancelOrder(@Field("user_id") String user_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=UserCancelOrder")
+    @POST("service.php?action=UserCancelOrder")
     Call<ResponseBody> cancelOrder(@Field("user_id") String user_id, @Field("order_id") String order_id);
 
     @FormUrlEncoded
-    @POST("api/service.php?action=delivery_boy_assign_order")
+    @POST("service.php?action=delivery_boy_assign_order")
     Observable<RestResponseAssignOrder> delivery_boy_assign_order(@Field("order_number") String order_number);
 
 }

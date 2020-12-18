@@ -59,7 +59,6 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
         setContentView(R.layout.activity_account_details);
         ButterKnife.bind(this);
         loadingDialog = new LoadingDialog(this);
-        initViewModel();
         initFields();
     }
 
@@ -106,6 +105,7 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
     @Override
     public void onResume(){
         super.onResume();
+        viewModel = ViewModelProviders.of(this).get(AccountDetailsViewModel.class);
         viewModel.getUserData(this, FoodnFine.getAppSharedPreference().getUserId());
     }
 
@@ -113,11 +113,6 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
         //Intent intent = new Intent(this, NotificationActivity.class);
         Intent intent = new Intent(this, OffersActivity.class);
         startActivity(intent);
-    }
-
-    private void initViewModel() {
-        viewModel = ViewModelProviders.of(this).get(AccountDetailsViewModel.class);
-        viewModel.getUserData(this, FoodnFine.getAppSharedPreference().getUserId());
     }
 
     private void gotoOrderPage() {

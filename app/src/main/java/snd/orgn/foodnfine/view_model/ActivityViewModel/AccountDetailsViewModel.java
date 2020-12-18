@@ -100,7 +100,7 @@ public class AccountDetailsViewModel extends BaseViewModel {
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 try {
                     JSONObject jsonObject = new JSONObject(response.body().string());
-                    Log.d("TESY", jsonObject.toString() + userId);
+                    //Log.d("TESY", jsonObject.toString() + userId);
                     if (jsonObject.getString("status").equalsIgnoreCase(WEBSERVICE_SUCCESS)) {
                         JSONArray jsonArray = jsonObject.getJSONArray("profile");
                         JSONObject jsonObject1 = jsonArray.getJSONObject(0);

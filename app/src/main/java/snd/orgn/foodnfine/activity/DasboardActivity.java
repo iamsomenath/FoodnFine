@@ -69,7 +69,7 @@ import snd.orgn.foodnfine.view_model.FragmentViewModel.PackageListViewModel;
 
 import static snd.orgn.foodnfine.constant.AppConstants.MAP_API;
 
-public class DasboardActivity extends BaseActivity implements CallbackgetAllPackageList, CallbackGetChargesInKM {
+public class DasboardActivity extends BaseActivity {
 
     private TextView mTextMessage;
     @BindView(R.id.imageSlider)
@@ -109,11 +109,6 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
     View rootView;
     SessionManager sessionManager;
 
-    public static int chargesInDoubleInOneKm = 0;
-    public static int chargesInDoubleInFiveKm = 0;
-    public static int chargesInDoubleInTenKm = 0;
-    public static int chargesInDoubleInGrater10Km = 0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -150,8 +145,8 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
     public void initFields() {
         setupContentView();
         initImageSlider();
-        viewModel.getPackageList();
-        viewModel.getKMCharges();
+        //viewModel.getPackageList();
+        //viewModel.getKMCharges();
     }
 
     @Override
@@ -404,18 +399,6 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
 
     private void initViewModel() {
         viewModel = ViewModelProviders.of(this).get(PackageListViewModel.class);
-        viewModel.setCallback(this);
-        viewModel.setCallback2(this);
-    }
-
-    @Override
-    public void onSuccess() {
-        // Toast.makeText(this,"Data fetch",Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    public void onError(String message) {
-
     }
 
    /* @Override
@@ -430,18 +413,6 @@ public class DasboardActivity extends BaseActivity implements CallbackgetAllPack
         DeliveryEverything.getAppSharedPreference().saveCost3(String.valueOf(chargesInDoubleInTenKm));
         DeliveryEverything.getAppSharedPreference().saveCost4(String.valueOf(chargesInDoubleInGrater10Km));
     }*/
-
-    @Override
-    public void onSuccessGetCharges(String fixed_cost, String per_kilometer) {
-        FoodnFine.getAppSharedPreference().savePerKm(per_kilometer);
-        FoodnFine.getAppSharedPreference().saveFixedCost(fixed_cost);
-        //Log.d("TEST!!!", fixed_cost + " " + per_kilometer);
-    }
-
-    @Override
-    public void onfailure() {
-        Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
-    }
 
     private void featchCurrentLocation() {
         Dexter.withActivity(DasboardActivity.this)
