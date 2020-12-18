@@ -15,6 +15,7 @@ import snd.orgn.foodnfine.data.shared_presferences.SessionManager
 import snd.orgn.foodnfine.util.snackbar
 import snd.orgn.foodnfine.util.LoadingDialog
 import snd.orgn.foodnfine.util.NetworkChangeReceiver
+import snd.orgn.foodnfine.util.toast
 
 class SignUpActivity : AppCompatActivity(), SignupVIew {
 
@@ -142,11 +143,11 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
     }
 
     private fun showPopup(message: String) {
-        val dialog = SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
+        /*val dialog = SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
         dialog.titleText = getString(R.string.app_name)
         dialog.setCancelable(false)
         dialog.contentText = message
-        dialog.confirmText = "DONE"
+        dialog.confirmText = "LOGIN"
         dialog.setConfirmClickListener { sDialog ->
             sDialog.dismissWithAnimation()
             startActivity(Intent(this, LoginActivity::class.java))
@@ -156,7 +157,14 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
             )
             finishAffinity()
         }
-        dialog.show()
+        dialog.show()*/
+        toast("Your registration is successful. Please login to proceed.")
+        startActivity(Intent(this, LoginActivity::class.java))
+        overridePendingTransition(
+                R.anim.left_in,
+                R.anim.right_out
+        )
+        finishAffinity()
     }
 
     override fun onBackPressed() {

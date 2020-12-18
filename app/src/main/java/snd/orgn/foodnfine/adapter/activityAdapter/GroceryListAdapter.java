@@ -133,9 +133,6 @@ public class GroceryListAdapter extends RecyclerView.Adapter<GroceryListAdapter.
                         //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInGrater10Km));
                         DeliveryEverything.getAppSharedPreference().saveDeliveryCost(DeliveryEverything.getAppSharedPreference().getCost4());*/
 
-                    FoodnFine.getAppSharedPreference().saveDeliveryCost(
-                            String.valueOf(distance * Double.parseDouble(FoodnFine.getAppSharedPreference().getPerKm())));
-
                     //Toast.makeText(activity, "Distance : " + distance, Toast.LENGTH_SHORT).show();
                     //Toast.makeText(activity, Double.parseDouble(DeliveryEverything.getAppSharedPreference().getPerKm()) + "", Toast.LENGTH_SHORT).show();
 
