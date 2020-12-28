@@ -47,17 +47,17 @@ public class MyNotificationManager {  // For Oreo Version
 
         NotificationCompat.Builder builder =
                 new NotificationCompat.Builder(mCtx, Config.CHANNEL_ID)
-                        .setSmallIcon(R.drawable.twiclo_logo)
-                        .setLargeIcon(BitmapFactory.decodeResource(mCtx.getResources(), R.drawable.twiclo_logo))
+                        .setSmallIcon(R.drawable.new_logo)
+                        .setLargeIcon(BitmapFactory.decodeResource(mCtx.getResources(), R.drawable.new_logo))
                         .setContentTitle(title)
                         .setContentText(message);
 
-        builder.setSmallIcon(R.drawable.twiclo_logo);
+        builder.setSmallIcon(R.drawable.new_logo);
 
         Intent intent = new Intent(mCtx, DasboardActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(mCtx, 0, intent, 0);
         builder.setContentIntent(pendingIntent);
-        builder.setLargeIcon(BitmapFactory.decodeResource(mCtx.getResources(), R.drawable.twiclo_logo));
+        builder.setLargeIcon(BitmapFactory.decodeResource(mCtx.getResources(), R.drawable.new_logo));
         builder.setContentTitle(title);
         builder.setContentText(message);
         builder.setAutoCancel(true);

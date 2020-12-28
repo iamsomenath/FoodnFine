@@ -42,7 +42,7 @@
             android:name="snd.orgn.foodnfine.activity.NewGroceryDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="snd.orgn.foodnfine.ForgotPasswordActivity"
+            android:name="snd.orgn.foodnfine.activity.ForgotPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
             android:windowSoftInputMode="stateHidden"
@@ -201,7 +201,7 @@
             android:value="@string/default_notification_channel_id" /> <!-- ./Firebase Notifications -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/twiclo_logo" />
+            android:resource="@drawable/new_logo" />
 
         <service android:name="snd.orgn.foodnfine.firebase.MyFirebaseMessagingService">
             <intent-filter>

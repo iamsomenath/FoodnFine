@@ -23,7 +23,6 @@ public class NetworkHelper {
 
         return new Retrofit.Builder()
                 .baseUrl(WebConstants.DOMAIN_NAME)
-                //.baseUrl(DOMAIN_NAME)
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)

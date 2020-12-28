@@ -47,7 +47,6 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         android:windowSoftInputMode="adjustPan" >
@@ -226,7 +225,7 @@
             android:value="@string/default_notification_channel_id" /> <!-- ./Firebase Notifications -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/twiclo_logo" />
+            android:resource="@drawable/new_logo" />
 
         <service android:name="snd.orgn.foodnfine.firebase.MyFirebaseMessagingService" >
             <intent-filter>

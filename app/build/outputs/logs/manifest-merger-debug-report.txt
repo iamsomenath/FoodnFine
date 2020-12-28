@@ -748,9 +748,9 @@ ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:200:13-89
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:202:9-204:56
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:202:9-204:53
 	android:resource
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:204:13-53
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:204:13-50
 	android:name
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:203:13-83
 service#snd.orgn.foodnfine.firebase.MyFirebaseMessagingService

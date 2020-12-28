@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\6cd2bc32359190bc8af44e5bd690a7c7\\jetified-places-1.0.0\\res\\values-b+sr+Latn\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "0,0,0,0,0,0,0,0",
+                        "startOffsets": "191,266,332,425,492,537,604,691",
+                        "endColumns": "74,65,92,66,44,66,86,54",
+                        "endOffsets": "265,331,424,491,536,603,690,745"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "5807,5886,5956,6053,6124,6173,6244,6335",
+                        "endColumns": "78,69,96,70,48,70,90,58",
+                        "endOffsets": "5881,5951,6048,6119,6168,6239,6330,6389"
+                    }
+                },
+                {
                     "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\f79e7ad3cd5b668fcbf0cd8abd2784eb\\jetified-play-services-base-17.0.0\\res\\values-b+sr+Latn\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -55,40 +72,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\2ccb7cc7dc380f2720be306a307a3fc5\\jetified-places-1.0.0\\res\\values-b+sr+Latn\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11",
-                        "startColumns": "0,0,0,0,0,0,0,0",
-                        "startOffsets": "191,266,332,425,492,537,604,691",
-                        "endColumns": "74,65,92,66,44,66,86,54",
-                        "endOffsets": "265,331,424,491,536,603,690,745"
-                    },
-                    "to": {
-                        "startLines": "50,51,52,53,54,55,56,57",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "5807,5886,5956,6053,6124,6173,6244,6335",
-                        "endColumns": "78,69,96,70,48,70,90,58",
-                        "endOffsets": "5881,5951,6048,6119,6168,6239,6330,6389"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\204a56cbdfdb9cde5eeeeba3f440a60c\\jetified-play-services-places-16.0.0\\res\\values-b+sr+Latn\\values.xml",
-                    "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "200,304",
-                        "endColumns": "103,95",
-                        "endOffsets": "303,399"
-                    },
-                    "to": {
-                        "startLines": "48,49",
-                        "startColumns": "4,4",
-                        "startOffsets": "5599,5707",
-                        "endColumns": "107,99",
-                        "endOffsets": "5702,5802"
-                    }
-                },
-                {
                     "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\1e15017b057b4608654ca810a7133120\\jetified-firebase-messaging-20.3.0\\res\\values-b+sr+Latn\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -103,6 +86,23 @@
                         "startOffsets": "5495",
                         "endColumns": "103",
                         "endOffsets": "5594"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\593677e3d79401732a54866580908650\\jetified-play-services-places-16.0.0\\res\\values-b+sr+Latn\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "200,304",
+                        "endColumns": "103,95",
+                        "endOffsets": "303,399"
+                    },
+                    "to": {
+                        "startLines": "48,49",
+                        "startColumns": "4,4",
+                        "startOffsets": "5599,5707",
+                        "endColumns": "107,99",
+                        "endOffsets": "5702,5802"
                     }
                 },
                 {

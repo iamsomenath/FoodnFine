@@ -18,6 +18,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 import snd.orgn.foodnfine.login_mvp.LoginActivity;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.application.FoodnFine;
@@ -176,6 +177,7 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
         alertDialog2.setPositiveButton("Yes",
                 (dialog, which) -> {
                     FoodnFine.getAppSharedPreference().clearData();
+                    new SessionManager(this).logoutUser();
                     goToLoginActivity();
                 });
         alertDialog2.setNegativeButton("NO",

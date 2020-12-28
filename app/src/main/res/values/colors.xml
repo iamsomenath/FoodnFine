@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#9c4cf9</color>
-    <color name="colorPrimaryDark">#5c13f8</color>
-    <color name="colorAccent">#4B13C7</color>
+    <color name="colorPrimary">#fa2c05</color>
+    <color name="colorPrimaryDark">#E32602</color>
+    <color name="colorAccent">#09b01a</color>
 
     <color name="cream">#ede9da</color>
 
     <color name="hintTextColor">#999999</color>
     <color name="buttonTextColor">#00d290</color>
-    <color name="dashboardDeepColor">#5c13f8</color>
-    <color name="dashboardlightColor">#9c4cf9</color>
+    <color name="dashboardDeepColor">#E32602</color>
+    <color name="dashboardlightColor">#fa2c05</color>
     <color name="lightGrayColor">#ececec</color>
     <color name="white_background">#ffff</color>
     <color name="text_colo_black">#070707</color>

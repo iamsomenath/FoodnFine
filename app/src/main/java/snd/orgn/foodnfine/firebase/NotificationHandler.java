@@ -25,8 +25,8 @@ public class NotificationHandler {
 
         NotificationCompat.Builder builder =
                 new NotificationCompat.Builder(mContext, Config.CHANNEL_ID)
-                        .setSmallIcon(R.drawable.twiclo_logo)
-                        .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.twiclo_logo))
+                        .setSmallIcon(R.drawable.new_logo)
+                        .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.new_logo))
                         .setContentTitle(title)
                         .setContentText(message);
 
@@ -35,7 +35,7 @@ public class NotificationHandler {
         PendingIntent pendingIntent = PendingIntent.getActivity(mContext, 0, intent, 0);
         builder.setContentIntent(pendingIntent);
         //builder.setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.mipmap.ic_launcher_round));
-        builder.setSmallIcon(R.drawable.twiclo_logo);
+        builder.setSmallIcon(R.drawable.new_logo);
         builder.setContentTitle(title);
         builder.setContentText(message);
         builder.setAutoCancel(true);

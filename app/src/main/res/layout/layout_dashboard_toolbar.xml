@@ -44,13 +44,14 @@
                     android:layout_weight="0.4"
                     android:gravity="center">
 
-
                     <ImageView
                         android:id="@+id/iv_dashboard_location"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_9sdp"
+                        app:tint="@color/colorPrimary"
                         android:src="@drawable/ic_location_das" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -98,6 +99,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_10sdp"
+                        app:tint="@color/colorPrimary"
                         android:src="@drawable/ic_user_profile"
                         android:visibility="visible" />
 

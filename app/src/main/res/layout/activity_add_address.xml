@@ -70,12 +70,12 @@
                         android:textSize="@dimen/_12sdp"
                         android:textStyle="bold" />
 
-
                 </LinearLayout>
 
-
             </RelativeLayout>
+
         </androidx.appcompat.widget.Toolbar>
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <ScrollView
@@ -91,15 +91,9 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <include layout="@layout/search_location_layout"/>
 
-            <include layout="@layout/search_location_layout">
-
-            </include>
-
-
-            <include layout="@layout/modular_item_address_item_add_address">
-
-            </include>
+            <include layout="@layout/modular_item_address_item_add_address"/>
 
             <LinearLayout
                 android:layout_width="match_parent"

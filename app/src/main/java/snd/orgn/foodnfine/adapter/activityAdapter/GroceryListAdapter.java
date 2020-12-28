@@ -98,6 +98,7 @@ public class GroceryListAdapter extends RecyclerView.Adapter<GroceryListAdapter.
                 network = networkChangeReceiver.isNetworkAvailable();
                 if (network) {
                     //Log.d("LAT-LON", DeliveryEverything.getAppSharedPreference().getLatitude() + " " + DeliveryEverything.getAppSharedPreference().getLongitude());
+
                     Location startPoint = new Location("locationA");
                     startPoint.setLatitude(Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLatitude())));
                     startPoint.setLongitude(Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLongitude())));
@@ -109,32 +110,6 @@ public class GroceryListAdapter extends RecyclerView.Adapter<GroceryListAdapter.
                             Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLongitude())),
                             Double.parseDouble(FoodnFine.getAppSharedPreference().getLatitude()),
                                     Double.parseDouble(FoodnFine.getAppSharedPreference().getLongitude()));
-                    //double distance = CalculateDistance(22.6519, 88.3786, 22.5303, 88.3436);
-                    //Log.d("DISTANCE", Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLatitude())) + "");
-                    //Log.d("DISTANCE", Double.parseDouble(Objects.requireNonNull(allRestaurantsList.get(getAdapterPosition()).getLongitude())) + "");
-                    //Log.d("DISTANCE", Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLatitude()) + "");
-                    //Log.d("DISTANCE", Double.parseDouble(DeliveryEverything.getAppSharedPreference().getLongitude()) + "");
-
-                    /*Toast.makeText(activity, DeliveryEverything.getAppSharedPreference().getCost1(), Toast.LENGTH_SHORT).show();
-                    Toast.makeText(activity, DeliveryEverything.getAppSharedPreference().getCost2(), Toast.LENGTH_SHORT).show();
-                    Toast.makeText(activity, DeliveryEverything.getAppSharedPreference().getCost3(), Toast.LENGTH_SHORT).show();
-                    Toast.makeText(activity, DeliveryEverything.getAppSharedPreference().getCost4(), Toast.LENGTH_SHORT).show();*/
-
-                    /*if (distance <= 1.0)
-                        //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInOneKm));
-                        DeliveryEverything.getAppSharedPreference().saveDeliveryCost(DeliveryEverything.getAppSharedPreference().getCost1());
-                    else if (distance < 5.0)
-                        //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInFiveKm));
-                        DeliveryEverything.getAppSharedPreference().saveDeliveryCost(DeliveryEverything.getAppSharedPreference().getCost2());
-                    else if (distance < 10.0)
-                        //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInTenKm));
-                        DeliveryEverything.getAppSharedPreference().saveDeliveryCost(DeliveryEverything.getAppSharedPreference().getCost3());
-                    else //if(distance>10)
-                        //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInGrater10Km));
-                        DeliveryEverything.getAppSharedPreference().saveDeliveryCost(DeliveryEverything.getAppSharedPreference().getCost4());*/
-
-                    //Toast.makeText(activity, "Distance : " + distance, Toast.LENGTH_SHORT).show();
-                    //Toast.makeText(activity, Double.parseDouble(DeliveryEverything.getAppSharedPreference().getPerKm()) + "", Toast.LENGTH_SHORT).show();
 
                     Intent intent = new Intent(activity, NewGroceryDetailsActivity.class);
                     intent.putExtra("grocery_id", allRestaurantsList.get(getAdapterPosition()).getGroceryId());

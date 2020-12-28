@@ -3,10 +3,17 @@ package snd.orgn.foodnfine.view_model.ActivityViewModel;
 import android.annotation.SuppressLint;
 import android.util.Log;
 
+import org.json.JSONObject;
+
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 import snd.orgn.foodnfine.callbacks.CallbackAssignOrder;
+import snd.orgn.foodnfine.constant.RetrofitInstance;
 import snd.orgn.foodnfine.rest.response.RestResponseAssignOrder;
 import snd.orgn.foodnfine.rest.response.RestResponsePickup;
 import snd.orgn.foodnfine.application.FoodnFine;
@@ -88,6 +95,7 @@ public class SendPackageViewModel extends BaseViewModel {
         orderRequest.setDelivery_charge(placeOrderRequest.getDelivery_charge());
         orderRequest.setDiscount_amount(placeOrderRequest.getDiscount_amount());
         orderRequest.setOrder_actual_amount(placeOrderRequest.getOrder_actual_amount());
+        orderRequest.setTotal_product_price(placeOrderRequest.getOrder_actual_amount());
         orderRequest.setRemark_type(placeOrderRequest.getRemark_type());
         makeOrderPlaceRequest(orderRequest);
     }
@@ -154,6 +162,7 @@ public class SendPackageViewModel extends BaseViewModel {
     private void makeOrderPlaceRequest(PlaceOrderRequest request) {
         //Log.d("TESTTING", request.getDelivery_charge() + " " + request.getCancellation_charge() + " " + request.getDiscount_amount());
         //Log.d("TESTTING", request.getCoupon_category() + " " + request.getCoupon_id() + " " + request.getCopoun_type() + " " + request.getCopoun_code());
+
         Observable<RestResponsePlaceOrder> userResponseObservable = apiInterface.placeOrder(request.getOrderDetails(),
                 request.getUserId(), request.getRemark(), request.getTotalPrice(), request.getPayMode(), request.getPayId(),
                 request.getPayStatus(), request.getDelivarAdd(), request.getOrderType(), request.getRestGroceryid(),
@@ -166,15 +175,39 @@ public class SendPackageViewModel extends BaseViewModel {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(restResponse -> {
                     if (restResponse.getStatus().equals(WEB_SUCCESS)) {
-                        Log.d("TEST", restResponse.getOrderNo());
+                        //Log.d("TEST", restResponse.getOrderNo());
                         callbackSendPackage.onSuccess(restResponse.getOrderNo());
-
                     } else {
                         callbackSendPackage.OnError(restResponse.getMsg());
                     }
                 }, e -> {
                     callbackSendPackage.onNetworkError(NETWORK_ERROR_MESSAGE);
                 });
+
+        /*ApiInterface service = RetrofitInstance.getRetrofitInstance().create(ApiInterface.class);
+        Call<ResponseBody> call = service._placeOrder(request.getOrderDetails(),
+                request.getUserId(), request.getRemark(), request.getTotalPrice(), request.getPayMode(), request.getPayId(),
+                request.getPayStatus(), request.getDelivarAdd(), request.getOrderType(), request.getRestGroceryid(),
+                "", "INR", request.getCancellation_charge(),
+                request.getCopoun_code(), request.getCopoun_type(), request.getCoupon_category(), request.getCoupon_id(),
+                request.getDelivery_charge(), request.getDiscount_amount(), request.getOrder_actual_amount(), request.getRemark_type(),
+                FoodnFine.getAppSharedPreference().getFixedCost(), request.getOrder_actual_amount());
+        call.enqueue(new Callback<ResponseBody>() {
+            @Override
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                try {
+                    Log.d("TESTSS", response.body().string());
+
+                } catch (Exception e) {
+                    Log.d("TESTSS", e.toString());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                Log.d("TESTSS", t.toString());
+            }
+        });*/
     }
 
     @SuppressLint("CheckResult")

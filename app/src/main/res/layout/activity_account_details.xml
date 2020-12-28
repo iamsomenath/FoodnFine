@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_16sdp"
             android:orientation="horizontal">
+
             <TextView
                 android:id="@+id/tv_complete_account_setup"
                 android:layout_width="wrap_content"

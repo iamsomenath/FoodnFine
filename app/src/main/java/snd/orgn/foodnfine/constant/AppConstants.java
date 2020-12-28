@@ -46,7 +46,7 @@ public class AppConstants {
     public static final String INTENT_STRING_ORDER_TYPE = "ordertype";
     public static final String INTENT_STRING_CART_DETAIL = "cartDetails";
     public static final String INTENT_STRING_PROPERTY_ID = "propertyId";
-    public static final String MAP_API = "AIzaSyAaieCDoqgR7Eu_hSaWaxAv7mP6lcmOl5k";
+    public static final String MAP_API = "AIzaSyDFlZTyS3EBvOL89mDvdhNV5ErSfpzSjOM";
 
     public static final String PAGE_TYPE_WALLET_HISTORY = "Wallet History";
     public static final String PAGE_TYPE_WALLET = "Wallet";

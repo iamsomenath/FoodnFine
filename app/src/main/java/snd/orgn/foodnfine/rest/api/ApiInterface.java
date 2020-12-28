@@ -192,6 +192,21 @@ public interface ApiInterface {
 
     @FormUrlEncoded
     @POST("service.php?action=place_order")
+    Call<ResponseBody> _placeOrder(@Field("order_details") JSONArray orderDetails, @Field("user_id") String userId,
+                                                  @Field("remark") String remark, @Field("total_price") String totalPrice,
+                                                  @Field("pay_mode") String payMode, @Field("pay_id") String payId,
+                                                  @Field("pay_status") String payStatus, @Field("delivar_add") String deliveryAdd,
+                                                  @Field("order_type") String orderType, @Field("rest_grocery") String restGrocery,
+                                                  @Field("txn_id") String txn_id, @Field("currency_code") String currency_code,
+                                                  @Field("cancellation_charge") String cancellation_charge, @Field("copoun_code") String copoun_code,
+                                                  @Field("copoun_type") String copoun_type, @Field("coupon_category") String coupon_category,
+                                                  @Field("coupon_id") String coupon_id, @Field("delivery_charge") String delivery_charge,
+                                                  @Field("discount_amount") String discount_amount, @Field("order_actual_amount") String order_actual_amount,
+                                                  @Field("remark_type") String remark_type, @Field("delivery_fixed_amt") String fixed_cost,
+                                                  @Field("total_product_price") String total_product_price);
+
+    @FormUrlEncoded
+    @POST("service.php?action=place_order")
     Call<ResponseBody> placeOrderNew(@Field("order_details") JSONArray orderDetails, @Field("user_id") String userId,
                                      @Field("remark") String remark, @Field("total_price") String totalPrice,
                                      @Field("pay_mode") String payMode, @Field("pay_id") String payId,

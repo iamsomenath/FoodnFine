@@ -131,8 +131,7 @@ public class DasboardActivity extends BaseActivity {
         initViewModel();
         initFields();
         if (FoodnFine.getAppSharedPreference().getCurrentLocation().equals("") || FoodnFine.getAppSharedPreference().getCurrentLocation().length() == 0) {
-            //featchCurrentLocation();
-            location();
+            featchCurrentLocation();
         } else {
             location();
             tv_dashboard_address.setText(FoodnFine.getAppSharedPreference().getCurrentLocation());

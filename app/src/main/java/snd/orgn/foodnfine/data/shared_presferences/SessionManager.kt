@@ -114,6 +114,7 @@ class SessionManager(  // Context
 
     fun logoutUser() {
         // Clearing all data from Shared Preferences
+        editor.putBoolean(IS_LOGIN, false)
         editor.clear()
         editor.commit()
     }

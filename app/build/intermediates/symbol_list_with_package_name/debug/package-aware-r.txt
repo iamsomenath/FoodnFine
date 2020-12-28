@@ -3381,6 +3381,7 @@ drawable footerbgimg
 drawable funnel
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradian_color
 drawable gray_button_background
 drawable green_button_background
 drawable grocery
@@ -3540,6 +3541,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable new_logo
 drawable next
 drawable no_food_found
 drawable no_notifications
@@ -3623,6 +3625,7 @@ drawable slide_img_1
 drawable slider
 drawable snooze11
 drawable snooze22
+drawable splash2
 drawable splash_screen
 drawable splash_screen_background
 drawable subscription
@@ -3643,7 +3646,6 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transaction_successful
 drawable trusticon
-drawable twiclo_logo
 drawable union_bank_logo
 drawable unselected_rounded_corner
 drawable user

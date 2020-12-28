@@ -68,7 +68,7 @@ class SwadesiItemAdapter(private val context: Context, private val activity: Act
         holder.price.paintFlags = holder.price.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
 
         Picasso.get().load(itemArrayList[position].product_image)
-                .placeholder(R.drawable.twiclo_logo)
+                .placeholder(R.drawable.new_logo)
                 //.transform(new CircleTransform())
                 .into(holder.itemImage)
 

@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\4b426ab747a3b9f80d0a2fefd9efd9cc\\jetified-payumoney-sdk-7.6.0\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\ee5ff097330ce8b55710af5696d187e0\\jetified-plug-n-play-1.6.0\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,163,211,266,321,368",
+                        "endColumns": "57,49,47,54,54,46,60",
+                        "endOffsets": "108,158,206,261,316,363,424"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\34c08cab28236fc8848f88fd88aa5d97\\jetified-payumoney-sdk-7.6.0\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "429,488",
                         "endColumns": "58,37",
                         "endOffsets": "483,521"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\9cea0cf5b14fa4a2c3bec17e206c326f\\jetified-plug-n-play-1.6.0\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,113,163,211,266,321,368",
-                        "endColumns": "57,49,47,54,54,46,60",
-                        "endOffsets": "108,158,206,261,316,363,424"
                     }
                 }
             ]

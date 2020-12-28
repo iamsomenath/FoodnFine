@@ -137,7 +137,7 @@ public class AppSharedPreferences {
     }
 
     public String getFixedCost() {
-        return pref.getString(FIXED_COST, "");
+        return pref.getString(FIXED_COST, "0");
     }
 
     public void saveFixedCost(String cost) {

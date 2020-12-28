@@ -10,7 +10,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog
 import kotlinx.android.synthetic.main.activity_login.*
 import org.json.JSONException
 import org.json.JSONObject
-import snd.orgn.foodnfine.ForgotPasswordActivity
+import snd.orgn.foodnfine.activity.ForgotPasswordActivity
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.activity.GPSActivity
 import snd.orgn.foodnfine.application.FoodnFine
