@@ -537,6 +537,23 @@ attr homeAsUpIndicator
 attr homeLayout
 attr horizontalOffset
 attr hoveredFocusedTranslationZ
+attr ibv_badgeBackground
+attr ibv_badgeColor
+attr ibv_badgeLimitValue
+attr ibv_badgeOvalAfterFirst
+attr ibv_badgePadding
+attr ibv_badgePosition
+attr ibv_badgeTextColor
+attr ibv_badgeTextFont
+attr ibv_badgeTextSize
+attr ibv_badgeTextStyle
+attr ibv_badgeValue
+attr ibv_fixedBadgeRadius
+attr ibv_fixedRadius
+attr ibv_maxBadgeValue
+attr ibv_roundBadge
+attr ibv_showCounter
+attr ibv_visibleBadge
 attr icon
 attr iconEndPadding
 attr iconGravity
@@ -3281,6 +3298,7 @@ drawable avd_show_password
 drawable axis_logo
 drawable background
 drawable background_drawable
+drawable badge_background
 drawable badgeunavailable
 drawable basket
 drawable bg_home_category
@@ -3375,6 +3393,7 @@ drawable empty_cart
 drawable error_center_x
 drawable error_circle
 drawable et_background
+drawable foodstall
 drawable footer_bg_img
 drawable footer_img
 drawable footerbgimg
@@ -3590,6 +3609,7 @@ drawable quantum_ic_cloud_off_vd_theme_24
 drawable quantum_ic_search_grey600_24
 drawable radio_back
 drawable rectangle1
+drawable rectangle11
 drawable rectangle2
 drawable rectangle_box
 drawable red_button_background
@@ -3801,8 +3821,11 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id bold
 id bottom
 id bottomNavigation_dashboard
+id bottom_left
+id bottom_right
 id bounce
 id brand
 id browser_actions_header_text
@@ -3850,6 +3873,7 @@ id card_cardType_image
 id card_type
 id card_view
 id cart
+id cart_badge
 id categoryName
 id cb_blank_overlay
 id cb_emi_tenure
@@ -3980,6 +4004,7 @@ id emi_option_enable
 id emi_recycler_view
 id emi_selected_bank_name
 id emi_tenures_recycler_view
+id emptyCart
 id empty_image
 id enabled_bank_recycler_view
 id end
@@ -4094,6 +4119,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageBadgeView
 id imageSlider
 id imageView
 id imageView2
@@ -4117,6 +4143,7 @@ id is_checked2
 id is_unchecked1
 id is_unchecked2
 id italic
+id italic_bold
 id item_touch_helper_previous_elevation
 id items
 id ivBtn_add
@@ -4758,6 +4785,8 @@ id toolbar
 id toolbar_review_order_screen
 id top
 id topPanel
+id top_left
+id top_right
 id total
 id total_amount
 id total_title
@@ -4906,6 +4935,7 @@ id tv_sliderText2
 id tv_subcription_charges
 id tv_term_and_condition
 id tv_time
+id tv_title
 id tv_toolbar_title
 id tv_totalAmount
 id tv_typeOfAddress
@@ -5126,6 +5156,7 @@ layout cb_prog_dialog
 layout cb_prog_dialog_upisdk
 layout cb_progressdialog
 layout choose_action
+layout custom_action_item_layout
 layout custom_dialog
 layout custom_layout_toolbar
 layout custom_layout_toolbar2
@@ -6819,6 +6850,7 @@ styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable ImageBadgeView ibv_badgeBackground ibv_badgeColor ibv_badgeLimitValue ibv_badgeOvalAfterFirst ibv_badgePadding ibv_badgePosition ibv_badgeTextColor ibv_badgeTextFont ibv_badgeTextSize ibv_badgeTextStyle ibv_badgeValue ibv_fixedBadgeRadius ibv_fixedRadius ibv_maxBadgeValue ibv_roundBadge ibv_showCounter ibv_visibleBadge
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate

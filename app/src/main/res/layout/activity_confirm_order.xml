@@ -50,6 +50,7 @@
                     android:layout_marginStart="@dimen/_12sdp"
                     android:layout_marginTop="@dimen/_4sdp"
                     android:padding="@dimen/_5sdp"
+                    app:tint="@color/colorPrimary"
                     android:src="@drawable/ic_left_back" />
 
                 <LinearLayout
@@ -68,7 +69,7 @@
                         android:layout_marginTop="@dimen/_4sdp"
                         android:fontFamily="@font/opensans_light"
                         android:text="Confirm Order"
-                        android:textColor="@color/text_colo_black"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/_12sdp"
                         android:textStyle="bold" />
 
@@ -547,7 +548,7 @@
                         android:paddingLeft="@dimen/_10sdp"
                         android:paddingRight="@dimen/_10sdp">
 
-                        <RadioButton
+                        <!--<RadioButton
                             android:id="@+id/rb_payment_option_op"
                             android:layout_width="0dp"
                             android:layout_weight="1"
@@ -555,8 +556,24 @@
                             android:buttonTint="@color/dashboardlightColor"
                             android:gravity="center|start"
                             android:padding="@dimen/_10sdp"
+                            android:enabled="false"
+                            android:clickable="false"
                             android:text="Online Payment"
                             android:textColor="#8DAC0E"
+                            android:textSize="@dimen/_10sdp" />-->
+
+                        <RadioButton
+                            android:id="@+id/rb_payment_option_op"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#F8918E"
+                            android:gravity="center|start"
+                            android:padding="@dimen/_10sdp"
+                            android:enabled="false"
+                            android:clickable="false"
+                            android:text="Online Payment"
+                            android:textColor="#C2EA21"
                             android:textSize="@dimen/_10sdp" />
 
                         <RadioButton

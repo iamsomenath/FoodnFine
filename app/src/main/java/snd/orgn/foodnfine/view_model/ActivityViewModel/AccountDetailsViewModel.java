@@ -49,13 +49,11 @@ public class AccountDetailsViewModel extends BaseViewModel {
         makeRequest(userData);
     }
 
-
     private void makeRequest(UserDataAddAddress userData) {
                 SaveAddressDetails user = new SaveAddressDetails();
                 user.setUserId(userData.getUserId());
                 apiCallGetAddressList(user);
     }
-
 
     private void apiCallGetAddressList(SaveAddressDetails request) {
         Retrofit retrofit = new Retrofit.Builder()
@@ -74,7 +72,6 @@ public class AccountDetailsViewModel extends BaseViewModel {
                     //clearAddressDetailsInDatabase(addressLists);
                 }
             }
-
 
             @Override
             public void onFailure(Call<List<AddressDetails>> call, Throwable t) {

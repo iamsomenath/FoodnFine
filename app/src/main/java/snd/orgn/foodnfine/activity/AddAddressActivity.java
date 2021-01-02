@@ -184,13 +184,11 @@ public class AddAddressActivity extends BaseActivity implements CallbackAddAddre
         tv_toolbar_title.setText("Update Address");
     }
 
-
     private void initViewModel() {
         viewModel = ViewModelProviders.of(this).get(AddAdressViewModel.class);
         viewModel.setCallbackgetAddressDetails(this);
         viewModel.setCallbackAddAddress(this);
         viewModel.setCallbackGetAddress(this);
-
     }
 
     @Override

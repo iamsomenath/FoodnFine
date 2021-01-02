@@ -306,6 +306,10 @@ public interface ApiInterface {
     Call<ResponseBody> cancelOrder(@Field("user_id") String user_id, @Field("order_id") String order_id);
 
     @FormUrlEncoded
+    @POST("service.php?action=user_total_cart")
+    Call<ResponseBody> user_total_cart(@Field("user_id") String user_id);
+
+    @FormUrlEncoded
     @POST("service.php?action=delivery_boy_assign_order")
     Observable<RestResponseAssignOrder> delivery_boy_assign_order(@Field("order_number") String order_number);
 

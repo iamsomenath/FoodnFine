@@ -57,29 +57,24 @@
                 android:textSize="@dimen/_12sdp" />
         </LinearLayout>
 
-
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_200sdp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginTop="@dimen/_7sdp"
-            android:layout_marginEnd="@dimen/_16sdp"
-            app:elevation="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:elevation="@dimen/_10sdp"
             app:cardCornerRadius="@dimen/_10sdp">
 
             <LinearLayout
+                android:background="@drawable/rectangle11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="@dimen/_6sdp"
-                android:layout_marginEnd="@dimen/_6sdp"
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:id="@+id/iv_dashboard_otherRestaurant"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/_12sdp"
-                    android:layout_marginBottom="@dimen/_10sdp"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -89,15 +84,16 @@
                         android:layout_height="@dimen/_75sdp"
                         android:layout_gravity="center"
                         android:padding="@dimen/_2sdp"
-                        android:src="@drawable/restaurant" />
+                        android:src="@drawable/foodstall" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/_10sdp"
                         android:gravity="center"
-                        android:text="PLACE ORDER FROM ANY SHOP NEAR TO YOU"
-                        android:textColor="@color/text_colo_black"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="PLACE YOUR ORDER"
+                        android:textColor="@color/colorAccent"
                         android:textSize="@dimen/_12sdp" />
 
                 </LinearLayout>

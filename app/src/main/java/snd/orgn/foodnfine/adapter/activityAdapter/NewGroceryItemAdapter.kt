@@ -4,10 +4,11 @@ import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
 import android.graphics.Paint
+import android.graphics.Typeface
 import android.view.LayoutInflater
-import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
+import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -15,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
 import com.makeramen.roundedimageview.RoundedImageView
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.activity_new_grocery_details.*
 import okhttp3.ResponseBody
 import org.json.JSONException
 import org.json.JSONObject
@@ -23,12 +25,14 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import snd.orgn.foodnfine.model.GroceryItemPojo
+import ru.nikartm.support.BadgePosition
+import ru.nikartm.support.ImageBadgeView
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.constant.ErrorMessageConstant
 import snd.orgn.foodnfine.constant.WebConstants
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager
+import snd.orgn.foodnfine.model.GroceryItemPojo
 import snd.orgn.foodnfine.rest.api.ApiInterface
 import snd.orgn.foodnfine.rest.request.AddToCartRequest
 import snd.orgn.foodnfine.util.LoadingDialog
@@ -37,18 +41,12 @@ import java.util.*
 
 class NewGroceryItemAdapter(private val context: Context, private val activity: Activity,
                             internal var itemArrayList: ArrayList<GroceryItemPojo>,
-                            private val menu: Menu) : RecyclerView.Adapter<NewGroceryItemAdapter.MyViewHolder>() {
+                            private val imageView: ImageBadgeView, private val emptyCart: FrameLayout) :
+        RecyclerView.Adapter<NewGroceryItemAdapter.MyViewHolder>() {
 
-    private val sessionManager: SessionManager
-    private val uid: String?
+    private val sessionManager: SessionManager = SessionManager(context)
+    private val uid: String? = FoodnFine.appSharedPreference!!.userId
     internal var data = HashMap<String, String>()
-
-    init {
-        sessionManager = SessionManager(context)
-        //Retriving Data
-        //data = sessionManager.details
-        uid = FoodnFine.appSharedPreference!!.userId
-    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val itemView = LayoutInflater.from(parent.context)
@@ -89,17 +87,17 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
         holder.ivbtn_minus.setOnClickListener { v1 ->
             if (holder.quantity.text.toString() != "1") {
                 holder.quantity.text = (Integer.parseInt(holder.quantity.text.toString()) - 1).toString()
-                val price = java.lang.Double.parseDouble(itemArrayList[position].price!!)
-                val qty = java.lang.Double.parseDouble(holder.quantity.text.toString())
-                val totalPrice = price * qty
+                //val price = java.lang.Double.parseDouble(itemArrayList[position].price!!)
+                //val qty = java.lang.Double.parseDouble(holder.quantity.text.toString())
+                //val totalPrice = price * qty
                 // callback.onAddBttomPres(String.valueOf(holder.quantity.getText()),String.valueOf(totalPrice),"");
             }
         }
         holder.ivbtn_plus.setOnClickListener { v2 ->
             holder.quantity.text = (Integer.parseInt(holder.quantity.text.toString()) + 1).toString()
-            val price = java.lang.Double.parseDouble(itemArrayList[position].price!!)
-            val qty = java.lang.Double.parseDouble(holder.quantity.text.toString())
-            val totalPrice = price * qty
+            //val price = java.lang.Double.parseDouble(itemArrayList[position].price!!)
+            //val qty = java.lang.Double.parseDouble(holder.quantity.text.toString())
+            //val totalPrice = price * qty
             //callback.onAddBttomPres(String.valueOf(holder.quantity.getText()),String.valueOf(totalPrice),"");
         }
     }
@@ -153,9 +151,8 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
         val service = retrofit.create(ApiInterface::class.java)
-        val call = service.addToCart(request.getUserId(),
-                request.getPid(), request.getQty(), request.getDevKey(), request.getOrderType(), request.getPrice(),
-                request.getRestGrocery())
+        val call = service.addToCart(request.userId, request.pid, request.qty, request.devKey, request.orderType,
+                request.price, request.restGrocery)
 
         call.enqueue(object : Callback<ResponseBody> {
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
@@ -207,6 +204,53 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
         textView.textSize = 15f
         textView.typeface = Typeface.createFromAsset(activity.assets, "ProximaNovaLight.otf")*/
         snackbar.show()
+        getCartDetails()
+    }
+
+    @SuppressLint("CheckResult")
+    private fun getCartDetails() {
+
+        val loadingDialog = LoadingDialog(activity)
+        loadingDialog.showDialog()
+        val retrofit = Retrofit.Builder()
+                .baseUrl(WebConstants.DOMAIN_NAME)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+        val api = retrofit.create(ApiInterface::class.java)
+
+        val call: Call<ResponseBody>
+        call = api.user_total_cart(FoodnFine.appSharedPreference!!.userId)
+        call.enqueue(object : Callback<ResponseBody> {
+            override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
+                loadingDialog.hideDialog()
+                val json = JSONObject(response.body()!!.string())
+                if (json.getString("total_cart").toInt() > 0) {
+                    imageView.setBadgeValue(json.getString("total_cart").toInt())
+                            .setBadgeOvalAfterFirst(true)
+                            .setBadgeTextSize(10f)
+                            .setMaxBadgeValue(99)
+                            .setBadgeTextFont(Typeface.SERIF)
+                            .setBadgeBackground(activity.resources.getDrawable(R.drawable.round1)!!)
+                            .setBadgePosition(BadgePosition.TOP_RIGHT)
+                            .setBadgeTextStyle(Typeface.NORMAL)
+                            .setShowCounter(true)
+                            .setBadgePadding(4)
+                    emptyCart.visibility = View.GONE
+                    imageView.visibility = View.VISIBLE
+                }else{
+                    emptyCart.visibility = View.VISIBLE
+                    imageView.visibility = View.GONE
+                }
+            }
+
+            override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
+                //Log.d(TAG, "onFailure: " + t.getMessage());
+                loadingDialog.hideDialog()
+                val snackbar = Snackbar.make(activity.findViewById<View>(android.R.id.content),
+                        "\u058D Something Wrong! Please try Again......", Snackbar.LENGTH_LONG)
+                snackbar.show()
+            }
+        })
     }
 }
 

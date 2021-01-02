@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.orgn.foodnfine",
         "split": "",
-        "minSdkVersion": "20"
+        "minSdkVersion": "21"
       }
     }
   ]

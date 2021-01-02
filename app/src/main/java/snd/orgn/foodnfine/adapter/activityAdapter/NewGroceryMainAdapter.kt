@@ -2,19 +2,21 @@ package snd.orgn.foodnfine.adapter.activityAdapter
 
 import android.app.Activity
 import android.view.LayoutInflater
-import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
+import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import ru.nikartm.support.ImageBadgeView
 import snd.orgn.foodnfine.model.GroceryItemList
 import snd.orgn.foodnfine.model.GroceryItemPojo
 import snd.orgn.foodnfine.R
 import java.util.*
 
 class NewGroceryMainAdapter(private val activity: Activity, internal var mainArrayList: ArrayList<GroceryItemList>,
-                            private val menu: Menu): RecyclerView.Adapter<NewGroceryMainAdapter.MyViewHolder>() {
+                            private val imageView: ImageBadgeView, private val emptyCart: FrameLayout):
+        RecyclerView.Adapter<NewGroceryMainAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val itemView = LayoutInflater.from(parent.context)
@@ -31,7 +33,7 @@ class NewGroceryMainAdapter(private val activity: Activity, internal var mainArr
         val itemArrayList = ArrayList<GroceryItemPojo>()
         itemArrayList.addAll(mainArrayList[position].grocery_menu_list!!)
 
-        val myItemAdapter = NewGroceryItemAdapter(activity, activity, itemArrayList, menu)
+        val myItemAdapter = NewGroceryItemAdapter(activity, activity, itemArrayList, imageView, emptyCart)
         holder.recyclerViewItemLayout.adapter = myItemAdapter
         myItemAdapter.notifyDataSetChanged()
     }

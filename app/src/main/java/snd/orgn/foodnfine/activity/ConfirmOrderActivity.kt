@@ -7,6 +7,7 @@ import android.location.Location
 import android.os.Build
 import android.os.Bundle
 import android.text.Html
+import android.util.Log
 import android.view.View
 import android.view.WindowManager
 import android.widget.EditText
@@ -69,7 +70,6 @@ class ConfirmOrderActivity : BaseActivity(), CallbackSelectedCartItemUpdate, Cal
     var payment = "null"
     var sessionManager: SessionManager? = null
 
-    var details_address: EditText? = null
     lateinit var adapter: CreateOrderAdapter
 
     @SuppressLint("SetTextI18n")
@@ -214,44 +214,49 @@ class ConfirmOrderActivity : BaseActivity(), CallbackSelectedCartItemUpdate, Cal
     public override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == 1) {
-            if (resultCode == RESULT_OK) {
-                val place = Autocomplete.getPlaceFromIntent(data!!)
-                placeId1 = place.id
-                /*queriedLocation = place.getLatLng();
-                String lat = Double.toString(Objects.requireNonNull(place.getLatLng()).latitude);
-                String lon = Double.toString(place.getLatLng().longitude);*/
-                val startPoint = Location("locationA")
-                startPoint.latitude = place.latLng!!.latitude
-                startPoint.longitude = place.latLng!!.longitude
-                val endPoint = Location("locationB")
-                endPoint.latitude = FoodnFine.appSharedPreference!!.latitude.toDouble()
-                endPoint.longitude = FoodnFine.appSharedPreference!!.longitude.toDouble()
-                val distance = startPoint.distanceTo(endPoint) / 1000.toDouble()
-                //Toast.makeText(activity, distance + "", Toast.LENGTH_SHORT).show();
-                if (distance <= 1) //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInOneKm));
-                    FoodnFine.appSharedPreference!!.saveDeliveryCost(FoodnFine.appSharedPreference!!.cost1) else if (distance < 5) //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInFiveKm));
-                    FoodnFine.appSharedPreference!!.saveDeliveryCost(FoodnFine.appSharedPreference!!.cost2) else if (distance < 10) //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInTenKm));
-                    FoodnFine.appSharedPreference!!.saveDeliveryCost(FoodnFine.appSharedPreference!!.cost3) else  //if(distance>10)
-                //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInGrater10Km));
-                    FoodnFine.appSharedPreference!!.saveDeliveryCost(FoodnFine.appSharedPreference!!.cost4)
-                tv_confirmOrder_delivery_address!!.setText(place.address)
-                FoodnFine.appSharedPreference!!.saveDeliveryAdd(tv_confirmOrder_delivery_address!!.text.toString())
-                FoodnFine.appSharedPreference!!.saveCurrentLocation(place.address)
-            } else if (resultCode == AutocompleteActivity.RESULT_ERROR) {
-                val status = Autocomplete.getStatusFromIntent(data!!)
-                //Log.i("TAG", status.getStatusMessage());
-            } else if (resultCode == RESULT_CANCELED) {
-                // The user canceled the operation.
+            when (resultCode) {
+                RESULT_OK -> {
+                    val place = Autocomplete.getPlaceFromIntent(data!!)
+                    placeId1 = place.id
+                    /*queriedLocation = place.getLatLng();
+                    String lat = Double.toString(Objects.requireNonNull(place.getLatLng()).latitude);
+                    String lon = Double.toString(place.getLatLng().longitude);*/
+                    val startPoint = Location("locationA")
+                    startPoint.latitude = place.latLng!!.latitude
+                    startPoint.longitude = place.latLng!!.longitude
+                    val endPoint = Location("locationB")
+                    endPoint.latitude = FoodnFine.appSharedPreference!!.latitude.toDouble()
+                    endPoint.longitude = FoodnFine.appSharedPreference!!.longitude.toDouble()
+                    val distance = startPoint.distanceTo(endPoint) / 1000.toDouble()
+                    //Toast.makeText(activity, distance + "", Toast.LENGTH_SHORT).show();
+                    if (distance <= 1) //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInOneKm));
+                        FoodnFine.appSharedPreference!!.saveDeliveryCost(FoodnFine.appSharedPreference!!.cost1) else if (distance < 5) //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInFiveKm));
+                        FoodnFine.appSharedPreference!!.saveDeliveryCost(FoodnFine.appSharedPreference!!.cost2) else if (distance < 10) //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInTenKm));
+                        FoodnFine.appSharedPreference!!.saveDeliveryCost(FoodnFine.appSharedPreference!!.cost3) else  //if(distance>10)
+                    //DeliveryEverything.getAppSharedPreference().saveDeliveryCost(String.valueOf(GroceryListActivity.chargesInDoubleInGrater10Km));
+                        FoodnFine.appSharedPreference!!.saveDeliveryCost(FoodnFine.appSharedPreference!!.cost4)
+                    tv_confirmOrder_delivery_address!!.setText(place.address)
+                    FoodnFine.appSharedPreference!!.saveDeliveryAdd(tv_confirmOrder_delivery_address!!.text.toString())
+                    FoodnFine.appSharedPreference!!.saveCurrentLocation(place.address)
+                }
+                AutocompleteActivity.RESULT_ERROR -> {
+                    val status = Autocomplete.getStatusFromIntent(data!!)
+                    //Log.i("TAG", status.getStatusMessage());
+                }
+                RESULT_CANCELED -> {
+                    // The user canceled the operation.
+                }
             }
         } else if (requestCode == 3) { // to fetch pickup saved address
             try {
                 if (data!!.hasExtra("MESSAGE")) {
-                    //Log.d("TESTS", data.getSerializableExtra("MESSAGE").toString());
+                    Log.d("TESTS", data.getSerializableExtra("MESSAGE").toString());
                     val addressDetails = data.getSerializableExtra("MESSAGE") as AddressDetails?
                     details_address!!.setText(addressDetails!!.building + ", " + addressDetails.house + ", " +
                             addressDetails.landmark + ", " + addressDetails.location)
                 }
             } catch (ignored: Exception) {
+                Log.d("ADDRESS_EXCEPTION", ignored.toString())
             }
         }
     }

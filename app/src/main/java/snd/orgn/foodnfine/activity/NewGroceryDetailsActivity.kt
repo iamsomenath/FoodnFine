@@ -2,11 +2,11 @@ package snd.orgn.foodnfine.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.graphics.Typeface
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -19,6 +19,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.google.android.material.snackbar.Snackbar
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
+import kotlinx.android.synthetic.main.activity_new_grocery_details.*
 import kotlinx.android.synthetic.main.layout_address_toolbar.*
 import okhttp3.ResponseBody
 import org.json.JSONArray
@@ -29,6 +30,7 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import ru.nikartm.support.BadgePosition
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.adapter.activityAdapter.NewGroceryMainAdapter
 import snd.orgn.foodnfine.application.FoodnFine
@@ -45,11 +47,13 @@ import snd.orgn.foodnfine.model.GroceryItemList
 import snd.orgn.foodnfine.model.GroceryItemPojo
 import snd.orgn.foodnfine.rest.api.ApiInterface
 import snd.orgn.foodnfine.rest.request.UserRequest
+import snd.orgn.foodnfine.util.LoadingDialog
 import snd.orgn.foodnfine.util.NetworkChangeReceiver
 import java.io.IOException
 import java.io.Serializable
 import java.util.*
 
+/* this file is user currently */
 class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener, CallbackDeleteCartResponse {
 
     lateinit var arrayList: ArrayList<GroceryItemList>
@@ -62,6 +66,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
     var network: Boolean = false
 
     lateinit var mainrecyleView: RecyclerView
+    lateinit var loadingDialog: LoadingDialog
 
     private var menu: Menu? = null
     lateinit var swipeRefreshLayout: SwipeRefreshLayout
@@ -70,9 +75,13 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
 
     private var bottomSheetSelectItemFragment: BottomSheetSelectItemFragment? = null
 
+    private var totalCart = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_grocery_details)
+
+        loadingDialog = LoadingDialog(this)
 
         val toolbar = findViewById<View>(R.id.custom_toolbar) as Toolbar
         setSupportActionBar(toolbar)
@@ -81,6 +90,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
         supportActionBar!!.setDisplayShowHomeEnabled(true)
         val toolbar_title = findViewById<View>(R.id.tv_custom_toolbar_title) as TextView
         toolbar_title.text = intent.getStringExtra("rest_name")
+        tv_title.text = intent.getStringExtra("rest_name")
 
         tv_address.text = FoodnFine.appSharedPreference!!.currentLocation
 
@@ -108,6 +118,22 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
         }
 
         initBottomSheets()
+
+        iv_back.setOnClickListener {
+            if (totalCart == 0) {
+                overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
+                finish()
+            } else {
+                showBottomSheet()
+            }
+        }
+
+        imageBadgeView.setOnClickListener {
+            val userRequest = UserRequest()
+            userRequest.userId = FoodnFine.appSharedPreference!!.userId
+            userRequest.orderType = "grocery"
+            makeCartDetailsRequest(userRequest)
+        }
     }
 
     @SuppressLint("CheckResult")
@@ -130,7 +156,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
                 arrayList = ArrayList()
                 try {
                     val jsonObject = JSONObject(response.body()!!.string())
-                    Log.d("RESPONSE", jsonObject.toString())
+                    //Log.d("RESPONSE", jsonObject.toString())
                     if (jsonObject.getString("result") == "1") {
                         val jsonArray = JSONArray(jsonObject.getString("category_category"))
                         for (i in 0 until jsonArray.length()) {
@@ -188,6 +214,64 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
         })
     }
 
+    override fun onResume() {
+        super.onResume()
+        if (!network) {
+            Snackbar.make(findViewById<View>(android.R.id.content),
+                    ErrorMessageConstant.NETWORK_ERROR_MESSAGE, Snackbar.LENGTH_LONG).show()
+        } else {
+            getCartDetails()
+        }
+    }
+
+    @SuppressLint("CheckResult")
+    private fun getCartDetails() {
+
+        loadingDialog.showDialog()
+        val retrofit = Retrofit.Builder()
+                .baseUrl(WebConstants.DOMAIN_NAME)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+        val api = retrofit.create(ApiInterface::class.java)
+
+        val call: Call<ResponseBody>
+        call = api.user_total_cart(FoodnFine.appSharedPreference!!.userId)
+        call.enqueue(object : Callback<ResponseBody> {
+            @SuppressLint("UseCompatLoadingForDrawables")
+            override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
+                loadingDialog.hideDialog()
+                val json = JSONObject(response.body()!!.string())
+                if (json.getString("total_cart").toInt() > 0) {
+                    imageBadgeView.setBadgeValue(json.getString("total_cart").toInt())
+                            .setBadgeOvalAfterFirst(true)
+                            .setBadgeTextSize(10f)
+                            .setMaxBadgeValue(99)
+                            .setBadgeTextFont(Typeface.createFromAsset(assets, "ProximaNovaLight.otf"))
+                            .setBadgeBackground(resources.getDrawable(R.drawable.round1)!!)
+                            .setBadgePosition(BadgePosition.TOP_RIGHT)
+                            .setBadgeTextStyle(Typeface.NORMAL)
+                            .setShowCounter(true)
+                            .setBadgePadding(4)
+
+                    totalCart = json.getString("total_cart").toInt()
+                    emptyCart.visibility = View.GONE
+                    imageBadgeView.visibility = View.VISIBLE
+                }else{
+                    emptyCart.visibility = View.VISIBLE
+                    imageBadgeView.visibility = View.GONE
+                }
+            }
+
+            override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
+                //Log.d(TAG, "onFailure: " + t.getMessage());
+                loadingDialog.hideDialog()
+                val snackbar = Snackbar.make(findViewById<View>(android.R.id.content),
+                        "\u058D Something Wrong! Please try Again......", Snackbar.LENGTH_LONG)
+                snackbar.show()
+            }
+        })
+    }
+
     fun getAPIInterface(): ApiInterface {
         var apiInterface: ApiInterface? = null
         if (apiInterface == null) {
@@ -224,7 +308,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
 
     private fun initRecyclerviewmaintList() {
 
-        adapter = NewGroceryMainAdapter(this, arrayList, menu!!)
+        adapter = NewGroceryMainAdapter(this, arrayList, imageBadgeView, emptyCart)
         val layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
         mainrecyleView.layoutManager = layoutManager
         mainrecyleView.adapter = adapter
@@ -250,14 +334,13 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
 
     override fun onSucessDataDelete() {
         super.onBackPressed()
-        FoodnFine.appSharedPreference!!.itemQuantity = ""
+        //FoodnFine.appSharedPreference!!.itemQuantity = ""
         overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
         finish()
     }
 
     override fun onBackPressed() {
-        if (FoodnFine.appSharedPreference!!.itemQuantity == "") {
-            super.onBackPressed()
+        if (totalCart == 0) {
             overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
             finish()
         } else {
@@ -301,23 +384,20 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
         }
     }
 
-    companion object {
+    private fun setBadgeCount(context: NewGroceryDetailsActivity, icon: LayerDrawable, count: String?) {
 
-        fun setBadgeCount(context: NewGroceryDetailsActivity, icon: LayerDrawable, count: String?) {
+        val badge: BadgeDrawable
 
-            val badge: BadgeDrawable
-
-            // Reuse drawable if possible
-            val reuse = icon.findDrawableByLayerId(R.id.ic_badge)
-            badge = if (reuse != null && reuse is BadgeDrawable) {
-                reuse
-            } else {
-                BadgeDrawable(context)
-            }
-
-            badge.setCount(count)
-            icon.mutate()
-            icon.setDrawableByLayerId(R.id.ic_badge, badge)
+        // Reuse drawable if possible
+        val reuse = icon.findDrawableByLayerId(R.id.ic_badge)
+        badge = if (reuse != null && reuse is BadgeDrawable) {
+            reuse
+        } else {
+            BadgeDrawable(context)
         }
+
+        badge.setCount(count)
+        icon.mutate()
+        icon.setDrawableByLayerId(R.id.ic_badge, badge)
     }
 }

@@ -6,7 +6,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="20"
+        android:minSdkVersion="21"
         android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -47,6 +47,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         android:windowSoftInputMode="adjustPan" >
@@ -66,7 +67,7 @@
             android:name="snd.orgn.foodnfine.activity.NewGroceryDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="snd.orgn.foodnfine.ForgotPasswordActivity"
+            android:name="snd.orgn.foodnfine.activity.ForgotPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="snd.orgn.foodnfine.signup_mvp.SignUpActivity"

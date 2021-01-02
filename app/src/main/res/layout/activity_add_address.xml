@@ -38,7 +38,6 @@
                 android:layout_height="match_parent"
                 android:gravity="center|start">
 
-
                 <LinearLayout
                     android:id="@+id/linearLayout"
                     android:layout_width="match_parent"
@@ -56,7 +55,6 @@
                         android:layout_marginTop="@dimen/_4sdp"
                         android:padding="@dimen/_6sdp"
                         android:src="@drawable/ic_left_back" />
-
 
                     <TextView
                         android:id="@+id/tv_toolbar_title"
@@ -83,7 +81,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/appbar_addAddress"
         android:scrollbars="none">
-
 
         <LinearLayout
             android:id="@+id/containerLayout_addAddress"
@@ -120,7 +117,7 @@
                     android:layout_marginEnd="@dimen/_40sdp"
                     android:layout_marginBottom="@dimen/_14sdp"
                     android:gravity="center"
-                    app:cardBackgroundColor="@color/button_color"
+                    app:cardBackgroundColor="@color/colorPrimary"
                     app:cardCornerRadius="@dimen/_18sdp">
 
                     <LinearLayout
