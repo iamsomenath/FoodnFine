@@ -36,4 +36,7 @@ class GroceryItemPojo : Serializable {
     @SerializedName("status")
     @Expose
     var status: String? = null
+    @SerializedName("current_cart_qty")
+    @Expose
+    var current_cart_qty: String? = null
 }

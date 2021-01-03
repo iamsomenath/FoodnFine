@@ -233,15 +233,11 @@ class SearchItemAdapter(private val activity: Activity, private var itemArrayLis
             userRequest.orderType = "grocery"
             makeCartDetailsRequest(userRequest)
         }*/
+
         val snackbar = Snackbar.make(activity.findViewById<View>(android.R.id.content), "\uD83D\uDED2 Items added Successfully", Snackbar.LENGTH_SHORT)
         snackbar.setActionTextColor(Color.BLUE)
         val snackbarView = snackbar.view
         snackbarView.setBackgroundColor(Color.LTGRAY)
-        val textView =
-                snackbarView.findViewById(com.google.android.material.R.id.snackbar_text) as TextView
-        textView.setTextColor(Color.BLUE)
-        textView.textSize = 15f
-        textView.typeface = Typeface.createFromAsset(activity.assets, "ProximaNovaLight.otf")
         snackbar.show()
     }
 

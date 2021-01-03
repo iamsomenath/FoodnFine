@@ -301,6 +301,14 @@ class SessionManager(  // Context
             editor.commit()
         }
 
+
+    var cartVal: String?
+        get() = pref.getString(CART_VALUE, "")
+        set(cartVal) {
+            editor.putString(CART_VALUE, cartVal)
+            editor.commit()
+        }
+
     companion object {
         // Sharedpref file name
         private const val PREF_NAME = "MyPref"

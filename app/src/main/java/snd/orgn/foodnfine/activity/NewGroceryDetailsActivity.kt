@@ -7,6 +7,7 @@ import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -75,8 +76,6 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
 
     private var bottomSheetSelectItemFragment: BottomSheetSelectItemFragment? = null
 
-    private var totalCart = 0
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_grocery_details)
@@ -110,17 +109,18 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
 
         networkChangeReceiver = NetworkChangeReceiver(this)
         network = networkChangeReceiver.isNetworkAvailable
-        if (!network) {
+        /*if (!network) {
             Snackbar.make(findViewById<View>(android.R.id.content),
                     ErrorMessageConstant.NETWORK_ERROR_MESSAGE, Snackbar.LENGTH_LONG).show()
         } else {
             DisplayData()
-        }
+        }*/
 
         initBottomSheets()
 
+        SessionManager(this@NewGroceryDetailsActivity).cartValue("0")
         iv_back.setOnClickListener {
-            if (totalCart == 0) {
+            if (SessionManager(this@NewGroceryDetailsActivity).cartVal!!.toInt() == 0) {
                 overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
                 finish()
             } else {
@@ -156,7 +156,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
                 arrayList = ArrayList()
                 try {
                     val jsonObject = JSONObject(response.body()!!.string())
-                    //Log.d("RESPONSE", jsonObject.toString())
+                    Log.d("RESPONSE", jsonObject.toString())
                     if (jsonObject.getString("result") == "1") {
                         val jsonArray = JSONArray(jsonObject.getString("category_category"))
                         for (i in 0 until jsonArray.length()) {
@@ -189,6 +189,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
                                 obj2.product_image = jsonObject2.getString("product_image")
                                 obj2.weight = jsonObject2.getString("weight")
                                 obj2.unit = jsonObject2.getString("unit")
+                                obj2.current_cart_qty = jsonObject2.getString("current_cart_qty")
                                 arrayList2.add(obj2)
                             }
                             obj.grocery_menu_list = arrayList2
@@ -220,6 +221,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
             Snackbar.make(findViewById<View>(android.R.id.content),
                     ErrorMessageConstant.NETWORK_ERROR_MESSAGE, Snackbar.LENGTH_LONG).show()
         } else {
+            DisplayData()
             getCartDetails()
         }
     }
@@ -253,10 +255,10 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
                             .setShowCounter(true)
                             .setBadgePadding(4)
 
-                    totalCart = json.getString("total_cart").toInt()
+                    SessionManager(this@NewGroceryDetailsActivity).cartValue(json.getString("total_cart"))
                     emptyCart.visibility = View.GONE
                     imageBadgeView.visibility = View.VISIBLE
-                }else{
+                } else {
                     emptyCart.visibility = View.VISIBLE
                     imageBadgeView.visibility = View.GONE
                 }
@@ -340,7 +342,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
     }
 
     override fun onBackPressed() {
-        if (totalCart == 0) {
+        if (SessionManager(this@NewGroceryDetailsActivity).cartVal!!.toInt() == 0) {
             overridePendingTransition(R.anim.right_in, R.anim.push_left_out)
             finish()
         } else {

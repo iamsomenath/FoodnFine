@@ -2,21 +2,20 @@ package snd.orgn.foodnfine.adapter.activityAdapter
 
 import android.annotation.SuppressLint
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Context
 import android.graphics.Paint
 import android.graphics.Typeface
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
 import com.makeramen.roundedimageview.RoundedImageView
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.activity_new_grocery_details.*
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.schedulers.Schedulers
 import okhttp3.ResponseBody
 import org.json.JSONException
 import org.json.JSONObject
@@ -29,9 +28,11 @@ import ru.nikartm.support.BadgePosition
 import ru.nikartm.support.ImageBadgeView
 import snd.orgn.foodnfine.R
 import snd.orgn.foodnfine.application.FoodnFine
+import snd.orgn.foodnfine.constant.AppConstants
 import snd.orgn.foodnfine.constant.ErrorMessageConstant
 import snd.orgn.foodnfine.constant.WebConstants
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager
+import snd.orgn.foodnfine.helper.other.NetworkHelper
 import snd.orgn.foodnfine.model.GroceryItemPojo
 import snd.orgn.foodnfine.rest.api.ApiInterface
 import snd.orgn.foodnfine.rest.request.AddToCartRequest
@@ -60,6 +61,10 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
         holder.name.text = " " + itemArrayList[position].product_name!!
         holder.brand.text = " " + itemArrayList[position].product_desc!!
         holder.itemQuantity.text = " " + itemArrayList[position].weight!! + " " + itemArrayList[position].unit!!
+        if (itemArrayList[position].current_cart_qty!! == "0")
+            holder.quantity.text = "1"
+        else
+            holder.quantity.text = itemArrayList[position].current_cart_qty!!
         holder.price.text = "₹" + itemArrayList[position].price!!
         holder.price2.text = "₹" + itemArrayList[position].price!!
         holder.price.paintFlags = holder.price.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
@@ -159,11 +164,13 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
 
                 try {
                     val jsonObject = JSONObject(response.body()!!.string())
-                    if (jsonObject.getInt("responsesss") == 1) {
-                        //Toast.makeText(activity, "Items added Successfully", Toast.LENGTH_SHORT).show()
-                        onSNACK(view)
-                    } else {
-                        Snackbar.make(activity.findViewById<View>(android.R.id.content), "Unable to add items", Snackbar.LENGTH_LONG).show()
+                    when {
+                        jsonObject.getInt("responsesss") == 1 ->
+                            //Toast.makeText(activity, "Items added Successfully", Toast.LENGTH_SHORT).show()
+                            onSNACK(view)
+                        jsonObject.getInt("responsesss") == 2 ->
+                            showPopup(request, view)
+                        else -> Snackbar.make(activity.findViewById<View>(android.R.id.content), "Unable to add items", Snackbar.LENGTH_LONG).show()
                     }
                 } catch (e: JSONException) {
                     //e.printStackTrace()
@@ -235,9 +242,11 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
                             .setBadgeTextStyle(Typeface.NORMAL)
                             .setShowCounter(true)
                             .setBadgePadding(4)
+
+                    SessionManager(activity).cartValue(json.getString("total_cart"))
                     emptyCart.visibility = View.GONE
                     imageView.visibility = View.VISIBLE
-                }else{
+                } else {
                     emptyCart.visibility = View.VISIBLE
                     imageView.visibility = View.GONE
                 }
@@ -252,5 +261,50 @@ class NewGroceryItemAdapter(private val context: Context, private val activity: 
             }
         })
     }
-}
 
+    private fun showPopup(request: AddToCartRequest, view: View) {
+        try {
+            val li = LayoutInflater.from(activity)
+            val prompt = li.inflate(R.layout.popup_cart_new, null)
+            val alertDialogBuilder = AlertDialog.Builder(activity)
+            alertDialogBuilder.setView(prompt)
+            val dlg = alertDialogBuilder.show()
+            alertDialogBuilder.setCancelable(false)
+            dlg.setCancelable(false)
+            (prompt.findViewById(R.id.yes) as TextView).setOnClickListener {
+                delete_all_from_cart(uid!!, request, view)
+                dlg.dismiss()
+            }
+            (prompt.findViewById(R.id.no) as TextView).setOnClickListener {
+                dlg.dismiss()
+            }
+        } catch (ignore: Exception) {
+            //e.printStackTrace();
+        }
+    }
+
+    private fun getAPIInterface(): ApiInterface? {
+        var apiInterface: ApiInterface? = null
+        if (apiInterface == null) {
+            apiInterface = NetworkHelper.getClient().create(ApiInterface::class.java)
+        }
+        return apiInterface
+    }
+
+    @SuppressLint("CheckResult")
+    private fun delete_all_from_cart(userId: String, request: AddToCartRequest, view: View) {
+        val userResponseObservable = getAPIInterface()!!.deleteAllCartDetails(userId)
+        userResponseObservable
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe({ restResponse ->
+                    if (restResponse.status == AppConstants.WEB_SUCCESS) {
+                        makeAddToCartRequest(request, view)
+                    } else {
+                        Toast.makeText(activity, "Unable to delete data!!!", Toast.LENGTH_SHORT).show()
+                    }
+                }, { e ->
+                    Toast.makeText(activity, ErrorMessageConstant.NETWORK_ERROR_MESSAGE, Toast.LENGTH_SHORT).show()
+                })
+    }
+}
