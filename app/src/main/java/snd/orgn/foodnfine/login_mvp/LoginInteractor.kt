@@ -1,8 +1,10 @@
 package snd.orgn.foodnfine.login_mvp
 
 import android.app.Activity
+import android.util.Log
 import com.android.volley.*
 import com.android.volley.toolbox.StringRequest
+import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.util.Constants
 import snd.orgn.foodnfine.util.RequestQueueSingleton
 import java.util.*
@@ -52,6 +54,8 @@ internal class LoginInteractor {
                 val params = HashMap<String, String>()
                 params["user_mobile"] = contact
                 params["user_password"] = password
+                params["dev_key"] = FoodnFine.appSharedPreference!!.devKey
+                //Log.d("PARAMS", params.toString())
                 return params
             }
         }

@@ -16,6 +16,6 @@ public class Config {
 
     public static final String SHARED_PREF = "ah_firebase";
 
-    public static final String CHANNEL_ID = "com.econstra.delivery_everything";
+    public static final String CHANNEL_ID = "snd.orgn.foodnfine";
     public static final String CHANNEL_NAME = "PushNotification";
 }

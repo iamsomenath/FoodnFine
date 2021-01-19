@@ -3,18 +3,19 @@ package snd.orgn.foodnfine.signup_mvp
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.util.Patterns
 import androidx.appcompat.app.AppCompatActivity
-import cn.pedant.SweetAlert.SweetAlertDialog
 import kotlinx.android.synthetic.main.activity_sign_up.*
 import org.json.JSONException
 import org.json.JSONObject
-import snd.orgn.foodnfine.login_mvp.LoginActivity
 import snd.orgn.foodnfine.R
+import snd.orgn.foodnfine.application.FoodnFine.Companion.appSharedPreference
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager
-import snd.orgn.foodnfine.util.snackbar
+import snd.orgn.foodnfine.login_mvp.LoginActivity
 import snd.orgn.foodnfine.util.LoadingDialog
 import snd.orgn.foodnfine.util.NetworkChangeReceiver
+import snd.orgn.foodnfine.util.snackbar
 import snd.orgn.foodnfine.util.toast
 
 class SignUpActivity : AppCompatActivity(), SignupVIew {
@@ -92,7 +93,7 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
                                 name.text.toString(),
                                 etPassword.text.toString(),
                                 mobile.text.toString(),
-                                "dev_key",
+                                appSharedPreference!!.devKey,
                                 this@SignUpActivity
                         )
                     } else {
@@ -124,7 +125,7 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
     override fun navigateToOTP(response: String) {
         try {
             val jsonObject = JSONObject(response)
-            //Log.d("User_details", jsonObject.toString())
+            Log.d("User_details", jsonObject.toString())
             if (jsonObject.getString("success") == "SUCCESS") {
                 /*sessionManager.setLogin(
                         true, jsonObject.getString("id"), name.text.toString(),
@@ -136,11 +137,15 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
                 DeliveryEverything.getAppSharedPreference().setUserName(jsonObject.getString("user_name"))*/
                 showPopup("Registration Successful. Please Login...")
             } else
-                contentLayout.snackbar(jsonObject.getString("message"))
+                contentLayout.snackbar(jsonObject.getString("msg"))
         } catch (e: JSONException) {
             e.printStackTrace()
         }
     }
+    /*
+    2021-01-19 15:43:09.520 16646-16646/com.orgn.foodnfine D/User_details: {"status":0,"msg":"Mobile number already use please choose diffrent."}
+    2021-01-19 15:47:34.313 16646-16646/com.orgn.foodnfine D/User_details: {"msg":"Profile Created Successfully!!","success":"SUCCESS"}
+    */
 
     private fun showPopup(message: String) {
         /*val dialog = SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)

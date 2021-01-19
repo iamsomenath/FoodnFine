@@ -43,7 +43,7 @@ internal class SignupInterceptor {
                 is NetworkError -> errorCode = -2
                 is ParseError -> errorCode = -8
             }
-            Log.d("TEST", error.toString())
+            //Log.d("TEST", error.toString())
             signupPresenter.onSignupFailure(errorCode.toString() + "")
         }) {
             /*@Throws(AuthFailureError::class)
@@ -61,6 +61,7 @@ internal class SignupInterceptor {
                 params["user_mobile"] = contact
                 params["user_password"] = password
                 params["dev_key"] = dev_key
+                //Log.d("PARAMS", params.toString())
                 return params
             }
         }

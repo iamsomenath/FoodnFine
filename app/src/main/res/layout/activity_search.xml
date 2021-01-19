@@ -81,6 +81,7 @@
                         android:id="@+id/cart"
                         android:layout_width="@dimen/_30sdp"
                         android:layout_height="@dimen/_30sdp"
+                        app:tint="@color/colorPrimary"
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:src="@drawable/ic_add_cart" />
 

@@ -3332,6 +3332,7 @@ drawable cb_payu_close_grey
 drawable cb_progress_bar
 drawable cb_rectangle_round
 drawable checked
+drawable checklist
 drawable checkmark
 drawable circle
 drawable circular_back
@@ -3506,6 +3507,7 @@ drawable idbi
 drawable img_back_arrow
 drawable induslogo
 drawable info
+drawable information
 drawable ing_logo
 drawable kitchen
 drawable kotak
@@ -3561,6 +3563,7 @@ drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
 drawable new_logo
+drawable newlogout
 drawable next
 drawable no_food_found
 drawable no_notifications
@@ -5379,7 +5382,7 @@ mipmap img_back_arrow
 plurals mtrl_badge_content_description
 raw keep
 raw notification
-raw phone_loud1
+raw phone_loud
 raw progress_tone
 string ERROR_AUTO_LOAD_LOW_LOAD_AMOUNT
 string ERROR_AUTO_LOAD_LOW_THRESHOLD_AMOUNT

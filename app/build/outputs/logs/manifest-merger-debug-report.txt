@@ -368,11 +368,11 @@ MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] C:\Users\ADMIN\.grad
 	tools:ignore
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:27:9-48
 	android:roundIcon
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:22:9-54
 	android:largeHeap
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:21:9-33
 	android:icon
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:19:9-38
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:19:9-43
 		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\e2d19e8bc311f624f1b4b134a5b54119\jetified-materialish-progress-1.0\AndroidManifest.xml:13:9-45
 	android:networkSecurityConfig
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:26:9-69
