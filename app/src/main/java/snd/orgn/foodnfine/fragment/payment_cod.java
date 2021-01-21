@@ -23,6 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import snd.orgn.foodnfine.activity.DasboardActivity;
 import snd.orgn.foodnfine.callbacks.CallbackAssignOrder;
 import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.activity.MyOrdersActivity;
@@ -218,7 +219,8 @@ public class payment_cod extends BackHandledFragment implements CallbackSendPack
     }
 
     private void gotoOrderDetails() {
-        Intent intent = new Intent(getActivity(), MyOrdersActivity.class);
+        //Intent intent = new Intent(getActivity(), MyOrdersActivity.class);
+        Intent intent = new Intent(getActivity(), DasboardActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
         Objects.requireNonNull(getActivity()).finishAffinity();

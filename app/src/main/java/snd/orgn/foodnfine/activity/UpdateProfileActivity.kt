@@ -1,209 +1,158 @@
-package snd.orgn.foodnfine.activity;
+package snd.orgn.foodnfine.activity
 
-import android.os.Build;
-import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.ImageView;
-import android.widget.Toast;
+import android.os.Build
+import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.util.Patterns
+import android.view.View
+import android.view.WindowManager
+import android.widget.ImageView
+import android.widget.Toast
+import androidx.cardview.widget.CardView
+import androidx.lifecycle.ViewModelProviders
+import butterknife.BindView
+import butterknife.ButterKnife
+import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textfield.TextInputLayout
+import kotlinx.android.synthetic.main.activity_update_profile.*
+import snd.orgn.foodnfine.R
+import snd.orgn.foodnfine.application.FoodnFine.Companion.appSharedPreference
+import snd.orgn.foodnfine.base.BaseActivity
+import snd.orgn.foodnfine.callbacks.CallbackUpdateProfile
+import snd.orgn.foodnfine.constant.AppConstants
+import snd.orgn.foodnfine.data.shared_presferences.SessionManager
+import snd.orgn.foodnfine.helper.dailog.LoadingDialogHelper
+import snd.orgn.foodnfine.model.utility.UserData
+import snd.orgn.foodnfine.view_model.ActivityViewModel.UpdateProfileViewModel
 
-import androidx.cardview.widget.CardView;
-import androidx.lifecycle.ViewModelProviders;
+class UpdateProfileActivity : BaseActivity(), CallbackUpdateProfile {
 
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
+    var loadingDialogHelper: LoadingDialogHelper? = null
+    var rootView: View? = null
+    var userData: UserData? = null
+    var viewModel: UpdateProfileViewModel? = null
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.FoodnFine;
-import snd.orgn.foodnfine.base.BaseActivity;
-import snd.orgn.foodnfine.callbacks.CallbackUpdateProfile;
-import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
-import snd.orgn.foodnfine.helper.dailog.LoadingDialogHelper;
-import snd.orgn.foodnfine.model.utility.UserData;
-import snd.orgn.foodnfine.view_model.ActivityViewModel.UpdateProfileViewModel;
-
-import static snd.orgn.foodnfine.constant.AppConstants.LOADING_DIALOG_LOGGING_IN;
-
-public class UpdateProfileActivity extends BaseActivity implements CallbackUpdateProfile {
-
-    @BindView(R.id.tvBtn_updateProfile)
-    CardView tvBtn_updateProfile;
-    @BindView(R.id.et_input_email)
-    TextInputEditText et_input_email;
-    @BindView(R.id.et_input_name)
-    TextInputEditText et_input_name;
-    UpdateProfileViewModel viewModel;
-    @BindView(R.id.iv_updateProfile_back)
-    ImageView iv_updateProfile_back;
-    @BindView(R.id.layout_input_name)
-    TextInputLayout layout_inputName;
-    @BindView(R.id.layout_text_input_email)
-    TextInputLayout layout_email;
-    @BindView(R.id.et_input_mobile)
-    TextInputEditText et_input_mobile;
-    LoadingDialogHelper loadingDialogHelper;
-    View rootView;
-    UserData userData;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update_profile);
-        ButterKnife.bind(this);
-        hideStatusBarcolor();
-        initFields();
-        et_input_name.setText(FoodnFine.getAppSharedPreference().getUsername());
-        et_input_name.setSelection(FoodnFine.getAppSharedPreference().getUsername().length());
-        et_input_email.setText(FoodnFine.getAppSharedPreference().getUserEmail());
-        et_input_mobile.setText(FoodnFine.getAppSharedPreference().getUserMobile());
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_update_profile)
+        ButterKnife.bind(this)
+        hideStatusBarcolor()
+        initFields()
+        et_input_name!!.setText(appSharedPreference!!.username)
+        et_input_name!!.setSelection(appSharedPreference!!.username.length)
+        et_input_email!!.setText(appSharedPreference!!.userEmail)
+        et_input_mobile!!.setText(appSharedPreference!!.userMobile)
     }
 
-    @Override
-    public void initFields() {
-        rootView = this.findViewById(android.R.id.content).getRootView();
-        loadingDialogHelper = getLoadingDialog(LOADING_DIALOG_LOGGING_IN);
-        setupUI(rootView, UpdateProfileActivity.this);
-        textcheck();
-        initViewModel();
-        setupOnClick();
+    override fun initFields() {
+        rootView = findViewById<View>(android.R.id.content).rootView
+        loadingDialogHelper = getLoadingDialog(AppConstants.LOADING_DIALOG_LOGGING_IN)
+        setupUI(rootView, this@UpdateProfileActivity)
+        textcheck()
+        initViewModel()
+        setupOnClick()
     }
 
-    private void textcheck(){
-        et_input_name.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-                layout_inputName.setError(null);
-//                if (s.length() > layout_inputName.getCounterMaxLength())
+    private fun textcheck() {
+        et_input_name!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                layout_input_name!!.error = null
+                //                if (s.length() > layout_inputName.getCounterMaxLength())
 //                    layout_inputName.setError("Please enter name ");
 //                else
 //                    layout_inputName.setError(null);
-
             }
-        });
-
-        et_input_email.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                layout_email.setError(null);
-//
+        })
+        et_input_email!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                layout_text_input_email!!.error = null
+                //
 //                if (s.length() > layout_email.getCounterMaxLength())
 //                    layout_email.setError("Please enter valid email ");
 //                else
 //                    layout_email.setError(null);
-
             }
-        });
+        })
     }
 
-    @Override
-    public void setupOnClick() {
-        tvBtn_updateProfile.setOnClickListener(view -> {
+    override fun setupOnClick() {
+        tvBtn_updateProfile!!.setOnClickListener { view: View? ->
             if (checkValidation()) {
-                loadingDialogHelper.show(getSupportFragmentManager(), "loadingDialog_updateProfileActivity");
-                viewModel.updateProfile(getUserData());
+                loadingDialogHelper!!.show(supportFragmentManager, "loadingDialog_updateProfileActivity")
+                viewModel!!.updateProfile(getUserData())
             }
-        });
-
-        iv_updateProfile_back.setOnClickListener(v -> {
-            super.onBackPressed();
-        });
+        }
+        iv_updateProfile_back!!.setOnClickListener { v: View? -> super.onBackPressed() }
     }
 
-    private boolean checkValidation() {
-        boolean validated = false;
-        int validationcount = 0;
-        if ((et_input_name.getText().toString().trim().equals("")) || (et_input_name.getText().length() == 0)) {
-            et_input_name.requestFocus();
-            validated = false;
-            layout_inputName.setError("Please enter name");
+    private fun checkValidation(): Boolean {
+        var validated = false
+        var validationcount = 0
+        if (et_input_name!!.text.toString().trim { it <= ' ' } == "" || et_input_name!!.text!!.length == 0) {
+            et_input_name!!.requestFocus()
+            validated = false
+            layout_input_name!!.error = "Please enter name"
         } else {
-            validated = true;
-            validationcount++;
+            validated = true
+            validationcount++
         }
-        if (!android.util.Patterns.EMAIL_ADDRESS.matcher(et_input_email.getText().toString().trim()).matches()) {
-            et_input_email.requestFocus();
-            validated = false;
-            layout_email.setError("Please enter valid email");
+        if (!Patterns.EMAIL_ADDRESS.matcher(et_input_email!!.text.toString().trim { it <= ' ' }).matches()) {
+            et_input_email!!.requestFocus()
+            validated = false
+            layout_text_input_email!!.error = "Please enter valid email"
         } else {
-            validated = true;
-            validationcount++;
+            validated = true
+            validationcount++
         }
-
-        if (validationcount == 2) {
-            validationcount = 0;
-            return validated;
+        return if (validationcount == 2) {
+            validationcount = 0
+            validated
         } else {
-            return false;
+            false
         }
     }
 
-    private void initViewModel() {
-        viewModel = ViewModelProviders.of(this).get(UpdateProfileViewModel.class);
-        viewModel.setCallback(this);
+    private fun initViewModel() {
+        viewModel = ViewModelProviders.of(this).get(UpdateProfileViewModel::class.java)
+        viewModel!!.setCallback(this)
     }
 
-    private UserData getUserData() {
-        userData = new UserData();
-        userData.setUser_eml(String.valueOf(et_input_email.getText()));
-        userData.setUser_nm(String.valueOf(et_input_name.getText()));
-        userData.setUser_id(FoodnFine.getAppSharedPreference().getUserId());
-        return userData;
+    @JvmName("getUserData1")
+    private fun getUserData(): UserData {
+        userData = UserData()
+        userData!!.user_eml = et_input_email!!.text.toString()
+        userData!!.user_nm = et_input_name!!.text.toString()
+        userData!!.user_id = appSharedPreference!!.userId
+        return userData as UserData
     }
 
-
-    @Override
-    public void onSuccess() {
-        loadingDialogHelper.dismiss();
-        new SessionManager(this).setEmail_Name(userData.getUser_eml(), userData.getUser_nm());
-        Toast.makeText(this, "Profile Update Successfully", Toast.LENGTH_SHORT).show();
-        finish();
+    override fun onSuccess() {
+        loadingDialogHelper!!.dismiss()
+        SessionManager(this).setEmail_Name(userData!!.user_eml, userData!!.user_nm)
+        Toast.makeText(this, "Profile Update Successfully", Toast.LENGTH_SHORT).show()
+        finish()
     }
 
-    @Override
-    public void onError(String message) {
-        loadingDialogHelper.dismiss();
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+    override fun onError(message: String) {
+        loadingDialogHelper!!.dismiss()
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
-    @Override
-    public void onNetworkError(String message) {
-        loadingDialogHelper.dismiss();
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+    override fun onNetworkError(message: String) {
+        loadingDialogHelper!!.dismiss()
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
-
-    private void hideStatusBarcolor() {
+    private fun hideStatusBarcolor() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-            window.setStatusBarColor(getResources().getColor(R.color.white_background));
+            val window = window
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+            window.statusBarColor = resources.getColor(R.color.white_background)
         }
     }
 }

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NewGroceryDetailsActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/custom_toolbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <include
+            android:visibility="gone"
+            android:id="@+id/custom_toolbar"
+            layout="@layout/custom_layout_toolbar2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center|start"
+                android:orientation="horizontal">
+
+                <ImageView
+                    app:tint="@color/colorPrimary"
+                    android:id="@+id/iv_back"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:padding="@dimen/_6sdp"
+                    android:src="@drawable/ic_left_back" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:fontFamily="@font/opensans_light"
+                    android:text="Shop Name"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+                <ru.nikartm.support.ImageBadgeView
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:id="@+id/imageBadgeView"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    app:ibv_badgeValue="0"
+                    app:ibv_badgeTextSize="@dimen/_10sdp"
+                    app:ibv_fixedBadgeRadius="@dimen/_7sdp"
+                    app:ibv_badgeTextStyle="bold"
+                    app:ibv_badgeTextColor="#ffffff"
+                    app:ibv_badgeColor="@color/colorPrimary"
+                    app:ibv_badgeLimitValue="false"
+                    android:tint="@color/colorAccent"
+                    android:src="@drawable/ic_add_cart" />
+
+                <FrameLayout
+                    android:id="@+id/emptyCart"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:focusable="true">
+
+                    <ImageView
+                        app:tint="@color/colorAccent"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_add_cart"/>
+
+                    <TextView
+                        android:id="@+id/cart_badge"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_gravity="right|end"
+                        android:background="@drawable/badge_background"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="0"
+                        android:textSize="@dimen/_8sdp"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray" />
+
+    <include
+        layout="@layout/layout_address_toolbar" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:background="@color/cream"
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginBottom="?actionBarSize"
+            android:id="@+id/rv_recyclerViewmainList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

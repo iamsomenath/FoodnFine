@@ -6,6 +6,7 @@ import android.text.TextUtils
 import android.util.Log
 import android.util.Patterns
 import androidx.appcompat.app.AppCompatActivity
+import cn.pedant.SweetAlert.SweetAlertDialog
 import kotlinx.android.synthetic.main.activity_sign_up.*
 import org.json.JSONException
 import org.json.JSONObject
@@ -61,7 +62,7 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
                     mobile.requestFocus()
                     //contentLayout.snackbar("Please Enter Valid Mobile Number")
                 }
-                etEmail.text.toString().isEmpty() -> {
+                /*etEmail.text.toString().isEmpty() -> {
                     etEmail.error = "Please Enter Email"
                     etEmail.requestFocus()
                     //contentLayout.snackbar("Please Enter Email")
@@ -70,7 +71,7 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
                     etEmail.error = "Please Enter Valid Email"
                     etEmail.requestFocus()
                     //contentLayout.snackbar("Please Enter Valid Mobile Number")
-                }
+                }*/
                 etPassword.text.toString().isEmpty() -> {
                     etPassword.error = "Please Enter Password"
                     etPassword.requestFocus()
@@ -105,7 +106,7 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
         }
     }
 
-    fun isValidEmail(target: CharSequence): Boolean {
+    private fun isValidEmail(target: CharSequence): Boolean {
         return !TextUtils.isEmpty(target) && Patterns.EMAIL_ADDRESS.matcher(target).matches()
     }
 
@@ -148,11 +149,12 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
     */
 
     private fun showPopup(message: String) {
-        /*val dialog = SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
+
+        val dialog = SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
         dialog.titleText = getString(R.string.app_name)
         dialog.setCancelable(false)
-        dialog.contentText = message
-        dialog.confirmText = "LOGIN"
+        dialog.contentText = "Your registration is successful. Please login to proceed."
+        dialog.confirmText = "DONE"
         dialog.setConfirmClickListener { sDialog ->
             sDialog.dismissWithAnimation()
             startActivity(Intent(this, LoginActivity::class.java))
@@ -162,14 +164,15 @@ class SignUpActivity : AppCompatActivity(), SignupVIew {
             )
             finishAffinity()
         }
-        dialog.show()*/
-        toast("Your registration is successful. Please login to proceed.")
+        dialog.show()
+        
+        /*toast("Your registration is successful. Please login to proceed.")
         startActivity(Intent(this, LoginActivity::class.java))
         overridePendingTransition(
                 R.anim.left_in,
                 R.anim.right_out
         )
-        finishAffinity()
+        finishAffinity()*/
     }
 
     override fun onBackPressed() {

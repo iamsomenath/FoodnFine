@@ -12,6 +12,7 @@ import org.json.JSONException
 import org.json.JSONObject
 import snd.orgn.foodnfine.activity.ForgotPasswordActivity
 import snd.orgn.foodnfine.R
+import snd.orgn.foodnfine.activity.DasboardActivity
 import snd.orgn.foodnfine.activity.GPSActivity
 import snd.orgn.foodnfine.application.FoodnFine
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager
@@ -130,7 +131,8 @@ class LoginActivity : AppCompatActivity(), LoginView {
         dialog.confirmText = "DONE"
         dialog.setConfirmClickListener { sDialog ->
             sDialog.dismissWithAnimation()
-            startActivity(Intent(this@LoginActivity, GPSActivity::class.java))
+            //startActivity(Intent(this@LoginActivity, GPSActivity::class.java))
+            startActivity(Intent(this@LoginActivity, DasboardActivity::class.java))
             overridePendingTransition(
                     R.anim.left_in,
                     R.anim.right_out

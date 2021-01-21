@@ -44,7 +44,7 @@ internal class SignupInterceptor {
                 is ParseError -> errorCode = -8
             }
             //Log.d("TEST", error.toString())
-            signupPresenter.onSignupFailure(errorCode.toString() + "")
+            signupPresenter.onSignupFailure(error.toString())
         }) {
             /*@Throws(AuthFailureError::class)
             override fun getHeaders(): Map<String, String> {

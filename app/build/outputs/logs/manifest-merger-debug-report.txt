@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
-INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
-INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
-INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\cc4aded03c9248689e88fea9b66016a7\databinding-adapters-4.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\5367322db8a3b472c93ed407a874d926\databinding-runtime-4.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\c173e6ffe15daea5c571ddee8dade176\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
@@ -128,22 +128,22 @@ MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\ADMIN\.gradle\c
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\b1c8eb3794c5712c69c99b5318d9cf2d\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\26596ef20c7bcdca5edd2a841c5682de\jetified-threetenabp-1.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\cae7984d18ca08d436a17f6797793c8b\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
-INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
-INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
-INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
 	package
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:4:5-33
 		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
 		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-223:12
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:1-224:12
 		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:2:11-69
@@ -242,7 +242,7 @@ ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:14:22-62
 application
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:16:5-221:19
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:16:5-222:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\c173e6ffe15daea5c571ddee8dade176\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\c173e6ffe15daea5c571ddee8dade176\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:16:5-29:19
@@ -363,10 +363,12 @@ MERGED from [com.android.volley:volley:1.1.1] C:\Users\ADMIN\.gradle\caches\tran
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\b1c8eb3794c5712c69c99b5318d9cf2d\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\26596ef20c7bcdca5edd2a841c5682de\jetified-threetenabp-1.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\26596ef20c7bcdca5edd2a841c5682de\jetified-threetenabp-1.1.0\AndroidManifest.xml:7:5-20
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:25:9-52
 	android:windowSoftInputMode
 		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:30:9-48
 	tools:ignore
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:27:9-48
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:28:9-48
 	android:roundIcon
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:22:9-54
 	android:largeHeap
@@ -375,7 +377,7 @@ MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] C:\Users\ADMIN\.grad
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:19:9-43
 		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\e2d19e8bc311f624f1b4b134a5b54119\jetified-materialish-progress-1.0\AndroidManifest.xml:13:9-45
 	android:networkSecurityConfig
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:26:9-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:27:9-69
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\fddf308cd433300ba3a45b5dd6b47a75\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -393,379 +395,379 @@ MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] C:\Users\ADMIN\.grad
 	android:theme
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:24:9-40
 	tools:replace
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:28:9-86
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:29:9-86
 	android:usesCleartextTraffic
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:25:9-44
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:26:9-44
 		REJECTED from [com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:17:18-54
 		REJECTED from [com.payu.upisdk:upisdk:1.0.2] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d7c86b145bbfa6276dff130b0a6aa364\jetified-upisdk-1.0.2\AndroidManifest.xml:13:18-54
 	android:name
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:17:9-64
 activity#snd.orgn.foodnfine.activity.ConfirmOrderDetails
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:29:9-31:77
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:30:9-32:77
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:30:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:31:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:31:13-75
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:32:13-75
 activity#snd.orgn.foodnfine.activity.OffersActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:32:9-34:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:33:9-35:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:35:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:33:13-70
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:34:13-70
 activity#snd.orgn.foodnfine.activity.NewSwadesiProductActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:35:9-37:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:36:9-38:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:37:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:36:13-81
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:37:13-81
 activity#snd.orgn.foodnfine.activity.NewRestaurantDetailsActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:38:9-40:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:39:9-41:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:40:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:39:13-84
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:40:13-84
 activity#snd.orgn.foodnfine.activity.NewGroceryDetailsActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:41:9-43:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:42:9-44:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:43:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:44:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:42:13-81
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:43:13-81
 activity#snd.orgn.foodnfine.activity.ForgotPasswordActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:44:9-46:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:45:9-47:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:47:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:45:13-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:46:13-78
 activity#snd.orgn.foodnfine.signup_mvp.SignUpActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:47:9-50:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:48:9-51:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:50:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:51:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:48:13-54
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:49:13-54
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:49:13-72
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:50:13-72
 activity#snd.orgn.foodnfine.login_mvp.LoginActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:51:9-53:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:52:9-54:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:54:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:52:13-70
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:53:13-70
 activity#snd.orgn.foodnfine.activity.GetFromSavedAddressActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:54:9-56:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:55:9-57:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:57:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:55:13-83
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:56:13-83
 activity#snd.orgn.foodnfine.activity.NotificationActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:57:9-59:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:58:9-60:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:59:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:60:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:58:13-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:59:13-76
 activity#snd.orgn.foodnfine.activity.ContactActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:60:9-62:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:61:9-63:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:62:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:63:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:61:13-71
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:62:13-71
 activity#snd.orgn.foodnfine.activity.AboutActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:63:9-65:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:64:9-66:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:65:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:66:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:64:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:65:13-69
 activity#snd.orgn.foodnfine.activity.GPSActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:66:9-68:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:67:9-69:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:68:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:69:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:67:13-67
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:68:13-67
 activity#snd.orgn.foodnfine.activity.SwadesiDetailsActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:69:9-71:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:70:9-72:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:71:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:72:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:70:13-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:71:13-78
 activity#snd.orgn.foodnfine.activity.SwadesiProductActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:72:9-74:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:73:9-75:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:74:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:75:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:73:13-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:74:13-78
 activity#snd.orgn.foodnfine.activity.SubscriptionActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:75:9-77:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:76:9-78:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:77:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:78:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:76:13-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:77:13-76
 activity#snd.orgn.foodnfine.activity.GroceryDetailsActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:78:9-80:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:79:9-81:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:81:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:79:13-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:80:13-78
 activity#snd.orgn.foodnfine.activity.GroceryListActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:81:9-83:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:82:9-84:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:83:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:84:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:82:13-75
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:83:13-75
 activity#snd.orgn.foodnfine.activity.SubcriptionActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:84:9-86:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:85:9-87:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:86:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:87:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:85:13-75
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:86:13-75
 activity#snd.orgn.foodnfine.activity.DailyBookingActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:87:9-89:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:88:9-90:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:89:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:90:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:88:13-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:89:13-76
 activity#snd.orgn.foodnfine.activity.SelectServiceActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:90:9-92:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:91:9-93:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:92:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:93:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:91:13-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:92:13-77
 activity#snd.orgn.foodnfine.activity.OnlinePaymentActivitySwadesiProdct
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:93:9-95:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:94:9-96:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:95:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:96:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:94:13-90
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:95:13-90
 activity#snd.orgn.foodnfine.activity.SelectPaymentActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:96:9-98:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:97:9-99:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:98:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:99:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:97:13-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:98:13-77
 activity#snd.orgn.foodnfine.activity.RestrurentDetailsActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:100:9-102:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:101:9-103:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:102:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:103:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:101:13-81
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:102:13-81
 activity#snd.orgn.foodnfine.activity.WalletActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:103:9-105:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:104:9-106:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:105:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:106:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:104:13-70
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:105:13-70
 activity#snd.orgn.foodnfine.activity.OrderDetailsActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:106:9-108:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:107:9-109:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:108:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:109:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:107:13-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:108:13-76
 activity#snd.orgn.foodnfine.activity.MyOrdersActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:109:9-111:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:110:9-112:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:111:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:112:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:110:13-72
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:111:13-72
 activity#snd.orgn.foodnfine.activity.ConfirmOrderActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:112:9-115:72
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:113:9-116:72
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:114:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:115:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:115:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:116:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:113:13-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:114:13-76
 activity#snd.orgn.foodnfine.activity.RestrurentListActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:116:9-119:72
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:117:9-120:72
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:118:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:119:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:119:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:120:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:117:13-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:118:13-78
 activity#snd.orgn.foodnfine.activity.OtherStoreActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:120:9-123:72
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:121:9-124:72
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:122:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:123:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:123:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:124:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:121:13-74
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:122:13-74
 activity#snd.orgn.foodnfine.activity.SendPackageActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:124:9-128:57
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:125:9-129:57
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:126:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:127:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:128:13-54
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:129:13-54
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:127:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:128:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:125:13-75
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:126:13-75
 activity#snd.orgn.foodnfine.activity.ServiceActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:129:9-132:72
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:130:9-133:72
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:131:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:132:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:132:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:133:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:130:13-71
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:131:13-71
 activity#snd.orgn.foodnfine.activity.LocationOnActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:133:9-136:72
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:134:9-137:72
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:135:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:136:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:136:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:137:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:134:13-74
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:135:13-74
 activity#snd.orgn.foodnfine.activity.AddAddressActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:137:9-140:72
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:138:9-141:72
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:139:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:140:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:140:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:141:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:138:13-74
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:139:13-74
 activity#snd.orgn.foodnfine.activity.SelectLocationMapActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:141:9-144:72
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:142:9-145:72
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:143:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:144:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:144:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:145:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:142:13-81
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:143:13-81
 activity#snd.orgn.foodnfine.activity.SelectLocationActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:145:9-148:72
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:146:9-149:72
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:147:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:148:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:148:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:149:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:146:13-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:147:13-78
 activity#snd.orgn.foodnfine.activity.SearchActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:149:9-152:57
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:150:9-153:57
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:151:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:152:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:152:13-54
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:153:13-54
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:150:13-70
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:151:13-70
 activity#snd.orgn.foodnfine.activity.SavedAddressActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:153:9-155:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:154:9-156:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:155:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:156:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:154:13-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:155:13-76
 activity#snd.orgn.foodnfine.activity.AccountDetailsActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:156:9-158:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:157:9-159:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:158:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:159:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:157:13-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:158:13-78
 activity#snd.orgn.foodnfine.activity.UpdateProfileActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:159:9-161:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:160:9-162:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:161:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:162:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:160:13-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:161:13-77
 activity#snd.orgn.foodnfine.activity.DasboardActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:162:9-165:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:163:9-166:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:165:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:166:13-49
 	android:label
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:164:13-60
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:165:13-60
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:163:13-72
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:164:13-72
 activity#snd.orgn.foodnfine.activity.LoginMobileNoActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:166:9-168:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:167:9-169:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:168:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:169:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:167:13-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:168:13-77
 activity#snd.orgn.foodnfine.activity.OtpCheckActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:169:9-171:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:170:9-172:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:171:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:172:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:170:13-72
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:171:13-72
 activity#snd.orgn.foodnfine.activity.Splash_ScreenActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:172:9-182:20
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:173:9-183:20
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:174:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:175:13-49
 	android:theme
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:175:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:176:13-69
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:173:13-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:174:13-77
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:176:13-181:29
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:177:13-182:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:177:17-69
-	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:177:25-66
-action#android.intent.action.VIEW
 ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:17-69
 	android:name
 		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:25-66
+action#android.intent.action.VIEW
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-69
+	android:name
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-77
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:17-77
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:27-74
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:27-74
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:17-76
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:17-76
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:27-73
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:27-73
 activity#snd.orgn.foodnfine.activity.PaymentSwadesiProduct
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:183:9-185:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:184:9-186:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:185:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:186:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:184:13-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:185:13-77
 activity#snd.orgn.foodnfine.activity.OnlinePaymentActivity
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:186:9-188:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:187:9-189:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:188:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:189:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:187:13-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:188:13-77
 activity#snd.orgn.foodnfine.firebase.NotificationClass
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:189:9-191:52
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:190:9-192:52
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:191:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:192:13-49
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:190:13-73
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:191:13-73
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:192:9-194:55
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:193:9-195:55
 	android:value
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:194:13-52
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:195:13-52
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:193:13-58
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:194:13-58
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:195:9-197:69
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:196:9-198:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\3287de13b9589ca87b5ab75348811273\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\3287de13b9589ca87b5ab75348811273\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:197:13-66
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:198:13-66
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:196:13-58
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:197:13-58
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:199:9-201:71
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:200:9-202:71
 	android:value
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:201:13-68
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:202:13-68
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:200:13-89
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:201:13-89
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:202:9-204:53
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:203:9-205:53
 	android:resource
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:204:13-50
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:205:13-50
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:203:13-83
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:204:13-83
 service#snd.orgn.foodnfine.firebase.MyFirebaseMessagingService
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:206:9-210:19
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:9-211:19
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:206:18-87
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:18-87
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:13-209:29
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:13-210:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:17-78
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:17-78
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:25-75
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:25-75
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:212:9-216:19
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:213:9-217:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\591c8eabec74f0fec3400a50bb3fea6b\jetified-firebase-analytics-ktx-17.6.0\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\591c8eabec74f0fec3400a50bb3fea6b\jetified-firebase-analytics-ktx-17.6.0\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:36:9-42:19
@@ -789,21 +791,21 @@ MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a245f4b96575cd9cedb079313c7db4fa\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:212:18-89
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:213:18-89
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:213:13-215:85
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:214:13-216:85
 MERGED from [com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:32:13-34:85
 MERGED from [com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:215:17-82
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:216:17-82
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:214:17-96
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:215:17-96
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:218:9-220:40
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:219:9-221:40
 	android:required
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:220:13-37
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:221:13-37
 	android:name
-		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:219:13-50
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:220:13-50
 uses-sdk
 INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml

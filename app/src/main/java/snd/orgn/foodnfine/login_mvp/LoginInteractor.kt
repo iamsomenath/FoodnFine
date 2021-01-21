@@ -40,7 +40,8 @@ internal class LoginInteractor {
                 is NetworkError -> errorCode = -2
                 is ParseError -> errorCode = -8
             }
-            loginPresenter.onLoginFailure(errorCode.toString() + "")
+            //loginPresenter.onLoginFailure(errorCode.toString() + "")
+            loginPresenter.onLoginFailure(error.toString())
         }) {
             /*@Throws(AuthFailureError::class)
             override fun getHeaders(): Map<String, String> {

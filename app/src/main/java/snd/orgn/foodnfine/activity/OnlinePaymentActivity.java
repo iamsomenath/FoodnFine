@@ -338,7 +338,7 @@ public class OnlinePaymentActivity extends AppCompatActivity {
                         if (jsonObject.getString("status").equalsIgnoreCase("1")) {
                             Toast.makeText(OnlinePaymentActivity.this, "Order submitted Successfully", Toast.LENGTH_SHORT).show();
                             finishAffinity();
-                            startActivity(new Intent(OnlinePaymentActivity.this, MyOrdersActivity.class));
+                            startActivity(new Intent(OnlinePaymentActivity.this, DasboardActivity.class));
                             finishAffinity();
                         } else
                             Snackbar.make(mainlayout, jsonObject.getString("msg"), Snackbar.LENGTH_LONG).show();
@@ -415,15 +415,14 @@ public class OnlinePaymentActivity extends AppCompatActivity {
                         /*finishAffinity();
                         startActivity(new Intent(OnlinePaymentActivity.this, DasboardActivity.class));*/
 
-                        Intent intent = new Intent(this, MyOrdersActivity.class);
+                        Intent intent = new Intent(this, DasboardActivity.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
-                        finishAffinity();
                     } else {
                         Toast.makeText(OnlinePaymentActivity.this, restResponse.getMsg(), Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(OnlinePaymentActivity.this, DasboardActivity.class));
-                        finishAffinity();
                     }
+                    finishAffinity();
                 }, e -> {
                     Toast.makeText(OnlinePaymentActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(OnlinePaymentActivity.this, DasboardActivity.class));

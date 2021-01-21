@@ -76,7 +76,8 @@ public class Splash_ScreenActivity extends BaseActivity {
     }
 
     private void goToDashBoard() {
-        Intent intent = new Intent(this, GPSActivity.class);
+        //Intent intent = new Intent(this, GPSActivity.class);
+        Intent intent = new Intent(this, DasboardActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         overridePendingTransition(R.anim.left_enter, R.anim.right_out);
         startActivity(intent);

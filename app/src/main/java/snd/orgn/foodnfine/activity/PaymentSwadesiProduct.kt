@@ -181,7 +181,8 @@ class PaymentSwadesiProduct : AppCompatActivity() {
                 try {
                     if (response.body()!!.status == "1") {
                         Toast.makeText(this@PaymentSwadesiProduct, "Order submitted Successfully", Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this@PaymentSwadesiProduct, MyOrdersActivity::class.java))
+                        //startActivity(Intent(this@PaymentSwadesiProduct, MyOrdersActivity::class.java))
+                        startActivity(Intent(this@PaymentSwadesiProduct, DasboardActivity::class.java))
                         finishAffinity()
                     } else {
                         Snackbar.make(findViewById<View>(android.R.id.content), response.body()!!.msg, Snackbar.LENGTH_LONG).show()

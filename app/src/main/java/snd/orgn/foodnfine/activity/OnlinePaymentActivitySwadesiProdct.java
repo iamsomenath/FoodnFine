@@ -222,7 +222,7 @@ public class OnlinePaymentActivitySwadesiProdct extends AppCompatActivity {
                     if (jsonObject.getString("status").equalsIgnoreCase("1")) {
                         Toast.makeText(OnlinePaymentActivitySwadesiProdct.this, "Order submitted Successfully", Toast.LENGTH_SHORT).show();
                         finishAffinity();
-                        startActivity(new Intent(OnlinePaymentActivitySwadesiProdct.this, MyOrdersActivity.class));
+                        startActivity(new Intent(OnlinePaymentActivitySwadesiProdct.this, DasboardActivity.class));
                         finishAffinity();
                     } else
                         Snackbar.make(mainlayout, jsonObject.getString("msg"), Snackbar.LENGTH_LONG).show();

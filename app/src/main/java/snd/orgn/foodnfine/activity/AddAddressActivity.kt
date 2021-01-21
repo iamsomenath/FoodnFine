@@ -1,380 +1,287 @@
-package snd.orgn.foodnfine.activity;
+package snd.orgn.foodnfine.activity
 
-import android.Manifest;
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.graphics.Color;
-import android.location.Address;
-import android.location.Geocoder;
-import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
-import android.os.Build;
-import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.Manifest
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.graphics.Color
+import android.location.Geocoder
+import android.location.Location
+import android.location.LocationListener
+import android.location.LocationManager
+import android.os.Build
+import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.view.View
+import android.view.WindowManager
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.TextView
+import android.widget.Toast
+import androidx.cardview.widget.CardView
+import androidx.core.app.ActivityCompat
+import androidx.lifecycle.ViewModelProviders
+import butterknife.BindView
+import butterknife.ButterKnife
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.libraries.places.api.Places
+import com.google.android.libraries.places.api.model.Place
+import com.google.android.libraries.places.widget.Autocomplete
+import com.google.android.libraries.places.widget.AutocompleteActivity
+import com.google.android.libraries.places.widget.model.AutocompleteActivityMode
+import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.activity_add_address.*
+import kotlinx.android.synthetic.main.modular_item_address_item_add_address.*
+import kotlinx.android.synthetic.main.search_location_layout.*
+import snd.orgn.foodnfine.R
+import snd.orgn.foodnfine.application.FoodnFine.Companion.appSharedPreference
+import snd.orgn.foodnfine.base.BaseActivity
+import snd.orgn.foodnfine.callbacks.CallbackAddAddress
+import snd.orgn.foodnfine.callbacks.CallbackAddressDetailsFromId
+import snd.orgn.foodnfine.callbacks.CallbackGetAddress
+import snd.orgn.foodnfine.constant.AppConstants
+import snd.orgn.foodnfine.data.room.entity.AddressDetails
+import snd.orgn.foodnfine.model.user_data.UserDataAddAddress
+import snd.orgn.foodnfine.view_model.ActivityViewModel.AddAdressViewModel
+import java.io.IOException
+import java.util.*
 
-import androidx.cardview.widget.CardView;
-import androidx.core.app.ActivityCompat;
-import androidx.lifecycle.ViewModelProviders;
+class AddAddressActivity : BaseActivity(), CallbackAddAddress, CallbackGetAddress, CallbackAddressDetailsFromId {
 
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.libraries.places.api.Places;
-import com.google.android.libraries.places.api.model.Place;
-import com.google.android.libraries.places.widget.Autocomplete;
-import com.google.android.libraries.places.widget.AutocompleteActivity;
-import com.google.android.libraries.places.widget.model.AutocompleteActivityMode;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
+    var ischeckHome = false
+    var ischeckOffice = false
+    var ischeckOther = false
+    var isupdateAddress = false
+    var wholeAddress: String? = null
+    var seletedLocationType: String? = null
+    var viewModel: AddAdressViewModel? = null
+    private var userAddressId: String? = null
+    private var category4: String? = null
+    private var addressDetails: AddressDetails? = null
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
+    var placeId1: String? = null
+    var rootView: View? = null
+    var queriedLocation: LatLng? = null
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.FoodnFine;
-import snd.orgn.foodnfine.base.BaseActivity;
-import snd.orgn.foodnfine.callbacks.CallbackAddAddress;
-import snd.orgn.foodnfine.callbacks.CallbackAddressDetailsFromId;
-import snd.orgn.foodnfine.callbacks.CallbackGetAddress;
-import snd.orgn.foodnfine.data.room.entity.AddressDetails;
-import snd.orgn.foodnfine.model.user_data.UserDataAddAddress;
-import snd.orgn.foodnfine.view_model.ActivityViewModel.AddAdressViewModel;
+    var fields = Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.LAT_LNG, Place.Field.ADDRESS)
 
-import static snd.orgn.foodnfine.constant.AppConstants.INTENT_STRING_ADDRESS_ID;
-import static snd.orgn.foodnfine.constant.AppConstants.MAP_API;
-
-public class AddAddressActivity extends BaseActivity implements CallbackAddAddress, CallbackGetAddress, CallbackAddressDetailsFromId {
-
-    @BindView(R.id.containerLayout_addAddress)
-    LinearLayout containerLayout_addAddress;
-    @BindView(R.id.layout_currentLocation)
-    LinearLayout layout_currentLocation;
-    @BindView(R.id.layout_saveAs)
-    LinearLayout layout_saveAs;
-    @BindView(R.id.iv_addAddress_back)
-    ImageView iv_addAddress_back;
-    @BindView(R.id.cv_search_location)
-    CardView cv_search_location;
-    @BindView(R.id.et_addAddress_apartmentName)
-    TextInputEditText et_addAddress_apartmentName;
-    @BindView(R.id.et_addAddress_otherLocation)
-    TextInputEditText et_addAddress_otherLocation;
-    @BindView(R.id.et_addAddress_contactPerson)
-    TextInputEditText et_addAddress_contactPerson;
-    @BindView(R.id.et_addAddress_intructionToReachLocation)
-    TextInputEditText et_addAddress_intructionToReachLocation;
-    @BindView(R.id.et_addAddress_landMark)
-    TextInputEditText et_addAddress_landMark;
-    @BindView(R.id.et_addAddress_house_flat_no)
-    TextInputEditText et_addAddress_house_flat_no;
-    @BindView(R.id.et_addAddress_location)
-    TextInputEditText et_addAddress_location;
-    @BindView(R.id.et_addAddress_contactNumber)
-    TextInputEditText et_addAddress_contactNumber;
-    @BindView(R.id.text_contact_number)
-    TextInputLayout text_contact_number;
-    @BindView(R.id.text_input_location)
-    TextInputLayout text_input_location;
-    @BindView(R.id.text_input_house_flat_no)
-    TextInputLayout text_input_house_flat_no;
-    @BindView(R.id.text_input_buliding_or_apatment_name)
-    TextInputLayout text_input_buliding_or_apatment_name;
-    @BindView(R.id.text_input_landmark)
-    TextInputLayout text_input_landmark;
-    @BindView(R.id.text_input_instruction_to_reach_location)
-    TextInputLayout text_input_instruction_to_reach_location;
-    @BindView(R.id.text_contact_person)
-    TextInputLayout text_contact_person;
-    @BindView(R.id.text_input_otherLocation)
-    TextInputLayout text_input_otherLocation;
-    @BindView(R.id.tv_addAddress_home)
-    TextView tv_addAddress_home;
-    @BindView(R.id.tv_addAddress_office)
-    TextView tv_addAddress_office;
-    @BindView(R.id.tv_addAddress_other)
-    TextView tv_addAddress_other;
-    @BindView(R.id.tv_saveAs)
-    TextView tv_saveAs;
-    @BindView(R.id.tv_toolbar_title)
-    TextView tv_toolbar_title;
-    @BindView(R.id.tvBtn_text)
-    TextView tvBtn_text;
-    @BindView(R.id.cv_addAddressBtn)
-    CardView cv_addAddressBtn;
-    @BindView(R.id.layout_location)
-    LinearLayout layout_location;
-    @BindView(R.id.layout_saveAddress)
-    LinearLayout layout_saveAddress;
-    boolean ischeckHome = false;
-    boolean ischeckOffice = false;
-    boolean ischeckOther = false;
-    boolean isupdateAddress = false;
-    String wholeAddress;
-    String seletedLocationType;
-    AddAdressViewModel viewModel;
-    private String userAddressId;
-    private String category4;
-    private AddressDetails addressDetails;
-    String currentLatitude;
-    String currentLongitude;
-    String placeId1;
-    View rootView;
-    LatLng queriedLocation;
-    ArrayList<String> location_list;
-    List<Place.Field> fields = Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.LAT_LNG, Place.Field.ADDRESS);
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_address);
-        ButterKnife.bind(this);
-        textcheckLisner();
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_add_address)
+        ButterKnife.bind(this)
+        textcheckLisner()
         if (!Places.isInitialized()) {
-            Places.initialize(this, MAP_API);
+            Places.initialize(this, AppConstants.MAP_API)
         }
-        addressDetails = new AddressDetails();
-
-        Intent intent = getIntent();
-        userAddressId = intent.getStringExtra(INTENT_STRING_ADDRESS_ID);
-        category4 = intent.getStringExtra("category4");
-        if (userAddressId.equals("")) {
-            tv_toolbar_title.setText("Add Address");
-            tvBtn_text.setText("Save this Address");
-            isupdateAddress = false;
+        addressDetails = AddressDetails()
+        val intent = intent
+        userAddressId = intent.getStringExtra(AppConstants.INTENT_STRING_ADDRESS_ID)
+        category4 = intent.getStringExtra("category4")
+        if (userAddressId == "") {
+            tv_toolbar_title!!.text = "Add Address"
+            tvBtn_text!!.text = "Save this Address"
+            isupdateAddress = false
         } else {
-            isupdateAddress = true;
-            tv_toolbar_title.setText("Update Address");
-            tvBtn_text.setText("Update this Address");
+            isupdateAddress = true
+            tv_toolbar_title!!.text = "Update Address"
+            tvBtn_text!!.text = "Update this Address"
         }
-
-        layout_location.setVisibility(View.VISIBLE);
-        layout_saveAddress.setVisibility(View.VISIBLE);
-        initFields();
-
-        setupOnClick();
-        hideStatusBarcolor();
-        initToolbar();
-        rootView = this.findViewById(android.R.id.content).getRootView();
-        setupUI(rootView, AddAddressActivity.this);
+        layout_location!!.visibility = View.VISIBLE
+        layout_saveAddress!!.visibility = View.VISIBLE
+        initFields()
+        setupOnClick()
+        hideStatusBarcolor()
+        initToolbar()
+        rootView = findViewById<View>(android.R.id.content).rootView
+        setupUI(rootView, this@AddAddressActivity)
     }
 
-    private void initToolbar() {
-        iv_addAddress_back.setOnClickListener(v -> {
-            finish();
-        });
+    private fun initToolbar() {
+        iv_addAddress_back!!.setOnClickListener { v: View? -> finish() }
     }
 
-    private void toolBarTitleChange() {
-        tv_toolbar_title.setText("Update Address");
+    private fun toolBarTitleChange() {
+        tv_toolbar_title!!.text = "Update Address"
     }
 
-    private void initViewModel() {
-        viewModel = ViewModelProviders.of(this).get(AddAdressViewModel.class);
-        viewModel.setCallbackgetAddressDetails(this);
-        viewModel.setCallbackAddAddress(this);
-        viewModel.setCallbackGetAddress(this);
+    private fun initViewModel() {
+        viewModel = ViewModelProviders.of(this).get(AddAdressViewModel::class.java)
+        viewModel!!.setCallbackgetAddressDetails(this)
+        viewModel!!.setCallbackAddAddress(this)
+        viewModel!!.setCallbackGetAddress(this)
     }
 
-    @Override
-    public void initFields() {
-        if (FoodnFine.getAppSharedPreference().getCurrentLocation().equals("") || FoodnFine.getAppSharedPreference().getCurrentLocation().length() == 0) {
-            getCurrentLocation("1");
+    override fun initFields() {
+        if (appSharedPreference!!.currentLocation == "" || appSharedPreference!!.currentLocation.isEmpty()) {
+            getCurrentLocation("1")
         } else {
-
-            wholeAddress = FoodnFine.getAppSharedPreference().getCurrentLocation();
-            et_addAddress_location.setText(wholeAddress);
-            addressSeparator();
+            wholeAddress = appSharedPreference!!.currentLocation
+            et_addAddress_location!!.setText(wholeAddress)
+            addressSeparator()
         }
-        saveDataAsInitialSeleted();
-        initViewModel();
+        saveDataAsInitialSeleted()
+        initViewModel()
         //viewModel.getAddressDetails(userAddressId);
     }
 
-    @Override
-    public void setupOnClick() {
-        iv_addAddress_back.setOnClickListener(v -> {
-            if (category4.equals("")) {
-                Intent intent = new Intent(this, SavedAddressActivity.class);
-                startActivity(intent);
+    override fun setupOnClick() {
+        iv_addAddress_back!!.setOnClickListener { v: View? ->
+            if (category4 == "") {
+                val intent = Intent(this, SavedAddressActivity::class.java)
+                startActivity(intent)
             }
-        });
-        cv_search_location.setOnClickListener(v -> {
-            findPlace();
-        });
-        tv_addAddress_home.setOnClickListener(v -> {
-            ischeckHome = true;
-            seletedLocationType = "Home";
-            tv_addAddress_home.setBackgroundResource(R.drawable.textview_rounded_seleleted);
-            tv_addAddress_home.setTextColor(getResources().getColor(R.color.white_background));
-            tv_addAddress_office.setBackgroundResource(R.drawable.textview_rounded_unselected);
-            tv_addAddress_office.setTextColor(getResources().getColor(R.color.text_colo_black));
-            tv_addAddress_home.setPadding(0, 6, 0, 6);
-            tv_addAddress_office.setPadding(0, 6, 0, 6);
-        });
-        tv_addAddress_office.setOnClickListener(v -> {
-            ischeckOffice = true;
-            seletedLocationType = "Work";
-            tv_addAddress_home.setBackgroundResource(R.drawable.textview_rounded_unselected);
-            tv_addAddress_office.setBackgroundResource(R.drawable.textview_rounded_seleleted);
-            tv_addAddress_home.setTextColor(getResources().getColor(R.color.text_colo_black));
-            tv_addAddress_office.setTextColor(getResources().getColor(R.color.white_background));
-            tv_addAddress_home.setPadding(0, 6, 0, 6);
-            tv_addAddress_office.setPadding(0, 6, 0, 6);
-        });
-        tv_addAddress_other.setOnClickListener(v -> {
-            ischeckOther = true;
-            seletedLocationType = "Other";
-            saveDataAsOtherSeleted();
-        });
-        cv_addAddressBtn.setOnClickListener(v -> {
+        }
+        cv_search_location!!.setOnClickListener { v: View? -> findPlace() }
+        tv_addAddress_home!!.setOnClickListener { v: View? ->
+            ischeckHome = true
+            seletedLocationType = "Home"
+            tv_addAddress_home!!.setBackgroundResource(R.drawable.textview_rounded_seleleted)
+            tv_addAddress_home!!.setTextColor(resources.getColor(R.color.white_background))
+            tv_addAddress_office!!.setBackgroundResource(R.drawable.textview_rounded_unselected)
+            tv_addAddress_office!!.setTextColor(resources.getColor(R.color.text_colo_black))
+            tv_addAddress_home!!.setPadding(0, 6, 0, 6)
+            tv_addAddress_office!!.setPadding(0, 6, 0, 6)
+        }
+        tv_addAddress_office!!.setOnClickListener { v: View? ->
+            ischeckOffice = true
+            seletedLocationType = "Work"
+            tv_addAddress_home!!.setBackgroundResource(R.drawable.textview_rounded_unselected)
+            tv_addAddress_office!!.setBackgroundResource(R.drawable.textview_rounded_seleleted)
+            tv_addAddress_home!!.setTextColor(resources.getColor(R.color.text_colo_black))
+            tv_addAddress_office!!.setTextColor(resources.getColor(R.color.white_background))
+            tv_addAddress_home!!.setPadding(0, 6, 0, 6)
+            tv_addAddress_office!!.setPadding(0, 6, 0, 6)
+        }
+        tv_addAddress_other!!.setOnClickListener { v: View? ->
+            ischeckOther = true
+            seletedLocationType = "Other"
+            saveDataAsOtherSeleted()
+        }
+        cv_addAddressBtn!!.setOnClickListener { v: View? ->
             if (isupdateAddress) {
                 if (checkValidation()) {
-                    viewModel.updateAddress(getupdateAllDataResqust());
+                    viewModel!!.updateAddress(getupdateAllDataResqust())
                 }
             } else {
                 if (checkValidation()) {
-                    viewModel.saveAddress(getSaveAllDataResqust());
+                    viewModel!!.saveAddress(saveAllDataResqust)
                 }
             }
-        });
-        layout_currentLocation.setOnClickListener(v -> {
-            getCurrentLocation("1");
-        });
+        }
+        layout_currentLocation!!.setOnClickListener { v: View? -> getCurrentLocation("1") }
     }
 
-    private UserDataAddAddress getSaveAllDataResqust() {
-        UserDataAddAddress dataAddAddress = new UserDataAddAddress();
-        dataAddAddress.setUserId(FoodnFine.getAppSharedPreference().getUserId());
-        dataAddAddress.setLocation(String.valueOf(et_addAddress_location.getText()));
-        dataAddAddress.setBuilding(String.valueOf(et_addAddress_apartmentName.getText()));
-        dataAddAddress.setHouse(String.valueOf(et_addAddress_house_flat_no.getText()));
-        dataAddAddress.setLandmark(String.valueOf(et_addAddress_landMark.getText()));
-        dataAddAddress.setContactPerson(String.valueOf(et_addAddress_contactPerson.getText()));
-        dataAddAddress.setContactNumber(String.valueOf(et_addAddress_contactNumber.getText()));
-        dataAddAddress.setInstruction(String.valueOf(et_addAddress_intructionToReachLocation.getText()));
-        dataAddAddress.setOtherDescription(String.valueOf(et_addAddress_otherLocation.getText()));
-        dataAddAddress.setLocationType(seletedLocationType);
+    private val saveAllDataResqust: UserDataAddAddress
+        private get() {
+            val dataAddAddress = UserDataAddAddress()
+            dataAddAddress.userId = appSharedPreference!!.userId
+            dataAddAddress.location = et_addAddress_location!!.text.toString()
+            dataAddAddress.building = et_addAddress_apartmentName!!.text.toString()
+            dataAddAddress.house = et_addAddress_house_flat_no!!.text.toString()
+            dataAddAddress.landmark = et_addAddress_landMark!!.text.toString()
+            dataAddAddress.contactPerson = et_addAddress_contactPerson!!.text.toString()
+            dataAddAddress.contactNumber = et_addAddress_contactNumber!!.text.toString()
+            dataAddAddress.instruction = et_addAddress_intructionToReachLocation!!.text.toString()
+            dataAddAddress.otherDescription = et_addAddress_otherLocation!!.text.toString()
+            dataAddAddress.locationType = seletedLocationType
+            return dataAddAddress
+        }
 
-        return dataAddAddress;
-    }
-
-
-    private UserDataAddAddress getupdateAllDataResqust() {
-        UserDataAddAddress dataAddAddress = new UserDataAddAddress();
-        dataAddAddress.setUserAddressId(userAddressId);
-        dataAddAddress.setUserId(FoodnFine.getAppSharedPreference().getUserId());
-        dataAddAddress.setLocation(String.valueOf(et_addAddress_location.getText()));
-        dataAddAddress.setBuilding(String.valueOf(et_addAddress_apartmentName.getText()));
-        dataAddAddress.setHouse(String.valueOf(et_addAddress_house_flat_no.getText()));
-        dataAddAddress.setLandmark(String.valueOf(et_addAddress_landMark.getText()));
-        dataAddAddress.setContactPerson(String.valueOf(et_addAddress_contactPerson.getText()));
-        dataAddAddress.setContactNumber(String.valueOf(et_addAddress_contactNumber.getText()));
-        dataAddAddress.setInstruction(String.valueOf(et_addAddress_intructionToReachLocation.getText()));
-        dataAddAddress.setOtherDescription(String.valueOf(et_addAddress_otherLocation.getText()));
+    private fun getupdateAllDataResqust(): UserDataAddAddress {
+        val dataAddAddress = UserDataAddAddress()
+        dataAddAddress.userAddressId = userAddressId
+        dataAddAddress.userId = appSharedPreference!!.userId
+        dataAddAddress.location = et_addAddress_location!!.text.toString()
+        dataAddAddress.building = et_addAddress_apartmentName!!.text.toString()
+        dataAddAddress.house = et_addAddress_house_flat_no!!.text.toString()
+        dataAddAddress.landmark = et_addAddress_landMark!!.text.toString()
+        dataAddAddress.contactPerson = et_addAddress_contactPerson!!.text.toString()
+        dataAddAddress.contactNumber = et_addAddress_contactNumber!!.text.toString()
+        dataAddAddress.instruction = et_addAddress_intructionToReachLocation!!.text.toString()
+        dataAddAddress.otherDescription = et_addAddress_otherLocation!!.text.toString()
         if (ischeckOther) {
-            dataAddAddress.setLocationType(String.valueOf(et_addAddress_otherLocation.getText()));
+            dataAddAddress.locationType = et_addAddress_otherLocation!!.text.toString()
         } else if (ischeckHome) {
-            dataAddAddress.setLocationType("Home");
+            dataAddAddress.locationType = "Home"
         } else if (ischeckOffice) {
-            dataAddAddress.setLocationType("Work");
+            dataAddAddress.locationType = "Work"
         }
         // dataAddAddress.setLocationType(seletedLocationType);
-
-        return dataAddAddress;
+        return dataAddAddress
     }
 
-    private UserDataAddAddress getAddressList() {
-        UserDataAddAddress datagetAddress = new UserDataAddAddress();
-        datagetAddress.setUserId(FoodnFine.getAppSharedPreference().getUserId());
-        return datagetAddress;
+    private val addressList: UserDataAddAddress
+        private get() {
+            val datagetAddress = UserDataAddAddress()
+            datagetAddress.userId = appSharedPreference!!.userId
+            return datagetAddress
+        }
+
+    private fun saveDataAsOtherSeleted() {
+        layout_saveAs!!.visibility = View.GONE
+        tv_saveAs!!.visibility = View.GONE
+        text_input_otherLocation!!.visibility = View.VISIBLE
     }
 
-    private void saveDataAsOtherSeleted() {
-        layout_saveAs.setVisibility(View.GONE);
-        tv_saveAs.setVisibility(View.GONE);
-        text_input_otherLocation.setVisibility(View.VISIBLE);
+    private fun saveDataAsInitialSeleted() {
+        layout_saveAs!!.visibility = View.VISIBLE
+        tv_saveAs!!.visibility = View.VISIBLE
+        text_input_otherLocation!!.visibility = View.GONE
     }
 
-    private void saveDataAsInitialSeleted() {
-        layout_saveAs.setVisibility(View.VISIBLE);
-        tv_saveAs.setVisibility(View.VISIBLE);
-        text_input_otherLocation.setVisibility(View.GONE);
-    }
-
-//    private void loadInitialFragment() {
-//        Fragment_AddAdress fragment_addAdress = new Fragment_AddAdress(this);
-//        getSupportFragmentManager().beginTransaction()
-//                .add(R.id.containerLayout_addAddress, fragment_addAdress, "fragmentAddAddress")
-//                .commit();
-//    }
-
-
-    private void hideStatusBarcolor() {
+    //    private void loadInitialFragment() {
+    //        Fragment_AddAdress fragment_addAdress = new Fragment_AddAdress(this);
+    //        getSupportFragmentManager().beginTransaction()
+    //                .add(R.id.containerLayout_addAddress, fragment_addAdress, "fragmentAddAddress")
+    //                .commit();
+    //    }
+    private fun hideStatusBarcolor() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-            window.setStatusBarColor(getResources().getColor(R.color.white_background));
+            val window = window
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+            window.statusBarColor = resources.getColor(R.color.white_background)
         }
     }
 
-//    @Override
-//    public void onAddressAdded() {
-//
-//    }
-
-
-    private boolean checkValidation() {
-        boolean validated = false;
-        int validationcount = 0;
-        if ((et_addAddress_house_flat_no.getText().toString().trim().equals("")) || (et_addAddress_house_flat_no.getText().length() == 0)) {
-            et_addAddress_house_flat_no.requestFocus();
-            validated = false;
-            text_input_house_flat_no.setError("Enter house or flat no");
+    //    @Override
+    //    public void onAddressAdded() {
+    //
+    //    }
+    private fun checkValidation(): Boolean {
+        var validated = false
+        var validationcount = 0
+        if (et_addAddress_house_flat_no!!.text.toString().trim { it <= ' ' } == "" || et_addAddress_house_flat_no!!.text!!.length == 0) {
+            et_addAddress_house_flat_no!!.requestFocus()
+            validated = false
+            text_input_house_flat_no!!.error = "Enter house or flat no"
         } else {
-            validated = true;
-            validationcount++;
+            validated = true
+            validationcount++
         }
-        if ((et_addAddress_apartmentName.getText().equals("")) || (et_addAddress_apartmentName.getText().length() == 0)) {
-            et_addAddress_apartmentName.requestFocus();
-            validated = false;
-            text_input_buliding_or_apatment_name.setError("Enter apartment name or building name");
+        if (et_addAddress_apartmentName!!.text.toString() == "" || et_addAddress_apartmentName!!.text!!.isEmpty()) {
+            et_addAddress_apartmentName!!.requestFocus()
+            validated = false
+            text_input_buliding_or_apatment_name!!.error = "Enter apartment name or building name"
         } else {
-            validated = true;
-            validationcount++;
+            validated = true
+            validationcount++
         }
-
-        if ((et_addAddress_landMark.getText().equals("")) || (et_addAddress_landMark.getText().length() == 0)) {
-            et_addAddress_landMark.requestFocus();
-            validated = false;
-            text_input_landmark.setError("Enter landmark");
+        if (et_addAddress_landMark!!.text.toString() == "" || et_addAddress_landMark!!.text!!.isEmpty()) {
+            et_addAddress_landMark!!.requestFocus()
+            validated = false
+            text_input_landmark!!.error = "Enter landmark"
         } else {
-            validated = true;
-            validationcount++;
+            validated = true
+            validationcount++
         }
-        if ((et_addAddress_intructionToReachLocation.getText().equals("")) || (et_addAddress_intructionToReachLocation.getText().length() == 0)) {
-            et_addAddress_intructionToReachLocation.requestFocus();
-            validated = false;
-            text_input_instruction_to_reach_location.setError("Enter instruction to reach location");
+        if (et_addAddress_intructionToReachLocation!!.text.toString() == "" || et_addAddress_intructionToReachLocation!!.text!!.isEmpty()) {
+            et_addAddress_intructionToReachLocation!!.requestFocus()
+            validated = false
+            text_input_instruction_to_reach_location!!.error = "Enter instruction to reach location"
         } else {
-            validated = true;
-            validationcount++;
+            validated = true
+            validationcount++
         }
 
         /*if ((et_addAddress_contactPerson.getText().equals("")) || (et_addAddress_contactPerson.getText().length() == 0)) {
@@ -393,286 +300,178 @@ public class AddAddressActivity extends BaseActivity implements CallbackAddAddre
         } else {
             validated = true;
             validationcount++;
-        }*/
-
-        if (ischeckHome || ischeckOffice || ischeckOther) {
-
+        }*/if (ischeckHome || ischeckOffice || ischeckOther) {
             if (ischeckOther) {
-                if ((et_addAddress_otherLocation.getText().equals("")) || (et_addAddress_otherLocation.getText().length() == 0)) {
-                    validated = false;
-                    text_input_otherLocation.setError("Enter save as a");
+                if (et_addAddress_otherLocation!!.text.toString() == "" || et_addAddress_otherLocation!!.text!!.isEmpty()) {
+                    validated = false
+                    text_input_otherLocation!!.error = "Enter save as a"
                 } else {
-                    validated = true;
-
+                    validated = true
                 }
             }
-            validated = true;
-            validationcount++;
-
+            validated = true
+            validationcount++
         } else {
-
-            Toast.makeText(this, "Click save as a", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Click save as a", Toast.LENGTH_SHORT).show()
         }
-
-        if (validationcount == 5) {
-            validationcount = 0;
-            return validated;
+        return if (validationcount == 5) {
+            validationcount = 0
+            validated
         } else {
-            return false;
+            false
         }
     }
 
-    private void textcheckLisner() {
-        et_addAddress_house_flat_no.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
+    private fun textcheckLisner() {
+        et_addAddress_house_flat_no!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                text_input_house_flat_no!!.error = null
             }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
+        })
+        et_addAddress_apartmentName!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                text_input_buliding_or_apatment_name!!.error = null
             }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-                text_input_house_flat_no.setError(null);
-
-
+        })
+        et_addAddress_landMark!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                text_input_landmark!!.error = null
             }
-        });
-
-
-        et_addAddress_apartmentName.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
+        })
+        et_addAddress_intructionToReachLocation!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                text_input_instruction_to_reach_location!!.error = null
             }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
+        })
+        et_addAddress_contactPerson!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                text_contact_person!!.error = null
             }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                text_input_buliding_or_apatment_name.setError(null);
-
-
+        })
+        et_addAddress_contactNumber!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                text_contact_number!!.error = null
             }
-        });
-        et_addAddress_landMark.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
+        })
+        et_addAddress_otherLocation!!.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable) {
+                text_input_otherLocation!!.error = null
             }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                text_input_landmark.setError(null);
-
-
-            }
-        });
-        et_addAddress_intructionToReachLocation.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                text_input_instruction_to_reach_location.setError(null);
-
-
-            }
-        });
-        et_addAddress_contactPerson.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                text_contact_person.setError(null);
-
-
-            }
-        });
-
-        et_addAddress_contactNumber.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                text_contact_number.setError(null);
-
-
-            }
-        });
-
-
-        et_addAddress_otherLocation.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                text_input_otherLocation.setError(null);
-
-
-            }
-        });
+        })
     }
 
-
-    private void getCurrentLocation(final String type) {
-
-        LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+    private fun getCurrentLocation(type: String) {
+        val locationManager = this.getSystemService(LOCATION_SERVICE) as LocationManager
         // Define a listener that responds to location updates
-        LocationListener locationListener = new LocationListener() {
-            public void onLocationChanged(Location location) {
+        val locationListener: LocationListener = object : LocationListener {
+            override fun onLocationChanged(location: Location) {
                 // Called when a new location is found by the network location provider.
-                String lat = Double.toString(location.getLatitude());
-                String lon = Double.toString(location.getLongitude());
+                val lat = java.lang.Double.toString(location.latitude)
+                val lon = java.lang.Double.toString(location.longitude)
                 //Log.d("LATLONG", lat + " " + lon + "");
                 try {
-                    if (type.equals("1")) {
-
-                        GetAddress(lat, lon);
-
-
+                    if (type == "1") {
+                        GetAddress(lat, lon)
                     } else {
-
                     }
-                } catch (Exception ignored) {
+                } catch (ignored: Exception) {
                     //new CustomToast().Show_Toast(getActivity(), myview, "Can't fetch proper location!");
                 }
             }
 
-            public void onStatusChanged(String provider, int status, Bundle extras) {
-            }
-
-            public void onProviderEnabled(String provider) {
-            }
-
-            public void onProviderDisabled(String provider) {
-            }
-        };
+            override fun onStatusChanged(provider: String, status: Int, extras: Bundle) {}
+            override fun onProviderEnabled(provider: String) {}
+            override fun onProviderDisabled(provider: String) {}
+        }
         // Register the listener with the Location Manager to receive location updates
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                        Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             //    ActivityCompat#requestPermissions
             // here to request the missing permissions, and then overriding
             //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-            return;
+            return
         }
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0f, locationListener)
     }
 
-
-    public String GetAddress(String lat, String lon) {
-        Geocoder geocoder = new Geocoder(this, Locale.ENGLISH);
-        String ret;
+    fun GetAddress(lat: String, lon: String): String? {
+        val geocoder = Geocoder(this, Locale.ENGLISH)
+        var ret: String
         try {
-            List<Address> addresses = geocoder.getFromLocation(Double.parseDouble(lat),
-                    Double.parseDouble(lon), 1);
+            val addresses = geocoder.getFromLocation(lat.toDouble(), lon.toDouble(), 1)
             if (addresses != null) {
-                Address returnedAddress = addresses.get(0);
+                val returnedAddress = addresses[0]
                 /*StringBuilder strReturnedAddress = new StringBuilder("Address:\n");
                 for (int i = 0; i < returnedAddress.getMaxAddressLineIndex(); i++) {
                     strReturnedAddress.append(returnedAddress.getAddressLine(i)).append("\n");
                 }*/
                 //ret = strReturnedAddress.toString();
-                ret = returnedAddress.getAddressLine(0);
-                FoodnFine.getAppSharedPreference().saveCurrentLocation(ret);
-                wholeAddress = ret;
-                et_addAddress_location.setText(wholeAddress);
-                addressSeparator();
+                ret = returnedAddress.getAddressLine(0)
+                appSharedPreference!!.saveCurrentLocation(ret)
+                wholeAddress = ret
+                et_addAddress_location!!.setText(wholeAddress)
+                addressSeparator()
 
 
                 // sessionManager.update_address_billing(ret);
             } else {
-                ret = "No Address returned!";
+                ret = "No Address returned!"
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-            ret = "Can't get Address!";
-
-            Snackbar snackbar = Snackbar.make(this.findViewById(android.R.id.content),
-                    "Please turn on GPS", Snackbar.LENGTH_LONG);
-            View snackbarView = snackbar.getView();
-            snackbarView.setBackgroundColor(Color.WHITE);
-            snackbar.show();
+        } catch (e: IOException) {
+            e.printStackTrace()
+            ret = "Can't get Address!"
+            val snackbar = Snackbar.make(findViewById(android.R.id.content),
+                    "Please turn on GPS", Snackbar.LENGTH_LONG)
+            val snackbarView = snackbar.view
+            snackbarView.setBackgroundColor(Color.WHITE)
+            snackbar.show()
         }
-        return ret;
+        return ret
     }
 
-
-    public void findPlace() {
-
-        Intent intent = new Autocomplete.IntentBuilder(
+    fun findPlace() {
+        val intent = Autocomplete.IntentBuilder(
                 AutocompleteActivityMode.FULLSCREEN, fields)
-                .build(this);
-        startActivityForResult(intent, 1);
+                .build(this)
+        startActivityForResult(intent, 1)
     }
-
 
     // A place has been received; use requestCode to track the request.
     @SuppressLint("SetTextI16n")
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
+    public override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == 1) {
             if (resultCode == RESULT_OK) {
-                Place place = Autocomplete.getPlaceFromIntent(data);
-                placeId1 = place.getId();
-                queriedLocation = place.getLatLng();
-//                String lat = Double.toString(place.getLatLng().latitude);
+                val place = Autocomplete.getPlaceFromIntent(data!!)
+                placeId1 = place.id
+                queriedLocation = place.latLng
+                //                String lat = Double.toString(place.getLatLng().latitude);
 //                String lon = Double.toString(place.getLatLng().longitude);
 //
 //                getAddress(lat, lon);
-                wholeAddress = place.getAddress();
-                et_addAddress_location.setText(wholeAddress);
-                addressSeparator();
+                wholeAddress = place.address
+                et_addAddress_location!!.setText(wholeAddress)
+                addressSeparator()
             } else if (resultCode == AutocompleteActivity.RESULT_ERROR) {
-                Status status = Autocomplete.getStatusFromIntent(data);
+                val status = Autocomplete.getStatusFromIntent(data!!)
                 //Log.i("TAG", status.getStatusMessage());
             } else if (resultCode == RESULT_CANCELED) {
                 // The user canceled the operation.
@@ -680,49 +479,27 @@ public class AddAddressActivity extends BaseActivity implements CallbackAddAddre
         }
     }
 
-
-    private void addressSeparator() {
-
-        String[] separated = wholeAddress.split(",");
+    private fun addressSeparator() {
+        val separated = wholeAddress!!.split(",".toRegex()).toTypedArray()
         try {
-            et_addAddress_house_flat_no.setText(separated[0]);
-            et_addAddress_apartmentName.setText(separated[1] + separated[2]);
-            et_addAddress_landMark.setText(separated[3]);
-            et_addAddress_intructionToReachLocation.setText(separated[4]);
-        } catch (Exception e) {
-            e.printStackTrace();
+            et_addAddress_house_flat_no!!.setText(separated[0])
+            et_addAddress_apartmentName!!.setText(separated[1] + separated[2])
+            et_addAddress_landMark!!.setText(separated[3])
+            et_addAddress_intructionToReachLocation!!.setText(separated[4])
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
     }
 
-    @Override
-    public void onSuccess() {
-        Toast.makeText(this, "Address added Successfully ", Toast.LENGTH_SHORT).show();
-        finish();
+    override fun onSuccess() {
+        Toast.makeText(this, "Address added Successfully ", Toast.LENGTH_SHORT).show()
+        finish()
         //viewModel.getaddressList(getAddressList());
     }
 
-    @Override
-    public void onError(String message) {
-
-    }
-
-    @Override
-    public void onNetworkError(String message) {
-
-    }
-
-    @Override
-    public void onSuccessGetAddress(List<AddressDetails> addressDetailsList) {
-
-    }
-
-    @Override
-    public void onErrorGetAddress(String message) {
-
-    }
-
-    @Override
-    public void onSuccessAddressDetails(AddressDetails addressDetails) {
-
-    }
+    override fun onError(message: String) {}
+    override fun onNetworkError(message: String) {}
+    override fun onSuccessGetAddress(addressDetailsList: List<AddressDetails>) {}
+    override fun onErrorGetAddress(message: String) {}
+    override fun onSuccessAddressDetails(addressDetails: AddressDetails) {}
 }

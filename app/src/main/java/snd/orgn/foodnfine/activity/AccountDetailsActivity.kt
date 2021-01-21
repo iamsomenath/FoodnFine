@@ -1,161 +1,118 @@
-package snd.orgn.foodnfine.activity;
+package snd.orgn.foodnfine.activity
 
-import android.annotation.SuppressLint;
-import android.app.AlertDialog;
-import android.content.Intent;
-import android.os.Build;
-import android.os.Bundle;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.annotation.SuppressLint
+import android.app.AlertDialog
+import android.content.DialogInterface
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import android.view.View
+import android.view.WindowManager
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.lifecycle.ViewModelProviders
+import butterknife.BindView
+import butterknife.ButterKnife
+import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.activity_account_details.*
+import snd.orgn.foodnfine.R
+import snd.orgn.foodnfine.activity.OffersActivity
+import snd.orgn.foodnfine.application.FoodnFine.Companion.appSharedPreference
+import snd.orgn.foodnfine.base.BaseActivity
+import snd.orgn.foodnfine.callbacks.CallBackUserProfile
+import snd.orgn.foodnfine.data.shared_presferences.SessionManager
+import snd.orgn.foodnfine.login_mvp.LoginActivity
+import snd.orgn.foodnfine.model.utility.UserData
+import snd.orgn.foodnfine.util.LoadingDialog
+import snd.orgn.foodnfine.view_model.ActivityViewModel.AccountDetailsViewModel
 
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.lifecycle.ViewModelProviders;
+class AccountDetailsActivity : BaseActivity(), CallBackUserProfile {
 
-import com.google.android.material.snackbar.Snackbar;
+    var loadingDialog: LoadingDialog? = null
+    var viewModel: AccountDetailsViewModel? = null
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
-import snd.orgn.foodnfine.login_mvp.LoginActivity;
-import snd.orgn.foodnfine.R;
-import snd.orgn.foodnfine.application.FoodnFine;
-import snd.orgn.foodnfine.base.BaseActivity;
-import snd.orgn.foodnfine.callbacks.CallBackUserProfile;
-import snd.orgn.foodnfine.model.utility.UserData;
-import snd.orgn.foodnfine.util.LoadingDialog;
-import snd.orgn.foodnfine.view_model.ActivityViewModel.AccountDetailsViewModel;
-
-public class AccountDetailsActivity extends BaseActivity implements CallBackUserProfile {
-
-    @BindView(R.id.iv_accountDetails_back)
-    ImageView iv_accountDetails_back;
-    @BindView(R.id.layout_gotoCompleteSetup)
-    LinearLayout layout_gotoCompleteSetup;
-    @BindView(R.id.layout_saveAddress)
-    ConstraintLayout layout_saveAddress;
-    @BindView(R.id.tv_userMobileNo)
-    TextView tv_userMobileNo;
-    AccountDetailsViewModel viewModel;
-    @BindView(R.id.layout_logout)
-    LinearLayout layout_logout;
-    @BindView(R.id.layout_subs)
-    LinearLayout layout_subs;
-    @BindView(R.id.accountDetails_about)
-    ConstraintLayout accountDetails_about;
-    @BindView(R.id.orders_layout)
-    ConstraintLayout orders_layout;
-    @BindView(R.id.layout_notification)
-    LinearLayout layout_notification;
-    @BindView(R.id.layout_contactus)
-    ConstraintLayout layout_contactus;
-
-    LoadingDialog loadingDialog;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_account_details);
-        ButterKnife.bind(this);
-        loadingDialog = new LoadingDialog(this);
-        initFields();
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_account_details)
+        ButterKnife.bind(this)
+        loadingDialog = LoadingDialog(this)
+        initFields()
     }
 
     @SuppressLint("SetTextI18n")
-    @Override
-    public void initFields() {
-        hideStatusBarcolor();
-        tv_userMobileNo.setText("+91-" + FoodnFine.getAppSharedPreference().getUserMobile());
-        setupOnClick();
+    override fun initFields() {
+        hideStatusBarcolor()
+        tv_userMobileNo!!.text = "+91-" + appSharedPreference!!.userMobile
+        tv_userName!!.text = appSharedPreference!!.username
+        setupOnClick()
     }
 
-    @Override
-    public void setupOnClick() {
-        iv_accountDetails_back.setOnClickListener(v -> {
-            super.onBackPressed();
-        });
-
-        layout_gotoCompleteSetup.setOnClickListener(v->{
-            gotoUpdateProfile();
-        });
-        layout_saveAddress.setOnClickListener(v->{
-            gotoUpdateSaveAddress();
-        });
-        layout_contactus.setOnClickListener(v -> {
-            gotoContactUs();
-        });
-        layout_subs.setOnClickListener(v->{
-            gotoSubscription();
-        });
-        layout_logout.setOnClickListener(V->{
-            showLogoutPopup();
-        });
-        accountDetails_about.setOnClickListener(V->{
-            gotoAboutPage();
-        });
-        orders_layout.setOnClickListener(V->{
-            gotoOrderPage();
-        });
-        layout_notification.setOnClickListener(V->{
-            gotoNotificationPage();
-        });
+    override fun setupOnClick() {
+        iv_accountDetails_back!!.setOnClickListener { v: View? -> super.onBackPressed() }
+        layout_gotoCompleteSetup!!.setOnClickListener { v: View? -> gotoUpdateProfile() }
+        layout_saveAddress!!.setOnClickListener { v: View? -> gotoUpdateSaveAddress() }
+        layout_contactus!!.setOnClickListener { v: View? -> gotoContactUs() }
+        layout_subs!!.setOnClickListener { v: View? -> gotoSubscription() }
+        layout_logout!!.setOnClickListener { V: View? -> showLogoutPopup() }
+        accountDetails_about!!.setOnClickListener { V: View? -> gotoAboutPage() }
+        orders_layout!!.setOnClickListener { V: View? -> gotoOrderPage() }
+        layout_notification!!.setOnClickListener { V: View? -> gotoNotificationPage() }
     }
 
-    @Override
-    public void onResume(){
-        super.onResume();
-        viewModel = ViewModelProviders.of(this).get(AccountDetailsViewModel.class);
-        viewModel.getUserData(this, FoodnFine.getAppSharedPreference().getUserId());
+    public override fun onResume() {
+        super.onResume()
+        viewModel = ViewModelProviders.of(this).get(AccountDetailsViewModel::class.java)
+        viewModel!!.getUserData(this, appSharedPreference!!.userId)
     }
 
-    private void gotoNotificationPage() {
+    private fun gotoNotificationPage() {
         //Intent intent = new Intent(this, NotificationActivity.class);
-        Intent intent = new Intent(this, OffersActivity.class);
-        startActivity(intent);
+        val intent = Intent(this, OffersActivity::class.java)
+        startActivity(intent)
     }
 
-    private void gotoOrderPage() {
-        Intent intent = new Intent(this, MyOrdersActivity.class);
-        intent.putExtra("FROM", "AccountDetailsActivity");
-        startActivity(intent);
+    private fun gotoOrderPage() {
+        val intent = Intent(this, MyOrdersActivity::class.java)
+        intent.putExtra("FROM", "AccountDetailsActivity")
+        startActivity(intent)
     }
 
-    private void gotoAboutPage() {
-        Intent intent = new Intent(this, AboutActivity.class);
-        startActivity(intent);
+    private fun gotoAboutPage() {
+        val intent = Intent(this, AboutActivity::class.java)
+        startActivity(intent)
     }
 
-    private void gotoUpdateProfile() {
-        Intent intent = new Intent(this, UpdateProfileActivity.class);
-        startActivity(intent);
+    private fun gotoUpdateProfile() {
+        val intent = Intent(this, UpdateProfileActivity::class.java)
+        startActivity(intent)
     }
 
-    private void gotoUpdateSaveAddress() {
-        Intent intent = new Intent(this, SavedAddressActivity.class);
-        startActivity(intent);
+    private fun gotoUpdateSaveAddress() {
+        val intent = Intent(this, SavedAddressActivity::class.java)
+        startActivity(intent)
     }
 
-    private void gotoContactUs() {
-        Intent intent = new Intent(this, ContactActivity.class);
-        startActivity(intent);
+    private fun gotoContactUs() {
+        val intent = Intent(this, ContactActivity::class.java)
+        startActivity(intent)
     }
 
-    private void gotoSubscription() {
-        Intent intent = new Intent(this, SubscriptionActivity.class);
-        startActivity(intent);
+    private fun gotoSubscription() {
+        val intent = Intent(this, SubscriptionActivity::class.java)
+        startActivity(intent)
     }
 
-    private void hideStatusBarcolor() {
+    private fun hideStatusBarcolor() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(getResources().getColor(R.color.white_background));
+            val window = window
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+            window.statusBarColor = resources.getColor(R.color.white_background)
         }
     }
 
-    private void showLogoutPopup() {
+    private fun showLogoutPopup() {
         /*new MaterialDialog.Builder(this)
                 .title(getResources().getString(R.string.dialogTitle_logout))
                 .content(getResources().getString(R.string.dialogMessage_logout))
@@ -170,57 +127,50 @@ public class AccountDetailsActivity extends BaseActivity implements CallBackUser
                 .onNegative((dialog, which) -> {
                     dialog.dismiss();
                 }).show();*/
-
-        AlertDialog.Builder alertDialog2 = new AlertDialog.Builder(this);
-        alertDialog2.setTitle(getResources().getString(R.string.dialogTitle_logout));
-        alertDialog2.setMessage(getResources().getString(R.string.dialogMessage_logout));
-        alertDialog2.setPositiveButton("Yes",
-                (dialog, which) -> {
-                    FoodnFine.getAppSharedPreference().clearData();
-                    new SessionManager(this).logoutUser();
-                    goToLoginActivity();
-                });
-        alertDialog2.setNegativeButton("NO",
-                (dialog, which) -> {
-                    dialog.dismiss();
-                });
-        alertDialog2.setCancelable(false);
-        alertDialog2.show();
+        val alertDialog2 = AlertDialog.Builder(this)
+        alertDialog2.setTitle(resources.getString(R.string.dialogTitle_logout))
+        alertDialog2.setMessage(resources.getString(R.string.dialogMessage_logout))
+        alertDialog2.setPositiveButton("Yes"
+        ) { dialog: DialogInterface?, which: Int ->
+            appSharedPreference!!.clearData()
+            SessionManager(this).logoutUser()
+            goToLoginActivity()
+        }
+        alertDialog2.setNegativeButton("NO"
+        ) { dialog: DialogInterface, which: Int -> dialog.dismiss() }
+        alertDialog2.setCancelable(false)
+        alertDialog2.show()
     }
 
-    private void goToLoginActivity() {
-        Intent intent = new Intent(AccountDetailsActivity.this, LoginActivity.class);
-        finishAffinity();
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(intent);
-        finish();
+    private fun goToLoginActivity() {
+        val intent = Intent(this@AccountDetailsActivity, LoginActivity::class.java)
+        finishAffinity()
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        startActivity(intent)
+        finish()
     }
 
-    @Override
-    public void onStarted(){
-        loadingDialog.showDialog();
+    override fun onStarted() {
+        loadingDialog!!.showDialog()
     }
 
-    @Override
-    public void onSuccess(UserData userData) {
-        loadingDialog.hideDialog();
-        FoodnFine.getAppSharedPreference().setUserMobile(userData.getUserMobile());
-        FoodnFine.getAppSharedPreference().setUserEmail(userData.getUser_eml());
-        FoodnFine.getAppSharedPreference().setUserName(userData.getName());
+    override fun onSuccess(userData: UserData) {
+        loadingDialog!!.hideDialog()
+        appSharedPreference!!.userMobile = userData.userMobile
+        appSharedPreference!!.userEmail = userData.user_eml
+        appSharedPreference!!.setUserName(userData.name)
     }
 
-    @Override
-    public void onError(String message) {
-        loadingDialog.hideDialog();
-       /* Snackbar.make(this.findViewById(android.R.id.content),
+    override fun onError(message: String) {
+        loadingDialog!!.hideDialog()
+        /* Snackbar.make(this.findViewById(android.R.id.content),
                 "", Snackbar.LENGTH_LONG).show();*/
     }
 
-    @Override
-    public void onNetworkError(String message) {
-        loadingDialog.hideDialog();
-        Snackbar snackbar = Snackbar.make(this.findViewById(android.R.id.content),
-                "It seems your device don't have or no internet connection", Snackbar.LENGTH_LONG);
-        snackbar.show();
+    override fun onNetworkError(message: String) {
+        loadingDialog!!.hideDialog()
+        val snackbar = Snackbar.make(findViewById(android.R.id.content),
+                "It seems your device don't have or no internet connection", Snackbar.LENGTH_LONG)
+        snackbar.show()
     }
 }

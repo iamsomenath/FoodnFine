@@ -70,7 +70,7 @@
 36-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:22-107
 37
 38    <application
-38-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:16:5-221:19
+38-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:16:5-222:19
 39        android:name="snd.orgn.foodnfine.application.FoodnFine"
 39-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:17:9-64
 40        android:allowBackup="true"
@@ -85,395 +85,396 @@
 45        android:largeHeap="true"
 45-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:21:9-33
 46        android:networkSecurityConfig="@xml/network_security_config"
-46-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:26:9-69
-47        android:roundIcon="@mipmap/ic_launcher_round"
-47-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:22:9-54
-48        android:supportsRtl="true"
-48-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:23:9-35
-49        android:testOnly="true"
+46-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:27:9-69
+47        android:requestLegacyExternalStorage="true"
+47-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:25:9-52
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:22:9-54
+49        android:supportsRtl="true"
+49-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:23:9-35
 50        android:theme="@style/AppTheme"
 50-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:24:9-40
 51        android:usesCleartextTraffic="true"
-51-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:25:9-44
+51-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:26:9-44
 52        android:windowSoftInputMode="adjustPan" >
 52-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:30:9-48
 53        <activity
-53-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:29:9-31:77
+53-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:30:9-32:77
 54            android:name="snd.orgn.foodnfine.activity.ConfirmOrderDetails"
-54-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:31:13-75
+54-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:32:13-75
 55            android:screenOrientation="portrait" />
-55-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:30:13-49
+55-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:31:13-49
 56        <activity
-56-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:32:9-34:52
+56-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:33:9-35:52
 57            android:name="snd.orgn.foodnfine.activity.OffersActivity"
-57-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:33:13-70
+57-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:34:13-70
 58            android:screenOrientation="portrait" />
-58-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:34:13-49
+58-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:35:13-49
 59        <activity
-59-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:35:9-37:52
+59-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:36:9-38:52
 60            android:name="snd.orgn.foodnfine.activity.NewSwadesiProductActivity"
-60-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:36:13-81
+60-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:37:13-81
 61            android:screenOrientation="portrait" />
-61-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:37:13-49
+61-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:38:13-49
 62        <activity
-62-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:38:9-40:52
+62-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:39:9-41:52
 63            android:name="snd.orgn.foodnfine.activity.NewRestaurantDetailsActivity"
-63-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:39:13-84
+63-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:40:13-84
 64            android:screenOrientation="portrait" />
-64-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:40:13-49
+64-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:41:13-49
 65        <activity
-65-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:41:9-43:52
+65-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:42:9-44:52
 66            android:name="snd.orgn.foodnfine.activity.NewGroceryDetailsActivity"
-66-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:42:13-81
+66-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:43:13-81
 67            android:screenOrientation="portrait" />
-67-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:43:13-49
+67-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:44:13-49
 68        <activity
-68-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:44:9-46:52
+68-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:45:9-47:52
 69            android:name="snd.orgn.foodnfine.activity.ForgotPasswordActivity"
-69-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:45:13-78
+69-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:46:13-78
 70            android:screenOrientation="portrait" />
-70-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:46:13-49
+70-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:47:13-49
 71        <activity
-71-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:47:9-50:52
+71-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:48:9-51:52
 72            android:name="snd.orgn.foodnfine.signup_mvp.SignUpActivity"
-72-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:49:13-72
+72-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:50:13-72
 73            android:screenOrientation="portrait"
-73-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:50:13-49
+73-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:51:13-49
 74            android:windowSoftInputMode="stateHidden" />
-74-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:48:13-54
+74-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:49:13-54
 75        <activity
-75-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:51:9-53:52
+75-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:52:9-54:52
 76            android:name="snd.orgn.foodnfine.login_mvp.LoginActivity"
-76-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:52:13-70
+76-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:53:13-70
 77            android:screenOrientation="portrait" />
-77-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:53:13-49
+77-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:54:13-49
 78        <activity
-78-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:54:9-56:52
+78-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:55:9-57:52
 79            android:name="snd.orgn.foodnfine.activity.GetFromSavedAddressActivity"
-79-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:55:13-83
+79-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:56:13-83
 80            android:screenOrientation="portrait" />
-80-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:56:13-49
+80-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:57:13-49
 81        <activity
-81-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:57:9-59:52
+81-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:58:9-60:52
 82            android:name="snd.orgn.foodnfine.activity.NotificationActivity"
-82-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:58:13-76
+82-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:59:13-76
 83            android:screenOrientation="portrait" />
-83-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:59:13-49
+83-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:60:13-49
 84        <activity
-84-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:60:9-62:52
+84-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:61:9-63:52
 85            android:name="snd.orgn.foodnfine.activity.ContactActivity"
-85-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:61:13-71
+85-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:62:13-71
 86            android:screenOrientation="portrait" />
-86-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:62:13-49
+86-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:63:13-49
 87        <activity
-87-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:63:9-65:52
+87-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:64:9-66:52
 88            android:name="snd.orgn.foodnfine.activity.AboutActivity"
-88-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:64:13-69
+88-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:65:13-69
 89            android:screenOrientation="portrait" />
-89-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:65:13-49
+89-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:66:13-49
 90        <activity
-90-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:66:9-68:52
+90-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:67:9-69:52
 91            android:name="snd.orgn.foodnfine.activity.GPSActivity"
-91-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:67:13-67
+91-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:68:13-67
 92            android:screenOrientation="portrait" />
-92-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:68:13-49
+92-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:69:13-49
 93        <activity
-93-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:69:9-71:52
+93-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:70:9-72:52
 94            android:name="snd.orgn.foodnfine.activity.SwadesiDetailsActivity"
-94-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:70:13-78
+94-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:71:13-78
 95            android:screenOrientation="portrait" />
-95-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:71:13-49
+95-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:72:13-49
 96        <activity
-96-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:72:9-74:52
+96-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:73:9-75:52
 97            android:name="snd.orgn.foodnfine.activity.SwadesiProductActivity"
-97-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:73:13-78
+97-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:74:13-78
 98            android:screenOrientation="portrait" />
-98-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:74:13-49
+98-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:75:13-49
 99        <activity
-99-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:75:9-77:52
+99-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:76:9-78:52
 100            android:name="snd.orgn.foodnfine.activity.SubscriptionActivity"
-100-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:76:13-76
+100-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:77:13-76
 101            android:screenOrientation="portrait" />
-101-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:77:13-49
+101-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:78:13-49
 102        <activity
-102-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:78:9-80:52
+102-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:79:9-81:52
 103            android:name="snd.orgn.foodnfine.activity.GroceryDetailsActivity"
-103-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:79:13-78
+103-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:80:13-78
 104            android:screenOrientation="portrait" />
-104-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:80:13-49
+104-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:81:13-49
 105        <activity
-105-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:81:9-83:52
+105-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:82:9-84:52
 106            android:name="snd.orgn.foodnfine.activity.GroceryListActivity"
-106-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:82:13-75
+106-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:83:13-75
 107            android:screenOrientation="portrait" />
-107-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:83:13-49
+107-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:84:13-49
 108        <activity
-108-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:84:9-86:52
+108-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:85:9-87:52
 109            android:name="snd.orgn.foodnfine.activity.SubcriptionActivity"
-109-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:85:13-75
+109-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:86:13-75
 110            android:screenOrientation="portrait" />
-110-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:86:13-49
+110-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:87:13-49
 111        <activity
-111-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:87:9-89:52
+111-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:88:9-90:52
 112            android:name="snd.orgn.foodnfine.activity.DailyBookingActivity"
-112-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:88:13-76
+112-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:89:13-76
 113            android:screenOrientation="portrait" />
-113-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:89:13-49
+113-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:90:13-49
 114        <activity
-114-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:90:9-92:52
+114-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:91:9-93:52
 115            android:name="snd.orgn.foodnfine.activity.SelectServiceActivity"
-115-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:91:13-77
+115-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:92:13-77
 116            android:screenOrientation="portrait" />
-116-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:92:13-49
+116-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:93:13-49
 117        <activity
-117-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:93:9-95:52
+117-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:94:9-96:52
 118            android:name="snd.orgn.foodnfine.activity.OnlinePaymentActivitySwadesiProdct"
-118-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:94:13-90
+118-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:95:13-90
 119            android:screenOrientation="portrait" />
-119-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:95:13-49
+119-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:96:13-49
 120        <activity
-120-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:96:9-98:52
+120-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:97:9-99:52
 121            android:name="snd.orgn.foodnfine.activity.SelectPaymentActivity"
-121-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:97:13-77
+121-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:98:13-77
 122            android:screenOrientation="portrait" />
-122-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:98:13-49
+122-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:99:13-49
 123        <activity
-123-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:100:9-102:52
+123-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:101:9-103:52
 124            android:name="snd.orgn.foodnfine.activity.RestrurentDetailsActivity"
-124-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:101:13-81
+124-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:102:13-81
 125            android:screenOrientation="portrait" />
-125-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:102:13-49
+125-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:103:13-49
 126        <activity
-126-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:103:9-105:52
+126-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:104:9-106:52
 127            android:name="snd.orgn.foodnfine.activity.WalletActivity"
-127-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:104:13-70
+127-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:105:13-70
 128            android:screenOrientation="portrait" /> <!-- <provider -->
-128-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:105:13-49
+128-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:106:13-49
 129        <activity
-129-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:106:9-108:52
+129-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:107:9-109:52
 130            android:name="snd.orgn.foodnfine.activity.OrderDetailsActivity"
-130-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:107:13-76
+130-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:108:13-76
 131            android:screenOrientation="portrait" />
-131-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:108:13-49
+131-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:109:13-49
 132        <activity
-132-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:109:9-111:52
+132-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:110:9-112:52
 133            android:name="snd.orgn.foodnfine.activity.MyOrdersActivity"
-133-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:110:13-72
+133-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:111:13-72
 134            android:screenOrientation="portrait" />
-134-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:111:13-49
+134-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:112:13-49
 135        <activity
-135-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:112:9-115:72
+135-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:113:9-116:72
 136            android:name="snd.orgn.foodnfine.activity.ConfirmOrderActivity"
-136-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:113:13-76
+136-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:114:13-76
 137            android:screenOrientation="portrait"
-137-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:114:13-49
+137-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:115:13-49
 138            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-138-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:115:13-69
+138-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:116:13-69
 139        <activity
-139-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:116:9-119:72
+139-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:117:9-120:72
 140            android:name="snd.orgn.foodnfine.activity.RestrurentListActivity"
-140-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:117:13-78
+140-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:118:13-78
 141            android:screenOrientation="portrait"
-141-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:118:13-49
+141-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:119:13-49
 142            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-142-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:119:13-69
+142-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:120:13-69
 143        <activity
-143-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:120:9-123:72
+143-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:121:9-124:72
 144            android:name="snd.orgn.foodnfine.activity.OtherStoreActivity"
-144-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:121:13-74
+144-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:122:13-74
 145            android:screenOrientation="portrait"
-145-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:122:13-49
+145-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:123:13-49
 146            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-146-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:123:13-69
+146-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:124:13-69
 147        <activity
-147-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:124:9-128:57
+147-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:125:9-129:57
 148            android:name="snd.orgn.foodnfine.activity.SendPackageActivity"
-148-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:125:13-75
+148-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:126:13-75
 149            android:screenOrientation="portrait"
-149-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:126:13-49
+149-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:127:13-49
 150            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-150-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:127:13-69
+150-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:128:13-69
 151            android:windowSoftInputMode="stateHidden" />
-151-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:128:13-54
+151-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:129:13-54
 152        <activity
-152-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:129:9-132:72
+152-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:130:9-133:72
 153            android:name="snd.orgn.foodnfine.activity.ServiceActivity"
-153-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:130:13-71
+153-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:131:13-71
 154            android:screenOrientation="portrait"
-154-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:131:13-49
+154-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:132:13-49
 155            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-155-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:132:13-69
+155-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:133:13-69
 156        <activity
-156-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:133:9-136:72
+156-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:134:9-137:72
 157            android:name="snd.orgn.foodnfine.activity.LocationOnActivity"
-157-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:134:13-74
+157-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:135:13-74
 158            android:screenOrientation="portrait"
-158-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:135:13-49
+158-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:136:13-49
 159            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-159-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:136:13-69
+159-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:137:13-69
 160        <activity
-160-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:137:9-140:72
+160-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:138:9-141:72
 161            android:name="snd.orgn.foodnfine.activity.AddAddressActivity"
-161-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:138:13-74
+161-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:139:13-74
 162            android:screenOrientation="portrait"
-162-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:139:13-49
+162-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:140:13-49
 163            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-163-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:140:13-69
+163-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:141:13-69
 164        <activity
-164-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:141:9-144:72
+164-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:142:9-145:72
 165            android:name="snd.orgn.foodnfine.activity.SelectLocationMapActivity"
-165-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:142:13-81
+165-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:143:13-81
 166            android:screenOrientation="portrait"
-166-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:143:13-49
+166-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:144:13-49
 167            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-167-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:144:13-69
+167-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:145:13-69
 168        <activity
-168-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:145:9-148:72
+168-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:146:9-149:72
 169            android:name="snd.orgn.foodnfine.activity.SelectLocationActivity"
-169-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:146:13-78
+169-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:147:13-78
 170            android:screenOrientation="portrait"
-170-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:147:13-49
+170-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:148:13-49
 171            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-171-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:148:13-69
+171-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:149:13-69
 172        <activity
-172-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:149:9-152:57
+172-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:150:9-153:57
 173            android:name="snd.orgn.foodnfine.activity.SearchActivity"
-173-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:150:13-70
+173-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:151:13-70
 174            android:screenOrientation="portrait"
-174-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:151:13-49
+174-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:152:13-49
 175            android:windowSoftInputMode="stateHidden" />
-175-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:152:13-54
+175-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:153:13-54
 176        <activity
-176-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:153:9-155:52
+176-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:154:9-156:52
 177            android:name="snd.orgn.foodnfine.activity.SavedAddressActivity"
-177-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:154:13-76
+177-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:155:13-76
 178            android:screenOrientation="portrait" />
-178-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:155:13-49
+178-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:156:13-49
 179        <activity
-179-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:156:9-158:52
+179-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:157:9-159:52
 180            android:name="snd.orgn.foodnfine.activity.AccountDetailsActivity"
-180-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:157:13-78
+180-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:158:13-78
 181            android:screenOrientation="portrait" />
-181-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:158:13-49
+181-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:159:13-49
 182        <activity
-182-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:159:9-161:52
+182-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:160:9-162:52
 183            android:name="snd.orgn.foodnfine.activity.UpdateProfileActivity"
-183-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:160:13-77
+183-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:161:13-77
 184            android:screenOrientation="portrait" />
-184-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:161:13-49
+184-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:162:13-49
 185        <activity
-185-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:162:9-165:52
+185-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:163:9-166:52
 186            android:name="snd.orgn.foodnfine.activity.DasboardActivity"
-186-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:163:13-72
+186-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:164:13-72
 187            android:label="@string/title_activity_dasboard"
-187-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:164:13-60
+187-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:165:13-60
 188            android:screenOrientation="portrait" />
-188-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:165:13-49
+188-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:166:13-49
 189        <activity
-189-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:166:9-168:52
+189-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:167:9-169:52
 190            android:name="snd.orgn.foodnfine.activity.LoginMobileNoActivity"
-190-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:167:13-77
+190-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:168:13-77
 191            android:screenOrientation="portrait" />
-191-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:168:13-49
+191-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:169:13-49
 192        <activity
-192-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:169:9-171:52
+192-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:170:9-172:52
 193            android:name="snd.orgn.foodnfine.activity.OtpCheckActivity"
-193-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:170:13-72
+193-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:171:13-72
 194            android:screenOrientation="portrait" />
-194-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:171:13-49
+194-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:172:13-49
 195        <activity
-195-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:172:9-182:20
+195-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:173:9-183:20
 196            android:name="snd.orgn.foodnfine.activity.Splash_ScreenActivity"
-196-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:173:13-77
+196-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:174:13-77
 197            android:screenOrientation="portrait"
-197-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:174:13-49
+197-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:175:13-49
 198            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-198-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:175:13-69
+198-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:176:13-69
 199            <intent-filter>
-199-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:176:13-181:29
+199-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:177:13-182:29
 200                <action android:name="android.intent.action.MAIN" />
-200-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:177:17-69
-200-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:177:25-66
+200-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:17-69
+200-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:25-66
 201                <action android:name="android.intent.action.VIEW" />
-201-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:17-69
-201-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:25-66
+201-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-69
+201-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:25-66
 202
 203                <category android:name="android.intent.category.LAUNCHER" />
-203-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-77
-203-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:27-74
+203-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:17-77
+203-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:27-74
 204                <category android:name="android.intent.category.DEFAULT" />
-204-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:17-76
-204-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:27-73
+204-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:17-76
+204-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:27-73
 205            </intent-filter>
 206        </activity>
 207        <activity
-207-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:183:9-185:52
+207-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:184:9-186:52
 208            android:name="snd.orgn.foodnfine.activity.PaymentSwadesiProduct"
-208-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:184:13-77
+208-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:185:13-77
 209            android:screenOrientation="portrait" />
-209-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:185:13-49
+209-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:186:13-49
 210        <activity
-210-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:186:9-188:52
+210-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:187:9-189:52
 211            android:name="snd.orgn.foodnfine.activity.OnlinePaymentActivity"
-211-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:187:13-77
+211-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:188:13-77
 212            android:screenOrientation="portrait" />
-212-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:188:13-49
+212-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:189:13-49
 213        <activity
-213-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:189:9-191:52
+213-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:190:9-192:52
 214            android:name="snd.orgn.foodnfine.firebase.NotificationClass"
-214-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:190:13-73
+214-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:191:13-73
 215            android:screenOrientation="portrait" />
-215-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:191:13-49
+215-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:192:13-49
 216
 217        <meta-data
-217-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:192:9-194:55
+217-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:193:9-195:55
 218            android:name="com.google.android.geo.API_KEY"
-218-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:193:13-58
+218-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:194:13-58
 219            android:value="@string/google_maps_key" /> <!-- Firebase Notifications -->
-219-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:194:13-52
+219-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:195:13-52
 220        <meta-data
-220-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:195:9-197:69
+220-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:196:9-198:69
 221            android:name="com.google.android.gms.version"
-221-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:196:13-58
+221-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:197:13-58
 222            android:value="@integer/google_play_services_version" />
-222-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:197:13-66
+222-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:198:13-66
 223        <meta-data
-223-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:199:9-201:71
+223-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:200:9-202:71
 224            android:name="com.google.firebase.messaging.default_notification_channel_id"
-224-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:200:13-89
+224-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:201:13-89
 225            android:value="@string/default_notification_channel_id" /> <!-- ./Firebase Notifications -->
-225-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:201:13-68
+225-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:202:13-68
 226        <meta-data
-226-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:202:9-204:53
+226-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:203:9-205:53
 227            android:name="com.google.firebase.messaging.default_notification_icon"
-227-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:203:13-83
+227-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:204:13-83
 228            android:resource="@drawable/new_logo" />
-228-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:204:13-50
+228-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:205:13-50
 229
 230        <service android:name="snd.orgn.foodnfine.firebase.MyFirebaseMessagingService" >
-230-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:206:9-210:19
-230-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:206:18-87
+230-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:9-211:19
+230-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:18-87
 231            <intent-filter>
-231-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:13-209:29
+231-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:13-210:29
 232                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-232-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:17-78
-232-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:25-75
+232-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:17-78
+232-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:25-75
 233            </intent-filter>
 234        </service>
 235        <service
-235-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:212:9-216:19
+235-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:213:9-217:19
 236            android:name="com.google.firebase.components.ComponentDiscoveryService"
-236-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:212:18-89
+236-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:213:18-89
 237            android:directBootAware="true"
 237-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a245f4b96575cd9cedb079313c7db4fa\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 238            android:exported="false" >
 238-->[com.google.firebase:firebase-analytics-ktx:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\591c8eabec74f0fec3400a50bb3fea6b\jetified-firebase-analytics-ktx-17.6.0\AndroidManifest.xml:10:13-37
 239            <meta-data
-239-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:213:13-215:85
+239-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:214:13-216:85
 240                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-240-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:214:17-96
+240-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:215:17-96
 241                android:value="com.google.firebase.components.ComponentRegistrar" />
-241-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:215:17-82
+241-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:216:17-82
 242            <meta-data
 242-->[com.google.firebase:firebase-analytics-ktx:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\591c8eabec74f0fec3400a50bb3fea6b\jetified-firebase-analytics-ktx-17.6.0\AndroidManifest.xml:11:13-13:85
 243                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
@@ -513,11 +514,11 @@
 260        </service>
 261
 262        <uses-library
-262-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:218:9-220:40
+262-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:219:9-221:40
 263            android:name="org.apache.http.legacy"
-263-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:219:13-50
+263-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:220:13-50
 264            android:required="false" />
-264-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:220:13-37
+264-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:221:13-37
 265
 266        <activity
 266-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:19:9-24:55
@@ -604,12 +605,12 @@
 307-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:27:23-64
 308
 309                <action android:name="android.intent.action.VIEW" />
-309-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:17-69
-309-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:25-66
+309-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-69
+309-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:25-66
 310
 311                <category android:name="android.intent.category.DEFAULT" />
-311-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:17-76
-311-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:27-73
+311-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:17-76
+311-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:27-73
 312                <category android:name="android.intent.category.BROWSABLE" />
 312-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:32:17-78
 312-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:32:27-75
@@ -621,12 +622,12 @@
 315-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:27:23-64
 316
 317                <action android:name="android.intent.action.VIEW" />
-317-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:17-69
-317-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:25-66
+317-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-69
+317-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:25-66
 318
 319                <category android:name="android.intent.category.DEFAULT" />
-319-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:17-76
-319-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:27-73
+319-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:17-76
+319-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:27-73
 320                <category android:name="android.intent.category.BROWSABLE" />
 320-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:32:17-78
 320-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:32:27-75
@@ -695,10 +696,10 @@
 357            android:exported="false" >
 357-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:31:13-37
 358            <intent-filter android:priority="-500" >
-358-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:13-209:29
+358-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:13-210:29
 359                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-359-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:17-78
-359-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:25-75
+359-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:17-78
+359-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:25-75
 360            </intent-filter>
 361        </service>
 362
