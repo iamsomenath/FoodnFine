@@ -6,806 +6,806 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml
+8-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml
+9-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CALL_PHONE" />
-11-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:6:5-69
-11-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:6:22-66
+11-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:6:5-69
+11-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:6:22-66
 12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-12-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:7:5-75
-12-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:7:22-72
+12-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:7:5-75
+12-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:7:22-72
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:8:5-67
-13-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:8:22-64
+13-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:8:5-67
+13-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:8:22-64
 14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-14-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:9:5-81
-14-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:9:22-78
+14-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:9:5-81
+14-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:9:22-78
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:10:5-79
-15-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:10:22-76
+15-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:10:5-79
+15-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:10:22-76
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:11:5-80
-16-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:11:22-77
+16-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:11:5-80
+16-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:11:22-77
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:12:5-81
-17-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:12:22-78
+17-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:12:5-81
+17-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:12:22-78
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:13:5-79
-18-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:13:22-76
+18-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:13:5-79
+18-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:13:22-76
 19    <uses-permission android:name="android.permission.CAMERA" />
-19-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:14:5-64
-19-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:14:22-62
+19-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:14:5-64
+19-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:14:22-62
 20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Require below permissions for reading sms and otp assist feature -->
-20-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:13:5-76
-20-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:13:22-73
+20-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:13:5-76
+20-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:13:22-73
 21    <!--
 22    <uses-permission android:name="android.permission.READ_SMS" />
 23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 24    -->
 25    <uses-feature
-25-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:24:5-26:36
+25-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:24:5-26:36
 26        android:name="android.hardware.telephony"
-26-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:25:9-50
+26-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:25:9-50
 27        android:required="false" />
-27-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:26:9-33
+27-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:26:9-33
 28
 29    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-29-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:24:5-68
-29-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:24:22-65
+29-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:24:5-68
+29-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:24:22-65
 30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-30-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:26:5-82
-30-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:26:22-79
+30-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:26:22-79
 31
 32    <uses-feature
-32-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\fb5f2a303a294a89fae14201d79a5d6b\jetified-play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+32-->[com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
 33        android:glEsVersion="0x00020000"
-33-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\fb5f2a303a294a89fae14201d79a5d6b\jetified-play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+33-->[com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
 34        android:required="true" />
-34-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\fb5f2a303a294a89fae14201d79a5d6b\jetified-play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+34-->[com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
 35
 36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-36-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:5-110
-36-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:22-107
+36-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+36-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
 37
 38    <application
-38-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:16:5-222:19
+38-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:16:5-222:19
 39        android:name="snd.orgn.foodnfine.application.FoodnFine"
-39-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:17:9-64
+39-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:17:9-64
 40        android:allowBackup="true"
-40-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:18:9-35
+40-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:18:9-35
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-41-->[androidx.core:core:1.3.2] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\fddf308cd433300ba3a45b5dd6b47a75\core-1.3.2\AndroidManifest.xml:24:18-86
+41-->[androidx.core:core:1.3.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/fddf308cd433300ba3a45b5dd6b47a75/core-1.3.2/AndroidManifest.xml:24:18-86
 42        android:debuggable="true"
 43        android:icon="@mipmap/ic_launcher"
-43-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:19:9-43
+43-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:19:9-43
 44        android:label="@string/app_name"
-44-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:20:9-41
+44-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:20:9-41
 45        android:largeHeap="true"
-45-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:21:9-33
+45-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:21:9-33
 46        android:networkSecurityConfig="@xml/network_security_config"
-46-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:27:9-69
+46-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:27:9-69
 47        android:requestLegacyExternalStorage="true"
-47-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:25:9-52
+47-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:25:9-52
 48        android:roundIcon="@mipmap/ic_launcher_round"
-48-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:22:9-54
+48-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:22:9-54
 49        android:supportsRtl="true"
-49-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:23:9-35
+49-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:23:9-35
 50        android:theme="@style/AppTheme"
-50-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:24:9-40
+50-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:24:9-40
 51        android:usesCleartextTraffic="true"
-51-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:26:9-44
+51-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:26:9-44
 52        android:windowSoftInputMode="adjustPan" >
-52-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:30:9-48
+52-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:30:9-48
 53        <activity
-53-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:30:9-32:77
+53-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:30:9-32:77
 54            android:name="snd.orgn.foodnfine.activity.ConfirmOrderDetails"
-54-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:32:13-75
+54-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:32:13-75
 55            android:screenOrientation="portrait" />
-55-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:31:13-49
+55-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:31:13-49
 56        <activity
-56-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:33:9-35:52
+56-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:33:9-35:52
 57            android:name="snd.orgn.foodnfine.activity.OffersActivity"
-57-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:34:13-70
+57-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:34:13-70
 58            android:screenOrientation="portrait" />
-58-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:35:13-49
+58-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:35:13-49
 59        <activity
-59-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:36:9-38:52
+59-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:36:9-38:52
 60            android:name="snd.orgn.foodnfine.activity.NewSwadesiProductActivity"
-60-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:37:13-81
+60-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:37:13-81
 61            android:screenOrientation="portrait" />
-61-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:38:13-49
+61-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:38:13-49
 62        <activity
-62-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:39:9-41:52
+62-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:39:9-41:52
 63            android:name="snd.orgn.foodnfine.activity.NewRestaurantDetailsActivity"
-63-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:40:13-84
+63-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:40:13-84
 64            android:screenOrientation="portrait" />
-64-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:41:13-49
+64-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:41:13-49
 65        <activity
-65-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:42:9-44:52
+65-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:42:9-44:52
 66            android:name="snd.orgn.foodnfine.activity.NewGroceryDetailsActivity"
-66-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:43:13-81
+66-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:43:13-81
 67            android:screenOrientation="portrait" />
-67-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:44:13-49
+67-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:44:13-49
 68        <activity
-68-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:45:9-47:52
+68-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:45:9-47:52
 69            android:name="snd.orgn.foodnfine.activity.ForgotPasswordActivity"
-69-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:46:13-78
+69-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:46:13-78
 70            android:screenOrientation="portrait" />
-70-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:47:13-49
+70-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:47:13-49
 71        <activity
-71-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:48:9-51:52
+71-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:48:9-51:52
 72            android:name="snd.orgn.foodnfine.signup_mvp.SignUpActivity"
-72-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:50:13-72
+72-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:50:13-72
 73            android:screenOrientation="portrait"
-73-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:51:13-49
+73-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:51:13-49
 74            android:windowSoftInputMode="stateHidden" />
-74-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:49:13-54
+74-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:49:13-54
 75        <activity
-75-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:52:9-54:52
+75-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:52:9-54:52
 76            android:name="snd.orgn.foodnfine.login_mvp.LoginActivity"
-76-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:53:13-70
+76-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:53:13-70
 77            android:screenOrientation="portrait" />
-77-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:54:13-49
+77-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:54:13-49
 78        <activity
-78-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:55:9-57:52
+78-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:55:9-57:52
 79            android:name="snd.orgn.foodnfine.activity.GetFromSavedAddressActivity"
-79-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:56:13-83
+79-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:56:13-83
 80            android:screenOrientation="portrait" />
-80-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:57:13-49
+80-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:57:13-49
 81        <activity
-81-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:58:9-60:52
+81-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:58:9-60:52
 82            android:name="snd.orgn.foodnfine.activity.NotificationActivity"
-82-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:59:13-76
+82-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:59:13-76
 83            android:screenOrientation="portrait" />
-83-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:60:13-49
+83-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:60:13-49
 84        <activity
-84-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:61:9-63:52
+84-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:61:9-63:52
 85            android:name="snd.orgn.foodnfine.activity.ContactActivity"
-85-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:62:13-71
+85-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:62:13-71
 86            android:screenOrientation="portrait" />
-86-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:63:13-49
+86-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:63:13-49
 87        <activity
-87-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:64:9-66:52
+87-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:64:9-66:52
 88            android:name="snd.orgn.foodnfine.activity.AboutActivity"
-88-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:65:13-69
+88-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:65:13-69
 89            android:screenOrientation="portrait" />
-89-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:66:13-49
+89-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:66:13-49
 90        <activity
-90-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:67:9-69:52
+90-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:67:9-69:52
 91            android:name="snd.orgn.foodnfine.activity.GPSActivity"
-91-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:68:13-67
+91-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:68:13-67
 92            android:screenOrientation="portrait" />
-92-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:69:13-49
+92-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:69:13-49
 93        <activity
-93-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:70:9-72:52
+93-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:70:9-72:52
 94            android:name="snd.orgn.foodnfine.activity.SwadesiDetailsActivity"
-94-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:71:13-78
+94-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:71:13-78
 95            android:screenOrientation="portrait" />
-95-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:72:13-49
+95-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:72:13-49
 96        <activity
-96-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:73:9-75:52
+96-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:73:9-75:52
 97            android:name="snd.orgn.foodnfine.activity.SwadesiProductActivity"
-97-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:74:13-78
+97-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:74:13-78
 98            android:screenOrientation="portrait" />
-98-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:75:13-49
+98-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:75:13-49
 99        <activity
-99-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:76:9-78:52
+99-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:76:9-78:52
 100            android:name="snd.orgn.foodnfine.activity.SubscriptionActivity"
-100-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:77:13-76
+100-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:77:13-76
 101            android:screenOrientation="portrait" />
-101-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:78:13-49
+101-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:78:13-49
 102        <activity
-102-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:79:9-81:52
+102-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:79:9-81:52
 103            android:name="snd.orgn.foodnfine.activity.GroceryDetailsActivity"
-103-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:80:13-78
+103-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:80:13-78
 104            android:screenOrientation="portrait" />
-104-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:81:13-49
+104-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:81:13-49
 105        <activity
-105-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:82:9-84:52
+105-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:82:9-84:52
 106            android:name="snd.orgn.foodnfine.activity.GroceryListActivity"
-106-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:83:13-75
+106-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:83:13-75
 107            android:screenOrientation="portrait" />
-107-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:84:13-49
+107-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:84:13-49
 108        <activity
-108-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:85:9-87:52
+108-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:85:9-87:52
 109            android:name="snd.orgn.foodnfine.activity.SubcriptionActivity"
-109-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:86:13-75
+109-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:86:13-75
 110            android:screenOrientation="portrait" />
-110-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:87:13-49
+110-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:87:13-49
 111        <activity
-111-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:88:9-90:52
+111-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:88:9-90:52
 112            android:name="snd.orgn.foodnfine.activity.DailyBookingActivity"
-112-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:89:13-76
+112-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:89:13-76
 113            android:screenOrientation="portrait" />
-113-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:90:13-49
+113-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:90:13-49
 114        <activity
-114-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:91:9-93:52
+114-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:91:9-93:52
 115            android:name="snd.orgn.foodnfine.activity.SelectServiceActivity"
-115-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:92:13-77
+115-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:92:13-77
 116            android:screenOrientation="portrait" />
-116-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:93:13-49
+116-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:93:13-49
 117        <activity
-117-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:94:9-96:52
+117-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:94:9-96:52
 118            android:name="snd.orgn.foodnfine.activity.OnlinePaymentActivitySwadesiProdct"
-118-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:95:13-90
+118-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:95:13-90
 119            android:screenOrientation="portrait" />
-119-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:96:13-49
+119-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:96:13-49
 120        <activity
-120-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:97:9-99:52
+120-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:97:9-99:52
 121            android:name="snd.orgn.foodnfine.activity.SelectPaymentActivity"
-121-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:98:13-77
+121-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:98:13-77
 122            android:screenOrientation="portrait" />
-122-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:99:13-49
+122-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:99:13-49
 123        <activity
-123-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:101:9-103:52
+123-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:101:9-103:52
 124            android:name="snd.orgn.foodnfine.activity.RestrurentDetailsActivity"
-124-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:102:13-81
+124-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:102:13-81
 125            android:screenOrientation="portrait" />
-125-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:103:13-49
+125-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:103:13-49
 126        <activity
-126-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:104:9-106:52
+126-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:104:9-106:52
 127            android:name="snd.orgn.foodnfine.activity.WalletActivity"
-127-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:105:13-70
+127-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:105:13-70
 128            android:screenOrientation="portrait" /> <!-- <provider -->
-128-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:106:13-49
+128-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:106:13-49
 129        <activity
-129-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:107:9-109:52
+129-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:107:9-109:52
 130            android:name="snd.orgn.foodnfine.activity.OrderDetailsActivity"
-130-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:108:13-76
+130-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:108:13-76
 131            android:screenOrientation="portrait" />
-131-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:109:13-49
+131-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:109:13-49
 132        <activity
-132-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:110:9-112:52
+132-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:110:9-112:52
 133            android:name="snd.orgn.foodnfine.activity.MyOrdersActivity"
-133-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:111:13-72
+133-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:111:13-72
 134            android:screenOrientation="portrait" />
-134-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:112:13-49
+134-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:112:13-49
 135        <activity
-135-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:113:9-116:72
+135-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:113:9-116:72
 136            android:name="snd.orgn.foodnfine.activity.ConfirmOrderActivity"
-136-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:114:13-76
+136-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:114:13-76
 137            android:screenOrientation="portrait"
-137-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:115:13-49
+137-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:115:13-49
 138            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-138-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:116:13-69
+138-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:116:13-69
 139        <activity
-139-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:117:9-120:72
+139-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:117:9-120:72
 140            android:name="snd.orgn.foodnfine.activity.RestrurentListActivity"
-140-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:118:13-78
+140-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:118:13-78
 141            android:screenOrientation="portrait"
-141-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:119:13-49
+141-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:119:13-49
 142            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-142-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:120:13-69
+142-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:120:13-69
 143        <activity
-143-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:121:9-124:72
+143-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:121:9-124:72
 144            android:name="snd.orgn.foodnfine.activity.OtherStoreActivity"
-144-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:122:13-74
+144-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:122:13-74
 145            android:screenOrientation="portrait"
-145-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:123:13-49
+145-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:123:13-49
 146            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-146-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:124:13-69
+146-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:124:13-69
 147        <activity
-147-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:125:9-129:57
+147-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:125:9-129:57
 148            android:name="snd.orgn.foodnfine.activity.SendPackageActivity"
-148-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:126:13-75
+148-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:126:13-75
 149            android:screenOrientation="portrait"
-149-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:127:13-49
+149-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:127:13-49
 150            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-150-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:128:13-69
+150-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:128:13-69
 151            android:windowSoftInputMode="stateHidden" />
-151-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:129:13-54
+151-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:129:13-54
 152        <activity
-152-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:130:9-133:72
+152-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:130:9-133:72
 153            android:name="snd.orgn.foodnfine.activity.ServiceActivity"
-153-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:131:13-71
+153-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:131:13-71
 154            android:screenOrientation="portrait"
-154-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:132:13-49
+154-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:132:13-49
 155            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-155-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:133:13-69
+155-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:133:13-69
 156        <activity
-156-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:134:9-137:72
+156-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:134:9-137:72
 157            android:name="snd.orgn.foodnfine.activity.LocationOnActivity"
-157-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:135:13-74
+157-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:135:13-74
 158            android:screenOrientation="portrait"
-158-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:136:13-49
+158-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:136:13-49
 159            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-159-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:137:13-69
+159-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:137:13-69
 160        <activity
-160-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:138:9-141:72
+160-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:138:9-141:72
 161            android:name="snd.orgn.foodnfine.activity.AddAddressActivity"
-161-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:139:13-74
+161-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:139:13-74
 162            android:screenOrientation="portrait"
-162-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:140:13-49
+162-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:140:13-49
 163            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-163-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:141:13-69
+163-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:141:13-69
 164        <activity
-164-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:142:9-145:72
+164-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:142:9-145:72
 165            android:name="snd.orgn.foodnfine.activity.SelectLocationMapActivity"
-165-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:143:13-81
+165-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:143:13-81
 166            android:screenOrientation="portrait"
-166-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:144:13-49
+166-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:144:13-49
 167            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-167-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:145:13-69
+167-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:145:13-69
 168        <activity
-168-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:146:9-149:72
+168-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:146:9-149:72
 169            android:name="snd.orgn.foodnfine.activity.SelectLocationActivity"
-169-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:147:13-78
+169-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:147:13-78
 170            android:screenOrientation="portrait"
-170-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:148:13-49
+170-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:148:13-49
 171            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-171-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:149:13-69
+171-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:149:13-69
 172        <activity
-172-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:150:9-153:57
+172-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:150:9-153:57
 173            android:name="snd.orgn.foodnfine.activity.SearchActivity"
-173-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:151:13-70
+173-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:151:13-70
 174            android:screenOrientation="portrait"
-174-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:152:13-49
+174-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:152:13-49
 175            android:windowSoftInputMode="stateHidden" />
-175-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:153:13-54
+175-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:153:13-54
 176        <activity
-176-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:154:9-156:52
+176-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:154:9-156:52
 177            android:name="snd.orgn.foodnfine.activity.SavedAddressActivity"
-177-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:155:13-76
+177-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:155:13-76
 178            android:screenOrientation="portrait" />
-178-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:156:13-49
+178-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:156:13-49
 179        <activity
-179-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:157:9-159:52
+179-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:157:9-159:52
 180            android:name="snd.orgn.foodnfine.activity.AccountDetailsActivity"
-180-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:158:13-78
+180-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:158:13-78
 181            android:screenOrientation="portrait" />
-181-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:159:13-49
+181-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:159:13-49
 182        <activity
-182-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:160:9-162:52
+182-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:160:9-162:52
 183            android:name="snd.orgn.foodnfine.activity.UpdateProfileActivity"
-183-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:161:13-77
+183-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:161:13-77
 184            android:screenOrientation="portrait" />
-184-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:162:13-49
+184-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:162:13-49
 185        <activity
-185-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:163:9-166:52
+185-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:163:9-166:52
 186            android:name="snd.orgn.foodnfine.activity.DasboardActivity"
-186-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:164:13-72
+186-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:164:13-72
 187            android:label="@string/title_activity_dasboard"
-187-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:165:13-60
+187-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:165:13-60
 188            android:screenOrientation="portrait" />
-188-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:166:13-49
+188-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:166:13-49
 189        <activity
-189-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:167:9-169:52
+189-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:167:9-169:52
 190            android:name="snd.orgn.foodnfine.activity.LoginMobileNoActivity"
-190-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:168:13-77
+190-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:168:13-77
 191            android:screenOrientation="portrait" />
-191-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:169:13-49
+191-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:169:13-49
 192        <activity
-192-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:170:9-172:52
+192-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:170:9-172:52
 193            android:name="snd.orgn.foodnfine.activity.OtpCheckActivity"
-193-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:171:13-72
+193-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:171:13-72
 194            android:screenOrientation="portrait" />
-194-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:172:13-49
+194-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:172:13-49
 195        <activity
-195-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:173:9-183:20
+195-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:173:9-183:20
 196            android:name="snd.orgn.foodnfine.activity.Splash_ScreenActivity"
-196-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:174:13-77
+196-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:174:13-77
 197            android:screenOrientation="portrait"
-197-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:175:13-49
+197-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:175:13-49
 198            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-198-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:176:13-69
+198-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:176:13-69
 199            <intent-filter>
-199-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:177:13-182:29
+199-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:177:13-182:29
 200                <action android:name="android.intent.action.MAIN" />
-200-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:17-69
-200-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:178:25-66
+200-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:178:17-69
+200-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:178:25-66
 201                <action android:name="android.intent.action.VIEW" />
-201-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-69
-201-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:25-66
+201-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:179:17-69
+201-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:179:25-66
 202
 203                <category android:name="android.intent.category.LAUNCHER" />
-203-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:17-77
-203-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:180:27-74
+203-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:180:17-77
+203-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:180:27-74
 204                <category android:name="android.intent.category.DEFAULT" />
-204-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:17-76
-204-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:27-73
+204-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:181:17-76
+204-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:181:27-73
 205            </intent-filter>
 206        </activity>
 207        <activity
-207-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:184:9-186:52
+207-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:184:9-186:52
 208            android:name="snd.orgn.foodnfine.activity.PaymentSwadesiProduct"
-208-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:185:13-77
+208-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:185:13-77
 209            android:screenOrientation="portrait" />
-209-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:186:13-49
+209-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:186:13-49
 210        <activity
-210-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:187:9-189:52
+210-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:187:9-189:52
 211            android:name="snd.orgn.foodnfine.activity.OnlinePaymentActivity"
-211-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:188:13-77
+211-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:188:13-77
 212            android:screenOrientation="portrait" />
-212-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:189:13-49
+212-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:189:13-49
 213        <activity
-213-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:190:9-192:52
+213-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:190:9-192:52
 214            android:name="snd.orgn.foodnfine.firebase.NotificationClass"
-214-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:191:13-73
+214-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:191:13-73
 215            android:screenOrientation="portrait" />
-215-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:192:13-49
+215-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:192:13-49
 216
 217        <meta-data
-217-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:193:9-195:55
+217-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:193:9-195:55
 218            android:name="com.google.android.geo.API_KEY"
-218-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:194:13-58
+218-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:194:13-58
 219            android:value="@string/google_maps_key" /> <!-- Firebase Notifications -->
-219-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:195:13-52
+219-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:195:13-52
 220        <meta-data
-220-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:196:9-198:69
+220-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:196:9-198:69
 221            android:name="com.google.android.gms.version"
-221-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:197:13-58
+221-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:197:13-58
 222            android:value="@integer/google_play_services_version" />
-222-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:198:13-66
+222-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:198:13-66
 223        <meta-data
-223-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:200:9-202:71
+223-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:200:9-202:71
 224            android:name="com.google.firebase.messaging.default_notification_channel_id"
-224-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:201:13-89
+224-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:201:13-89
 225            android:value="@string/default_notification_channel_id" /> <!-- ./Firebase Notifications -->
-225-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:202:13-68
+225-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:202:13-68
 226        <meta-data
-226-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:203:9-205:53
+226-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:203:9-205:53
 227            android:name="com.google.firebase.messaging.default_notification_icon"
-227-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:204:13-83
+227-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:204:13-83
 228            android:resource="@drawable/new_logo" />
-228-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:205:13-50
+228-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:205:13-50
 229
 230        <service android:name="snd.orgn.foodnfine.firebase.MyFirebaseMessagingService" >
-230-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:9-211:19
-230-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:207:18-87
+230-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:207:9-211:19
+230-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:207:18-87
 231            <intent-filter>
-231-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:13-210:29
+231-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:208:13-210:29
 232                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-232-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:17-78
-232-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:25-75
+232-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:209:17-78
+232-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:209:25-75
 233            </intent-filter>
 234        </service>
 235        <service
-235-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:213:9-217:19
+235-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:213:9-217:19
 236            android:name="com.google.firebase.components.ComponentDiscoveryService"
-236-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:213:18-89
+236-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:213:18-89
 237            android:directBootAware="true"
-237-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a245f4b96575cd9cedb079313c7db4fa\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+237-->[com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
 238            android:exported="false" >
-238-->[com.google.firebase:firebase-analytics-ktx:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\591c8eabec74f0fec3400a50bb3fea6b\jetified-firebase-analytics-ktx-17.6.0\AndroidManifest.xml:10:13-37
+238-->[com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:10:13-37
 239            <meta-data
-239-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:214:13-216:85
+239-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:214:13-216:85
 240                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-240-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:215:17-96
+240-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:215:17-96
 241                android:value="com.google.firebase.components.ComponentRegistrar" />
-241-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:216:17-82
+241-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:216:17-82
 242            <meta-data
-242-->[com.google.firebase:firebase-analytics-ktx:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\591c8eabec74f0fec3400a50bb3fea6b\jetified-firebase-analytics-ktx-17.6.0\AndroidManifest.xml:11:13-13:85
+242-->[com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:11:13-13:85
 243                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
-243-->[com.google.firebase:firebase-analytics-ktx:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\591c8eabec74f0fec3400a50bb3fea6b\jetified-firebase-analytics-ktx-17.6.0\AndroidManifest.xml:12:17-126
+243-->[com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:12:17-126
 244                android:value="com.google.firebase.components.ComponentRegistrar" />
-244-->[com.google.firebase:firebase-analytics-ktx:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\591c8eabec74f0fec3400a50bb3fea6b\jetified-firebase-analytics-ktx-17.6.0\AndroidManifest.xml:13:17-82
+244-->[com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:13:17-82
 245            <meta-data
-245-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:39:13-41:85
+245-->[com.google.firebase:firebase-messaging:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1e15017b057b4608654ca810a7133120/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:39:13-41:85
 246                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-246-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:40:17-119
+246-->[com.google.firebase:firebase-messaging:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1e15017b057b4608654ca810a7133120/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:40:17-119
 247                android:value="com.google.firebase.components.ComponentRegistrar" />
-247-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:41:17-82
+247-->[com.google.firebase:firebase-messaging:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1e15017b057b4608654ca810a7133120/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:41:17-82
 248            <meta-data
-248-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d314c243580a8ab5c19e331169818e1f\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:15:13-17:85
+248-->[com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:15:13-17:85
 249                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-249-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d314c243580a8ab5c19e331169818e1f\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:16:17-113
+249-->[com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:16:17-113
 250                android:value="com.google.firebase.components.ComponentRegistrar" />
-250-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d314c243580a8ab5c19e331169818e1f\jetified-firebase-common-ktx-19.3.0\AndroidManifest.xml:17:17-82
+250-->[com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:17:17-82
 251            <meta-data
-251-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\28135ad92bee0c526c8d358a66d8c3bd\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+251-->[com.google.firebase:firebase-datatransport:17.0.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/28135ad92bee0c526c8d358a66d8c3bd/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
 252                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-252-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\28135ad92bee0c526c8d358a66d8c3bd\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+252-->[com.google.firebase:firebase-datatransport:17.0.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/28135ad92bee0c526c8d358a66d8c3bd/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
 253                android:value="com.google.firebase.components.ComponentRegistrar" />
-253-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\28135ad92bee0c526c8d358a66d8c3bd\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+253-->[com.google.firebase:firebase-datatransport:17.0.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/28135ad92bee0c526c8d358a66d8c3bd/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
 254            <meta-data
-254-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\3f03b0b3c47669ea1340f10c95e79e4f\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:30:13-32:85
+254-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3f03b0b3c47669ea1340f10c95e79e4f/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
 255                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-255-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\3f03b0b3c47669ea1340f10c95e79e4f\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:31:17-139
+255-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3f03b0b3c47669ea1340f10c95e79e4f/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
 256                android:value="com.google.firebase.components.ComponentRegistrar" />
-256-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\3f03b0b3c47669ea1340f10c95e79e4f\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:32:17-82
+256-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3f03b0b3c47669ea1340f10c95e79e4f/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
 257            <meta-data
-257-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\95ea72afd4a49b7a068a854ddf4e7d46\jetified-firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+257-->[com.google.firebase:firebase-installations:16.3.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/95ea72afd4a49b7a068a854ddf4e7d46/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
 258                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-258-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\95ea72afd4a49b7a068a854ddf4e7d46\jetified-firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+258-->[com.google.firebase:firebase-installations:16.3.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/95ea72afd4a49b7a068a854ddf4e7d46/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
 259                android:value="com.google.firebase.components.ComponentRegistrar" />
-259-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\95ea72afd4a49b7a068a854ddf4e7d46\jetified-firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+259-->[com.google.firebase:firebase-installations:16.3.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/95ea72afd4a49b7a068a854ddf4e7d46/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
 260        </service>
 261
 262        <uses-library
-262-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:219:9-221:40
+262-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:219:9-221:40
 263            android:name="org.apache.http.legacy"
-263-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:220:13-50
+263-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:220:13-50
 264            android:required="false" />
-264-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:221:13-37
+264-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:221:13-37
 265
 266        <activity
-266-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:19:9-24:55
+266-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:19:9-24:55
 267            android:name="com.payumoney.sdkui.ui.activities.PayUmoneyActivity"
-267-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:20:13-79
+267-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:20:13-79
 268            android:label="@string/title_activity_citrus"
-268-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:21:13-58
+268-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:21:13-58
 269            android:screenOrientation="portrait"
-269-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:22:13-49
+269-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:22:13-49
 270            android:theme="@style/PayumoneyAppTheme"
-270-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:23:13-53
+270-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:23:13-53
 271            android:windowSoftInputMode="adjustPan" />
-271-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:24:13-52
+271-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:24:13-52
 272        <activity
-272-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:25:9-28:56
+272-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:25:9-28:56
 273            android:name="com.payumoney.sdkui.ui.activities.ReviewOrderActivity"
-273-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:26:13-81
+273-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:26:13-81
 274            android:screenOrientation="portrait"
-274-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:27:13-49
+274-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:27:13-49
 275            android:theme="@style/PayumoneyAppTheme" />
-275-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ee5ff097330ce8b55710af5696d187e0\jetified-plug-n-play-1.6.0\AndroidManifest.xml:28:13-53
+275-->[com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:28:13-53
 276        <activity
-276-->[com.karumi:dexter:5.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ab3ae463235fbc1b25dcabe100c5cc8e\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+276-->[com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
 277            android:name="com.karumi.dexter.DexterActivity"
-277-->[com.karumi:dexter:5.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ab3ae463235fbc1b25dcabe100c5cc8e\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+277-->[com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
 278            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-278-->[com.karumi:dexter:5.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ab3ae463235fbc1b25dcabe100c5cc8e\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+278-->[com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
 279        <activity
-279-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:31:9-34:72
+279-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:31:9-34:72
 280            android:name="com.payumoney.core.SdkWebViewActivityNew"
-280-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:32:13-68
+280-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:32:13-68
 281            android:screenOrientation="portrait"
-281-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:33:13-49
+281-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:33:13-49
 282            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-282-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:34:13-69
+282-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:34:13-69
 283        <activity
-283-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:35:9-40:59
+283-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:35:9-40:59
 284            android:name="com.payu.custombrowser.CBActivity"
-284-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:36:13-61
+284-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:36:13-61
 285            android:screenOrientation="portrait"
-285-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:37:13-49
+285-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:37:13-49
 286            android:theme="@style/Theme.AppCompat"
-286-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:38:13-51
+286-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:38:13-51
 287            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- Autocomplete -->
-287-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\34c08cab28236fc8848f88fd88aa5d97\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:39:13-60
+287-->[com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:39:13-60
 288        <activity
-288-->[com.google.android.libraries.places:places:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\6cd2bc32359190bc8af44e5bd690a7c7\jetified-places-1.0.0\AndroidManifest.xml:16:9-23:20
+288-->[com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:16:9-23:20
 289            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-289-->[com.google.android.libraries.places:places:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\6cd2bc32359190bc8af44e5bd690a7c7\jetified-places-1.0.0\AndroidManifest.xml:17:13-91
+289-->[com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:17:13-91
 290            android:exported="false"
-290-->[com.google.android.libraries.places:places:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\6cd2bc32359190bc8af44e5bd690a7c7\jetified-places-1.0.0\AndroidManifest.xml:18:13-37
+290-->[com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:18:13-37
 291            android:hardwareAccelerated="true"
-291-->[com.google.android.libraries.places:places:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\6cd2bc32359190bc8af44e5bd690a7c7\jetified-places-1.0.0\AndroidManifest.xml:19:13-47
+291-->[com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:19:13-47
 292            android:label="@string/places_autocomplete_label"
-292-->[com.google.android.libraries.places:places:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\6cd2bc32359190bc8af44e5bd690a7c7\jetified-places-1.0.0\AndroidManifest.xml:20:13-62
+292-->[com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:20:13-62
 293            android:theme="@style/PlacesAutocompleteThemeOverlay"
-293-->[com.google.android.libraries.places:places:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\6cd2bc32359190bc8af44e5bd690a7c7\jetified-places-1.0.0\AndroidManifest.xml:21:13-66
+293-->[com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:21:13-66
 294            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
-294-->[com.google.android.libraries.places:places:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\6cd2bc32359190bc8af44e5bd690a7c7\jetified-places-1.0.0\AndroidManifest.xml:22:13-71
+294-->[com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:22:13-71
 295        </activity>
 296
 297        <provider
-297-->[com.github.prolificinteractive:material-calendarview:2.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0d909f10bd04d1567b869162ed98ba5c\jetified-material-calendarview-2.0.0\AndroidManifest.xml:12:9-16:40
+297-->[com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:12:9-16:40
 298            android:name="com.prolificinteractive.materialcalendarview.MaterialCalendarViewInitProvider"
-298-->[com.github.prolificinteractive:material-calendarview:2.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0d909f10bd04d1567b869162ed98ba5c\jetified-material-calendarview-2.0.0\AndroidManifest.xml:13:13-105
+298-->[com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:13:13-105
 299            android:authorities="com.orgn.foodnfine.materialcalendarviewinitprovider"
-299-->[com.github.prolificinteractive:material-calendarview:2.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0d909f10bd04d1567b869162ed98ba5c\jetified-material-calendarview-2.0.0\AndroidManifest.xml:14:13-84
+299-->[com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:14:13-84
 300            android:enabled="true"
-300-->[com.github.prolificinteractive:material-calendarview:2.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0d909f10bd04d1567b869162ed98ba5c\jetified-material-calendarview-2.0.0\AndroidManifest.xml:15:13-35
+300-->[com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:15:13-35
 301            android:exported="false" />
-301-->[com.github.prolificinteractive:material-calendarview:2.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0d909f10bd04d1567b869162ed98ba5c\jetified-material-calendarview-2.0.0\AndroidManifest.xml:16:13-37
+301-->[com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:16:13-37
 302
 303        <service android:name="com.payu.custombrowser.services.SnoozeService" />
-303-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:23:9-81
-303-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:23:18-78
+303-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:23:9-81
+303-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:23:18-78
 304
 305        <activity android:name="com.payu.custombrowser.PreLollipopPaymentsActivity" >
-305-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:25:9-42:20
-305-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:25:19-84
+305-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:25:9-42:20
+305-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:25:19-84
 306            <intent-filter>
-306-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:26:13-33:29
+306-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:26:13-33:29
 307                <data android:scheme="com.orgn.foodnfine.success" />
-307-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:27:17-67
-307-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:27:23-64
+307-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:17-67
+307-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:23-64
 308
 309                <action android:name="android.intent.action.VIEW" />
-309-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-69
-309-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:25-66
+309-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:179:17-69
+309-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:179:25-66
 310
 311                <category android:name="android.intent.category.DEFAULT" />
-311-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:17-76
-311-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:27-73
+311-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:181:17-76
+311-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:181:27-73
 312                <category android:name="android.intent.category.BROWSABLE" />
-312-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:32:17-78
-312-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:32:27-75
+312-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:17-78
+312-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:27-75
 313            </intent-filter>
 314            <intent-filter>
-314-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:34:13-41:29
+314-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:34:13-41:29
 315                <data android:scheme="com.orgn.foodnfine.failure" />
-315-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:27:17-67
-315-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:27:23-64
+315-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:17-67
+315-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:23-64
 316
 317                <action android:name="android.intent.action.VIEW" />
-317-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:17-69
-317-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:179:25-66
+317-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:179:17-69
+317-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:179:25-66
 318
 319                <category android:name="android.intent.category.DEFAULT" />
-319-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:17-76
-319-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:181:27-73
+319-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:181:17-76
+319-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:181:27-73
 320                <category android:name="android.intent.category.BROWSABLE" />
-320-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:32:17-78
-320-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:32:27-75
+320-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:17-78
+320-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:27-75
 321            </intent-filter>
 322        </activity>
 323        <activity android:name="com.payu.custombrowser.PrePaymentsActivity" />
-323-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:43:9-79
-323-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\bd82feacc6f9a4f6360e439472b8b8ca\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:43:19-76
+323-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:43:9-79
+323-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:43:19-76
 324        <activity
-324-->[com.payu.upisdk:upisdk:1.0.2] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d7c86b145bbfa6276dff130b0a6aa364\jetified-upisdk-1.0.2\AndroidManifest.xml:14:9-17:63
+324-->[com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:14:9-17:63
 325            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
-325-->[com.payu.upisdk:upisdk:1.0.2] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d7c86b145bbfa6276dff130b0a6aa364\jetified-upisdk-1.0.2\AndroidManifest.xml:15:13-83
+325-->[com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:15:13-83
 326            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
-326-->[com.payu.upisdk:upisdk:1.0.2] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d7c86b145bbfa6276dff130b0a6aa364\jetified-upisdk-1.0.2\AndroidManifest.xml:16:13-75
+326-->[com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:16:13-75
 327            android:windowSoftInputMode="stateAlwaysHidden" />
-327-->[com.payu.upisdk:upisdk:1.0.2] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d7c86b145bbfa6276dff130b0a6aa364\jetified-upisdk-1.0.2\AndroidManifest.xml:17:13-60
+327-->[com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:17:13-60
 328        <activity
-328-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:23:9-27:75
+328-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:23:9-27:75
 329            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-329-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:24:13-93
+329-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:24:13-93
 330            android:excludeFromRecents="true"
-330-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:25:13-46
+330-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:25:13-46
 331            android:exported="false"
-331-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:26:13-37
+331-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:26:13-37
 332            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-332-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:27:13-72
+332-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:27:13-72
 333        <!--
 334            Service handling Google Sign-In user revocation. For apps that do not integrate with
 335            Google Sign-In, this service will never be started.
 336        -->
 337        <service
-337-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:33:9-36:110
+337-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:33:9-36:110
 338            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-338-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:34:13-89
+338-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:34:13-89
 339            android:exported="true"
-339-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:35:13-36
+339-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:35:13-36
 340            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-340-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d8ddbc0e1f84badd79709445b4df2a5c\jetified-play-services-auth-16.0.0\AndroidManifest.xml:36:13-107
+340-->[com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:36:13-107
 341        <service
-341-->[androidx.room:room-runtime:2.2.5] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d05c498ca9611327c5dc8b13961d9cae\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+341-->[androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
 342            android:name="androidx.room.MultiInstanceInvalidationService"
-342-->[androidx.room:room-runtime:2.2.5] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d05c498ca9611327c5dc8b13961d9cae\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+342-->[androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
 343            android:directBootAware="true"
-343-->[androidx.room:room-runtime:2.2.5] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d05c498ca9611327c5dc8b13961d9cae\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+343-->[androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
 344            android:exported="false" />
-344-->[androidx.room:room-runtime:2.2.5] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\d05c498ca9611327c5dc8b13961d9cae\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+344-->[androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
 345
 346        <provider
-346-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\5c746887f41aae37941ba3977a3af0c5\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+346-->[com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 347            android:name="com.squareup.picasso.PicassoProvider"
-347-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\5c746887f41aae37941ba3977a3af0c5\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+347-->[com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 348            android:authorities="com.orgn.foodnfine.com.squareup.picasso"
-348-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\5c746887f41aae37941ba3977a3af0c5\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+348-->[com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 349            android:exported="false" />
-349-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\5c746887f41aae37941ba3977a3af0c5\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+349-->[com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 350        <!--
 351             FirebaseMessagingService performs security checks at runtime,
 352             but set to not exported to explicitly avoid allowing another app to call it.
 353        -->
 354        <service
-354-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:28:9-35:19
+354-->[com.google.firebase:firebase-messaging:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1e15017b057b4608654ca810a7133120/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:28:9-35:19
 355            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-355-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:29:13-82
+355-->[com.google.firebase:firebase-messaging:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1e15017b057b4608654ca810a7133120/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:29:13-82
 356            android:directBootAware="true"
-356-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:30:13-43
+356-->[com.google.firebase:firebase-messaging:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1e15017b057b4608654ca810a7133120/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:30:13-43
 357            android:exported="false" >
-357-->[com.google.firebase:firebase-messaging:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\1e15017b057b4608654ca810a7133120\jetified-firebase-messaging-20.3.0\AndroidManifest.xml:31:13-37
+357-->[com.google.firebase:firebase-messaging:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1e15017b057b4608654ca810a7133120/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:31:13-37
 358            <intent-filter android:priority="-500" >
-358-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:208:13-210:29
+358-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:208:13-210:29
 359                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-359-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:17-78
-359-->C:\Users\ADMIN\AndroidStudioProjects\FoodNFine\app\src\main\AndroidManifest.xml:209:25-75
+359-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:209:17-78
+359-->/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:209:25-75
 360            </intent-filter>
 361        </service>
 362
 363        <receiver
-363-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:37:9-44:20
+363-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:37:9-44:20
 364            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-364-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:38:13-78
+364-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:38:13-78
 365            android:exported="true"
-365-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:39:13-36
+365-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:39:13-36
 366            android:permission="com.google.android.c2dm.permission.SEND" >
-366-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:40:13-73
+366-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:40:13-73
 367            <intent-filter>
-367-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:41:13-43:29
+367-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:41:13-43:29
 368                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-368-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:42:17-81
-368-->[com.google.firebase:firebase-iid:20.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\8bd74d7d06422e9df64c85710be55874\jetified-firebase-iid-20.3.0\AndroidManifest.xml:42:25-78
+368-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:42:17-81
+368-->[com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:42:25-78
 369            </intent-filter>
 370        </receiver>
 371
 372        <provider
-372-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\dd63a4652976b77853b557d21e3deb97\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+372-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd63a4652976b77853b557d21e3deb97/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
 373            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-373-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\dd63a4652976b77853b557d21e3deb97\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+373-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd63a4652976b77853b557d21e3deb97/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
 374            android:authorities="com.orgn.foodnfine.lifecycle-process"
-374-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\dd63a4652976b77853b557d21e3deb97\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+374-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd63a4652976b77853b557d21e3deb97/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
 375            android:exported="false"
-375-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\dd63a4652976b77853b557d21e3deb97\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+375-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd63a4652976b77853b557d21e3deb97/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
 376            android:multiprocess="true" />
-376-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\dd63a4652976b77853b557d21e3deb97\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+376-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd63a4652976b77853b557d21e3deb97/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
 377        <provider
-377-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a245f4b96575cd9cedb079313c7db4fa\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+377-->[com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
 378            android:name="com.google.firebase.provider.FirebaseInitProvider"
-378-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a245f4b96575cd9cedb079313c7db4fa\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+378-->[com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
 379            android:authorities="com.orgn.foodnfine.firebaseinitprovider"
-379-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a245f4b96575cd9cedb079313c7db4fa\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+379-->[com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
 380            android:exported="false"
-380-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a245f4b96575cd9cedb079313c7db4fa\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+380-->[com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
 381            android:initOrder="100" />
-381-->[com.google.firebase:firebase-common:19.3.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a245f4b96575cd9cedb079313c7db4fa\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+381-->[com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 382
 383        <activity
-383-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\f79e7ad3cd5b668fcbf0cd8abd2784eb\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+383-->[com.google.android.gms:play-services-base:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f79e7ad3cd5b668fcbf0cd8abd2784eb/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 384            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-384-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\f79e7ad3cd5b668fcbf0cd8abd2784eb\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+384-->[com.google.android.gms:play-services-base:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f79e7ad3cd5b668fcbf0cd8abd2784eb/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 385            android:exported="false"
-385-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\f79e7ad3cd5b668fcbf0cd8abd2784eb\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+385-->[com.google.android.gms:play-services-base:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f79e7ad3cd5b668fcbf0cd8abd2784eb/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 386            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-386-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\f79e7ad3cd5b668fcbf0cd8abd2784eb\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+386-->[com.google.android.gms:play-services-base:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f79e7ad3cd5b668fcbf0cd8abd2784eb/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 387
 388        <receiver
-388-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:29:9-33:20
+388-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
 389            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-389-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:30:13-85
+389-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
 390            android:enabled="true"
-390-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:31:13-35
+390-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
 391            android:exported="false" >
-391-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:32:13-37
+391-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
 392        </receiver>
 393
 394        <service
-394-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:35:9-38:40
+394-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
 395            android:name="com.google.android.gms.measurement.AppMeasurementService"
-395-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:36:13-84
+395-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
 396            android:enabled="true"
-396-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:37:13-35
+396-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
 397            android:exported="false" />
-397-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:38:13-37
+397-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
 398        <service
-398-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:39:9-43:72
+398-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
 399            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-399-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:40:13-87
+399-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
 400            android:enabled="true"
-400-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:41:13-35
+400-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
 401            android:exported="false"
-401-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:42:13-37
+401-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
 402            android:permission="android.permission.BIND_JOB_SERVICE" />
-402-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\ed46ff133a33a57ec71bad7bb84c617d\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:43:13-69
+402-->[com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
 403        <service
-403-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0dd2ecea9638c69d6fabf13972e69066\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+403-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0dd2ecea9638c69d6fabf13972e69066/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
 404            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-404-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0dd2ecea9638c69d6fabf13972e69066\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+404-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0dd2ecea9638c69d6fabf13972e69066/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
 405            android:exported="false" >
-405-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0dd2ecea9638c69d6fabf13972e69066\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+405-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0dd2ecea9638c69d6fabf13972e69066/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
 406            <meta-data
-406-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0dd2ecea9638c69d6fabf13972e69066\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+406-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0dd2ecea9638c69d6fabf13972e69066/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
 407                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-407-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0dd2ecea9638c69d6fabf13972e69066\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+407-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0dd2ecea9638c69d6fabf13972e69066/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
 408                android:value="cct" />
-408-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\0dd2ecea9638c69d6fabf13972e69066\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+408-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0dd2ecea9638c69d6fabf13972e69066/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
 409        </service>
 410        <service
-410-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a11016149aa341986a78b160d9ba492b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+410-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
 411            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-411-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a11016149aa341986a78b160d9ba492b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+411-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
 412            android:exported="false"
-412-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a11016149aa341986a78b160d9ba492b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+412-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
 413            android:permission="android.permission.BIND_JOB_SERVICE" >
-413-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a11016149aa341986a78b160d9ba492b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+413-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
 414        </service>
 415
 416        <receiver
-416-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a11016149aa341986a78b160d9ba492b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+416-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
 417            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-417-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a11016149aa341986a78b160d9ba492b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+417-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
 418            android:exported="false" />
-418-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\ADMIN\.gradle\caches\transforms-2\files-2.1\a11016149aa341986a78b160d9ba492b\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+418-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
 419    </application>
 420
 421</manifest>

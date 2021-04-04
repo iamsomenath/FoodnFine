@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\0af812d66e3f1e1971bc8a026b86b705\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/somenath/.gradle/caches/transforms-2/files-2.1/0af812d66e3f1e1971bc8a026b86b705/appcompat-1.2.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\0e092aa2f7a29fd9144689afbc79ca34\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/somenath/.gradle/caches/transforms-2/files-2.1/0e092aa2f7a29fd9144689afbc79ca34/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

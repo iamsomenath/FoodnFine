@@ -1,21 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\0af812d66e3f1e1971bc8a026b86b705\\appcompat-1.2.0\\res\\values-v22\\values-v22.xml",
-                    "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,553",
-                        "endLines": "2,3,8,13",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,548,896"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\bd82feacc6f9a4f6360e439472b8b8ca\\jetified-payu-custom-browser-7.5.1\\res\\values-v22\\values-v22.xml",
+                    "source": "/home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -31,6 +20,17 @@
                         "endLines": "14,17",
                         "endColumns": "92,12",
                         "endOffsets": "989,1156"
+                    }
+                },
+                {
+                    "source": "/home/somenath/.gradle/caches/transforms-2/files-2.1/0af812d66e3f1e1971bc8a026b86b705/appcompat-1.2.0/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
                     }
                 }
             ]

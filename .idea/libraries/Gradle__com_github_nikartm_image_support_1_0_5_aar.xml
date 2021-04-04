@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.nikartm:image-support:1.0.5@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0b46f28d8c93d070ff6d45092892e88/jetified-image-support-1.0.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0b46f28d8c93d070ff6d45092892e88/jetified-image-support-1.0.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0b46f28d8c93d070ff6d45092892e88/jetified-image-support-1.0.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a8b831bf2979223790ef3af7ed808d0/jetified-image-support-1.0.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a8b831bf2979223790ef3af7ed808d0/jetified-image-support-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a8b831bf2979223790ef3af7ed808d0/jetified-image-support-1.0.5/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nikartm/image-support/1.0.5/e38d2b53aaf9cbc8198ecb64c44bd5eab7e1b5a/image-support-1.0.5-javadoc.jar!/" />

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\c3abe7de30e05e2a499175e119b9162d\\jetified-core-3.3.0\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "source": "/home/somenath/.gradle/caches/transforms-2/files-2.1/c3abe7de30e05e2a499175e119b9162d/jetified-core-3.3.0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

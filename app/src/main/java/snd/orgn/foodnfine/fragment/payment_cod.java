@@ -219,8 +219,8 @@ public class payment_cod extends BackHandledFragment implements CallbackSendPack
     }
 
     private void gotoOrderDetails() {
-        //Intent intent = new Intent(getActivity(), MyOrdersActivity.class);
-        Intent intent = new Intent(getActivity(), DasboardActivity.class);
+        Intent intent = new Intent(getActivity(), MyOrdersActivity.class);
+        //Intent intent = new Intent(getActivity(), DasboardActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
         Objects.requireNonNull(getActivity()).finishAffinity();

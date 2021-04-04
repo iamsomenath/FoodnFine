@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ADMIN\\AndroidStudioProjects\\FoodNFine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "/home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\ee5ff097330ce8b55710af5696d187e0\\jetified-plug-n-play-1.6.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "/home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -14,7 +14,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\0af812d66e3f1e1971bc8a026b86b705\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "/home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,37",
+                        "endOffsets": "109,147"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "429,488",
+                        "endColumns": "58,37",
+                        "endOffsets": "483,521"
+                    }
+                },
+                {
+                    "source": "/home/somenath/.gradle/caches/transforms-2/files-2.1/0af812d66e3f1e1971bc8a026b86b705/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,23 +47,6 @@
                         "endLines": "15",
                         "endColumns": "13",
                         "endOffsets": "798"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-2\\files-2.1\\34c08cab28236fc8848f88fd88aa5d97\\jetified-payumoney-sdk-7.6.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,114",
-                        "endColumns": "58,37",
-                        "endOffsets": "109,147"
-                    },
-                    "to": {
-                        "startLines": "9,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "429,488",
-                        "endColumns": "58,37",
-                        "endOffsets": "483,521"
                     }
                 }
             ]
