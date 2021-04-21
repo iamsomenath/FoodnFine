@@ -156,7 +156,7 @@ class NewGroceryDetailsActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefr
                 arrayList = ArrayList()
                 try {
                     val jsonObject = JSONObject(response.body()!!.string())
-                    Log.d("RESPONSE", jsonObject.toString())
+                    //Log.d("RESPONSE", jsonObject.toString())
                     if (jsonObject.getString("result") == "1") {
                         val jsonArray = JSONArray(jsonObject.getString("category_category"))
                         for (i in 0 until jsonArray.length()) {

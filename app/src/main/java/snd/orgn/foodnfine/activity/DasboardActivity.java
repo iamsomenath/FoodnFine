@@ -62,8 +62,6 @@ import snd.orgn.foodnfine.R;
 import snd.orgn.foodnfine.adapter.activityAdapter.ImageSliderAdaper;
 import snd.orgn.foodnfine.application.FoodnFine;
 import snd.orgn.foodnfine.base.BaseActivity;
-import snd.orgn.foodnfine.callbacks.CallbackGetChargesInKM;
-import snd.orgn.foodnfine.callbacks.CallbackgetAllPackageList;
 import snd.orgn.foodnfine.data.shared_presferences.SessionManager;
 import snd.orgn.foodnfine.view_model.FragmentViewModel.PackageListViewModel;
 
@@ -131,7 +129,7 @@ public class DasboardActivity extends BaseActivity {
         initViewModel();
         initFields();
         if (FoodnFine.getAppSharedPreference().getCurrentLocation().equals("") || FoodnFine.getAppSharedPreference().getCurrentLocation().length() == 0) {
-            featchCurrentLocation();
+            fetchCurrentLocation();
         } else {
             location();
             tv_dashboard_address.setText(FoodnFine.getAppSharedPreference().getCurrentLocation());
@@ -149,7 +147,7 @@ public class DasboardActivity extends BaseActivity {
     }
 
     @Override
-    public void onResume(){
+    public void onResume() {
         super.onResume();
         setupContentView();
     }
@@ -171,7 +169,7 @@ public class DasboardActivity extends BaseActivity {
             //goToRestaruent();
             gotoGrocery();
         });
-        iv_dashboard_grocery.setOnClickListener(v->{
+        iv_dashboard_grocery.setOnClickListener(v -> {
             gotoGrocery();
         });
     }
@@ -279,19 +277,6 @@ public class DasboardActivity extends BaseActivity {
 
     public void findPlace() {
 
-        /*Location startPoint = new Location("locationA");
-        startPoint.setLatitude(Double.parseDouble(currentLatitude));
-        startPoint.setLongitude(Double.parseDouble(currentLongitude));
-        LatLng latlon1 = getLocation(startPoint.getLongitude(), startPoint.getLatitude(), 50000);
-        Location endPoint = new Location("locationA");
-        endPoint.setLatitude(latlon1.latitude);
-        endPoint.setLongitude(latlon1.longitude);
-
-        // Create a RectangularBounds object.
-        RectangularBounds bounds = RectangularBounds.newInstance(
-                new LatLng(endPoint.getLatitude(), endPoint.getLongitude()),
-                new LatLng(startPoint.getLatitude(), startPoint.getLongitude()));*/
-
         Intent intent = new Autocomplete.IntentBuilder(
                 AutocompleteActivityMode.OVERLAY, fields)
                 //.setLocationBias(bounds)
@@ -300,7 +285,6 @@ public class DasboardActivity extends BaseActivity {
                 .build(this);
         startActivityForResult(intent, 1);
     }
-
 
     // A place has been received; use requestCode to track the request.
     @SuppressLint("SetTextI16n")
@@ -321,18 +305,6 @@ public class DasboardActivity extends BaseActivity {
                 FoodnFine.getAppSharedPreference().saveLatitude(Double.toString(place.getLatLng().latitude));
                 FoodnFine.getAppSharedPreference().saveLongitude(Double.toString(place.getLatLng().longitude));
 
-                /*Location startPoint = new Location("locationA");
-                startPoint.setLatitude(place.getLatLng().latitude);
-                startPoint.setLongitude(place.getLatLng().longitude);
-
-                Location endPoint = new Location("locationA");
-                endPoint.setLatitude(22.631041);
-                endPoint.setLongitude(88.378356);
-
-                double distance = startPoint.distanceTo(endPoint);
-                Log.d("LATLON-Mts", " " + distance);*/
-                //https://developer.android.com/reference/android/location/Location#distanceTo(android.location.Location)
-                //https://stackoverflow.com/questions/6981916/how-to-calculate-distance-between-two-locations-using-their-longitude-and-latitu
             } else if (resultCode == AutocompleteActivity.RESULT_ERROR) {
                 Status status = Autocomplete.getStatusFromIntent(data);
                 //Log.i("TAG", status.getStatusMessage());
@@ -343,77 +315,32 @@ public class DasboardActivity extends BaseActivity {
         }
     }
 
-    //Here getting distance in kilometers (km)
-    private double distance(double lat1, double lon1, double lat2, double lon2) {
-        double theta = lon1 - lon2;
-        double dist = Math.sin(deg2rad(lat1))
-                * Math.sin(deg2rad(lat2))
-                + Math.cos(deg2rad(lat1))
-                * Math.cos(deg2rad(lat2))
-                * Math.cos(deg2rad(theta));
-        dist = Math.acos(dist);
-        dist = rad2deg(dist);
-        dist = dist * 60 * 1.1515;
-        return (dist);
-    }
-
-    private double deg2rad(double deg) {
-        return (deg * Math.PI / 180.0);
-    }
-
-    private double rad2deg(double rad) {
-        return (rad * 180.0 / Math.PI);
-    }
-
-    private void gotoSendPackage() {
-        Intent intent = new Intent(DasboardActivity.this, SendPackageActivity.class);
-        sessionManager.setKeyOrderType("1");//PACKAGE
-        startActivity(intent);
-    }
-
-    private void gotoOtherStore() {
-        Intent intent = new Intent(DasboardActivity.this, OtherStoreActivity.class);
-        //sessionManager.setKeyOrderType("");
-        startActivity(intent);
-    }
-
     private void gotoGrocery() {
-        Intent intent = new Intent(DasboardActivity.this, GroceryListActivity.class);
-        sessionManager.setKeyOrderType("2");//GROCERY
-        startActivity(intent);
+        if (tv_dashboard_address.getText().equals("⚠ No Location Found")) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(DasboardActivity.this);
+            builder
+                    //.setTitle("Permission Denied")
+                    .setMessage("Unable to detect your current location, please select location to proceed.")
+                    //.setNegativeButton("Cancel", null)
+                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    })
+                    .show();
+        } else {
+            Intent intent = new Intent(DasboardActivity.this, GroceryListActivity.class);
+            sessionManager.setKeyOrderType("2");//GROCERY
+            startActivity(intent);
+        }
     }
-
-    private void goToRestaruent() {
-        Intent intent = new Intent(DasboardActivity.this, RestrurentListActivity.class);
-        sessionManager.setKeyOrderType("3");//RESTAURANT
-        startActivity(intent);
-    }
-
-    private void goToOfficeBoyOrMaidService() {
-        Intent intent = new Intent(DasboardActivity.this, SelectServiceActivity.class);
-        //sessionManager.setKeyOrderType("");
-        startActivity(intent);
-    }
-
 
     private void initViewModel() {
         viewModel = ViewModelProviders.of(this).get(PackageListViewModel.class);
     }
 
-   /* @Override
-    public void onSuccessGetCharges(String oneKmCharges, String lessThan5KmCharges, String greaterFiveToTenKmPrice, String greaterTenKmPrice) {
-        chargesInDoubleInOneKm = Integer.parseInt(oneKmCharges);
-        chargesInDoubleInFiveKm = Integer.parseInt(lessThan5KmCharges);
-        chargesInDoubleInTenKm = Integer.parseInt(greaterFiveToTenKmPrice);
-        chargesInDoubleInGrater10Km = Integer.parseInt(greaterTenKmPrice);
-        //Log.d("TEST!!!", chargesInDoubleInGrater10Km + "");
-        DeliveryEverything.getAppSharedPreference().saveCost1(String.valueOf(chargesInDoubleInOneKm));
-        DeliveryEverything.getAppSharedPreference().saveCost2(String.valueOf(chargesInDoubleInFiveKm));
-        DeliveryEverything.getAppSharedPreference().saveCost3(String.valueOf(chargesInDoubleInTenKm));
-        DeliveryEverything.getAppSharedPreference().saveCost4(String.valueOf(chargesInDoubleInGrater10Km));
-    }*/
-
-    private void featchCurrentLocation() {
+    private void fetchCurrentLocation() {
         Dexter.withActivity(DasboardActivity.this)
                 .withPermission(Manifest.permission.ACCESS_FINE_LOCATION)
                 .withListener(new PermissionListener() {

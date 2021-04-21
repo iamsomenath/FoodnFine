@@ -86,13 +86,7 @@ public class BottomSheetSelectItemFragment extends BottomSheetDialogFragment imp
     @Override
     public void onSuccess() {
         loadingDialog.hideDialog();
-        //Toast.makeText(getActivity(), "Your all cart items removed successfully", Toast.LENGTH_SHORT).show();
-        Toast toast = Toast.makeText(getContext(), "Your all cart items removed successfully", Toast.LENGTH_SHORT);
-        LinearLayout toastLayout = (LinearLayout) toast.getView();
-        TextView toastTV = (TextView) toastLayout.getChildAt(0);
-        toastTV.setTypeface(Typeface.createFromAsset(getActivity().getAssets(), "ProximaNovaLight.otf"));
-        toastTV.setTextSize(20);
-        toast.show();
+        Toast.makeText(getContext(), "Your all cart items removed successfully", Toast.LENGTH_SHORT).show();
         FoodnFine.getAppSharedPreference().setItemQuantity("");
         callbackDeleteCartSuccesRes.onSucessDataDelete();
         dismiss();

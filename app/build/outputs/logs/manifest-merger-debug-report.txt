@@ -7,21 +7,21 @@ INJECTED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Project
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc4aded03c9248689e88fea9b66016a7/databinding-adapters-4.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/5367322db8a3b472c93ed407a874d926/databinding-runtime-4.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/c173e6ffe15daea5c571ddee8dade176/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:2:1-31:12
-MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:17:1-32:12
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/42baef60d7cc1de8d9a76f469806f439/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:2:1-14:12
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:2:1-43:12
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:2:1-31:12
+MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e2a02520f35738fdf20ac4d53d5c623/jetified-dexter-5.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/a138d9214579212e5d336f198dbb84c3/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:2:1-14:12
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:2:1-43:12
 MERGED from [com.google.android.material:material:1.2.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6e7a5d83a28058fcdf41b58a43170a63/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.afollestad.material-dialogs:core:3.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/c3abe7de30e05e2a499175e119b9162d/jetified-core-3.3.0/AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:2:1-26:12
-MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bea9a9c86bf17b1be20417ab2a1d9eec/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:2:1-17:12
-MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:2:1-19:12
-MERGED from [com.github.nikartm:image-support:1.0.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/5a8b831bf2979223790ef3af7ed808d0/jetified-image-support-1.0.5/AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/19436dde6611dc34f22d5dd8f0019531/jetified-Pinview-v1.4/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/a423caea83f8fa2e9efff2de9a8370d8/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.nikartm:image-support:1.0.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/74addb39e5af3152e8d011700fd3323b/jetified-image-support-1.0.5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/9ee05d96f72c7bb44eb91c8ab75a3ddf/jetified-Pinview-v1.4/AndroidManifest.xml:2:1-16:12
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6f0e57013a09b93115cee7712b53061c/jetified-library-1.5.1/AndroidManifest.xml:2:1-13:12
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e2d19e8bc311f624f1b4b134a5b54119/jetified-materialish-progress-1.0/AndroidManifest.xml:2:1-17:12
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:2:1-46:12
-MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:2:1-46:12
+MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:2:1-20:12
 MERGED from [com.payu.networking:payu-core-networking:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ea972227d7ab442a76f2cfeb2afeddc/jetified-payu-core-networking-1.1.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.payu.payuanalytics:payuanalytics:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/799813444b2e85426781030e6ca788c2/jetified-payuanalytics-1.1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0af812d66e3f1e1971bc8a026b86b705/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -29,21 +29,21 @@ MERGED from [com.intuit.sdp:sdp-android:1.0.6] /home/somenath/.gradle/caches/tra
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d6ff269649495eea213ea3a7dd9208c4/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/86d8495754a7ca0db0448dea7e1ebb51/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/fd992b72ef80842a068d00eabc676170/jetified-circleimageview-3.0.0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/551ede47067868d4bf271f1d18004557/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/49c2870691681d9332604710acae4d39/jetified-play-services-places-16.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/b61676ff02fd818562e551fe513db749/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:17:1-39:12
-MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/46d5e556ae9d4c3ccdf36939c0ba0459/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5a345d83da0d2e3cb60d62fb436649ff/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a6b2ba737ecb1b8d61e1786567f35b73/jetified-play-services-places-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d6bccaf4607ee80e8154d5a70571bae8/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cb4a441f203e8269427e128e7feae9a8/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:2:1-19:12
 MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/7ec80a9555fda240dea00b22a1bc3ea1/jetified-library-1.0.1/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/bb44ee7dc7d812b8c13d0a2bba30fa92/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/89aec3d8ae108fb2b9895e6fbf8e96e0/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.github.smarteist:autoimageslider:1.3.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/4fb0e9ebe2847edffbe413ca9e825e1c/jetified-autoimageslider-1.3.2/AndroidManifest.xml:2:1-17:12
-MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/0c40785c9fc2fd6fbbb4c8ca0414c9dd/jetified-ViewPagerIndicator-2.4.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/96262350aa77ada67fff5e137caf01c1/jetified-ViewPagerIndicator-2.4.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d655bc782fa9f856524b6048b7a83763/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.jakewharton:butterknife:10.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd2dfa3d4b198f03288870b6c44134a7/jetified-butterknife-10.1.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.makeramen:roundedimageview:2.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ee6b007e2ece49e29378e48742dd1b2e/jetified-roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70a58750bf22cf468adedd74fa9e7395/jetified-roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/2ccb17128ee60110df36e6cc895cbd0e/jetified-rxandroid-2.0.1/AndroidManifest.xml:15:1-21:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:2:1-17:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/c7e085dcdcec64e221e90447017e0e05/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -64,10 +64,10 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/somenath/
 MERGED from [androidx.transition:transition:1.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8ec73aee657b29d315cba5868963d8e9/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3c21e973cc6e8f51a39c5b489012c8af/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f92513619e818b3fa2ec23482daba83a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0695fde47be2979b7cb448db4e891683/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/39e8b44e852a0bc45089e1c9e9c503ce/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d184e0ecddb077a53789d0490002369d/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/7cdfa9e9e16535833ca976e199a1c4df/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/6cd5d5a49c04143b98291e8e6e5c06c8/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:2:1-21:12
 MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/28135ad92bee0c526c8d358a66d8c3bd/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4b0aa19f9ad62b983979eb4b85f4a6db/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:2:1-9:12
@@ -76,9 +76,9 @@ MERGED from [com.google.firebase:firebase-installations:16.3.3] /home/somenath/.
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/37b1ad5c8334e9595e32805836c97de5/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ccd4f732c7bc4f9789cb89aa399c6333/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a19d882ac34d51ef910cd3026ca9ba0a/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/109322972aa27fbb204f2e6acaaf36ac/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8e2554378ab6164d18ca7a4fab136b6f/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/9c09089d78e4f8a0d0b92efb194cc66e/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/7766dacc76d6702482805ac486d2df84/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f79e7ad3cd5b668fcbf0cd8abd2784eb/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/fe0363fa0e5a8184536bec77f53b7c4f/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ed46ff133a33a57ec71bad7bb84c617d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:17:1-46:12
@@ -105,7 +105,7 @@ MERGED from [androidx.core:core:1.3.2] /home/somenath/.gradle/caches/transforms-
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f1f29ab164486bd03ba6ff95da6f062a/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e5d096aafff1e387fb785ab16e8c885f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1a3053b1b9e0fa8c81f4ff42b81d5345/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/31911802af9a5e7c711451d601690cf1/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e974398e6a99c337f2c3269d1eb5254/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/b76172cad88fdb25fb0390eb028fd45e/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/11158213910fd83831731f201b6785a9/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/6e245ebb56caa058a786eadea0fef5ab/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
@@ -124,8 +124,8 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/somenath/.gradle/ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2b4d91d4b6fd7975eaebb156ceaef6ac/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5108ab7f0ef1455f8455d2eeebcdd2bb/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f8f30e67cc8e64f6e57edfd15144fb96/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5da600fcdf5903dab146220a6dd6361d/jetified-expandable-layout-1.6.0/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/f9359fb953dba36f3b1b803bb5abf8c2/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/135d7871bb88fdc17582dce47c447ab3/jetified-expandable-layout-1.6.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/9a80a2f13d048365401fd742db6cf3cb/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/26596ef20c7bcdca5edd2a841c5682de/jetified-threetenabp-1.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cae7984d18ca08d436a17f6797793c8b/jetified-transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
 INJECTED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:2:1-224:12
@@ -157,18 +157,18 @@ ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/F
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:7:22-72
 uses-permission#android.permission.INTERNET
 ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:8:5-67
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:12:5-67
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:12:5-67
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:16:5-67
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:16:5-67
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:11:5-67
-MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/46d5e556ae9d4c3ccdf36939c0ba0459/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:11:5-67
-MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/46d5e556ae9d4c3ccdf36939c0ba0459/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:11:5-67
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:12:5-67
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:12:5-67
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:16:5-67
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cb4a441f203e8269427e128e7feae9a8/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:11:5-67
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cb4a441f203e8269427e128e7feae9a8/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3f03b0b3c47669ea1340f10c95e79e4f/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3f03b0b3c47669ea1340f10c95e79e4f/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/95ea72afd4a49b7a068a854ddf4e7d46/jetified-firebase-installations-16.3.3/AndroidManifest.xml:11:5-67
@@ -191,8 +191,8 @@ ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/F
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:9:5-79
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:10:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -205,20 +205,20 @@ ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/F
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:13:5-79
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:14:5-79
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:14:5-79
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:12:5-79
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:12:5-79
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:11:5-79
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:11:5-79
-MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:11:5-79
-MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:11:5-79
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:14:5-79
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:14:5-79
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:12:5-79
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:12:5-79
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:11:5-79
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:11:5-79
+MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:11:5-79
+MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:11:5-79
 MERGED from [com.payu.networking:payu-core-networking:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ea972227d7ab442a76f2cfeb2afeddc/jetified-payu-core-networking-1.1.0/AndroidManifest.xml:11:5-79
 MERGED from [com.payu.networking:payu-core-networking:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ea972227d7ab442a76f2cfeb2afeddc/jetified-payu-core-networking-1.1.0/AndroidManifest.xml:11:5-79
 MERGED from [com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3f03b0b3c47669ea1340f10c95e79e4f/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3f03b0b3c47669ea1340f10c95e79e4f/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/95ea72afd4a49b7a068a854ddf4e7d46/jetified-firebase-installations-16.3.3/AndroidManifest.xml:10:5-79
@@ -245,46 +245,46 @@ application
 ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:16:5-222:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/c173e6ffe15daea5c571ddee8dade176/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/c173e6ffe15daea5c571ddee8dade176/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:16:5-29:19
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:16:5-29:19
-MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
-MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/42baef60d7cc1de8d9a76f469806f439/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:11:5-12:19
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/42baef60d7cc1de8d9a76f469806f439/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:11:5-12:19
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:28:5-41:19
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:28:5-41:19
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:16:5-29:19
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:16:5-29:19
+MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e2a02520f35738fdf20ac4d53d5c623/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e2a02520f35738fdf20ac4d53d5c623/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/a138d9214579212e5d336f198dbb84c3/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/a138d9214579212e5d336f198dbb84c3/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:11:5-12:19
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:28:5-41:19
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:28:5-41:19
 MERGED from [com.google.android.material:material:1.2.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6e7a5d83a28058fcdf41b58a43170a63/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6e7a5d83a28058fcdf41b58a43170a63/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.afollestad.material-dialogs:core:3.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/c3abe7de30e05e2a499175e119b9162d/jetified-core-3.3.0/AndroidManifest.xml:11:5-47
 MERGED from [com.afollestad.material-dialogs:core:3.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/c3abe7de30e05e2a499175e119b9162d/jetified-core-3.3.0/AndroidManifest.xml:11:5-47
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:13:5-24:19
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:13:5-24:19
-MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bea9a9c86bf17b1be20417ab2a1d9eec/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bea9a9c86bf17b1be20417ab2a1d9eec/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:11:5-17:19
-MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:11:5-17:19
-MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/19436dde6611dc34f22d5dd8f0019531/jetified-Pinview-v1.4/AndroidManifest.xml:11:5-14:19
-MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/19436dde6611dc34f22d5dd8f0019531/jetified-Pinview-v1.4/AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/a423caea83f8fa2e9efff2de9a8370d8/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/a423caea83f8fa2e9efff2de9a8370d8/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/9ee05d96f72c7bb44eb91c8ab75a3ddf/jetified-Pinview-v1.4/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/9ee05d96f72c7bb44eb91c8ab75a3ddf/jetified-Pinview-v1.4/AndroidManifest.xml:11:5-14:19
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6f0e57013a09b93115cee7712b53061c/jetified-library-1.5.1/AndroidManifest.xml:11:5-20
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6f0e57013a09b93115cee7712b53061c/jetified-library-1.5.1/AndroidManifest.xml:11:5-20
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e2d19e8bc311f624f1b4b134a5b54119/jetified-materialish-progress-1.0/AndroidManifest.xml:11:5-15:19
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e2d19e8bc311f624f1b4b134a5b54119/jetified-materialish-progress-1.0/AndroidManifest.xml:11:5-15:19
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:17:5-44:19
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:17:5-44:19
-MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:13:5-18:19
-MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:13:5-18:19
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:17:5-44:19
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:17:5-44:19
+MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:13:5-18:19
+MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:13:5-18:19
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/fd992b72ef80842a068d00eabc676170/jetified-circleimageview-3.0.0/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/fd992b72ef80842a068d00eabc676170/jetified-circleimageview-3.0.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/551ede47067868d4bf271f1d18004557/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/551ede47067868d4bf271f1d18004557/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/49c2870691681d9332604710acae4d39/jetified-play-services-places-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/49c2870691681d9332604710acae4d39/jetified-play-services-places-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/b61676ff02fd818562e551fe513db749/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/b61676ff02fd818562e551fe513db749/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:22:5-37:19
-MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/46d5e556ae9d4c3ccdf36939c0ba0459/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:13:5-17:19
-MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/46d5e556ae9d4c3ccdf36939c0ba0459/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:13:5-17:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5a345d83da0d2e3cb60d62fb436649ff/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5a345d83da0d2e3cb60d62fb436649ff/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a6b2ba737ecb1b8d61e1786567f35b73/jetified-play-services-places-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a6b2ba737ecb1b8d61e1786567f35b73/jetified-play-services-places-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d6bccaf4607ee80e8154d5a70571bae8/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d6bccaf4607ee80e8154d5a70571bae8/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cb4a441f203e8269427e128e7feae9a8/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:13:5-17:19
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cb4a441f203e8269427e128e7feae9a8/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:13:5-17:19
 MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/7ec80a9555fda240dea00b22a1bc3ea1/jetified-library-1.0.1/AndroidManifest.xml:11:5-20
 MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/7ec80a9555fda240dea00b22a1bc3ea1/jetified-library-1.0.1/AndroidManifest.xml:11:5-20
 MERGED from [androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
@@ -293,8 +293,8 @@ MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/somenath/.grad
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/89aec3d8ae108fb2b9895e6fbf8e96e0/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.github.smarteist:autoimageslider:1.3.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/4fb0e9ebe2847edffbe413ca9e825e1c/jetified-autoimageslider-1.3.2/AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.smarteist:autoimageslider:1.3.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/4fb0e9ebe2847edffbe413ca9e825e1c/jetified-autoimageslider-1.3.2/AndroidManifest.xml:11:5-15:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-core:17.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/2fcc332b56d4b73fbb61aadf3a264bba/jetified-firebase-core-17.5.1/AndroidManifest.xml:7:5-20
@@ -305,12 +305,12 @@ MERGED from [com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/cac
 MERGED from [com.google.firebase:firebase-iid:20.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8bd74d7d06422e9df64c85710be55874/jetified-firebase-iid-20.3.0/AndroidManifest.xml:28:5-45:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd63a4652976b77853b557d21e3deb97/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd63a4652976b77853b557d21e3deb97/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0695fde47be2979b7cb448db4e891683/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0695fde47be2979b7cb448db4e891683/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/39e8b44e852a0bc45089e1c9e9c503ce/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/39e8b44e852a0bc45089e1c9e9c503ce/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/7cdfa9e9e16535833ca976e199a1c4df/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/7cdfa9e9e16535833ca976e199a1c4df/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/28135ad92bee0c526c8d358a66d8c3bd/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
@@ -323,8 +323,8 @@ MERGED from [com.google.firebase:firebase-installations:16.3.3] /home/somenath/.
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/95ea72afd4a49b7a068a854ddf4e7d46/jetified-firebase-installations-16.3.3/AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a245f4b96575cd9cedb079313c7db4fa/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a19d882ac34d51ef910cd3026ca9ba0a/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a19d882ac34d51ef910cd3026ca9ba0a/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/109322972aa27fbb204f2e6acaaf36ac/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/109322972aa27fbb204f2e6acaaf36ac/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8e2554378ab6164d18ca7a4fab136b6f/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8e2554378ab6164d18ca7a4fab136b6f/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f79e7ad3cd5b668fcbf0cd8abd2784eb/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
@@ -351,22 +351,22 @@ MERGED from [androidx.core:core:1.3.2] /home/somenath/.gradle/caches/transforms-
 MERGED from [androidx.core:core:1.3.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/fddf308cd433300ba3a45b5dd6b47a75/core-1.3.2/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e5d096aafff1e387fb785ab16e8c885f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e5d096aafff1e387fb785ab16e8c885f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/31911802af9a5e7c711451d601690cf1/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/31911802af9a5e7c711451d601690cf1/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e974398e6a99c337f2c3269d1eb5254/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e974398e6a99c337f2c3269d1eb5254/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0dd2ecea9638c69d6fabf13972e69066/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0dd2ecea9638c69d6fabf13972e69066/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a11016149aa341986a78b160d9ba492b/jetified-transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
-MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5da600fcdf5903dab146220a6dd6361d/jetified-expandable-layout-1.6.0/AndroidManifest.xml:12:5-20
-MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5da600fcdf5903dab146220a6dd6361d/jetified-expandable-layout-1.6.0/AndroidManifest.xml:12:5-20
-MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/f9359fb953dba36f3b1b803bb5abf8c2/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/f9359fb953dba36f3b1b803bb5abf8c2/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/135d7871bb88fdc17582dce47c447ab3/jetified-expandable-layout-1.6.0/AndroidManifest.xml:12:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/135d7871bb88fdc17582dce47c447ab3/jetified-expandable-layout-1.6.0/AndroidManifest.xml:12:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/9a80a2f13d048365401fd742db6cf3cb/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/9a80a2f13d048365401fd742db6cf3cb/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/26596ef20c7bcdca5edd2a841c5682de/jetified-threetenabp-1.1.0/AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/26596ef20c7bcdca5edd2a841c5682de/jetified-threetenabp-1.1.0/AndroidManifest.xml:7:5-20
 	android:requestLegacyExternalStorage
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:25:9-52
 	android:windowSoftInputMode
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:30:9-48
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:30:9-48
 	tools:ignore
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:28:9-48
 	android:roundIcon
@@ -386,11 +386,11 @@ MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] /home/somenath/.grad
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:20:9-41
 	android:allowBackup
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:18:9-35
-		REJECTED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:17:9-36
-		REJECTED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bea9a9c86bf17b1be20417ab2a1d9eec/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:12:9-35
-		REJECTED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/19436dde6611dc34f22d5dd8f0019531/jetified-Pinview-v1.4/AndroidManifest.xml:12:9-35
+		REJECTED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:17:9-36
+		REJECTED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/a423caea83f8fa2e9efff2de9a8370d8/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:12:9-35
+		REJECTED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/9ee05d96f72c7bb44eb91c8ab75a3ddf/jetified-Pinview-v1.4/AndroidManifest.xml:12:9-35
 		REJECTED from [com.pnikosis:materialish-progress:1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e2d19e8bc311f624f1b4b134a5b54119/jetified-materialish-progress-1.0/AndroidManifest.xml:12:9-35
-		REJECTED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/46d5e556ae9d4c3ccdf36939c0ba0459/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:14:9-36
+		REJECTED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cb4a441f203e8269427e128e7feae9a8/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:14:9-36
 		REJECTED from [com.github.smarteist:autoimageslider:1.3.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/4fb0e9ebe2847edffbe413ca9e825e1c/jetified-autoimageslider-1.3.2/AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:24:9-40
@@ -398,8 +398,8 @@ MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] /home/somenath/.grad
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:29:9-86
 	android:usesCleartextTraffic
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:26:9-44
-		REJECTED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:17:18-54
-		REJECTED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:13:18-54
+		REJECTED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:17:18-54
+		REJECTED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:13:18-54
 	android:name
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml:17:9-64
 activity#snd.orgn.foodnfine.activity.ConfirmOrderDetails
@@ -816,36 +816,36 @@ MERGED from [androidx.databinding:databinding-runtime:4.0.1] /home/somenath/.gra
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/5367322db8a3b472c93ed407a874d926/databinding-runtime-4.0.1/AndroidManifest.xml:22:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/c173e6ffe15daea5c571ddee8dade176/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/c173e6ffe15daea5c571ddee8dade176/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:8:5-10:41
-MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:8:5-10:41
-MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
-MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/42baef60d7cc1de8d9a76f469806f439/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/42baef60d7cc1de8d9a76f469806f439/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:8:5-10:41
-MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e2a02520f35738fdf20ac4d53d5c623/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e2a02520f35738fdf20ac4d53d5c623/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/a138d9214579212e5d336f198dbb84c3/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/a138d9214579212e5d336f198dbb84c3/jetified-BottomNavigationViewEx-2.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.material:material:1.2.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6e7a5d83a28058fcdf41b58a43170a63/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6e7a5d83a28058fcdf41b58a43170a63/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.afollestad.material-dialogs:core:3.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/c3abe7de30e05e2a499175e119b9162d/jetified-core-3.3.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.afollestad.material-dialogs:core:3.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/c3abe7de30e05e2a499175e119b9162d/jetified-core-3.3.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:7:5-44
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:7:5-44
-MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bea9a9c86bf17b1be20417ab2a1d9eec/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bea9a9c86bf17b1be20417ab2a1d9eec/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.nikartm:image-support:1.0.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/5a8b831bf2979223790ef3af7ed808d0/jetified-image-support-1.0.5/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.nikartm:image-support:1.0.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/5a8b831bf2979223790ef3af7ed808d0/jetified-image-support-1.0.5/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/19436dde6611dc34f22d5dd8f0019531/jetified-Pinview-v1.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/19436dde6611dc34f22d5dd8f0019531/jetified-Pinview-v1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:7:5-44
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/a423caea83f8fa2e9efff2de9a8370d8/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/a423caea83f8fa2e9efff2de9a8370d8/jetified-MaterialSearchBar-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.nikartm:image-support:1.0.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/74addb39e5af3152e8d011700fd3323b/jetified-image-support-1.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.nikartm:image-support:1.0.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/74addb39e5af3152e8d011700fd3323b/jetified-image-support-1.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/9ee05d96f72c7bb44eb91c8ab75a3ddf/jetified-Pinview-v1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GoodieBag:Pinview:v1.4] /home/somenath/.gradle/caches/transforms-2/files-2.1/9ee05d96f72c7bb44eb91c8ab75a3ddf/jetified-Pinview-v1.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6f0e57013a09b93115cee7712b53061c/jetified-library-1.5.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/6f0e57013a09b93115cee7712b53061c/jetified-library-1.5.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e2d19e8bc311f624f1b4b134a5b54119/jetified-materialish-progress-1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e2d19e8bc311f624f1b4b134a5b54119/jetified-materialish-progress-1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.payu.networking:payu-core-networking:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ea972227d7ab442a76f2cfeb2afeddc/jetified-payu-core-networking-1.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.payu.networking:payu-core-networking:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ea972227d7ab442a76f2cfeb2afeddc/jetified-payu-core-networking-1.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.payu.payuanalytics:payuanalytics:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/799813444b2e85426781030e6ca788c2/jetified-payuanalytics-1.1.1/AndroidManifest.xml:7:5-9:41
@@ -860,16 +860,16 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/somenath/.gradle/ca
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/86d8495754a7ca0db0448dea7e1ebb51/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/fd992b72ef80842a068d00eabc676170/jetified-circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/fd992b72ef80842a068d00eabc676170/jetified-circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/551ede47067868d4bf271f1d18004557/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/551ede47067868d4bf271f1d18004557/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/49c2870691681d9332604710acae4d39/jetified-play-services-places-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/49c2870691681d9332604710acae4d39/jetified-play-services-places-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/b61676ff02fd818562e551fe513db749/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/b61676ff02fd818562e551fe513db749/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/46d5e556ae9d4c3ccdf36939c0ba0459/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/46d5e556ae9d4c3ccdf36939c0ba0459/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5a345d83da0d2e3cb60d62fb436649ff/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5a345d83da0d2e3cb60d62fb436649ff/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a6b2ba737ecb1b8d61e1786567f35b73/jetified-play-services-places-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a6b2ba737ecb1b8d61e1786567f35b73/jetified-play-services-places-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d6bccaf4607ee80e8154d5a70571bae8/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d6bccaf4607ee80e8154d5a70571bae8/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cb4a441f203e8269427e128e7feae9a8/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.5.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cb4a441f203e8269427e128e7feae9a8/jetified-asset-download-sdk-0.5.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/7ec80a9555fda240dea00b22a1bc3ea1/jetified-library-1.0.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/7ec80a9555fda240dea00b22a1bc3ea1/jetified-library-1.0.1/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
@@ -880,16 +880,16 @@ MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/somenath/.grad
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/89aec3d8ae108fb2b9895e6fbf8e96e0/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.smarteist:autoimageslider:1.3.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/4fb0e9ebe2847edffbe413ca9e825e1c/jetified-autoimageslider-1.3.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.smarteist:autoimageslider:1.3.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/4fb0e9ebe2847edffbe413ca9e825e1c/jetified-autoimageslider-1.3.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/0c40785c9fc2fd6fbbb4c8ca0414c9dd/jetified-ViewPagerIndicator-2.4.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/0c40785c9fc2fd6fbbb4c8ca0414c9dd/jetified-ViewPagerIndicator-2.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/96262350aa77ada67fff5e137caf01c1/jetified-ViewPagerIndicator-2.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/96262350aa77ada67fff5e137caf01c1/jetified-ViewPagerIndicator-2.4.1/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d655bc782fa9f856524b6048b7a83763/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d655bc782fa9f856524b6048b7a83763/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.jakewharton:butterknife:10.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd2dfa3d4b198f03288870b6c44134a7/jetified-butterknife-10.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton:butterknife:10.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd2dfa3d4b198f03288870b6c44134a7/jetified-butterknife-10.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.makeramen:roundedimageview:2.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ee6b007e2ece49e29378e48742dd1b2e/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
-MERGED from [com.makeramen:roundedimageview:2.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ee6b007e2ece49e29378e48742dd1b2e/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.makeramen:roundedimageview:2.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70a58750bf22cf468adedd74fa9e7395/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70a58750bf22cf468adedd74fa9e7395/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/2ccb17128ee60110df36e6cc895cbd0e/jetified-rxandroid-2.0.1/AndroidManifest.xml:19:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/2ccb17128ee60110df36e6cc895cbd0e/jetified-rxandroid-2.0.1/AndroidManifest.xml:19:5-43
 MERGED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:5:5-44
@@ -930,14 +930,14 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/somena
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3c21e973cc6e8f51a39c5b489012c8af/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f92513619e818b3fa2ec23482daba83a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f92513619e818b3fa2ec23482daba83a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0695fde47be2979b7cb448db4e891683/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/0695fde47be2979b7cb448db4e891683/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/39e8b44e852a0bc45089e1c9e9c503ce/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/39e8b44e852a0bc45089e1c9e9c503ce/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d184e0ecddb077a53789d0490002369d/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d184e0ecddb077a53789d0490002369d/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/7cdfa9e9e16535833ca976e199a1c4df/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/7cdfa9e9e16535833ca976e199a1c4df/jetified-play-services-clearcut-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/6cd5d5a49c04143b98291e8e6e5c06c8/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/6cd5d5a49c04143b98291e8e6e5c06c8/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/somenath/.gradle/caches/transforms-2/files-2.1/28135ad92bee0c526c8d358a66d8c3bd/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
@@ -954,12 +954,12 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/37b1ad5c8334e9595e32805836c97de5/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ccd4f732c7bc4f9789cb89aa399c6333/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/ccd4f732c7bc4f9789cb89aa399c6333/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a19d882ac34d51ef910cd3026ca9ba0a/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/a19d882ac34d51ef910cd3026ca9ba0a/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/109322972aa27fbb204f2e6acaaf36ac/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/109322972aa27fbb204f2e6acaaf36ac/jetified-play-services-phenotype-16.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8e2554378ab6164d18ca7a4fab136b6f/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/8e2554378ab6164d18ca7a4fab136b6f/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/9c09089d78e4f8a0d0b92efb194cc66e/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/9c09089d78e4f8a0d0b92efb194cc66e/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/7766dacc76d6702482805ac486d2df84/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/7766dacc76d6702482805ac486d2df84/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f79e7ad3cd5b668fcbf0cd8abd2784eb/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f79e7ad3cd5b668fcbf0cd8abd2784eb/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/fe0363fa0e5a8184536bec77f53b7c4f/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
@@ -1012,8 +1012,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/somen
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e5d096aafff1e387fb785ab16e8c885f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1a3053b1b9e0fa8c81f4ff42b81d5345/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/1a3053b1b9e0fa8c81f4ff42b81d5345/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/31911802af9a5e7c711451d601690cf1/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/31911802af9a5e7c711451d601690cf1/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e974398e6a99c337f2c3269d1eb5254/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e974398e6a99c337f2c3269d1eb5254/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/b76172cad88fdb25fb0390eb028fd45e/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/b76172cad88fdb25fb0390eb028fd45e/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/11158213910fd83831731f201b6785a9/sqlite-2.0.1/AndroidManifest.xml:20:5-44
@@ -1050,10 +1050,10 @@ MERGED from [androidx.print:print:1.0.0] /home/somenath/.gradle/caches/transform
 MERGED from [androidx.print:print:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5108ab7f0ef1455f8455d2eeebcdd2bb/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f8f30e67cc8e64f6e57edfd15144fb96/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f8f30e67cc8e64f6e57edfd15144fb96/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5da600fcdf5903dab146220a6dd6361d/jetified-expandable-layout-1.6.0/AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5da600fcdf5903dab146220a6dd6361d/jetified-expandable-layout-1.6.0/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/f9359fb953dba36f3b1b803bb5abf8c2/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/f9359fb953dba36f3b1b803bb5abf8c2/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/135d7871bb88fdc17582dce47c447ab3/jetified-expandable-layout-1.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/135d7871bb88fdc17582dce47c447ab3/jetified-expandable-layout-1.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/9a80a2f13d048365401fd742db6cf3cb/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/9a80a2f13d048365401fd742db6cf3cb/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/26596ef20c7bcdca5edd2a841c5682de/jetified-threetenabp-1.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/26596ef20c7bcdca5edd2a841c5682de/jetified-threetenabp-1.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cae7984d18ca08d436a17f6797793c8b/jetified-transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
@@ -1069,144 +1069,144 @@ INJECTED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Project
 		ADDED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml
 		INJECTED from /home/somenath/AndroidProjects/Company Apps/Econstra/Other Projects/FoodnFine/app/src/main/AndroidManifest.xml
 activity#com.payumoney.sdkui.ui.activities.PayUmoneyActivity
-ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:19:9-24:55
+ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:19:9-24:55
 	android:screenOrientation
-		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:22:13-49
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:22:13-49
 	android:label
-		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:21:13-58
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:21:13-58
 	android:windowSoftInputMode
-		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:24:13-52
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:24:13-52
 	android:theme
-		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:23:13-53
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:23:13-53
 	android:name
-		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:20:13-79
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:20:13-79
 activity#com.payumoney.sdkui.ui.activities.ReviewOrderActivity
-ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:25:9-28:56
+ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:25:9-28:56
 	android:screenOrientation
-		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:27:13-49
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:27:13-49
 	android:theme
-		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:28:13-53
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:28:13-53
 	android:name
-		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/42843ec91354b71c03a0b3246f12da36/jetified-plug-n-play-1.6.0/AndroidManifest.xml:26:13-81
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/4f241f7b12c59e5aecaf1a727785aa08/jetified-plug-n-play-1.6.0/AndroidManifest.xml:26:13-81
 activity#com.karumi.dexter.DexterActivity
-ADDED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+ADDED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e2a02520f35738fdf20ac4d53d5c623/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
 	android:theme
-		ADDED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+		ADDED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e2a02520f35738fdf20ac4d53d5c623/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
 	android:name
-		ADDED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc0984d1786562253f4dab8ce4951729/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+		ADDED from [com.karumi:dexter:5.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/2e2a02520f35738fdf20ac4d53d5c623/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:13:5-76
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:10:5-76
-MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:10:5-76
+ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:13:5-76
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:10:5-76
+MERGED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:13:22-73
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:13:22-73
 uses-feature#android.hardware.telephony
-ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:24:5-26:36
+ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:26:9-33
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:26:9-33
 	android:name
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:25:9-50
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:25:9-50
 activity#com.payumoney.core.SdkWebViewActivityNew
-ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:31:9-34:72
+ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:31:9-34:72
 	android:screenOrientation
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:33:13-49
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:33:13-49
 	android:theme
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:34:13-69
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:34:13-69
 	android:name
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:32:13-68
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:32:13-68
 activity#com.payu.custombrowser.CBActivity
-ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:35:9-40:59
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:18:9-21:63
-MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:18:9-21:63
+ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:35:9-40:59
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:18:9-21:63
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:18:9-21:63
 	android:screenOrientation
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:37:13-49
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:37:13-49
 	android:windowSoftInputMode
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:39:13-60
-		REJECTED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:21:13-60
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:39:13-60
+		REJECTED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:21:13-60
 	android:theme
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:38:13-51
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:38:13-51
 	tools:replace
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:40:13-56
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d75d595e2576283e8a7b16a1808e7dac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:36:13-61
+		ADDED from [com.payumoney.core:payumoney-sdk:7.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/3fb306c03435f23338c0dba6e74cb309/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:36:13-61
 activity#com.google.android.libraries.places.widget.AutocompleteActivity
-ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:16:9-23:20
+ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:16:9-23:20
 	android:label
-		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:20:13-62
+		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:20:13-62
 	android:hardwareAccelerated
-		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:19:13-47
+		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:19:13-47
 	android:windowSoftInputMode
-		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:22:13-71
+		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:22:13-71
 	android:exported
-		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:18:13-37
+		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:18:13-37
 	android:theme
-		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:21:13-66
+		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:21:13-66
 	android:name
-		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/f6d36fd6910780b5b84c3e3669cc3729/jetified-places-1.0.0/AndroidManifest.xml:17:13-91
+		ADDED from [com.google.android.libraries.places:places:1.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/5ccf39dc0366a3b2080a9e22b95edfbc/jetified-places-1.0.0/AndroidManifest.xml:17:13-91
 provider#com.prolificinteractive.materialcalendarview.MaterialCalendarViewInitProvider
-ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:12:9-16:40
+ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:12:9-16:40
 	android:enabled
-		ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:15:13-35
+		ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:15:13-35
 	android:authorities
-		ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:14:13-84
+		ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:14:13-84
 	android:exported
-		ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:16:13-37
+		ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/e49c9ed3da6b8cec1703533d950031d9/jetified-material-calendarview-2.0.0/AndroidManifest.xml:13:13-105
+		ADDED from [com.github.prolificinteractive:material-calendarview:2.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/098bef4c96e3137507bc7392981e6d11/jetified-material-calendarview-2.0.0/AndroidManifest.xml:13:13-105
 service#com.payu.custombrowser.services.SnoozeService
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:23:9-81
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:23:9-81
 	android:name
-		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:23:18-78
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:23:18-78
 activity#com.payu.custombrowser.PreLollipopPaymentsActivity
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:25:9-42:20
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:25:9-42:20
 	android:name
-		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:25:19-84
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:25:19-84
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:${applicationId}.success
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:26:13-33:29
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:26:13-33:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.orgn.foodnfine.success
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:26:13-33:29
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:26:13-33:29
 data
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:17-67
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:17-67
 	android:scheme
-		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:23-64
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:23-64
 category#android.intent.category.BROWSABLE
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:17-78
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:27-75
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:27-75
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:${applicationId}.failure
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:34:13-41:29
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:34:13-41:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.orgn.foodnfine.failure
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:34:13-41:29
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:34:13-41:29
 activity#com.payu.custombrowser.PrePaymentsActivity
-ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:43:9-79
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:43:9-79
 	android:name
-		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/be69554401c18556c632d2e9b7ac76be/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:43:19-76
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.5.1] /home/somenath/.gradle/caches/transforms-2/files-2.1/cfaa9e1eedc4933c72f7bf2f5ecfbb41/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:43:19-76
 activity#com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity
-ADDED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:14:9-17:63
+ADDED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:14:9-17:63
 	android:windowSoftInputMode
-		ADDED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:17:13-60
+		ADDED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:17:13-60
 	android:theme
-		ADDED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:16:13-75
+		ADDED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:16:13-75
 	android:name
-		ADDED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/b3a11105fd63ea5dd76f8bcd6919f5df/jetified-upisdk-1.0.2/AndroidManifest.xml:15:13-83
+		ADDED from [com.payu.upisdk:upisdk:1.0.2] /home/somenath/.gradle/caches/transforms-2/files-2.1/bfe7d8b22364691e8f1fe46705f88491/jetified-upisdk-1.0.2/AndroidManifest.xml:15:13-83
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/70dcb8ff6c53ef0cd97f75532bc3850e/jetified-play-services-auth-16.0.0/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/cc20c4654fdd7e887cd83d57557e3e37/jetified-play-services-auth-16.0.0/AndroidManifest.xml:34:13-89
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
 	android:exported
@@ -1216,13 +1216,13 @@ ADDED from [androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/tran
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.5] /home/somenath/.gradle/caches/transforms-2/files-2.1/d05c498ca9611327c5dc8b13961d9cae/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/0f4b65fafb9b9bc11d3f6cd820a223b4/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/somenath/.gradle/caches/transforms-2/files-2.1/71bc52b8624ef30cbd5f3547da1bddde/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
 ADDED from [com.google.firebase:firebase-analytics-ktx:17.6.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/591c8eabec74f0fec3400a50bb3fea6b/jetified-firebase-analytics-ktx-17.6.0/AndroidManifest.xml:11:13-13:85
 	android:value
@@ -1288,11 +1288,11 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/c
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/dd63a4652976b77853b557d21e3deb97/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/05168bb8f27ce7aaf21d9e1dbb19c19e/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/85dca8f92386318432d89535ad2d530b/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
 ADDED from [com.google.firebase:firebase-common-ktx:19.3.0] /home/somenath/.gradle/caches/transforms-2/files-2.1/d314c243580a8ab5c19e331169818e1f/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:15:13-17:85
 	android:value
