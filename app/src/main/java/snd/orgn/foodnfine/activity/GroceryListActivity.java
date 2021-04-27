@@ -90,16 +90,16 @@ public class GroceryListActivity extends BaseActivity implements CallbackAllGroc
     public void initFields() {
         initViewModel();
         loadingDialog = new LoadingDialog(this);
-        loadingDialog.showDialog();
+        //loadingDialog.showDialog();
         viewModel.getRestrurentList();
         //viewModel.getKMCharges();
         initRecyclerRestaurantList();
 
         ((Switch) (findViewById(R.id.switch1))).setOnCheckedChangeListener((buttonView, isChecked) -> {
             //Toast.makeText(this, isChecked + "", Toast.LENGTH_SHORT).show();
-            loadingDialog.showDialog();
+            //loadingDialog.showDialog();
             new Handler().postDelayed(() -> {
-                loadingDialog.hideDialog();
+                //loadingDialog.hideDialog();
                 if (isChecked) {
                     if (allListForNearMe.size() != 0) {
                         setDataAvailableLayout();
@@ -249,7 +249,7 @@ public class GroceryListActivity extends BaseActivity implements CallbackAllGroc
     @SuppressLint("SetTextI18n")
     @Override
     public void onSuccess(List<AllGrocery> allGroceryList) {
-        loadingDialog.hideDialog();
+        //loadingDialog.hideDialog();
         allList = new ArrayList<>();
         allList = allGroceryList;
         if (allGroceryList.size() != 0) {
@@ -304,9 +304,8 @@ public class GroceryListActivity extends BaseActivity implements CallbackAllGroc
     }
 
     @Override
-
     public void onError(String message) {
-        loadingDialog.hideDialog();
+        //loadingDialog.hideDialog();
         setNoDataLayout();
         tv_numberOfStore.setText("");
         Snackbar snackbar = Snackbar.make(this.findViewById(android.R.id.content),
@@ -316,7 +315,7 @@ public class GroceryListActivity extends BaseActivity implements CallbackAllGroc
 
     @Override
     public void onNetworkError(String message) {
-        loadingDialog.hideDialog();
+        //loadingDialog.hideDialog();
         setNoDataLayout();
         tv_numberOfStore.setText("");
         Snackbar snackbar = Snackbar.make(this.findViewById(android.R.id.content),

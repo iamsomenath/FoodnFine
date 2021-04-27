@@ -118,43 +118,48 @@ public class payment_cod extends BackHandledFragment implements CallbackSendPack
     }
 
     private void orderConfirm() {
-
-        AlertDialog.Builder alertDialog = new AlertDialog.Builder(getContext());
-        alertDialog.setTitle("Confirm");
-        alertDialog.setMessage("Do you want to place order?");
-        alertDialog.setIcon(R.drawable.confirm);
-        alertDialog.setCancelable(false);
-        alertDialog.setPositiveButton(Html.fromHtml("<font color='#009494'>Yes"), (dialog, which) -> {
-            loadingDialog.showDialog();
-            if (TYPE_GROCERY.equals(orderType)) {
-                cartDatumList = FoodnFine.getAppSharedPreference().getArrayList();
-                JSONArray reqArr = new JSONArray();
-                try {
-                    for (CartDatum c : cartDatumList) {
-                        JSONObject reqObj2 = new JSONObject();
-                        reqObj2.put("product_name", c.getProductName());
-                        reqObj2.put("product_id", c.getProductId());
-                        reqObj2.put("qty", c.getQty());
-                        //reqObj2.put("total_price", c.getTotalPrice());
-                        reqObj2.put("total_price", String.valueOf(Integer.parseInt(c.getQty()) * Double.parseDouble(c.getPrice())));
-                        reqObj2.put("price", c.getPrice());
-                        reqObj2.put("product_desc", c.getProductDesc());
-                        reqObj2.put("weight", c.getWeight());
-                        reqObj2.put("unit", c.getUnit());
-                        reqObj2.put("cat_id", c.getCatId());
-                        reqObj2.put("rest_grocery", c.getRestGrocery());
-                        reqArr.put(reqObj2);
+        try {
+            AlertDialog.Builder alertDialog = new AlertDialog.Builder(getContext());
+            alertDialog.setTitle("Confirm");
+            alertDialog.setMessage("Do you want to place order?");
+            alertDialog.setIcon(R.drawable.confirm);
+            alertDialog.setCancelable(false);
+            //alertDialog.setPositiveButton(Html.fromHtml("<font color='#009494'>Yes"), (dialog, which) -> {
+            alertDialog.setPositiveButton("Yes", (dialog, which) -> {
+                loadingDialog.showDialog();
+                if (TYPE_GROCERY.equals(orderType)) {
+                    cartDatumList = FoodnFine.getAppSharedPreference().getArrayList();
+                    JSONArray reqArr = new JSONArray();
+                    try {
+                        for (CartDatum c : cartDatumList) {
+                            JSONObject reqObj2 = new JSONObject();
+                            reqObj2.put("product_name", c.getProductName());
+                            reqObj2.put("product_id", c.getProductId());
+                            reqObj2.put("qty", c.getQty());
+                            //reqObj2.put("total_price", c.getTotalPrice());
+                            reqObj2.put("total_price", String.valueOf(Integer.parseInt(c.getQty()) * Double.parseDouble(c.getPrice())));
+                            reqObj2.put("price", c.getPrice());
+                            reqObj2.put("product_desc", c.getProductDesc());
+                            reqObj2.put("weight", c.getWeight());
+                            reqObj2.put("unit", c.getUnit());
+                            reqObj2.put("cat_id", c.getCatId());
+                            reqObj2.put("rest_grocery", c.getRestGrocery());
+                            reqArr.put(reqObj2);
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
                     }
-                } catch (JSONException e) {
-                    e.printStackTrace();
+                    orderDetails = reqArr;
+                    viewModel.placeOrderRequest(getPlaceOrderRequest());
                 }
-                orderDetails = reqArr;
-                viewModel.placeOrderRequest(getPlaceOrderRequest());
-            }
-        });
-        alertDialog.setNegativeButton(Html.fromHtml("<font color='#00585e'>No"),
-                (dialog, which) -> dialog.cancel());
-        alertDialog.show();
+            });
+            //alertDialog.setNeutralButton(Html.fromHtml("<font color='#00585e'>No"),
+            alertDialog.setNeutralButton("No",
+                    (dialog, which) -> dialog.cancel());
+            alertDialog.show();
+        }catch (Exception e){
+            Toast.makeText(getActivity(), e.getMessage(), Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void initViewModel() {
